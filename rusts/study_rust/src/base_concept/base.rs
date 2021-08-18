@@ -5,3 +5,4 @@ pub fn test_base() {
 
     let ref a1 = 2;
     let a2 = &2;
+}

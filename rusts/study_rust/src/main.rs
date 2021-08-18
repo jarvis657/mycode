@@ -20,6 +20,8 @@ mod unsafes;
 mod thread_web;
 mod other_hard;
 mod examples;
+mod mem_ordering;
+mod tokio_test;
 
 #[allow(unused_variables)]
 #[warn(unreachable_code)]
