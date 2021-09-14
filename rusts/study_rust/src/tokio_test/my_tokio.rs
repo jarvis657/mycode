@@ -86,8 +86,8 @@ enum Message {
     Terminate,
 }
 
-// #[tokio::main]
-pub fn test_main() {
+#[tokio::main]
+pub async fn main() {
     // Here, we’re using an unbounded channel, which is an async alternative to the MPSC channel in the standard library.
     // In production, I’d strongly recommend using tokio::sync::mpsc::channel,
     // a limited-size channel that provides back pressure when your application is under load to prevent it from being overwhelmed.
@@ -96,9 +96,10 @@ pub fn test_main() {
     let (sender, receiver) = unbounded_channel();
     let receiver = Arc::new(Mutex::new(receiver));
     let size = 5;
-    let mut workers = Vec::with_capacity(size);
+    let mut workersAc = Arc::new(Vec::with_capacity(size));
     for id in 0..size {
         let receiver = Arc::clone(&receiver);
+        let workers = Arc::clone(&workersAc);
         // let worker = tokio::spawn(async move { /* ... */ });
         let worker = tokio::spawn(async move {
             //The reason you don’t use while let Some(message) = receiver.lock()... is that it wouldn't drop the mutex guard until after the content of the while loop executes.
@@ -107,7 +108,12 @@ pub fn test_main() {
             //
             // }
             loop {
-                let message = receiver.lock().await.recv().await.unwrap_or_else(|| Message::Terminate);
+                let message = receiver
+                    .lock()
+                    .await
+                    .recv()
+                    .await
+                    .unwrap_or_else(|| Message::Terminate);
                 println!("Worker {}: {:?}", id, message);
                 match message {
                     Message::Terminate => break,
@@ -116,15 +122,14 @@ pub fn test_main() {
             }
         });
         workers.push(worker);
-        for _ in &workers {
+        for _ in *workers {
             let _ = sender.send(Message::Terminate);
         }
-        for worker in workers {
+        for worker in *workers {
             let _ = worker.await;
         }
     }
 }
-
 
 // #[tokio::main]
 pub async fn test_my_tokio_main() {

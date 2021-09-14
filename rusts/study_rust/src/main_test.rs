@@ -1,19 +1,19 @@
 #[cfg(test)]
 mod main_test {
     use super::super::*;
-    use crate::base_concept::structs::{TraitStUser, TraitStArticle};
+    use crate::base_concept::structs::{TraitStArticle, TraitStUser};
 
     pub fn other_test_hello() {
         println!("Hello, world!");
     }
 
     #[test]
-//    #[should_panic(expected = "guess value must be less than or equal to 100")]
+    //    #[should_panic(expected = "guess value must be less than or equal to 100")]
     fn main_test_works() -> Result<(), String> {
         {
             let summarizable = trait_concept::basic::returns_summarizable(false);
             let string = summarizable.summarize();
-            println!("summarizable {}",string)
+            println!("summarizable {}", string)
         }
         Ok(())
     }
@@ -27,14 +27,14 @@ mod main_test {
         println!("the largest num:{}", result);
         let char_list = vec!['y', 'a', 'c', 'b', 'm', 'z'];
 
-//
-//        let x2: Vec<_> = char_list.into_iter().map(|x| {
-//            let uppercase = x.to_uppercase();
-//            uppercase as char
-//        }).collect();
-//        let char_up_list = vec!['Y', 'A', 'C', 'B', 'M', 'Z'];
-//        assert_eq!(char_up_list, x2);
-//        println!("the char_list upper char:{:?}", x2);
+        //
+        //        let x2: Vec<_> = char_list.into_iter().map(|x| {
+        //            let uppercase = x.to_uppercase();
+        //            uppercase as char
+        //        }).collect();
+        //        let char_up_list = vec!['Y', 'A', 'C', 'B', 'M', 'Z'];
+        //        assert_eq!(char_up_list, x2);
+        //        println!("the char_list upper char:{:?}", x2);
 
         let result_char = largest(&char_list);
         println!("the largest char:{}", result_char);
