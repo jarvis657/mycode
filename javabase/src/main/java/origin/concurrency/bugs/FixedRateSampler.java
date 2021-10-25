@@ -1,6 +1,6 @@
 package origin.concurrency.bugs;
 
-import sun.misc.Unsafe;
+import jdk.internal.misc.Unsafe;
 
 import java.lang.reflect.Field;
 import java.util.concurrent.ExecutorService;
