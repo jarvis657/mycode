@@ -34,15 +34,66 @@ func test() error {
 	//return nil
 	return err
 }
+func modifySlice(innerSlice []*string) {
+	a := "a"
+	b := "b"
+	innerSlice = append(innerSlice, &a)
+	(innerSlice)[0] = &b
+	(innerSlice)[1] = &b
+	fmt.Println(innerSlice)
+}
+
+//func print[T any](arr []T) {
+//	for _, v := range arr {
+//		fmt.Print(v)
+//		fmt.Print(" ")
+//	}
+//	fmt.Println("")
+//}
+type Shape interface {
+	Sides() int
+	Area() int
+}
+type Square struct {
+	len int
+}
+
+func (s *Square) Sides() int {
+	return 4
+}
+
+//func (s *Square) Area() int {
+//	return 4
+//}
 
 //问题是如果是返回的是接口类型 内部可能发生转化 导致 外面调用的 == nil 本期望是nil 结果发生强制转化 导致  判断是false
 func main() {
-	createElemDuringIterMap();
+	sq := Square{len: 5}
+	fmt.Printf("%d\n", sq.Sides())
+	strs := []string{"Hello", "World", "Generics"}
+	decs := []float64{3.14, 1.14, 1.618, 2.718}
+	nums := []int{2, 4, 6, 8}
+
+	print(strs)
+	print(decs)
+	print(nums)
+
+	fmt.Println(fmt.Sprintf("相同版本:%v%%,异常问题:%v", 12.1, "aa"))
+	ls := []int{1, 2, 3, 4, 5, 6, 7}
+	for _, i := range ls {
+		for j := 0; j < 6; j++ {
+			if j > 2 {
+				break
+			}
+			fmt.Printf("i:%v,j:%v\n", i, j)
+		}
+	}
+	createElemDuringIterMap()
 	subs := "1020451174867996223"
 	fmt.Println(subs[len(subs)-9:])
-	s      := []rune("世界世界世❤️界")
+	s := []rune("世界世界世❤️界")
 	first3 := string(s[0:3])
-	last3  := string(s[len(s)-3:])
+	last3 := string(s[len(s)-3:])
 	fmt.Println(len(s))
 	fmt.Println(first3)
 	fmt.Println(last3)

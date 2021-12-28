@@ -6,6 +6,7 @@ import (
 	"os"
 	"reflect"
 	"time"
+	"unsafe"
 )
 
 type Foo struct {
@@ -35,6 +36,51 @@ func dump(m map[string]interface{}) {
 	}
 }
 
+func isChanClose(ch chan int) bool {
+	select {
+	case _, received := <-ch:
+		return !received
+	default:
+	}
+	return false
+}
+
+//判断chan是否关闭
+func isChanClosed(ch interface{}) bool {
+	if reflect.TypeOf(ch).Kind() != reflect.Chan {
+		panic("only channels!")
+	}
+	cptr := *(*uintptr)(
+		unsafe.Pointer(uintptr(unsafe.Pointer(&ch)) + unsafe.Sizeof(uint(0))),
+	)
+	// this function will return true if chan.closed > 0
+	// see hchan on https://github.com/golang/go/blob/master/src/runtime/chan.go
+	//type hchan struct {
+	//	qcount   uint           // total data in the queue
+	//	dataqsiz uint           // size of the circular queue
+	//	buf      unsafe.Pointer // points to an array of dataqsiz elements
+	//	elemsize uint16
+	//	closed   uint32
+	//	elemtype *_type // element type
+	//	sendx    uint   // send index
+	//	recvx    uint   // receive index
+	//	recvq    waitq  // list of recv waiters
+	//	sendq    waitq  // list of send waiters
+	//
+	//	// lock protects all fields in hchan, as well as several
+	//	// fields in sudogs blocked on this channel.
+	//	//
+	//	// Do not change another G's status while holding this lock
+	//	// (in particular, do not ready a G), as this can deadlock
+	//	// with stack shrinking.
+	//	lock mutex
+	//}
+	cptr += unsafe.Sizeof(uint(0)) * 2
+	cptr += unsafe.Sizeof(uintptr(0))
+	cptr += unsafe.Sizeof(uint16(0))
+	return *(*uint32)(unsafe.Pointer(cptr)) > 0
+}
+
 //func main() {
 //	f := &Foo{
 //		FirstName: "Drew",
@@ -44,8 +90,39 @@ func dump(m map[string]interface{}) {
 //	a := inspect(f)
 //	dump(a)
 //}
-
+func concatFive(a, b, c, d, e string) string {
+	return a + b + c + d + e
+}
+func concatTwo(a, b string) string {
+	return a + b
+}
 func main() {
+	two := concatTwo("a", "b")
+	fmt.Println(two)
+	five := concatFive("1", "2", "3", "4", "5")
+	fmt.Println(five)
+	//ch := make(chan int, 5)
+	//fmt.Println(isChanClose(ch))
+	//ch <- 5
+	//ch <- 4
+	//ch <- 3
+	//ch <- 2
+	//go func() {
+	//	time.Sleep(1 * time.Second)
+	//	close(ch)
+	//}()
+	//time.Sleep(2 * time.Second)
+	////如果换成 isChanClose(ch) 还是会报错 因为 这个里面有缓存
+	//if !isChanClosed(ch) {
+	//	ch <- 1
+	//}
+	//虽然关闭 但是 有缓存也就没关闭
+	//fmt.Println(isChanClose(ch))
+
+	//closed := isChanClosed(ch)
+	//fmt.Println(closed)
+	//closed = isChanClosed(ch)
+	//fmt.Println(closed)
 	xs := []string{"a", "b", "c"}
 	is := []int{1, 2, 3, 4, 5, 6, 7}
 	js := []int{11, 22, 33, 44, 55, 66, 77}
