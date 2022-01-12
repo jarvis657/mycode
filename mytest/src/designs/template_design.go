@@ -100,15 +100,13 @@ func main() {
 	fmt.Printf("Value available at *ptr = %d\n", ptr)
 	fmt.Printf(
 		"Value available at **pptr = %d\n", pptr,
-	) //原文出自【易百教程】，商业转载请联系作者获得授权，非商业请保留原文链接：https://www.yiibai.com/go/go_pointer_to_pointer.html
-
+	)
 	/* take the value using pptr */
 	fmt.Printf("Value of a = %d\n", a)
 	fmt.Printf("Value available at *ptr = %d\n", *ptr)
 	fmt.Printf(
 		"Value available at **pptr = %d\n", **pptr,
-	) //原文出自【易百教程】，商业转载请联系作者获得授权，非商业请保留原文链接：https://www.yiibai.com/go/go_pointer_to_pointer.html
-
+	)
 	smsOTP := &sms{}
 	o := otp{
 		iOtp: smsOTP,

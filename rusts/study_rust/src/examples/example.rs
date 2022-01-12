@@ -69,7 +69,7 @@ fn main_example_test() {
     } else if arg == "--uint64" {
         assert_u64
     } else {
-        panic!(format!("Unknown argument: {}.", arg))
+        panic!("{}", format!("Unknown argument: {:?}.", arg))
     };
 
     let mut times: Vec<Duration> = Vec::new();
@@ -80,7 +80,6 @@ fn main_example_test() {
     times.sort();
 
     let slowest = *times.last().unwrap();
-    let average = (&times[1..times.len() - 1]).iter()
-        .sum::<Duration>() / (CNT - 2) as u32;
+    let average = (&times[1..times.len() - 1]).iter().sum::<Duration>() / (CNT - 2) as u32;
     println!(" {}| {:?}", pad_slowest(slowest), average);
 }

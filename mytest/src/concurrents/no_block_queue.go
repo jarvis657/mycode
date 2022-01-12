@@ -1,4 +1,4 @@
-package concurrents
+package main
 
 import (
 	"sync/atomic"

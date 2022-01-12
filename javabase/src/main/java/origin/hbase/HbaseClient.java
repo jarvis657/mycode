@@ -1,9 +1,9 @@
 package origin.hbase;
 
-import org.apache.commons.lang3.StringUtils;
-import org.apache.hadoop.hbase.KeyValue;
-import org.apache.hadoop.hbase.client.*;
-import org.apache.hadoop.hbase.util.Bytes;
+//import org.apache.commons.lang3.StringUtils;
+//import org.apache.hadoop.hbase.KeyValue;
+//import org.apache.hadoop.hbase.client.*;
+//import org.apache.hadoop.hbase.util.Bytes;
 import org.springframework.beans.factory.annotation.Autowired;
 
 import java.io.IOException;
@@ -16,16 +16,16 @@ import java.util.TreeMap;
 public class HbaseClient {
     public static final String FAMILY = "f";
     public static final String COLUMN = "lk";
-    @Autowired
-    private HTablePool hTablePool;
+//    @Autowired
+//    private HTablePool hTablePool;
 
-    public HTablePool gethTablePool() {
-        return hTablePool;
-    }
-
-    public void sethTablePool(HTablePool hTablePool) {
-        this.hTablePool = hTablePool;
-    }
+//    public HTablePool gethTablePool() {
+//        return hTablePool;
+//    }
+//
+//    public void sethTablePool(HTablePool hTablePool) {
+//        this.hTablePool = hTablePool;
+//    }
 
 //    public void get(String tableName, String rowkey) {
 //        HTableInterface table = hTablePool.getTable(tableName);

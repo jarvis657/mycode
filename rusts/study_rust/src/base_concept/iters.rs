@@ -4,22 +4,23 @@ use crate::base_concept::custom_impl_inherit::read_ext_read;
 use crate::base_concept::structs::TraitStArticle;
 
 pub fn test_iter(articles: Vec<TraitStArticle>, sz: u32) -> Vec<TraitStArticle> {
-    let vec = articles.into_iter().filter(|a| {
-        let i = a.author.len();
-        sz == (i as u32)
-    }).collect();
+    let vec = articles
+        .into_iter()
+        .filter(|a| {
+            let i = a.author.len();
+            sz == (i as u32)
+        })
+        .collect();
     vec
 }
 
 pub struct Counter {
-    pub count: u32
+    pub count: u32,
 }
 
 impl Counter {
     pub fn new() -> Counter {
-        Counter {
-            count: 0
-        }
+        Counter { count: 0 }
     }
 }
 
@@ -50,7 +51,11 @@ mod test {
         assert_eq!(counter.next(), Some(5));
         assert_eq!(counter.next(), None);
 
-        let sum = Counter::new().zip(Counter::new().skip(2)).map(|(a, b)| a * b).filter(|x| x % 3 == 0).sum();
+        let sum = Counter::new()
+            .zip(Counter::new().skip(2))
+            .map(|(a, b)| a * b)
+            .filter(|x| x % 3 == 0)
+            .sum();
         assert_eq!(18u32, sum);
     }
 
@@ -60,7 +65,7 @@ mod test {
         let y = false;
         match x {
             4 | 5 | 6 if y => println!("4,5,6"),
-            7...10 => println!("7...10"),
+            7..=10 => println!("7...10"),
             _ => println!("none"),
         };
     }

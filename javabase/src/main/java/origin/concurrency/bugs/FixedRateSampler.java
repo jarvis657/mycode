@@ -1,11 +1,12 @@
 package origin.concurrency.bugs;
 
-import jdk.internal.misc.Unsafe;
+//import jdk.internal.misc.Unsafe;
 
 import java.lang.reflect.Field;
 import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;
 import java.util.concurrent.atomic.AtomicInteger;
+import sun.misc.Unsafe;
 
 /**
  * 每n次运行下特定逻辑

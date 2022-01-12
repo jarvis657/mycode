@@ -3,10 +3,15 @@ package main
 import (
 	"context"
 	"fmt"
+	"strings"
 	"time"
 )
 
 func main() {
+	var c string
+	ci := strings.Split(c, "#")
+	fmt.Println(ci[0])
+
 	ctx, cancel := context.WithTimeout(context.Background(), 1*time.Second)
 	defer cancel()
 

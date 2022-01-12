@@ -1,9 +1,6 @@
 package errors
 
-import (
-	"mytest.com/src/common/constant"
-	"git.code.oa.com/trpc-go/trpc-go/errs"
-)
+import "git.code.oa.com/trpc-go/trpc-go/errs"
 
 func Response(err *error) (code int32, msg string) {
 	if *err != nil {

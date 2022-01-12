@@ -2,7 +2,7 @@
 name = "study_rust"
 version = "0.1.0"
 authors = ["muqi.lmq <muqi.lmq@autonavi.com>"]
-edition = "2018"
+edition = "2021"
 
 [profile.dev]
 debug = true

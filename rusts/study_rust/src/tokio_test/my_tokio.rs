@@ -86,49 +86,49 @@ enum Message {
     Terminate,
 }
 
-#[tokio::main]
+// #[tokio::main]
 pub async fn main() {
     // Here, we’re using an unbounded channel, which is an async alternative to the MPSC channel in the standard library.
     // In production, I’d strongly recommend using tokio::sync::mpsc::channel,
     // a limited-size channel that provides back pressure when your application is under load to prevent it from being overwhelmed.
     // The receiver is also wrapped in an Arc and a Tokio Mutex because it will be shared between multiple workers.
     // This won’t compile yet because it can’t infer the type of values we’re going to send through the channel.
-    let (sender, receiver) = unbounded_channel();
-    let receiver = Arc::new(Mutex::new(receiver));
-    let size = 5;
-    let mut workersAc = Arc::new(Vec::with_capacity(size));
-    for id in 0..size {
-        let receiver = Arc::clone(&receiver);
-        let workers = Arc::clone(&workersAc);
-        // let worker = tokio::spawn(async move { /* ... */ });
-        let worker = tokio::spawn(async move {
-            //The reason you don’t use while let Some(message) = receiver.lock()... is that it wouldn't drop the mutex guard until after the content of the while loop executes.
-            // That means the mutex would be locked while you process the message and only one worker could work at a time.
-            // while let Some(message) = receiver.lock() {
-            //
-            // }
-            loop {
-                let message = receiver
-                    .lock()
-                    .await
-                    .recv()
-                    .await
-                    .unwrap_or_else(|| Message::Terminate);
-                println!("Worker {}: {:?}", id, message);
-                match message {
-                    Message::Terminate => break,
-                    _ => sleep(Duration::from_secs(1 + id as u64)).await,
-                }
-            }
-        });
-        workers.push(worker);
-        for _ in *workers {
-            let _ = sender.send(Message::Terminate);
-        }
-        for worker in *workers {
-            let _ = worker.await;
-        }
-    }
+    // let (sender, receiver) = unbounded_channel();
+    // let receiver = Arc::new(Mutex::new(receiver));
+    // let size = 5;
+    // let mut workersAc = Arc::new(Vec::with_capacity(size));
+    // for id in 0..size {
+    //     let receiver = Arc::clone(&receiver);
+    //     let workers = Arc::clone(&workersAc);
+    //     // let worker = tokio::spawn(async move { /* ... */ });
+    //     let worker = tokio::spawn(async move {
+    //         //The reason you don’t use while let Some(message) = receiver.lock()... is that it wouldn't drop the mutex guard until after the content of the while loop executes.
+    //         // That means the mutex would be locked while you process the message and only one worker could work at a time.
+    //         // while let Some(message) = receiver.lock() {
+    //         //
+    //         // }
+    //         loop {
+    //             let message = receiver
+    //                 .lock()
+    //                 .await
+    //                 .recv()
+    //                 .await
+    //                 .unwrap_or_else(|| Message::Terminate);
+    //             println!("Worker {}: {:?}", id, message);
+    //             match message {
+    //                 Message::Terminate => break,
+    //                 _ => sleep(Duration::from_secs(1 + id as u64)).await,
+    //             }
+    //         }
+    //     });
+    //     workers.push(worker);
+    //     for _ in *workers {
+    //         let _ = sender.send(Message::Terminate);
+    //     }
+    //     for worker in *workers {
+    //         let _ = worker.await;
+    //     }
+    // }
 }
 
 // #[tokio::main]
