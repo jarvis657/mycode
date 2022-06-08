@@ -26,6 +26,9 @@ mod unsafes;
 #[allow(unused_variables)]
 #[warn(unreachable_code)]
 fn main() {
+    ownshiptest::first_word("haha");
+    base_concept::base::test_base();
+    base_concept::base::test_scope();
     let x = 42;
     let aa = x;
     println!("aa:{:05}, x:{:07} ", aa, x);
@@ -314,7 +317,7 @@ fn main() {
         blue: 255,
         ..link_color
     };
-    println!("Blue = rgb({}, {}, {})", blue.red, blue.green, blue.blue); //Blue = rgb(0, 0, 255)
+    println!("Blue = rgb({}, {}, {})", blue.red, blue.green, blue.blue); //Blue = rgb(100, 0, 255)
 
     // destructure the instance using a `let` binding, this will not destruct blue instance
     let Color {
@@ -322,7 +325,7 @@ fn main() {
         green: g,
         blue: b,
     } = blue;
-    println!("Blue = rgb({}, {}, {})", r, g, b); //Blue = rgb(0, 0, 255)
+    println!("Blue = rgb({}, {}, {})", r, g, b); //Blue = rgb(100, 10, 255)
 
     // creating an instance via functions & accessing its fields
     let midnightblue = get_midnightblue_color();

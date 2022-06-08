@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
     <!--<parent>-->
     <!--<groupId>com.myjava</groupId>-->
@@ -27,15 +28,89 @@
         <spring-boot.version>2.2.0.M4</spring-boot.version>
         <ignite.version>2.3.0</ignite.version>
         <protostuff.version>1.5.2</protostuff.version>
-<!--        <spring-cloud.version>Dalston.RC1</spring-cloud.version>-->
+        <!--        <spring-cloud.version>Dalston.RC1</spring-cloud.version>-->
         <spring-cloud.version>Greenwich.SR2</spring-cloud.version>
         <platform-bom.version>2.0.8.RELEASE</platform-bom.version>
         <scala.version>2.12.8</scala.version>
         <encoding>UTF-8</encoding>
-        <gatling.version>2.2.0-M3</gatling.version>
+        <gatling.version>3.5.1</gatling.version>
         <scala-maven-plugin.version>3.2.2</scala-maven-plugin.version>
     </properties>
     <dependencies>
+        <dependency>
+            <groupId>org.projectlombok</groupId>
+            <artifactId>lombok</artifactId>
+            <version>1.18.20</version>
+        </dependency>
+        <dependency>
+            <groupId>com.baomidou</groupId>
+            <artifactId>mybatis-plus-boot-starter</artifactId>
+            <version>3.5.1</version>
+        </dependency>
+        <dependency>
+            <groupId>org.codehaus.groovy</groupId>
+            <artifactId>groovy</artifactId>
+            <version>3.0.9</version>
+        </dependency>
+        <dependency>
+            <groupId>org.codehaus.groovy</groupId>
+            <artifactId>groovy-all</artifactId>
+            <version>3.0.9</version>
+        </dependency>
+        <dependency>
+            <groupId>org.slf4j</groupId>
+            <artifactId>slf4j-api</artifactId>
+            <version>1.7.26</version>
+        </dependency>
+        <dependency>
+            <groupId>org.springframework.cloud</groupId>
+            <artifactId>spring-cloud-starter-sleuth</artifactId>
+            <version>3.1.1</version>
+        </dependency>
+        <dependency>
+            <groupId>io.zipkin.brave</groupId>
+            <artifactId>brave</artifactId>
+            <version>5.13.7</version>
+        </dependency>
+        <dependency>
+            <groupId>com.alibaba</groupId>
+            <artifactId>transmittable-thread-local</artifactId>
+            <version>2.12.6</version>
+        </dependency>
+        <dependency>
+            <groupId>com.googlecode.aviator</groupId>
+            <artifactId>aviator</artifactId>
+            <version>5.3.0</version>
+        </dependency>
+        <dependency>
+            <groupId>org.jboss</groupId>
+            <artifactId>javassist</artifactId>
+            <version>3.7.1.GA</version>
+            <scope>compile</scope>
+        </dependency>
+        <dependency>
+            <groupId>org.deeplearning4j</groupId>
+            <artifactId>deeplearning4j-core</artifactId>
+            <version>1.0.0-M1.1</version>
+        </dependency>
+        <dependency>
+            <groupId>org.nd4j</groupId>
+            <artifactId>nd4j-native-platform</artifactId>
+            <version>1.0.0-M1.1</version>
+        </dependency>
+        <!--aspectj runtime classes -->
+        <dependency>
+            <groupId>org.aspectj</groupId>
+            <artifactId>aspectjrt</artifactId>
+            <version>1.9.6</version>
+        </dependency>
+
+        <!--to introduce aspect to java class in load time-->
+        <dependency>
+            <groupId>org.aspectj</groupId>
+            <artifactId>aspectjweaver</artifactId>
+            <version>1.9.6</version>
+        </dependency>
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-rsocket</artifactId>
@@ -61,11 +136,10 @@
             <artifactId>okhttp</artifactId>
             <version>3.14.1</version>
         </dependency>
-        <dependency>
-            <groupId>io.gatling.highcharts</groupId>
-            <artifactId>gatling-highcharts</artifactId>
-            <version>${gatling.version}</version>
-        </dependency>
+        <!--        <dependency>-->
+        <!--            <groupId>io.gatling.highcharts</groupId>-->
+        <!--            <artifactId>gatling-highcharts</artifactId>-->
+        <!--        </dependency>-->
         <dependency>
             <groupId>com.google.guava</groupId>
             <artifactId>guava</artifactId>
@@ -201,10 +275,10 @@
             <artifactId>spring-boot-configuration-processor</artifactId>
             <optional>true</optional>
         </dependency>
-        <dependency>
-            <groupId>org.springframework</groupId>
-            <artifactId>springloaded</artifactId>
-        </dependency>
+        <!--        <dependency>-->
+        <!--            <groupId>org.springframework</groupId>-->
+        <!--            <artifactId>springloaded</artifactId>-->
+        <!--        </dependency>-->
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-test</artifactId>
@@ -235,14 +309,14 @@
         <!--<version>3.1.0</version>-->
         <!--<scope>provided</scope>-->
         <!--</dependency>-->
-<!--        <dependency>-->
-<!--            <groupId>org.springframework.boot</groupId>-->
-<!--            <artifactId>spring-boot-starter-actuator</artifactId>-->
-<!--        </dependency>-->
-<!--        <dependency>-->
-<!--            <groupId>org.springframework.cloud</groupId>-->
-<!--            <artifactId>spring-cloud-starter-eureka</artifactId>-->
-<!--        </dependency>-->
+        <!--        <dependency>-->
+        <!--            <groupId>org.springframework.boot</groupId>-->
+        <!--            <artifactId>spring-boot-starter-actuator</artifactId>-->
+        <!--        </dependency>-->
+        <!--        <dependency>-->
+        <!--            <groupId>org.springframework.cloud</groupId>-->
+        <!--            <artifactId>spring-cloud-starter-eureka</artifactId>-->
+        <!--        </dependency>-->
         <!--        <dependency>-->
         <!--            <groupId>org.springframework.boot</groupId>-->
         <!--            <artifactId>spring-boot-devtools</artifactId>-->
@@ -252,31 +326,41 @@
             <artifactId>spring-boot-starter-test</artifactId>
             <scope>test</scope>
         </dependency>
+<!--        <dependency>-->
+<!--            <groupId>org.junit.jupiter</groupId>-->
+<!--            <artifactId>junit-jupiter-api</artifactId>-->
+<!--            <version>5.8.2</version>-->
+<!--        </dependency>-->
         <dependency>
-            <groupId>junit</groupId>
-            <artifactId>junit</artifactId>
-            <version>4.12</version>
+            <groupId>org.junit.jupiter</groupId>
+            <artifactId>junit-jupiter</artifactId>
+            <version>5.8.2</version>
         </dependency>
-        <dependency>
-            <groupId>org.apache.hbase</groupId>
-            <artifactId>hbase</artifactId>
-            <version>0.94-adh3u11.2</version>
-            <exclusions>
-                <exclusion>
-                    <groupId>jdk.tools</groupId>
-                    <artifactId>jdk.tools</artifactId>
-                </exclusion>
-                <exclusion>
-                    <groupId>org.slf4j</groupId>
-                    <artifactId>slf4j-log4j12</artifactId>
-                </exclusion>
-            </exclusions>
-        </dependency>
-        <dependency>
-            <groupId>org.apache.hadoop</groupId>
-            <artifactId>hadoop-core</artifactId>
-            <version>1.0.0.1</version>
-        </dependency>
+<!--        <dependency>-->
+<!--            <groupId>junit</groupId>-->
+<!--            <artifactId>junit</artifactId>-->
+<!--            <version>4.12</version>-->
+<!--        </dependency>-->
+        <!--        <dependency>-->
+        <!--            <groupId>org.apache.hbase</groupId>-->
+        <!--            <artifactId>hbase</artifactId>-->
+        <!--            <version>2.4.9</version>-->
+        <!--            <exclusions>-->
+        <!--                <exclusion>-->
+        <!--                    <groupId>jdk.tools</groupId>-->
+        <!--                    <artifactId>jdk.tools</artifactId>-->
+        <!--                </exclusion>-->
+        <!--                <exclusion>-->
+        <!--                    <groupId>org.slf4j</groupId>-->
+        <!--                    <artifactId>slf4j-log4j12</artifactId>-->
+        <!--                </exclusion>-->
+        <!--            </exclusions>-->
+        <!--        </dependency>-->
+        <!--        <dependency>-->
+        <!--            <groupId>org.apache.hadoop</groupId>-->
+        <!--            <artifactId>hadoop-core</artifactId>-->
+        <!--            <version>0.20.6</version>-->
+        <!--        </dependency>-->
         <!--<dependency>-->
         <!--<groupId>org.apache.hadoop.thirdparty.guava</groupId>-->
         <!--<artifactId>guava</artifactId>-->
@@ -304,40 +388,39 @@
             <groupId>io.gatling</groupId>
             <artifactId>gatling-recorder</artifactId>
         </dependency>
-        <dependency>
-            <groupId>org.scala-lang</groupId>
-            <artifactId>scala-library</artifactId>
-        </dependency>
+        <!--        <dependency>-->
+        <!--            <groupId>org.scala-lang</groupId>-->
+        <!--            <artifactId>scala-library</artifactId>-->
+        <!--        </dependency>-->
         <dependency>
             <groupId>commons-codec</groupId>
             <artifactId>commons-codec</artifactId>
             <version>1.10</version>
         </dependency>
-        <dependency>
-            <groupId>com.squareup.okhttp3</groupId>
-            <artifactId>okhttp</artifactId>
-            <version>3.14.1</version>
-        </dependency>
-<!--        <dependency>-->
-<!--            <groupId>org.mybatis.spring.boot</groupId>-->
-<!--            <artifactId>mybatis-spring-boot-starter</artifactId>-->
-<!--            <version>1.3.0</version>-->
-<!--        </dependency>-->
+        <!--        <dependency>-->
+        <!--            <groupId>org.mybatis.spring.boot</groupId>-->
+        <!--            <artifactId>mybatis-spring-boot-starter</artifactId>-->
+        <!--            <version>1.3.0</version>-->
+        <!--        </dependency>-->
         <dependency>
             <groupId>joda-time</groupId>
             <artifactId>joda-time</artifactId>
             <version>2.9.9</version>
         </dependency>
+        <dependency>
+            <groupId>com.google.code.gson</groupId>
+            <artifactId>gson</artifactId>
+        </dependency>
     </dependencies>
     <dependencyManagement>
         <dependencies>
-<!--            <dependency>-->
-<!--                <groupId>org.springframework.cloud</groupId>-->
-<!--                <artifactId>spring-cloud-dependencies</artifactId>-->
-<!--                <version>${spring-cloud.version}</version>-->
-<!--                <type>pom</type>-->
-<!--                <scope>import</scope>-->
-<!--            </dependency>-->
+            <!--            <dependency>-->
+            <!--                <groupId>org.springframework.cloud</groupId>-->
+            <!--                <artifactId>spring-cloud-dependencies</artifactId>-->
+            <!--                <version>${spring-cloud.version}</version>-->
+            <!--                <type>pom</type>-->
+            <!--                <scope>import</scope>-->
+            <!--            </dependency>-->
             <dependency>
                 <groupId>io.gatling</groupId>
                 <artifactId>gatling-app</artifactId>
@@ -353,11 +436,11 @@
                 <artifactId>gatling-charts-highcharts</artifactId>
                 <version>${gatling.version}</version>
             </dependency>
-            <dependency>
-                <groupId>org.scala-lang</groupId>
-                <artifactId>scala-library</artifactId>
-                <version>${scala.version}</version>
-            </dependency>
+            <!--            <dependency>-->
+            <!--                <groupId>org.scala-lang</groupId>-->
+            <!--                <artifactId>scala-library</artifactId>-->
+            <!--                <version>${scala.version}</version>-->
+            <!--            </dependency>-->
             <!--            <dependency>-->
             <!--                <groupId>org.springframework</groupId>-->
             <!--                <artifactId>spring-framework-bom</artifactId>-->
@@ -501,11 +584,11 @@
                         </execution>
                     </executions>
                 </plugin>
-                <plugin>
-                    <groupId>net.alchim31.maven</groupId>
-                    <artifactId>scala-maven-plugin</artifactId>
-                    <version>${scala-maven-plugin.version}</version>
-                </plugin>
+                <!--                <plugin>-->
+                <!--                    <groupId>net.alchim31.maven</groupId>-->
+                <!--                    <artifactId>scala-maven-plugin</artifactId>-->
+                <!--                    <version>${scala-maven-plugin.version}</version>-->
+                <!--                </plugin>-->
             </plugins>
         </pluginManagement>
 
@@ -545,27 +628,27 @@
                     <disableCompiler>true</disableCompiler>
                 </configuration>
             </plugin>
-            <plugin>
-                <groupId>net.alchim31.maven</groupId>
-                <artifactId>scala-maven-plugin</artifactId>
-                <executions>
-                    <execution>
-                        <goals>
-                            <goal>testCompile</goal>
-                        </goals>
-                        <configuration>
-                            <args>
-                                <arg>-target:jvm-1.8</arg>
-                                <arg>-deprecation</arg>
-                                <arg>-feature</arg>
-                                <arg>-unchecked</arg>
-                                <arg>-language:implicitConversions</arg>
-                                <arg>-language:postfixOps</arg>
-                            </args>
-                        </configuration>
-                    </execution>
-                </executions>
-            </plugin>
+            <!--            <plugin>-->
+            <!--                <groupId>net.alchim31.maven</groupId>-->
+            <!--                <artifactId>scala-maven-plugin</artifactId>-->
+            <!--                <executions>-->
+            <!--                    <execution>-->
+            <!--                        <goals>-->
+            <!--                            <goal>testCompile</goal>-->
+            <!--                        </goals>-->
+            <!--                        <configuration>-->
+            <!--                            <args>-->
+            <!--                                <arg>-target:jvm-1.8</arg>-->
+            <!--                                <arg>-deprecation</arg>-->
+            <!--                                <arg>-feature</arg>-->
+            <!--                                <arg>-unchecked</arg>-->
+            <!--                                <arg>-language:implicitConversions</arg>-->
+            <!--                                <arg>-language:postfixOps</arg>-->
+            <!--                            </args>-->
+            <!--                        </configuration>-->
+            <!--                    </execution>-->
+            <!--                </executions>-->
+            <!--            </plugin>-->
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-dependency-plugin</artifactId>
@@ -616,24 +699,24 @@
                     <target>8</target>
                 </configuration>
             </plugin>
-            <plugin>
-                <groupId>io.btrace</groupId>
-                <artifactId>btrace-maven-plugin</artifactId>
-                <version>1.3.8.6</version>
-                <executions>
-                    <execution>
-                        <goals>
-                            <goal>btracec</goal>
-                        </goals>
-                    </execution>
-                </executions>
-                <configuration>
-                    <classpathElements>
-                        <classpathElement>/Users/qishan/Documents/code/github/deep/tommyjarvis/javabase/target
-                        </classpathElement>
-                    </classpathElements>
-                </configuration>
-            </plugin>
+            <!--            <plugin>-->
+            <!--                <groupId>io.btrace</groupId>-->
+            <!--                <artifactId>btrace-maven-plugin</artifactId>-->
+            <!--                <version>1.3.8.6</version>-->
+            <!--                <executions>-->
+            <!--                    <execution>-->
+            <!--                        <goals>-->
+            <!--                            <goal>btracec</goal>-->
+            <!--                        </goals>-->
+            <!--                    </execution>-->
+            <!--                </executions>-->
+            <!--                <configuration>-->
+            <!--                    <classpathElements>-->
+            <!--                        <classpathElement>/Users/qishan/Documents/code/github/deep/tommyjarvis/javabase/target-->
+            <!--                        </classpathElement>-->
+            <!--                    </classpathElements>-->
+            <!--                </configuration>-->
+            <!--            </plugin>-->
         </plugins>
     </build>
 </project>

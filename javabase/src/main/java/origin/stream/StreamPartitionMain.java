@@ -18,13 +18,14 @@ import java.util.stream.StreamSupport;
  */
 
 public final class StreamPartitionMain {
+
     public static void main(String[] args) {
-           Stream<String> stream = IntStream.range(0, 30).mapToObj(i -> String.format("%3d", i));
+        Stream<String> stream = IntStream.range(10, 30).mapToObj(i -> String.format("%3d", i));
         List<String> list = stream.collect(Collectors.toList());
+        System.out.println(list);
         Stream<Stream<String>> partitioned1 = partition(list, 8);
         partitioned1.map(s -> s.collect(Collectors.joining(",")))
-                    .forEachOrdered(System.out::println);
-
+                .forEachOrdered(System.out::println);
 
         // partitioning example 1
 //        Stream<String> origin.stream = IntStream.range(0, 30).mapToObj(i -> String.format("%3d", i));
@@ -51,15 +52,15 @@ public final class StreamPartitionMain {
 
     private static <T> Stream<Stream<T>> partition(List<T> list, int partitionSize) {
         return StreamSupport.stream(new PartitioningSpliterator<>(list.spliterator(), partitionSize),
-                list.parallelStream().isParallel())
-                            .map(sp -> StreamSupport.stream(sp, list.parallelStream().isParallel()));
+                        list.parallelStream().isParallel())
+                .map(sp -> StreamSupport.stream(sp, list.parallelStream().isParallel()));
     }
 
 
-    private static <T> Stream<Stream<T>> partition(Stream<T> stream,int partitionSize) {
+    private static <T> Stream<Stream<T>> partition(Stream<T> stream, int partitionSize) {
         return StreamSupport.stream(new PartitioningSpliterator<>(stream.spliterator(), partitionSize),
-                stream.isParallel())
-                            .map(sp -> StreamSupport.stream(sp, stream.isParallel()));
+                        stream.isParallel())
+                .map(sp -> StreamSupport.stream(sp, stream.isParallel()));
     }
 
     private static <T> Stream<T> head(Stream<T> stream, int size) {
@@ -68,6 +69,7 @@ public final class StreamPartitionMain {
     }
 
     private static class PartitioningSpliterator<E> extends Spliterators.AbstractSpliterator<Spliterator<E>> {
+
         private final Spliterator<E> wrapped;
         private final int partitionSize;
 
@@ -99,6 +101,7 @@ public final class StreamPartitionMain {
     }
 
     private static class FixedSizeSpliterator<E> extends Spliterators.AbstractSpliterator<E> {
+
         private final Spliterator<E> wrapped;
         private final long size;
         private final AtomicInteger cursor = new AtomicInteger(0);

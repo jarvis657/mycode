@@ -47,7 +47,7 @@ public aspect PointAspect {
     // pointcut the constructor, and set the value for created
     after() returning(Point p) : call(Point.new(..)) && !within(PointAspect) {
         System.out.println(thisJoinPointStaticPart);
-        System.out.println("Set created");
+        System.out.println("Set created!!!");
         p.created = System.currentTimeMillis();
     }
 

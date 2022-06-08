@@ -6,8 +6,26 @@ package origin.aspect;
  * @Desc:
  **/
 public class Point {
+
+    public Point() {
+    }
+
+    public Point(double x, double y) {
+        this.x = x;
+        this.y = y;
+    }
+
     private double x;
     private double y;
+//    private String name;
+
+//    public String getName() {
+//        return name;
+//    }
+//
+//    public void setName(String name) {
+//        this.name = name;
+//    }
 
     public double getX() {
         return x;

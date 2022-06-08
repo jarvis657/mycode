@@ -2,6 +2,7 @@ package main
 
 import (
 	"fmt"
+	"math/rand"
 	"reflect"
 	"time"
 )
@@ -59,6 +60,9 @@ type Square struct {
 }
 
 func (s *Square) Sides() int {
+	if s == nil {
+		return -1
+	}
 	return 4
 }
 
@@ -68,6 +72,11 @@ func (s *Square) Sides() int {
 
 //问题是如果是返回的是接口类型 内部可能发生转化 导致 外面调用的 == nil 本期望是nil 结果发生强制转化 导致  判断是false
 func main() {
+
+	var square *Square
+	fmt.Println(square.Sides())
+	rand.Seed(time.Now().Unix())
+	fmt.Println(rand.Int())
 	sq := Square{len: 5}
 	fmt.Printf("%d\n", sq.Sides())
 	strs := []string{"Hello", "World", "Generics"}

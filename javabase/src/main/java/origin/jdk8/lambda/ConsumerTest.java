@@ -47,7 +47,7 @@ public class ConsumerTest {
             String[] kv = StringUtils.split(s, ",");
             Map.Entry<Integer, String> entry = new AbstractMap.SimpleEntry<>(Integer.valueOf(kv[0]), kv[1]);
             return entry;
-        }).flatMap(Stream::of).collect(Collectors.toMap(Map.Entry::getKey, Map.Entry::getValue));
+        }).collect(Collectors.toMap(Map.Entry::getKey, Map.Entry::getValue));
 
         //key可以是list
         Map<List<Integer>, Long> dataMap = collect.keySet().parallelStream().map(d -> {
