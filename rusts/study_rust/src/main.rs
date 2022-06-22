@@ -29,6 +29,7 @@ fn main() {
     ownshiptest::first_word("haha");
     base_concept::base::test_base();
     base_concept::base::test_scope();
+    ownshiptest::copy_test();
     let x = 42;
     let aa = x;
     println!("aa:{:05}, x:{:07} ", aa, x);
