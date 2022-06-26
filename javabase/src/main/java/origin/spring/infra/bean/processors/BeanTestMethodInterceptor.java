@@ -6,8 +6,6 @@ import org.springframework.cglib.proxy.MethodProxy;
 
 /**
  * @Author:jarvmuqiliu
- * @Date: 2022/6/16
- * @Desc:
  * IntrospectorCleanupListener
  **/
 public class BeanTestMethodInterceptor implements MethodInterceptor {
@@ -20,7 +18,6 @@ public class BeanTestMethodInterceptor implements MethodInterceptor {
             objects = new Object[]{"被替换掉啦"};
         }
 
-        Object object = methodProxy.invokeSuper(o, objects);
-        return object;
+        return methodProxy.invokeSuper(o, objects);
     }
 }

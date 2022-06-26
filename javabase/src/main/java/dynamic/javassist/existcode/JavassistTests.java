@@ -15,6 +15,7 @@ import javassist.bytecode.AnnotationsAttribute;
 import javassist.bytecode.AttributeInfo;
 import javassist.bytecode.annotation.Annotation;
 import org.junit.Test;
+import origin.utils.Jacksons;
 
 /**
  * @Author:lmq
@@ -27,7 +28,7 @@ import org.junit.Test;
  *         5、不支持continue和break
  *         6、对于复杂的继承也不支持，支持简单的继承关系
  **/
-public class Tests {
+public class JavassistTests {
 
     /**
      * javassist处理类的基本操作
@@ -100,17 +101,25 @@ public class Tests {
         ClassPool pool = ClassPool.getDefault();
         CtClass cc = pool.get("dynamic.javassist.existcode.Student");
         //根据方法名和参数列表来获取方法
+//        CtMethod myTest = cc.getDeclaredMethod("myTest", new CtClass[]{CtClass.intType});
         CtMethod myTest = cc.getDeclaredMethod("myTest", new CtClass[]{CtClass.intType});
         myTest.insertBefore("System.out.println($1 + \" 准备打开书\");"); //在方法前进行插入代码
         myTest.insertAfter("System.out.println(\"已经学完了，出去玩\");"); //在方法后面进行插入代码
 //        myTest.insertAt(10, "System.out.println(\"这是在某一行插入的代码！\");"); //在某一行插入代码
+        CtMethod getString = cc.getDeclaredMethod("getString", new CtClass[]{pool.get("java.lang.String")});
+        getString.insertBefore("System.out.println(\"长度是:\"+$1.length() + \" -------------准备打开书\");"); //在方法前进行插入代码
+        getString.insertAfter("System.out.println(\"-------------已经学完了，出去玩\");"); //在方法后面进行插入代码
 
         //使用反射进行调用测试
         Class clazz = cc.toClass();
         Object obj = clazz.newInstance();
         Method declaredMethod = clazz.getDeclaredMethod("myTest", int.class);
-        Object invoke = declaredMethod.invoke(obj, 200);
+        Object invoke = declaredMethod.invoke(obj, 1111);
         System.out.println("result:" + (int) invoke);
+
+        Method declaredMethod2 = clazz.getDeclaredMethod("getString", String.class);
+        Object invoke2 = declaredMethod2.invoke(obj, "zz");
+        System.out.println("result:  ----- " + invoke2);
     }
 
     /**
@@ -136,9 +145,12 @@ public class Tests {
         Object obj = clazz.newInstance();
         Method setPhone = clazz.getDeclaredMethod("setPhone", String.class);
         Method getPhone = clazz.getDeclaredMethod("getPhone", null);
+        System.out.println(Jacksons.transObjectToString(obj));
 
         setPhone.invoke(obj, "13088888888");
         Object phone = getPhone.invoke(obj);
+
+        System.out.println(Jacksons.transObjectToString(obj));
         System.out.println(String.valueOf(phone));
     }
 

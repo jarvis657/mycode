@@ -5,11 +5,6 @@ import org.springframework.beans.PropertyValues;
 import org.springframework.beans.factory.config.InstantiationAwareBeanPostProcessor;
 import org.springframework.cglib.proxy.Enhancer;
 
-/**
- * @Author:jarvmuqiliu
- * @Date: 2022/6/16
- * @Desc:
- **/
 public class MyselfIBeanPostProcessor implements InstantiationAwareBeanPostProcessor {
 
     @Override

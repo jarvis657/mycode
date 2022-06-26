@@ -10,17 +10,21 @@ public class Student extends People implements Earth {
 //        return args.length;
 //    }
 
-    public int myTest(int a) {
-        System.out.println("我在学习。。。。" + a);
-        return 6666;
-    }
-
     public Student() {
     }
 
     public Student(int age, String name) {
         this.age = age;
         this.name = name;
+    }
+
+    public int myTest(int a) {
+        System.out.println("我在学习。。。。" + a);
+        return 6666;
+    }
+
+    public String getString(String aa) {
+        return "hhahhhhhhhhhhhhhh" + aa;
     }
 
     public int getAge() {

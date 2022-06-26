@@ -1,7 +1,6 @@
 package origin.concurrency;
 
 import java.io.IOException;
-import java.nio.file.*;
 import java.util.concurrent.locks.Condition;
 import java.util.concurrent.locks.ReentrantLock;
 
@@ -90,7 +89,7 @@ public class RLock {
 
         t3.start();
         System.out.println("t3 started");
-        Thread.currentThread().sleep(1000);
+        Thread.currentThread().sleep(9000);
 
         t1.start();
         System.out.println("t1 started");

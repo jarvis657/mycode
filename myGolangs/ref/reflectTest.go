@@ -2,7 +2,10 @@ package main
 
 import (
 	"fmt"
+	"io"
+	"os"
 	"reflect"
+	"time"
 )
 
 type YourT1 struct {
@@ -65,4 +68,51 @@ func main() {
 	t1 := &YourT2{data: "....2"}
 	method, s := InvokeObjectMethod(t1, "MethodFoo", 1, "vv")
 	fmt.Println(fmt.Sprint(method) + ":" + fmt.Sprint(s))
+}
+
+package main
+
+import (
+"fmt"
+"io"
+"os"
+"reflect"
+"time"
+)
+
+//import "time"
+
+type Foo struct {
+	Bar string `yaml:"manners"`
+}
+
+func test_main() {
+	// As interface types are only used for static typing, a
+	// common idiom to find the reflection Type for an interface
+	// type Foo is to use a *Foo value.
+	var teststring string
+	fmt.Println(len(teststring))
+	fmt.Println(time.Now().Format(time.RFC3339))
+
+	writerType := reflect.TypeOf((*io.Writer)(nil)).Elem()
+
+	fileType := reflect.TypeOf((*os.File)(nil))
+	fmt.Println(fileType.Implements(writerType))
+	f := Foo{"I want a tomato"}
+	Say(f)
+	// Output:
+	// {I want a tomato}
+	// Wanted output:
+	// I want a tomato pretty please
+}
+
+// Say should use struct field tags to postfix marked fields with `pretty please`.
+func Say(v interface{}) {
+	t := reflect.TypeOf(v)
+	fmt.Printf("%+v\n", t)
+	for i := 0; i < t.NumField(); i++ {
+		fmt.Printf("%+v\n", t.Field(i))
+		fmt.Printf("%v\n", t.Field(i).Tag)
+	}
+	//fmt.Printf("%v\n", v)
 }

@@ -14,10 +14,12 @@ public class TestWaitSleep {
                 try {
                     System.out.println("======m wait===============");
                     m.wait();
+                    System.out.println("=======m done=============");
                 } catch (InterruptedException e) {
                     e.printStackTrace();
                     System.out.println("a error");
                 }
+                System.out.println("=======m done.........=============");
             }
         });
         thread_a.start();
@@ -26,18 +28,21 @@ public class TestWaitSleep {
                 System.out.println("==============m'  wait=====");
                 synchronized (m) {
                     m.wait();
+                    System.out.println("=======m' done=============");
                 }
             } catch (InterruptedException e) {
                 e.printStackTrace();
                 System.out.println("b error");
             }
-            System.out.println("==============m'  wait=====");
+            System.out.println("==============m'  doning.........=====");
         });
         TimeUnit.SECONDS.sleep(10);
         synchronized (m) {
+            System.out.println("notifying.............all");
             m.notifyAll();
         }
         thread_b.start();
         TimeUnit.SECONDS.sleep(20);
+        System.out.println(".....................");
     }
 }
