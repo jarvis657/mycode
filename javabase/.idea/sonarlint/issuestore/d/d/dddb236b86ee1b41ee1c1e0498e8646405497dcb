@@ -1,0 +1,15 @@
+
+U
+java:S1874*"?Remove this use of "WebMvcConfigurerAdapter"; it is deprecated.(Ù¦çì
+V	java:S125A"<This block of commented-out lines of code should be removed.( ÂÁÚşÿÿÿÿ
+M	java:S106a"9Replace this use of System.out or System.err by a logger.(ª•.
+>	java:S108t")Either remove or fill this block of code.(óûìœ
+‹
+java:S1488k"pImmediately return this expression instead of assigning it to the temporary variable "scheduledExecutorService".(ÓÇùÿÿÿÿ
+V	java:S125,"<This block of commented-out lines of code should be removed.(ŠÜ«ùÿÿÿÿ
+V	java:S125/"<This block of commented-out lines of code should be removed.(ô¹ìÿúÿÿÿÿ
+Q	java:S1257"<This block of commented-out lines of code should be removed.(ªÏ’
+S
+java:S18744"=Remove this use of "APPLICATION_JSON_UTF8"; it is deprecated.(üŒÃÕ
+U
+java:S1161S":Add the "@Override" annotation above this method signature(ñ®©°üÿÿÿÿ

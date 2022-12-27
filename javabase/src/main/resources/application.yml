@@ -8,5 +8,10 @@ spring:
   main:
     banner-mode: "off"
     allow-bean-definition-overriding: true
+  task:
+    execution:
+      pool:
+        max-threads: 100
 app:
   id: my-test
+

@@ -1,0 +1,13 @@
+
+Q
+java:S1144"6Remove this unused private "buildJmxConnector" method.(Ï˜å8–šš‡Ì.
+V
+java:S2696"6Make the enclosing method "static" or remove this set.(³¶¡úûÿÿÿÿ8–šš‡Ì.
+V
+java:S2696"6Make the enclosing method "static" or remove this set.(³¶¡úûÿÿÿÿ8–šš‡Ì.
+`
+java:S1117"@Rename "jmxConnector" which hides the field declared at line 18.(âúâ™ÿÿÿÿÿ8–šš‡Ì.
+\
+java:S3066"<Lower the visibility of this setter or remove it altogether.(Ê‡¥Êùÿÿÿÿ8–šš‡Ì.
+U
+java:S1191"5Use classes from the Java API instead of Sun classes.(¿Šöõüÿÿÿÿ8ÆÆœ‡Ì.

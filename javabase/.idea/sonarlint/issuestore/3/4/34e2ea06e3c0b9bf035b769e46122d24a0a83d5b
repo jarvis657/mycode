@@ -1,0 +1,10 @@
+
+a
+java:S1854
+"DRemove this useless assignment to local variable "runtimeException".(Œ…¶8¦½€Â½.
+R
+java:S1481
+"5Remove this unused "runtimeException" local variable.(Œ…¶8¦½€Â½.
+Z	java:S106"9Replace this use of System.out or System.err by a logger.(åı¿úÿÿÿÿ8ËèşÁ½.
+U	java:S106"9Replace this use of System.out or System.err by a logger.(Â¥ÄØ8ßÚÂ½.
+Z	java:S106"9Replace this use of System.out or System.err by a logger.(š§åøÿÿÿÿ8ÀÉ‰Â½.

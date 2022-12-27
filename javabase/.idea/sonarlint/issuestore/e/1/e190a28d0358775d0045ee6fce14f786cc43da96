@@ -1,0 +1,14 @@
+
+U	java:S1060"9Replace this use of System.out or System.err by a logger.(Ãê‰÷8°À‚šª.
+E	java:S108:")Either remove or fill this block of code.(ä ¹€8°À‚šª.
+c
+java:S2142:"FEither re-interrupt this method or rethrow the "InterruptedException".(ä ¹€8°À‚šª.
+c
+java:S2142,"FEither re-interrupt this method or rethrow the "InterruptedException".(ä ¹€8ĞÒ¾™ª.
+U	java:S106)"9Replace this use of System.out or System.err by a logger.(àÎ›ñ8ĞÒ¾™ª.
+E	java:S108,")Either remove or fill this block of code.(ä ¹€8ĞÒ¾™ª.
+Z	java:S1067"9Replace this use of System.out or System.err by a logger.(ú¼¸üÿÿÿÿ8°À‚šª.
+]	java:S125A"<This block of commented-out lines of code should be removed.(…”Ääÿÿÿÿÿ8®®Á™ª.
+E	java:S1083")Either remove or fill this block of code.(ä ¹€8°À‚šª.
+c
+java:S21423"FEither re-interrupt this method or rethrow the "InterruptedException".(ä ¹€8°À‚šª.

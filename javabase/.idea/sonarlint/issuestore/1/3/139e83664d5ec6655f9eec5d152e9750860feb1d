@@ -1,0 +1,18 @@
+
+>
+java:S1659`"!Declare "end" on a separate line.(Ä×â8„ø±æ.
+]	java:S125$"<This block of commented-out lines of code should be removed.(ü€ØÓÿÿÿÿÿ8ÿ®æ.
+H
+java:S1172-"&Remove these unused method parameters.(ÅÌö‰ÿÿÿÿÿ8ÿ®æ.
+E
+java:S1604?"(Make this anonymous inner class a lambda(ø¼êó8òö¯æ.
+v
+java:S22939"YReplace the type specification in this constructor call with the diamond operator ("<>").(»İ‹‘8òö¯æ.
+V
+java:S3400."9Remove this method and declare a constant for this value.(”·³›8ÿ®æ.
+@
+java:S1659E"#Declare "count" on a separate line.(„¬áÚ8òö¯æ.
+v
+java:S2293?"YReplace the type specification in this constructor call with the diamond operator ("<>").(ø¼êó8òö¯æ.
+O
+java:S1135,"2Complete the task associated to this TODO comment.(…ïœ†8ù¾°æ.

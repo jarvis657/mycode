@@ -5,7 +5,7 @@ use std::path::Path;
 use std::process::Command;
 
 fn main() {
-    let path = env::var("OUT_DIR").unwrap_or("/home/admin/".parse().unwrap());
+    let path = env::var("OUT_DIR").unwrap_or("/home/lmq/".parse().unwrap());
     let path_buf = Path::new(&path).join("commit_id.rs");
     println!("path:=====================:{}", path_buf.to_str().unwrap());
     let mut file = File::create(path_buf.as_path()).unwrap();

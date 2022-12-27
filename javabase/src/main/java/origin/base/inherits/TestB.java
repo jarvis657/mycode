@@ -2,6 +2,7 @@ package origin.base.inherits;
 
 import com.google.common.collect.ImmutableList;
 
+import java.util.Arrays;
 import java.util.List;
 import java.util.concurrent.atomic.AtomicInteger;
 
@@ -13,6 +14,21 @@ import java.util.concurrent.atomic.AtomicInteger;
 public class TestB extends Test{
 //    AtomicInteger pushDataCount = new AtomicInteger(20);
     private List<String> NOTIFY_USER = ImmutableList.of("TestBBBBB..........");
+//    static final AtomicInteger nextIndex = new AtomicInteger();
+
+    public static final Object UNSET = new Object();
+
+    public TestB() {
+        super(newIndexedVariableTable());
+    }
+
+
+    private static Object[] newIndexedVariableTable() {
+        Object[] array = new Object[32];
+        Arrays.fill(array, UNSET);
+        return array;
+    }
+
 
     public List<String> getUser(){
         return this.NOTIFY_USER;
@@ -28,6 +44,6 @@ public class TestB extends Test{
 
     @Override
     public void p() {
-        System.out.println("second p");
+        System.out.println(indexedVariables.hashCode()+"-second pb ......."+nextIndex.getAndIncrement());
     }
 }

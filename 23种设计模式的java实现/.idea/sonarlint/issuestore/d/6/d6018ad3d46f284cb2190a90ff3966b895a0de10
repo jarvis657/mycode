@@ -1,0 +1,7 @@
+
+0
+java:S1220""Move this file to a named package.
+;
+java:S1659"%Declare "vacDays" on a separate line.(¸ĞÎ¿
+f	java:S116"QRename this field "Salary" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ğ ’İ
+i	java:S116"ORename this field "Name" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ß†ııÿÿÿÿ

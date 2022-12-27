@@ -1,0 +1,5 @@
+
+g	java:S101"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(áÝ¤üúÿÿÿÿ
+0
+java:S1220""Move this file to a named package.
+o	java:S116"URename this field "total_days" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¹óÌØýÿÿÿÿ

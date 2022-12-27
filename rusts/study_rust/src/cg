@@ -1,9 +1,0 @@
-;; Eval Buffer with `M-x eval-buffer' to register the newly created template.
-
-(dap-register-debug-template
-  "LLDB::Run"
-  (list :type "lldb"
-        :request "launch"
-        :name "LLDB::Run"
-        :target nil
-        :cwd "${workspaceFolder}"))

@@ -1,0 +1,15 @@
+
+K
+java:S1191"5Use classes from the Java API instead of Sun classes.(éª‚€
+J
+java:S1066M"/Merge this if statement with the enclosing one.(è¶«æúÿÿÿÿ
+>	java:S108A")Either remove or fill this block of code.(”ı¾
+N	java:S1061"9Replace this use of System.out or System.err by a logger.(Ôı²ü
+[	java:S112"FDefine and throw a dedicated exception instead of using a generic one.(Âğğ
+S	java:S1064"9Replace this use of System.out or System.err by a logger.(Ã°ŸÌûÿÿÿÿ
+B
+java:S3011?",This accessibility update should be removed.(˜ÂÓ˜
+`
+java:S1124"EReorder the modifiers to comply with the Java Language Specification.(ÛÄ«şÿÿÿÿ
+[
+java:S1124"EReorder the modifiers to comply with the Java Language Specification.(ŠÔ®Ê

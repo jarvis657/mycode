@@ -4,9 +4,16 @@ import (
 	"bufio"
 	"fmt"
 	"strings"
+	"sync/atomic"
 )
 
+var sum int32 = 1
+
 func main() {
+	fmt.Println("old sum: ", sum)
+	addInt32 := atomic.AddInt32(&sum, 100)
+	fmt.Println("addInt32 ", addInt32)
+	fmt.Println("new sum: ", sum)
 
 	right := strings.TrimRight("cyeamblog.go", ".cggocye")
 	fmt.Println(right)

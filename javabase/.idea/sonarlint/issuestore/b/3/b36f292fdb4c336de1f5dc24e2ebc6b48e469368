@@ -1,0 +1,216 @@
+
+R
+java:S3740Œ"/Provide the parametrized type for this generic.(ùåŞüÿÿÿÿ8•†ååå.
+Q
+java:S3740>"/Provide the parametrized type for this generic.(¨åõ›øÿÿÿÿ8•†ååå.
+[	java:S106ñ"9Replace this use of System.out or System.err by a logger.(áÕÌŸüÿÿÿÿ8•†ååå.
+9
+java:S3626—"Remove this redundant jump.(ûÁİ…8•†ååå.
+R
+java:S3740ô"/Provide the parametrized type for this generic.(“Ù—œûÿÿÿÿ8•†ååå.
+[	java:S106ì"9Replace this use of System.out or System.err by a logger.(ªÓ¼áşÿÿÿÿ8•†ååå.
+L
+java:S3740™"/Provide the parametrized type for this generic.(Ÿ½¦:8•†ååå.
+n
+java:S1149Ù"PReplace the synchronized class "Stack" by an unsynchronized one such as "Deque".(ŠÈİà8º¼ö¿¹.
+8
+java:S3626p"Remove this redundant jump.(ûÁİ…8•†ååå.
+V	java:S106†"9Replace this use of System.out or System.err by a logger.(íÀşç8•†ååå.
+L
+java:S3740s"/Provide the parametrized type for this generic.(šì‰×8•†ååå.
+M
+java:S3740û"/Provide the parametrized type for this generic.(óŸ–®8•†ååå.
+M
+java:S3740ü"/Provide the parametrized type for this generic.(­ÁğÈ8•†ååå.
+\
+java:S1155¶">Use isEmpty() to check whether the collection is empty or not.(İÃŸš8•†ååå.
+R
+java:S3740”"/Provide the parametrized type for this generic.(—îò¨üÿÿÿÿ8•†ååå.
+[	java:S106Ü"9Replace this use of System.out or System.err by a logger.(”õ¥Šÿÿÿÿÿ8•†ååå.
+R
+java:S3740°"/Provide the parametrized type for this generic.(ºª¡Àÿÿÿÿÿ8•†ååå.
+L
+java:S3740?"/Provide the parametrized type for this generic.(ç£Å¶8•†ååå.
+p	java:S100Ø"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÿ×âšüÿÿÿÿ8•†ååå.
+L
+java:S3740&"/Provide the parametrized type for this generic.(Î§’‰8•†ååå.
+R
+java:S3740¡"/Provide the parametrized type for this generic.(ÂĞÈÿÿÿÿÿ8•†ååå.
+n
+java:S1149"PReplace the synchronized class "Stack" by an unsynchronized one such as "Deque".(ßóü‚8•†ååå.
+M
+java:S3740á"/Provide the parametrized type for this generic.(¼Ëì¼8•†ååå.
+L
+java:S3740™"/Provide the parametrized type for this generic.(É¬ÎA8•†ååå.
+Z	java:S106 "9Replace this use of System.out or System.err by a logger.(ÃµÀ¤şÿÿÿÿ8•†ååå.
+M
+java:S3740"/Provide the parametrized type for this generic.(ßóü‚8•†ååå.
+s
+java:S1149ô"PReplace the synchronized class "Stack" by an unsynchronized one such as "Deque".(“Ù—œûÿÿÿÿ8•†ååå.
+M
+java:S3740—"/Provide the parametrized type for this generic.(ŸÁ§8•†ååå.
+R
+java:S3740°"/Provide the parametrized type for this generic.(ºª¡Àÿÿÿÿÿ8•†ååå.
+L
+java:S3740r"/Provide the parametrized type for this generic.(íìËï8•†ååå.
+W	java:S125"<This block of commented-out lines of code should be removed.(´¿¼8•†ååå.
+R
+java:S3740º"/Provide the parametrized type for this generic.(Ïı…Âøÿÿÿÿ8•†ååå.
+M
+java:S3740—"/Provide the parametrized type for this generic.(ŸÁ§8•†ååå.
+R
+java:S3740¿"/Provide the parametrized type for this generic.(ÂÌßîúÿÿÿÿ8•†ååå.
+R
+java:S3740³"/Provide the parametrized type for this generic.(»›Êíıÿÿÿÿ8•†ååå.
+]
+java:S1128";Remove this unused import 'io.netty.util.HashedWheelTimer'.(çÌ¢ƒøÿÿÿÿ8Éµ˜üç.
+[	java:S106Š"9Replace this use of System.out or System.err by a logger.(ªÓ¼áşÿÿÿÿ8•†ååå.
+M
+java:S3740‘"/Provide the parametrized type for this generic.(ªŒÌÊ8•†ååå.
+m	java:S117™"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(É¬ÎA8•†ååå.
+Q
+java:S3740m"/Provide the parametrized type for this generic.(Á†Ñøÿÿÿÿ8•†ååå.
+v
+java:S2293Æ"YReplace the type specification in this constructor call with the diamond operator ("<>").(É¬ÎA8•†ååå.
+M
+java:S3740š"/Provide the parametrized type for this generic.(ìôã‡8•†ååå.
+M
+java:S3740›"/Provide the parametrized type for this generic.(…áõ×8•†ååå.
+M
+java:S3740§"/Provide the parametrized type for this generic.(Š•ëç8•†ååå.
+m	java:S117Æ"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(É¬ÎA8•†ååå.
+[	java:S106•"9Replace this use of System.out or System.err by a logger.(ªÓ¼áşÿÿÿÿ8•†ååå.
+L
+java:S3740P"/Provide the parametrized type for this generic.(ßóü‚8•†ååå.
+o
+java:S1128"RRemove this unused import 'java.util.concurrent.atomic.AtomicIntegerFieldUpdater'.(Å“æÛ8¨ƒ™üç.
+m
+java:S1149Æ"PReplace the synchronized class "Stack" by an unsynchronized one such as "Deque".(É¬ÎA8•†ååå.
+M
+java:S3740²"/Provide the parametrized type for this generic.(©Íş‚8•†ååå.
+R
+java:S3740¡"/Provide the parametrized type for this generic.(ÂĞÈÿÿÿÿÿ8•†ååå.
+w
+java:S2293"YReplace the type specification in this constructor call with the diamond operator ("<>").(ßóü‚8•†ååå.
+R
+java:S3740¡"/Provide the parametrized type for this generic.(ÂĞÈÿÿÿÿÿ8•†ååå.
+Z	java:S106L"9Replace this use of System.out or System.err by a logger.(ªÓ¼áşÿÿÿÿ8•†ååå.
+V	java:S106È"9Replace this use of System.out or System.err by a logger.(íµ±8•†ååå.
+v
+java:S2293™"YReplace the type specification in this constructor call with the diamond operator ("<>").(É¬ÎA8•†ååå.
+L
+java:S3740P"/Provide the parametrized type for this generic.(ßóü‚8•†ååå.
+[	java:S106€"9Replace this use of System.out or System.err by a logger.(¦èæ¾ıÿÿÿÿ8•†ååå.
+m
+java:S1149™"PReplace the synchronized class "Stack" by an unsynchronized one such as "Deque".(É¬ÎA8•†ååå.
+R
+java:S3740"/Provide the parametrized type for this generic.(¦Íäÿÿÿÿÿ8•†ååå.
+L
+java:S3740™"/Provide the parametrized type for this generic.(É¬ÎA8•†ååå.
+R
+java:S3740Ë"/Provide the parametrized type for this generic.(ì¾Ëşşÿÿÿÿ8•†ååå.
+v
+java:S2293s"YReplace the type specification in this constructor call with the diamond operator ("<>").(šì‰×8•†ååå.
+9
+java:S3626Ã"Remove this redundant jump.(ûÁİ…8•†ååå.
+M
+java:S3740Ù"/Provide the parametrized type for this generic.(ŠÈİà8•†ååå.
+R
+java:S3740’"/Provide the parametrized type for this generic.(âÈŠĞşÿÿÿÿ8•†ååå.
+M
+java:S3740±"/Provide the parametrized type for this generic.(Òñâì8•†ååå.
+M
+java:S3740ã"/Provide the parametrized type for this generic.(éçÓõ8•†ååå.
+U	java:S106_"9Replace this use of System.out or System.err by a logger.(ñª¤Ğ8•†ååå.
+M
+java:S3740ª"/Provide the parametrized type for this generic.(ŠÈİà8•†ååå.
+L
+java:S3740Æ"/Provide the parametrized type for this generic.(É¬ÎA8•†ååå.
+Q
+java:S3740>"/Provide the parametrized type for this generic.(¨åõ›øÿÿÿÿ8•†ååå.
+L
+java:S3740s"/Provide the parametrized type for this generic.(šì‰×8•†ååå.
+R
+java:S3740¡"/Provide the parametrized type for this generic.(ÂĞÈÿÿÿÿÿ8•†ååå.
+L
+java:S3740r"/Provide the parametrized type for this generic.(íìËï8•†ååå.
+[	java:S106À"9Replace this use of System.out or System.err by a logger.(ªÓ¼áşÿÿÿÿ8•†ååå.
+M
+java:S3740›"/Provide the parametrized type for this generic.(…áõ×8•†ååå.
+R
+java:S3740Ø"/Provide the parametrized type for this generic.(ÿ×âšüÿÿÿÿ8•†ååå.
+[	java:S106ü"9Replace this use of System.out or System.err by a logger.(ªÓ¼áşÿÿÿÿ8•†ååå.
+L
+java:S3740'"/Provide the parametrized type for this generic.(£–á±8•†ååå.
+R
+java:S3740©"/Provide the parametrized type for this generic.(÷ÿŠÓÿÿÿÿÿ8•†ååå.
+M
+java:S3740œ"/Provide the parametrized type for this generic.(¼¢ÒŒ8•†ååå.
+R
+java:S3740û"/Provide the parametrized type for this generic.(îÔƒ‰úÿÿÿÿ8•†ååå.
+v
+java:S2293r"YReplace the type specification in this constructor call with the diamond operator ("<>").(íìËï8•†ååå.
+V	java:S106¢"9Replace this use of System.out or System.err by a logger.(´±é8•†ååå.
+L
+java:S3740S"/Provide the parametrized type for this generic.(İ»î—8•†ååå.
+n
+java:S1149ª"PReplace the synchronized class "Stack" by an unsynchronized one such as "Deque".(ŠÈİà8•†ååå.
+V	java:S106"9Replace this use of System.out or System.err by a logger.(½«®‡8•†ååå.
+v
+java:S2293P"YReplace the type specification in this constructor call with the diamond operator ("<>").(ßóü‚8•†ååå.
+M
+java:S3740ë"/Provide the parametrized type for this generic.(ñ—¢‘8•†ååå.
+L
+java:S3740™"/Provide the parametrized type for this generic.(Ÿ½¦:8•†ååå.
+M
+java:S3740š"/Provide the parametrized type for this generic.(ìôã‡8•†ååå.
+Q
+java:S3740("/Provide the parametrized type for this generic.(¿µ€…ûÿÿÿÿ8•†ååå.
+R
+java:S3740ó"/Provide the parametrized type for this generic.(éú­“ÿÿÿÿÿ8•†ååå.
+[	java:S106±"9Replace this use of System.out or System.err by a logger.(‹Ååöıÿÿÿÿ8•†ååå.
+Q
+java:S3740"/Provide the parametrized type for this generic.(ŠÉ–şÿÿÿÿ8•†ååå.
+L
+java:S3740K"/Provide the parametrized type for this generic.(“Âš8•†ååå.
+R
+java:S3740"/Provide the parametrized type for this generic.(¦Íäÿÿÿÿÿ8•†ååå.
+L
+java:S3740Æ"/Provide the parametrized type for this generic.(É¬ÎA8•†ååå.
+M
+java:S3740"/Provide the parametrized type for this generic.(ßóü‚8•†ååå.
+R
+java:S3740¡"/Provide the parametrized type for this generic.(ì¾Ëşşÿÿÿÿ8•†ååå.
+M
+java:S3740œ"/Provide the parametrized type for this generic.(¼¢ÒŒ8•†ååå.
+M
+java:S3740°"/Provide the parametrized type for this generic.(÷È¦ò8•†ååå.
+m
+java:S1149r"PReplace the synchronized class "Stack" by an unsynchronized one such as "Deque".(íìËï8•†ååå.
+8
+java:S3626N"Remove this redundant jump.(ûÁİ…8•†ååå.
+M
+java:S3740à"/Provide the parametrized type for this generic.(÷È¦ò8•†ååå.
+L
+java:S3740&"/Provide the parametrized type for this generic.(Î§’‰8•†ååå.
+[	java:S106Ì"9Replace this use of System.out or System.err by a logger.(ŠûÀÏıÿÿÿÿ8•†ååå.
+p	java:S100©"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(÷ÿŠÓÿÿÿÿÿ8•†ååå.
+c
+java:S1128"GRemove this unused import 'java.util.concurrent.ConcurrentLinkedQueue'.(°½Âh8•†ååå.
+R
+java:S3740¥"/Provide the parametrized type for this generic.(ĞÓŞøÿÿÿÿ8•†ååå.
+Q
+java:S3740)"/Provide the parametrized type for this generic.(£ıÇúÿÿÿÿ8•†ååå.
+M
+java:S3740‰"/Provide the parametrized type for this generic.(ôÊÇÂ8•†ååå.
+M
+java:S3740˜"/Provide the parametrized type for this generic.(¼í£ì8•†ååå.
+R
+java:S3740ô"/Provide the parametrized type for this generic.(“Ù—œûÿÿÿÿ8•†ååå.
+m
+java:S1149P"PReplace the synchronized class "Stack" by an unsynchronized one such as "Deque".(ßóü‚8•†ååå.
+Z	java:S106n"9Replace this use of System.out or System.err by a logger.(ªÓ¼áşÿÿÿÿ8•†ååå.
+M
+java:S3740˜"/Provide the parametrized type for this generic.(¼í£ì8•†ååå.
+m
+java:S1149s"PReplace the synchronized class "Stack" by an unsynchronized one such as "Deque".(šì‰×8•†ååå.

@@ -2,17 +2,13 @@ use std::collections::HashMap;
 
 //use crate::calc;
 
-struct Cacher<T>
-where
-    T: Fn(u32, &str) -> u32,
+struct Cacher<T> where T: Fn(u32, &str) -> u32,
 {
     calculation: T,
     value: HashMap<u32, u32>,
 }
 
-impl<T> Cacher<T>
-where
-    T: Fn(u32, &str) -> u32,
+impl<T> Cacher<T> where T: Fn(u32, &str) -> u32,
 {
     pub fn new(cal: T) -> Cacher<T> {
         Cacher {
@@ -31,10 +27,7 @@ where
         //            Some(v) => v,
         //        }
         //when value is hashmap
-        *self
-            .value
-            .entry(arg)
-            .or_insert((self.calculation)(arg, desc))
+        *self.value.entry(arg).or_insert((self.calculation)(arg, desc))
     }
 }
 
@@ -46,9 +39,7 @@ mod tests {
 
     use crate::base_concept::custom_closure::Cacher;
 
-    pub fn test_clo<T>(abc: T) -> T
-    where
-        T: Copy,
+    pub fn test_clo<T>(abc: T) -> T where T: Copy,
     {
         let c1 = |x| x;
         return c1(abc);

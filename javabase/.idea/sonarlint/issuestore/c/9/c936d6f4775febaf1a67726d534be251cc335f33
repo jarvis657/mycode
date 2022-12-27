@@ -1,0 +1,10 @@
+
+X	java:S125"<This block of commented-out lines of code should be removed.(õº8èîÏ˜ë.
+W
+java:S1161!":Add the "@Override" annotation above this method signature(õŠÄŸ8õ¾ĞéÂ.
+T	java:S106&"9Replace this use of System.out or System.err by a logger.(Ì¸Í8å®Š¦Â.
+U	java:S106/"9Replace this use of System.out or System.err by a logger.(ñ÷Ñğ8å®Š¦Â.
+w	java:S116"VRename this field "NOTIFY_USER" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ş³ä”şÿÿÿÿ8å®Š¦Â.
+X	java:S125"<This block of commented-out lines of code should be removed.(î±™8å®Š¦Â.
+B
+java:S2116/"%Use "Arrays.hashCode(array)" instead.(ñ÷Ñğ8Áú³´ë.

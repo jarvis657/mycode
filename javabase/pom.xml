@@ -107,17 +107,107 @@
 
         <jersey2.version>2.19</jersey2.version>
         <jaxrs.version>2.0.1</jaxrs.version>
+        <dropwizard-metrics.version>4.1.13</dropwizard-metrics.version>
+        <jackson-databind.version>2.12.0</jackson-databind.version>
+
     </properties>
     <dependencies>
+        <!-- https://mvnrepository.com/artifact/org.springframework.data/spring-data-elasticsearch -->
+        <dependency>
+            <groupId>org.springframework.data</groupId>
+            <artifactId>spring-data-elasticsearch</artifactId>
+            <version>5.0.0</version>
+        </dependency>
+
+        <!-- https://mvnrepository.com/artifact/com.netflix.hystrix/hystrix-core -->
+        <dependency>
+            <groupId>com.netflix.hystrix</groupId>
+            <artifactId>hystrix-core</artifactId>
+            <version>1.5.18</version>
+        </dependency>
+        <!-- https://mvnrepository.com/artifact/org.springframework.data/spring-data-r2dbc -->
+        <dependency>
+            <groupId>org.springframework.data</groupId>
+            <artifactId>spring-data-r2dbc</artifactId>
+            <version>1.2.1</version>
+        </dependency>
+        <!-- https://mvnrepository.com/artifact/com.alibaba/druid -->
+        <dependency>
+            <groupId>com.alibaba</groupId>
+            <artifactId>druid</artifactId>
+            <version>1.2.3</version>
+        </dependency>
+        <!-- https://mvnrepository.com/artifact/org.apache.camel.quarkus/camel-quarkus-disruptor -->
+        <dependency>
+            <groupId>org.apache.camel.quarkus</groupId>
+            <artifactId>camel-quarkus-disruptor</artifactId>
+            <version>1.3.0</version>
+            <exclusions>
+                <exclusion>
+                    <groupId>org.jboss.slf4j</groupId>
+                    <artifactId>slf4j-jboss-logging</artifactId>
+                </exclusion>
+            </exclusions>
+        </dependency>
+
+        <!-- https://mvnrepository.com/artifact/com.101tec/zkclient -->
+        <dependency>
+            <groupId>com.101tec</groupId>
+            <artifactId>zkclient</artifactId>
+            <version>0.11</version>
+            <exclusions>
+                <exclusion>
+                    <groupId>org.slf4j</groupId>
+                    <artifactId>slf4j-log4j12</artifactId>
+                </exclusion>
+            </exclusions>
+        </dependency>
+
+        <dependency>
+            <groupId>org.apache.helix</groupId>
+            <artifactId>helix-core</artifactId>
+            <version>0.8.2</version>
+            <exclusions>
+                <exclusion>
+                    <groupId>org.slf4j</groupId>
+                    <artifactId>slf4j-log4j12</artifactId>
+                </exclusion>
+            </exclusions>
+        </dependency>
+        <dependency>
+            <groupId>io.dropwizard.metrics</groupId>
+            <artifactId>metrics-core</artifactId>
+            <version>${dropwizard-metrics.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>io.dropwizard.metrics</groupId>
+            <artifactId>metrics-healthchecks</artifactId>
+            <version>${dropwizard-metrics.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>io.dropwizard.metrics</groupId>
+            <artifactId>metrics-jvm</artifactId>
+            <version>${dropwizard-metrics.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>com.lmax</groupId>
+            <artifactId>disruptor</artifactId>
+            <version>3.4.2</version>
+        </dependency>
         <dependency>
             <groupId>org.apache.shardingsphere</groupId>
             <artifactId>sharding-jdbc-core</artifactId>
             <version>4.1.1</version>
         </dependency>
         <dependency>
+            <groupId>io.airlift</groupId>
+            <artifactId>airline</artifactId>
+            <version>0.8</version>
+        </dependency>
+        <dependency>
             <groupId>io.micrometer</groupId>
             <artifactId>micrometer-registry-influx</artifactId>
-            <version>1.5.4</version>
+            <version>1.1.3</version>
         </dependency>
         <!-- JAX-RS  -->
         <dependency>
@@ -151,15 +241,15 @@
             <artifactId>spring-boot-starter-data-jpa</artifactId>
             <version>2.3.4.RELEASE</version>
         </dependency>
-<!--        <dependency>-->
-<!--            <groupId>org.glassfish.main.packager</groupId>-->
-<!--            <artifactId>jersey</artifactId>-->
-<!--            <version>5.0</version>-->
-<!--        </dependency>-->
+        <!--        <dependency>-->
+        <!--            <groupId>org.glassfish.main.packager</groupId>-->
+        <!--            <artifactId>jersey</artifactId>-->
+        <!--            <version>5.0</version>-->
+        <!--        </dependency>-->
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-data-cassandra-reactive</artifactId>
-<!--            <version>2.3.2.RELEASE</version>-->
+            <!--            <version>2.3.2.RELEASE</version>-->
         </dependency>
         <dependency>
             <groupId>org.hibernate</groupId>
@@ -171,11 +261,11 @@
             <artifactId>gson</artifactId>
             <version>2.8.6</version>
         </dependency>
-<!--        <dependency>-->
-<!--            <groupId>com.shuidihuzhu.infra</groupId>-->
-<!--            <artifactId>feign-enhance-spring-boot-starter</artifactId>-->
-<!--            <version>${feign-enhance-spring-boot-starter.version}</version>-->
-<!--        </dependency>-->
+        <!--        <dependency>-->
+        <!--            <groupId>com.shuidihuzhu.infra</groupId>-->
+        <!--            <artifactId>feign-enhance-spring-boot-starter</artifactId>-->
+        <!--            <version>${feign-enhance-spring-boot-starter.version}</version>-->
+        <!--        </dependency>-->
         <!-- akka -->
         <dependency>
             <groupId>com.typesafe.akka</groupId>
@@ -192,10 +282,16 @@
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-rsocket</artifactId>
         </dependency>
+        <!-- https://mvnrepository.com/artifact/io.projectreactor/reactor-tools -->
+        <dependency>
+            <groupId>io.projectreactor</groupId>
+            <artifactId>reactor-tools</artifactId>
+            <!--            <version>3.3.11.RELEASE</version>-->
+        </dependency>
         <dependency>
             <groupId>io.projectreactor</groupId>
             <artifactId>reactor-test</artifactId>
-            <version>3.2.12.RELEASE</version>
+            <!--            <version>3.2.12.RELEASE</version>-->
             <scope>test</scope>
         </dependency>
         <dependency>
@@ -214,6 +310,7 @@
         <dependency>
             <groupId>io.gatling.highcharts</groupId>
             <artifactId>gatling-charts-highcharts</artifactId>
+            <version>${gatling.version}</version>
         </dependency>
         <dependency>
             <groupId>com.google.guava</groupId>
@@ -256,11 +353,6 @@
             <groupId>com.graphql-java</groupId>
             <artifactId>graphql-java</artifactId>
             <version>8.0</version>
-        </dependency>
-        <dependency>
-            <groupId>com.lmax</groupId>
-            <artifactId>disruptor</artifactId>
-            <version>3.4.1</version>
         </dependency>
         <dependency>
             <groupId>org.springframework.boot</groupId>
@@ -423,10 +515,6 @@
             <artifactId>jsonassert</artifactId>
         </dependency>
         <dependency>
-            <groupId>io.gatling.highcharts</groupId>
-            <artifactId>gatling-charts-highcharts</artifactId>
-        </dependency>
-        <dependency>
             <groupId>io.gatling</groupId>
             <artifactId>gatling-app</artifactId>
         </dependency>
@@ -442,14 +530,15 @@
             <groupId>commons-codec</groupId>
             <artifactId>commons-codec</artifactId>
         </dependency>
+        <!--        <dependency>-->
+        <!--            <groupId>org.mybatis.spring.boot</groupId>-->
+        <!--            <artifactId>mybatis-spring-boot-starter</artifactId>-->
+        <!--            <version>1.3.0</version>-->
+        <!--        </dependency>-->
         <dependency>
-            <groupId>com.squareup.okhttp3</groupId>
-            <artifactId>okhttp</artifactId>
-        </dependency>
-        <dependency>
-            <groupId>org.mybatis.spring.boot</groupId>
-            <artifactId>mybatis-spring-boot-starter</artifactId>
-            <version>1.3.0</version>
+            <groupId>com.baomidou</groupId>
+            <artifactId>mybatis-plus-boot-starter</artifactId>
+            <version>3.2.0</version>
         </dependency>
         <dependency>
             <groupId>org.projectlombok</groupId>
@@ -487,6 +576,8 @@
                 <groupId>org.springframework.boot</groupId>
                 <artifactId>spring-boot-dependencies</artifactId>
                 <version>${spring-boot.version}</version>
+                <type>pom</type>
+                <scope>import</scope>
             </dependency>
             <dependency>
                 <groupId>org.apache.rocketmq</groupId>
@@ -511,11 +602,6 @@
                 <version>${gatling.version}</version>
             </dependency>
             <dependency>
-                <groupId>io.gatling.highcharts</groupId>
-                <artifactId>gatling-charts-highcharts</artifactId>
-                <version>${gatling.version}</version>
-            </dependency>
-            <dependency>
                 <groupId>org.scala-lang</groupId>
                 <artifactId>scala-library</artifactId>
                 <version>${scala.version}</version>
@@ -526,13 +612,6 @@
             <!--                <type>pom</type>-->
             <!--                <scope>import</scope>-->
             <!--            </dependency>-->
-            <dependency>
-                <groupId>org.springframework.boot</groupId>
-                <artifactId>spring-boot-dependencies</artifactId>
-                <version>${spring-boot.version}</version>
-                <type>pom</type>
-                <scope>import</scope>
-            </dependency>
             <dependency>
                 <groupId>org.springframework.cloud</groupId>
                 <artifactId>spring-cloud-dependencies</artifactId>
@@ -657,29 +736,29 @@
         <testSourceDirectory>src/test/scala</testSourceDirectory>
         <pluginManagement>
             <plugins>
-<!--                <plugin>-->
-<!--                    <groupId>org.codehaus.mojo</groupId>-->
-<!--                    <artifactId>aspectj-maven-plugin</artifactId>-->
-<!--                    <version>1.7</version>-->
-<!--                    <configuration>-->
-<!--                        <complianceLevel>1.8</complianceLevel>-->
-<!--                        <source>1.8</source>-->
-<!--                        <target>1.8</target>-->
-<!--                        <showWeaveInfo>true</showWeaveInfo>-->
-<!--                        <verbose>true</verbose>-->
-<!--                        <encoding>utf-8</encoding>-->
-<!--                    </configuration>-->
-<!--                    <executions>-->
-<!--                        <execution>-->
-<!--                            <goals>-->
-<!--                                &lt;!&ndash;use this goal to weave all your main classes&ndash;&gt;-->
-<!--                                <goal>compile</goal>-->
-<!--                                &lt;!&ndash;use this goal to weave all your test classes&ndash;&gt;-->
-<!--                                <goal>test-compile</goal>-->
-<!--                            </goals>-->
-<!--                        </execution>-->
-<!--                    </executions>-->
-<!--                </plugin>-->
+                <!--                <plugin>-->
+                <!--                    <groupId>org.codehaus.mojo</groupId>-->
+                <!--                    <artifactId>aspectj-maven-plugin</artifactId>-->
+                <!--                    <version>1.7</version>-->
+                <!--                    <configuration>-->
+                <!--                        <complianceLevel>1.8</complianceLevel>-->
+                <!--                        <source>1.8</source>-->
+                <!--                        <target>1.8</target>-->
+                <!--                        <showWeaveInfo>true</showWeaveInfo>-->
+                <!--                        <verbose>true</verbose>-->
+                <!--                        <encoding>utf-8</encoding>-->
+                <!--                    </configuration>-->
+                <!--                    <executions>-->
+                <!--                        <execution>-->
+                <!--                            <goals>-->
+                <!--                                &lt;!&ndash;use this goal to weave all your main classes&ndash;&gt;-->
+                <!--                                <goal>compile</goal>-->
+                <!--                                &lt;!&ndash;use this goal to weave all your test classes&ndash;&gt;-->
+                <!--                                <goal>test-compile</goal>-->
+                <!--                            </goals>-->
+                <!--                        </execution>-->
+                <!--                    </executions>-->
+                <!--                </plugin>-->
                 <plugin>
                     <groupId>net.alchim31.maven</groupId>
                     <artifactId>scala-maven-plugin</artifactId>
@@ -745,28 +824,28 @@
                         </execution>
                     </executions>
                 </plugin>
-<!--                <plugin>-->
-<!--                    <groupId>com.spotify</groupId>-->
-<!--                    <artifactId>docker-maven-plugin</artifactId>-->
-<!--                    <version>1.0.1</version>-->
-<!--                    <configuration>-->
-<!--                        <baseImage>docker.com/infra/boot:${boot-image.tag}</baseImage>-->
-<!--                        <imageName>docker.com/${app.group}/${app.name}</imageName>-->
-<!--                        <imageTags>-->
-<!--                            <imageTag>${project.version}</imageTag>-->
-<!--                            <imageTag>${docker.image.version}</imageTag>-->
-<!--                        </imageTags>-->
-<!--                        <forceTags>true</forceTags>-->
-<!--                        <resources>-->
-<!--                            <resource>-->
-<!--                                <targetPath>/opt</targetPath>-->
-<!--                                <directory>${project.build.directory}</directory>-->
-<!--                                <include>${project.build.finalName}.${project.packaging}</include>-->
-<!--                            </resource>-->
-<!--                        </resources>-->
-<!--                        <cmd>["/opt/boot.sh", "/opt/${project.build.finalName}.${project.packaging}"]</cmd>-->
-<!--                    </configuration>-->
-<!--                </plugin>-->
+                <!--                <plugin>-->
+                <!--                    <groupId>com.spotify</groupId>-->
+                <!--                    <artifactId>docker-maven-plugin</artifactId>-->
+                <!--                    <version>1.0.1</version>-->
+                <!--                    <configuration>-->
+                <!--                        <baseImage>docker.com/infra/boot:${boot-image.tag}</baseImage>-->
+                <!--                        <imageName>docker.com/${app.group}/${app.name}</imageName>-->
+                <!--                        <imageTags>-->
+                <!--                            <imageTag>${project.version}</imageTag>-->
+                <!--                            <imageTag>${docker.image.version}</imageTag>-->
+                <!--                        </imageTags>-->
+                <!--                        <forceTags>true</forceTags>-->
+                <!--                        <resources>-->
+                <!--                            <resource>-->
+                <!--                                <targetPath>/opt</targetPath>-->
+                <!--                                <directory>${project.build.directory}</directory>-->
+                <!--                                <include>${project.build.finalName}.${project.packaging}</include>-->
+                <!--                            </resource>-->
+                <!--                        </resources>-->
+                <!--                        <cmd>["/opt/boot.sh", "/opt/${project.build.finalName}.${project.packaging}"]</cmd>-->
+                <!--                    </configuration>-->
+                <!--                </plugin>-->
             </plugins>
         </pluginManagement>
         <extensions>
@@ -953,24 +1032,24 @@
                     </execution>
                 </executions>
             </plugin>
-<!--            <plugin>-->
-<!--                <groupId>org.xolstice.maven.plugins</groupId>-->
-<!--                <artifactId>protobuf-maven-plugin</artifactId>-->
-<!--                <version>${protobuf.plugin.version}</version>-->
-<!--                <configuration>-->
-<!--                    <protocArtifact>com.google.protobuf:protoc:${protoc.version}:exe:${os.detected.classifier}</protocArtifact>-->
-<!--                    <pluginId>grpc-java</pluginId>-->
-<!--                    <pluginArtifact>io.grpc:protoc-gen-grpc-java:${grpc.version}:exe:${os.detected.classifier}</pluginArtifact>-->
-<!--                </configuration>-->
-<!--                <executions>-->
-<!--                    <execution>-->
-<!--                        <goals>-->
-<!--                            <goal>compile</goal>-->
-<!--                            <goal>compile-custom</goal>-->
-<!--                        </goals>-->
-<!--                    </execution>-->
-<!--                </executions>-->
-<!--            </plugin>-->
+            <!--            <plugin>-->
+            <!--                <groupId>org.xolstice.maven.plugins</groupId>-->
+            <!--                <artifactId>protobuf-maven-plugin</artifactId>-->
+            <!--                <version>${protobuf.plugin.version}</version>-->
+            <!--                <configuration>-->
+            <!--                    <protocArtifact>com.google.protobuf:protoc:${protoc.version}:exe:${os.detected.classifier}</protocArtifact>-->
+            <!--                    <pluginId>grpc-java</pluginId>-->
+            <!--                    <pluginArtifact>io.grpc:protoc-gen-grpc-java:${grpc.version}:exe:${os.detected.classifier}</pluginArtifact>-->
+            <!--                </configuration>-->
+            <!--                <executions>-->
+            <!--                    <execution>-->
+            <!--                        <goals>-->
+            <!--                            <goal>compile</goal>-->
+            <!--                            <goal>compile-custom</goal>-->
+            <!--                        </goals>-->
+            <!--                    </execution>-->
+            <!--                </executions>-->
+            <!--            </plugin>-->
         </plugins>
     </build>
 </project>

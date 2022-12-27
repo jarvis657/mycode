@@ -1,0 +1,25 @@
+
+N	java:S106 "9Replace this use of System.out or System.err by a logger.(ùÊ„É
+B
+java:S1481"'Remove this unused "ii" local variable.(ÿ°Ìªÿÿÿÿÿ
+S	java:S106"9Replace this use of System.out or System.err by a logger.(ŸÓÓ¦þÿÿÿÿ
+T
+java:S1854">Remove this useless assignment to local variable "properties".(ÿ‘¯„
+{
+java:S2293%"YReplace the type specification in this constructor call with the diamond operator ("<>").(­Îçüüÿÿÿÿ8Û•ˆô¥.
+Z	java:S106'"9Replace this use of System.out or System.err by a logger.(Á¼Û«ùÿÿÿÿ8ÜÌ‰ô¥.
+Ž
+java:S1130"lRemove the declaration of thrown exception 'java.lang.Exception', as it cannot be thrown from method's body.(ÙØ¤Þýÿÿÿÿ8€’°ð».
+S	java:S106"9Replace this use of System.out or System.err by a logger.(ŸÓÓ¦þÿÿÿÿ
+E
+java:S1481"/Remove this unused "properties" local variable.(ÿ‘¯„
+U	java:S106&"9Replace this use of System.out or System.err by a logger.(Ó–«¸8½çˆô¥.
+V	java:S125"<This block of commented-out lines of code should be removed.(Á«™øûÿÿÿÿ
+X	java:S125/"<This block of commented-out lines of code should be removed.(À’§Ý8€’°ð».
+S	java:S106#"9Replace this use of System.out or System.err by a logger.(ý„ýÿÿÿÿ
+h
+java:S2133%"FRemove this object instantiation and use "BaseProvider.class" instead.(­Îçüüÿÿÿÿ8€’°ð».
+X	java:S125("<This block of commented-out lines of code should be removed.(ý˜ã©8Û•ˆô¥.
+c
+java:S2133$"FRemove this object instantiation and use "BaseProvider.class" instead.(ãã¹ª8€’°ð».
+S	java:S106!"9Replace this use of System.out or System.err by a logger.(Ž½Ž¦ÿÿÿÿÿ

@@ -11,14 +11,21 @@ import java.util.concurrent.atomic.AtomicInteger;
  * @Desc:
  **/
 public class Test extends XT {
-   protected int pushDataCount = 10;
+    protected int pushDataCount = 10;
+    static final AtomicInteger nextIndex = new AtomicInteger();
+    Object[] indexedVariables;
     private List<String> NOTIFY_USER = ImmutableList.of("Test..........");
 
-    public List<String> getUser(){
+    public Test(Object[] indexedVariables) {
+        this.indexedVariables = indexedVariables;
+    }
+
+    public List<String> getUser() {
         return this.NOTIFY_USER;
     }
+
     public Object getPushDataCount(Object o) {
-        System.out.println("haha Test invoke"+NOTIFY_USER.toString());
+        System.out.println("haha Test invoke" + NOTIFY_USER.toString());
         return pushDataCount;
     }
 
@@ -26,7 +33,7 @@ public class Test extends XT {
         this.pushDataCount = pushDataCount;
     }
 
-    public void p(){
+    public void p() {
         System.out.println("abstract root");
     }
 }

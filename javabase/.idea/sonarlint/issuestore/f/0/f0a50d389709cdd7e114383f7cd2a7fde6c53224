@@ -1,0 +1,8 @@
+
+S	java:S106+"9Replace this use of System.out or System.err by a logger.(¼“×øÿÿÿÿ
+Q	java:S125'"<This block of commented-out lines of code should be removed.(Ì‹›“
+V	java:S125"<This block of commented-out lines of code should be removed.(˜³ƒııÿÿÿÿ
+r
+java:S3077/"WUse a thread-safe type; adding "volatile" is not enough to make this field thread-safe.(©ÄÆ×ıÿÿÿÿ
+N	java:S106"9Replace this use of System.out or System.err by a logger.(ëÛƒ™
+S	java:S106"9Replace this use of System.out or System.err by a logger.(ı¸Ãœùÿÿÿÿ

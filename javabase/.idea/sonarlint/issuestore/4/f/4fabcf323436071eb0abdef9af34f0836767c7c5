@@ -1,0 +1,12 @@
+
+J
+java:S3740-"/Provide the parametrized type for this generic.(ãúÆèÿÿÿÿÿ
+a
+java:S40342"FReplace this "filter().findAny().isPresent()" chain with "anyMatch()".(ŸŒî›øÿÿÿÿ
+–
+java:S1186 "€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(ÊöŸn
+`	java:S112$"FDefine and throw a dedicated exception instead of using a generic one.(á¾²÷þÿÿÿÿ
+Y
+java:S11558">Use isEmpty() to check whether the collection is empty or not.(É€°Îøÿÿÿÿ
+B
+java:S16127",Replace this lambda with a method reference.(‡¾ï¢

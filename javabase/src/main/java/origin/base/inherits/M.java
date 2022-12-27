@@ -2,6 +2,8 @@ package origin.base.inherits;
 
 
 import com.google.common.collect.ImmutableList;
+import io.netty.util.concurrent.FastThreadLocal;
+import io.netty.util.concurrent.FastThreadLocalThread;
 import lombok.SneakyThrows;
 import org.joda.time.format.DateTimeFormat;
 
@@ -17,38 +19,95 @@ public class M {
     public static void main(String[] args) {
         TestA testA = new TestA();
         TestB testB = new TestB();
-//        System.out.println("10 testA:" + testA.getPushDataCount().toString());
-//        System.out.println("10 testB:" + testB.getPushDataCount().toString());
-//        Test testA1 = testB;
-//        System.out.println("10 testA1:" + testA1.getPushDataCount().toString());
+//        testA.p();
+//        testB.p();
+//        System.out.println("-----------------------");
+//        TestA testA1 = new TestA();
+//        TestB testB2 = new TestB();
+//        testA1.p();
+//        testB2.p();
+//        System.out.println("===============");
+//        testA.p();
+//        testB.p();
+//        testA1.p();
+//        testB2.p();
+//        System.out.println("=============");
+//        FastThreadLocal<Object> threadLocal1 = new FastThreadLocal<>();
+//        FastThreadLocal<Object> threadLocal2 = new FastThreadLocal<>();
+//        FastThreadLocal<Object> t = null;
+//        for (int i = 0; i < 1000000; i++) {
+//            t = new FastThreadLocal<>();
+//            t.set("ii:" + i);
+//        }
+//        System.out.println("........." + t.get());
 //
-//        testA.setPd();
+//        FastThreadLocal<Object> threadLocal3 = new FastThreadLocal<>();
+//        threadLocal3.set("vvvvvvvvvvv");
 //
-//        testB.setPd();
 //
-//        System.out.println("333 testA:" + testA.getPushDataCount().toString());
-//        System.out.println("111 testB:" + testB.getPushDataCount().toString());
+//        threadLocal1.set(1L);
+//        threadLocal1.set("x");
+//        threadLocal2.set(2L);
+////        System.out.println(threadLocal1.get());
+////        ThreadLocal<Object> tll = new ThreadLocal<>();
+////        tll.set("AA");
+////        tll.set("bbbbbbbbbbb");
+////        System.out.println(tll.get());
+////
+////        ThreadLocal<Object> tll2 = new ThreadLocal<>();
+////        tll2.set("AAA");
+////        tll2.set("cccccccccc");
+////        System.out.println("()()()");
+////        System.out.println(tll.get());
+////        System.out.println(tll2.get());
 //
-//        System.out.println("111 testA1 ref testB:" + testA1.getPushDataCount());
-//        TestA testAa = new TestA();
-//        System.out.println("10 testAa:" + testAa.getPushDataCount());
+//
+//        FastThreadLocalThread ftt = new FastThreadLocalThread(() -> {
+//            FastThreadLocal<Object> tt = new FastThreadLocal<>();
+//            tt.set(111L);
+//            System.out.println(tt.get());
+//        });
+//        ftt.start();
+//        ftt.join(100000);
+
+        System.out.println("10 testA:" + testA.getPushDataCount(testA).toString());
+        System.out.println("10 testB:" + testB.getPushDataCount(testB).toString());
+        Test testA1 = testB;
+        System.out.println("10 testA1:" + testA1.getPushDataCount(testA1).toString());
+
+        testA.setPd();
+
+        testB.setPd();
+
+        System.out.println("333 testA:" + testA.getPushDataCount(testA).toString());
+        System.out.println("111 testB:" + testB.getPushDataCount(testB).toString());
+
+        System.out.println("111 testA1 ref testB:" + testA1.getPushDataCount(testA1));
+        Test tt = new Test(new Object[10]);
+        TestA testAa = new TestA();
+        System.out.println("10 testAa:" + testAa.getPushDataCount(testAa));
+        System.out.println(tt.getPushDataCount(tt));
+        testAa.setPd();
+        System.out.println("setpd testAa:" + testAa.getPushDataCount(testAa));
+        System.out.println(tt.getPushDataCount(tt));
 
 
-        Date yyyyMMdd = DateTimeFormat.forPattern("yyyyMMdd").parseDateTime("19831201").toDate();
-        System.out.println(yyyyMMdd);
 
-        System.out.println("====================");
-        T t = new T();
-        ((Test) t).p();
-
-        System.out.println("#################invoke test===================");
-        Test.class.cast(t).getPushDataCount(new Object());
-        System.out.println("##############invoke test====done===============");
-
-        System.out.println("=======================");
-        test_generics();
-        System.out.println("=======================");
-        testf();
+//        Date yyyyMMdd = DateTimeFormat.forPattern("yyyyMMdd").parseDateTime("19831201").toDate();
+//        System.out.println(yyyyMMdd);
+//
+//        System.out.println("====================");
+//        T t = new T();
+//        ((Test) t).p();
+//
+//        System.out.println("#################invoke test===================");
+//        Test.class.cast(t).getPushDataCount(new Object());
+//        System.out.println("##############invoke test====done===============");
+//
+//        System.out.println("=======================");
+//        test_generics();
+//        System.out.println("=======================");
+//        testf();
 //        printInstance(testA1, t);
     }
 
@@ -102,16 +161,16 @@ public class M {
     //因为? super T 给外界的承诺语义是，这个集合内的元素的下界是T，所以向集合中添加T以及T的子类型是安全的，不会破坏这个承诺语义。
     //List, List 都是List<? super Apple>的子类型。
     //List 是List<? extends Apple>的子类型。
-    public static void test_generics() {
-        Test t = new Test();
-        TestA ta = new TestA();
-        TestB tb = new TestB();
-        List<? super Test> test = new ArrayList<>();
-        test.add(t);
-        test.add(ta);
-        test.add(tb);
-        List<TestA> testAS = Arrays.asList(ta);
-        List<? extends Test> tt = testAS;//只能这样, 不能直接用tt.add,会报错
-        System.out.println(">>>>>>" + tt.size());
-    }
+//    public static void test_generics() {
+//        Test t = new Test();
+//        TestA ta = new TestA();
+//        TestB tb = new TestB();
+//        List<? super Test> test = new ArrayList<>();
+//        test.add(t);
+//        test.add(ta);
+//        test.add(tb);
+//        List<TestA> testAS = Arrays.asList(ta);
+//        List<? extends Test> tt = testAS;//只能这样, 不能直接用tt.add,会报错
+//        System.out.println(">>>>>>" + tt.size());
+//    }
 }

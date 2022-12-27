@@ -1,11 +1,10 @@
 package origin.mysql.multiDataSource;
 
+import com.baomidou.mybatisplus.autoconfigure.SpringBootVFS;
 import com.github.pagehelper.PageInterceptor;
 import origin.mysql.typeHandlers.LongToStringTypeHandler;
 import org.apache.ibatis.session.SqlSessionFactory;
 import org.mybatis.spring.SqlSessionFactoryBean;
-import org.mybatis.spring.annotation.MapperScan;
-import org.mybatis.spring.boot.autoconfigure.SpringBootVFS;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;

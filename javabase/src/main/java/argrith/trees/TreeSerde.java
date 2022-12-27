@@ -14,7 +14,7 @@ public class TreeSerde {
             sb.append("nil,");
             return;
         }
-        sb.append(root.val).append(",");
+        sb.append(root.getValue()).append(",");
         ser(sb, root.left);
         ser(sb, root.right);
     }
@@ -40,7 +40,7 @@ public class TreeSerde {
                 sb.append("nil").append(",");
                 continue;
             }
-            sb.append(poll.val).append(",");
+            sb.append(poll.getValue()).append(",");
             queue.add(poll.left);
             queue.add(poll.right);
         }

@@ -1,0 +1,27 @@
+
+U	java:S106I"9Replace this use of System.out or System.err by a logger.(ò¥µÇ8Æ†«µë.
+Z	java:S106U"9Replace this use of System.out or System.err by a logger.(ùœ“Ãûÿÿÿÿ8Æ†«µë.
+Z	java:S106|"9Replace this use of System.out or System.err by a logger.(ÚÃÓ¤ÿÿÿÿÿ8õ“¢›ë.
+Z	java:S106J"9Replace this use of System.out or System.err by a logger.(‹Ê®Ğûÿÿÿÿ8Æ†«µë.
+T	java:S106L"9Replace this use of System.out or System.err by a logger.(®Šë8Æ†«µë.
+Y	java:S125¤"<This block of commented-out lines of code should be removed.(Ä×ï8ô¸›ë.
+a
+java:S1128"DRemove this unused import 'com.google.common.collect.ImmutableList'.(Ã½¸8¥Ğ¦Â.
+|
+java:S2293"YReplace the type specification in this constructor call with the diamond operator ("<>").(çÔ‹¶şÿÿÿÿ8ô¸›ë.
+T
+java:S1144r"2Remove this unused private "printInstance" method.(Æœöùÿÿÿÿ8ô¸›ë.
+V	java:S106ˆ"9Replace this use of System.out or System.err by a logger.(ŸÏÍè8ô¸›ë.
+U	java:S106R"9Replace this use of System.out or System.err by a logger.(Ó±ºÓ8Æ†«µë.
+Z	java:S106z"9Replace this use of System.out or System.err by a logger.(ÍÎÆ¥ùÿÿÿÿ8‡ Œ¦Â.
+b	java:S112"FDefine and throw a dedicated exception instead of using a generic one.(Øò²Ï8ô¸›ë.
+Z	java:S106S"9Replace this use of System.out or System.err by a logger.(¨îà¤øÿÿÿÿ8Æ†«µë.
+U	java:S106\"9Replace this use of System.out or System.err by a logger.(†æÌ›8™©¼µë.
+U	java:S106s"9Replace this use of System.out or System.err by a logger.(¯ˆ¿è8ô¸›ë.
+W	java:S125"<This block of commented-out lines of code should be removed.(‹ö¥W8Ş¯µë.
+]	java:S125`"<This block of commented-out lines of code should be removed.(‰çŞùúÿÿÿÿ8ô¸›ë.
+T	java:S106X"9Replace this use of System.out or System.err by a logger.(ÜºŞ%8Æ†«µë.
+U	java:S106{"9Replace this use of System.out or System.err by a logger.(¶Ä¯á8‡ Œ¦Â.
+U	java:S106Y"9Replace this use of System.out or System.err by a logger.(†æÌ›8Û²»µë.
+U	java:S106y"9Replace this use of System.out or System.err by a logger.(å‡×8ô¸›ë.
+U	java:S106["9Replace this use of System.out or System.err by a logger.(ûîÌí8»à»µë.

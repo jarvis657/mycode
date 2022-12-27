@@ -1,0 +1,45 @@
+
+N
+java:S1128"3Remove this unused import 'java.net.SocketAddress'.(ìÜˆ©ıÿÿÿÿ
+9
+java:S1128"Remove this duplicated import.(¿¢×±úÿÿÿÿ
+\
+java:S1124¥"EReorder the modifiers to comply with the Java Language Specification.(èäÃæ
+>
+java:S2189¹""Add an end condition to this loop.(˜ïˆÿÿÿÿÿ
+9
+java:S1128"Remove this duplicated import.(·¬ğ¶ıÿÿÿÿ
+9
+java:S1128"Remove this duplicated import.(ªº»Úıÿÿÿÿ
+4
+java:S1128"Remove this duplicated import.(°™ˆ
+9
+java:S1128"Remove this duplicated import.(¬½¸éúÿÿÿÿ
+4
+java:S1128"Remove this duplicated import.(¥ÍòÕ
+E
+java:S1128"*Remove this unused import 'java.util.Set'.(ö²„¤şÿÿÿÿ
+g
+java:S2095>"QUse try-with-resources or close this "ServerSocketChannel" in a "finally" clause.(ŒÁŒ
+\
+java:S1124¦"EReorder the modifiers to comply with the Java Language Specification.(õ˜˜
+O	java:S106"9Replace this use of System.out or System.err by a logger.(íı«Ê
+f
+java:S2674½"JCheck the return value of the "read" call to see how many bytes were read.(·¿Ïüÿÿÿÿ
+7
+java:S11701"!Make this final field static too.(éÖÛÆ
+a
+java:S1124§"EReorder the modifiers to comply with the Java Language Specification.(û­§‡ıÿÿÿÿ
+4
+java:S1128"Remove this duplicated import.(Í¾’Õ
+S	java:S106K"9Replace this use of System.out or System.err by a logger.(‚ ×ÿÿÿÿÿ
+B
+java:S1172©"+Remove this unused method parameter "args".(Î½ºğ
+=
+java:S2189T""Add an end condition to this loop.(˜ïˆÿÿÿÿÿ
+9
+java:S1128"Remove this duplicated import.(©Ê˜èùÿÿÿÿ
+<
+java:S11700"!Make this final field static too.(õ®¥ñÿÿÿÿÿ
+d	java:S1161"ORename this field "PORT" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(éÖÛÆ
+p	java:S1160"VRename this field "BUFFER_SIZE" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(õ®¥ñÿÿÿÿÿ
