@@ -12,27 +12,27 @@ import java.util.concurrent.atomic.AtomicLong;
 public class ThreadPoolTest {
     public static void main(String[] args) {
         AtomicLong atomicLong = new AtomicLong();
-        ScheduledThreadPoolExecutor scheduledThreadPoolExecutor = new ScheduledThreadPoolExecutor(1);
+        ScheduledThreadPoolExecutor scheduledThreadPoolExecutor = new ScheduledThreadPoolExecutor(3);
         scheduledThreadPoolExecutor.scheduleAtFixedRate(() -> {
-            System.out.println("A...." + atomicLong.getAndAdd(1));
+            System.out.println(System.currentTimeMillis() / 1000 + " A...." + atomicLong.getAndAdd(1));
             try {
-                Thread.sleep(1000);
+                Thread.sleep(4000);
             } catch (InterruptedException e) {
                 e.printStackTrace();
             }
         }, 2, 1, TimeUnit.SECONDS);
 
         scheduledThreadPoolExecutor.scheduleAtFixedRate(() -> {
-            System.out.println("B...." + atomicLong.getAndAdd(1));
+            System.out.println(System.currentTimeMillis() / 1000 + " B...." + atomicLong.getAndAdd(1));
             try {
-                Thread.sleep(1000);
+                Thread.sleep(2000);
             } catch (InterruptedException e) {
                 e.printStackTrace();
             }
         }, 1, 1, TimeUnit.SECONDS);
 
         scheduledThreadPoolExecutor.scheduleAtFixedRate(() -> {
-            System.out.println("C...." + atomicLong.getAndAdd(1));
+            System.out.println(System.currentTimeMillis() / 1000 + " C...." + atomicLong.getAndAdd(1));
             try {
                 Thread.sleep(1000);
             } catch (InterruptedException e) {

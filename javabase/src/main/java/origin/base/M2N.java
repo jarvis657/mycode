@@ -40,6 +40,7 @@ public class M2N {
     }
 
     public static void main(String[] args) {
+        System.out.println(template.length());
         System.out.println(transRadix(new BigInteger("1"), 82));
         StringBuilder unixtime = new StringBuilder("1554260402");
         StringBuilder adcode = new StringBuilder("110000");
