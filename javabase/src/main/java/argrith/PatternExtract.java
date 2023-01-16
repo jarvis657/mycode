@@ -25,6 +25,8 @@ import org.apache.commons.lang3.StringUtils;
 import org.apache.commons.lang3.math.NumberUtils;
 
 import java.util.*;
+import java.util.stream.Collectors;
+import java.util.stream.IntStream;
 
 // 调用方法：
 // makeString("[10-52]xxx-AC-xx"); // 返回 "15673-AC-82"
@@ -63,11 +65,12 @@ public class PatternExtract {
 
     public static void main(String[] args) {
         // 目前只限定一个字符的情况
-        String ts = "aaa[11-52]bb[52-60]cc[C-X]dd";
+        String ts = "[A-Z]xxaxb[1-52]cdxxe[C-X]fxgh";
         if (ts == null || ts.length() <= 2 || ts.indexOf("[") == -1 || ts.indexOf("]") == -1) {
             return;
         }
         Map<KV, KV> patternMap = parsePatternMap(ts);
+        //TODO 这里可以加 pattern验证
         String result = genRandomString(ts, patternMap);
         System.out.println(result);
     }
@@ -76,33 +79,46 @@ public class PatternExtract {
         Set<KV> kvs = patternMap.keySet();
         StringBuilder sb = new StringBuilder();
         int preOffset = 0;
-        for (Iterator<KV> iterator = kvs.iterator(); iterator.hasNext();) {
+        for (Iterator<KV> iterator = kvs.iterator(); iterator.hasNext(); ) {
             KV beginKV = iterator.next();
             KV endKV = patternMap.get(beginKV);
             int begin = beginKV.offset;
             int end = endKV.offset;
-
             // 因为 有可能有空格原因 所以 用substring截取替换
             String x = "";
             String bvTrim = StringUtils.trim(beginKV.value);
             String evTrim = StringUtils.trim(endKV.value);
-            if (StringUtils.isNumeric(bvTrim)) {
+            String substring = "";
+            if (StringUtils.isNumeric(bvTrim) && evTrim != null) {
                 int b = NumberUtils.toInt(bvTrim);
                 int e = NumberUtils.toInt(evTrim);
                 int i = RandomUtils.nextInt(b, e + 1);
                 x = i + "";
-            } else if (bvTrim.length() == 1 && Character.isUpperCase(bvTrim.charAt(0))
-                    &&
-                    evTrim.length() == 1 && Character.isUpperCase(evTrim.charAt(0))) {
+                substring = ts.substring(preOffset, begin);
+                preOffset = end + 1;
+            } else if (
+                    evTrim != null &&
+                            bvTrim.length() == 1 && Character.isUpperCase(bvTrim.charAt(0))
+                            &&
+                            evTrim.length() == 1 && Character.isUpperCase(evTrim.charAt(0))
+            ) {
                 char b = bvTrim.charAt(0);
                 char e = evTrim.charAt(0);
                 int c = RandomUtils.nextInt(b, e + 1);
                 x = (char) c + "";
+                substring = ts.substring(preOffset, begin);
+                preOffset = end + 1;
+            } else if (evTrim == null) {
+                IntStream chars = bvTrim.chars();
+                x = chars.mapToObj(c -> RandomUtils.nextInt(0, 9) + "").collect(Collectors.joining());
+                substring = ts.substring(preOffset, begin);
+                preOffset = end;
             }
-            String substring = ts.substring(preOffset, begin);
-            System.out.println(x);
+            System.out.println(bvTrim + " " + evTrim + ":" + x);
             sb.append(substring).append(x);
-            preOffset = end + 1;
+        }
+        if (preOffset < ts.length()) {
+            sb.append(ts.substring(preOffset));
         }
         return sb.toString();
     }
@@ -111,17 +127,38 @@ public class PatternExtract {
         int length = ts.length();
         Map<KV, KV> patternMap = new TreeMap<>();
         int preOffset = 0;
-        for (int end = 1; end < length; end++) {
-            if (']' != ts.charAt(end)) {
+        String pattenMode = "";
+        for (int end = 0; end < length; end++) {
+            if ('x' == ts.charAt(end)) {
+                pattenMode = "x";
+            } else if ('[' == ts.charAt(end)) {
+                pattenMode = "[";
+            }
+            if (pattenMode.length() == 0 ||
+                    ('x' == ts.charAt(end) && end != ts.length() - 1) ||
+                    (pattenMode.equalsIgnoreCase("[") && ']' != ts.charAt(end))
+            ) {
                 continue;
             }
-            for (int start = preOffset; start < end; start++) {
+            for (int start = preOffset; start <= end; start++) {
                 if ('[' == ts.charAt(start)) {
-                    String pattern = ts.substring(start + 1, end);
+                    int offset = start + 1;
+                    String pattern = ts.substring(offset, end);
                     String[] split = pattern.split("-");
                     // start是[ 的开始offset, end 是 ] 的offset
-                    patternMap.put(new KV(start, split[0]), new KV(end, split[1]));
+                    patternMap.put(new KV(start, split[0]), new KV(end, split.length == 2 ? split[1] : null));
+                    pattenMode = "";
                     preOffset = end;
+                }
+                if ('x' == ts.charAt(start)) {
+                    String pattern = ts.substring(start, end);
+                    if (start == end) {
+                        pattern = ts.substring(start, end + 1);
+                    }
+                    patternMap.put(new KV(start, pattern), new KV(end, null));
+                    preOffset = end;
+                    pattenMode = "";
+                    break;
                 }
             }
         }
