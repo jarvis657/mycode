@@ -65,9 +65,12 @@ public class PatternExtract {
 
     public static void main(String[] args) {
         // 目前只限定一个字符的情况
-        String ts = "[A-Z]xxaxb[11-52]cdxxe[C-X]fxgh";
+//        String ts = "[A-Z]xxaxb[11-52]cdxxe[C-X]fxgh";
 //        String ts = "xxxxx";
 //        String ts = "[10-52]xxx-AC-xx";
+//        String ts = "[0-8][0-7]xxxx";
+//        String ts = "M[3-4]C [0-1]C[1-4]";
+        String ts = "M[C-Z][33-66]";
         if (ts == null || ts.length() <= 2) {
             return;
         }
