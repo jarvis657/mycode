@@ -70,7 +70,7 @@ public class PatternExtract {
 //        String ts = "[10-52]xxx-AC-xx";
 //        String ts = "[0-8][0-7]xxxx";
 //        String ts = "M[3-4]C [0-1]C[1-4]";
-        String ts = "M[C-Z][33-66]";
+        String ts = "[C-Z]xx[33-66]xxaxbc[A-C]";
         if (ts == null || ts.length() <= 2) {
             return;
         }
@@ -155,7 +155,6 @@ public class PatternExtract {
                     pattenMode = "";
                     //】后面的继续
                     preOffset = end + 1;
-                    start = end + 1;
                     break;
                 }
                 if ('x' == ts.charAt(start)) {
