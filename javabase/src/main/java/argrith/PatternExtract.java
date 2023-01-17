@@ -65,8 +65,10 @@ public class PatternExtract {
 
     public static void main(String[] args) {
         // 目前只限定一个字符的情况
-        String ts = "[A-Z]xxaxb[1-52]cdxxe[C-X]fxgh";
-        if (ts == null || ts.length() <= 2 || ts.indexOf("[") == -1 || ts.indexOf("]") == -1) {
+        String ts = "[A-Z]xxaxb[11-52]cdxxe[C-X]fxgh";
+//        String ts = "xxxxx";
+//        String ts = "[10-52]xxx-AC-xx";
+        if (ts == null || ts.length() <= 2) {
             return;
         }
         Map<KV, KV> patternMap = parsePatternMap(ts);
@@ -88,14 +90,12 @@ public class PatternExtract {
             String x = "";
             String bvTrim = StringUtils.trim(beginKV.value);
             String evTrim = StringUtils.trim(endKV.value);
-            String substring = "";
+            String substring = ts.substring(preOffset, begin);
             if (StringUtils.isNumeric(bvTrim) && evTrim != null) {
                 int b = NumberUtils.toInt(bvTrim);
                 int e = NumberUtils.toInt(evTrim);
                 int i = RandomUtils.nextInt(b, e + 1);
                 x = i + "";
-                substring = ts.substring(preOffset, begin);
-                preOffset = end + 1;
             } else if (
                     evTrim != null &&
                             bvTrim.length() == 1 && Character.isUpperCase(bvTrim.charAt(0))
@@ -106,23 +106,25 @@ public class PatternExtract {
                 char e = evTrim.charAt(0);
                 int c = RandomUtils.nextInt(b, e + 1);
                 x = (char) c + "";
-                substring = ts.substring(preOffset, begin);
-                preOffset = end + 1;
             } else if (evTrim == null) {
                 IntStream chars = bvTrim.chars();
                 x = chars.mapToObj(c -> RandomUtils.nextInt(0, 9) + "").collect(Collectors.joining());
-                substring = ts.substring(preOffset, begin);
-                preOffset = end;
             }
             System.out.println(bvTrim + " " + evTrim + ":" + x);
             sb.append(substring).append(x);
+            preOffset = end;
         }
-        if (preOffset < ts.length()) {
-            sb.append(ts.substring(preOffset));
+        if (preOffset < ts.length() - 1) {
+            sb.append(ts.substring(preOffset + 1));
         }
         return sb.toString();
     }
 
+    /**
+     * 返回pattern的kv对，[begin,end) 这样的左包右闭区间
+     * @param ts
+     * @return
+     */
     private static Map<KV, KV> parsePatternMap(String ts) {
         int length = ts.length();
         Map<KV, KV> patternMap = new TreeMap<>();
@@ -146,16 +148,19 @@ public class PatternExtract {
                     String pattern = ts.substring(offset, end);
                     String[] split = pattern.split("-");
                     // start是[ 的开始offset, end 是 ] 的offset
-                    patternMap.put(new KV(start, split[0]), new KV(end, split.length == 2 ? split[1] : null));
+                    patternMap.put(new KV(start, split[0]), new KV(end + 1, split.length == 2 ? split[1] : null));
                     pattenMode = "";
-                    preOffset = end;
+                    //】后面的继续
+                    preOffset = end + 1;
+                    start = end + 1;
+                    break;
                 }
                 if ('x' == ts.charAt(start)) {
                     String pattern = ts.substring(start, end);
-                    if (start == end) {
+                    if (start == end || end == ts.length() - 1) {
                         pattern = ts.substring(start, end + 1);
                     }
-                    patternMap.put(new KV(start, pattern), new KV(end, null));
+                    patternMap.put(new KV(start, pattern), new KV(end == ts.length() - 1 ? end + 1 : end, null));
                     preOffset = end;
                     pattenMode = "";
                     break;
