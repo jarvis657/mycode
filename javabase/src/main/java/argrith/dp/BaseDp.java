@@ -15,7 +15,7 @@ public class BaseDp {
     f(10) = Min(f(9) ,f(8),f(15) +1(1,2,5) ...
     f(1) = Min(0,0,0)+1(1)
      */
-    public static int calc(int[] arrs, int target) {
+    public static int calc(int[] arras, int target) {
         int[] result = new int[target + 1];
         for (int i = 0; i < target + 1; i++) {
             result[i] = Integer.MAX_VALUE;
@@ -23,9 +23,9 @@ public class BaseDp {
         result[0] = 0;
         for (int i = 1; i <= target; i++) {
             int minCounter = Integer.MAX_VALUE;
-            for (int j = 0; j < arrs.length; j++) {
-                if (i - arrs[j] >= 0 && result[i - arrs[j]] != Integer.MAX_VALUE) {
-                    minCounter = Math.min(result[i - arrs[j]], minCounter) + 1;
+            for (int j = 0; j < arras.length; j++) {
+                if (i - arras[j] >= 0 && result[i - arras[j]] != Integer.MAX_VALUE) {
+                    minCounter = Math.min(result[i - arras[j]], minCounter) + 1;
                 }
             }
             result[i] = minCounter;
@@ -35,9 +35,9 @@ public class BaseDp {
     }
 
     public static void main(String[] args) {
-        int[] arrs = {1, 2,3, 5, 10};
+        int[] arras = {1, 2,3, 5, 10};
         int result = 11;
-        int calc = calc(arrs, result);
+        int calc = calc(arras, result);
         System.out.println(calc);
     }
 }
