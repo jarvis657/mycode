@@ -1,0 +1,15 @@
+
+S	java:S106"9Replace this use of System.out or System.err by a logger.(‰İÿüÿÿÿÿ
+P
+java:S2209"5Change this instance-reference to a static reference.(éÄä©ıÿÿÿÿ
+S	java:S106"9Replace this use of System.out or System.err by a logger.(ğñ°Äûÿÿÿÿ
+S	java:S106"9Replace this use of System.out or System.err by a logger.(åî¸öøÿÿÿÿ
+F
+java:S2446"0"notify" may not wake up the appropriate thread.(Ğ«°
+S	java:S106"9Replace this use of System.out or System.err by a logger.(¢à•àÿÿÿÿÿ
+t
+java:S21420"^Either re-interrupt this method or rethrow the "InterruptedException" that can be caught here.(ä ¹€
+S	java:S106-"9Replace this use of System.out or System.err by a logger.(€äöõıÿÿÿÿ
+U
+java:S2274.":Remove this call to "wait" or move it into a "while" loop.(»šßĞúÿÿÿÿ
+N	java:S106/"9Replace this use of System.out or System.err by a logger.(³¢Ø€

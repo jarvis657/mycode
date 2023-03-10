@@ -70,16 +70,6 @@ func main() {
 	fmt.Println(fmt.Sprint(method) + ":" + fmt.Sprint(s))
 }
 
-package main
-
-import (
-"fmt"
-"io"
-"os"
-"reflect"
-"time"
-)
-
 //import "time"
 
 type Foo struct {

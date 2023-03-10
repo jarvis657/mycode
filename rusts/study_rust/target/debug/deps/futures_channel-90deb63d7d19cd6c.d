@@ -1,0 +1,9 @@
+/Users/jarvmuqiliu/Documents/mycodes/tommyjarvis/rusts/study_rust/target/debug/deps/futures_channel-90deb63d7d19cd6c.rmeta: /Users/jarvmuqiliu/.cargo/registry/src/github.com-1ecc6299db9ec823/futures-channel-0.3.17/src/lib.rs /Users/jarvmuqiliu/.cargo/registry/src/github.com-1ecc6299db9ec823/futures-channel-0.3.17/src/lock.rs /Users/jarvmuqiliu/.cargo/registry/src/github.com-1ecc6299db9ec823/futures-channel-0.3.17/src/mpsc/mod.rs /Users/jarvmuqiliu/.cargo/registry/src/github.com-1ecc6299db9ec823/futures-channel-0.3.17/src/mpsc/queue.rs /Users/jarvmuqiliu/.cargo/registry/src/github.com-1ecc6299db9ec823/futures-channel-0.3.17/src/oneshot.rs
+
+/Users/jarvmuqiliu/Documents/mycodes/tommyjarvis/rusts/study_rust/target/debug/deps/futures_channel-90deb63d7d19cd6c.d: /Users/jarvmuqiliu/.cargo/registry/src/github.com-1ecc6299db9ec823/futures-channel-0.3.17/src/lib.rs /Users/jarvmuqiliu/.cargo/registry/src/github.com-1ecc6299db9ec823/futures-channel-0.3.17/src/lock.rs /Users/jarvmuqiliu/.cargo/registry/src/github.com-1ecc6299db9ec823/futures-channel-0.3.17/src/mpsc/mod.rs /Users/jarvmuqiliu/.cargo/registry/src/github.com-1ecc6299db9ec823/futures-channel-0.3.17/src/mpsc/queue.rs /Users/jarvmuqiliu/.cargo/registry/src/github.com-1ecc6299db9ec823/futures-channel-0.3.17/src/oneshot.rs
+
+/Users/jarvmuqiliu/.cargo/registry/src/github.com-1ecc6299db9ec823/futures-channel-0.3.17/src/lib.rs:
+/Users/jarvmuqiliu/.cargo/registry/src/github.com-1ecc6299db9ec823/futures-channel-0.3.17/src/lock.rs:
+/Users/jarvmuqiliu/.cargo/registry/src/github.com-1ecc6299db9ec823/futures-channel-0.3.17/src/mpsc/mod.rs:
+/Users/jarvmuqiliu/.cargo/registry/src/github.com-1ecc6299db9ec823/futures-channel-0.3.17/src/mpsc/queue.rs:
+/Users/jarvmuqiliu/.cargo/registry/src/github.com-1ecc6299db9ec823/futures-channel-0.3.17/src/oneshot.rs:

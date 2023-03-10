@@ -1,0 +1,43 @@
+
+`	java:S112)"FDefine and throw a dedicated exception instead of using a generic one.(¹«——úÿÿÿÿ
+S	java:S106"9Replace this use of System.out or System.err by a logger.(æ¨¤šøÿÿÿÿ
+N	java:S106"9Replace this use of System.out or System.err by a logger.(µˆœÑ
+N	java:S106"9Replace this use of System.out or System.err by a logger.(ÍˆëÄ
+N	java:S106"9Replace this use of System.out or System.err by a logger.(µˆœÑ
+N	java:S106"9Replace this use of System.out or System.err by a logger.(ÉÏ÷
+/
+java:S2178"Correct this "|" to "||".(ÉÏ÷
+N	java:S106"9Replace this use of System.out or System.err by a logger.(ƒÙªÓ
+`
+java:S1764"JCorrect one of the identical sub-expressions on both sides of operator "|"(ƒÙªÓ
+/
+java:S2178"Correct this "|" to "||".(ƒÙªÓ
+S	java:S106"9Replace this use of System.out or System.err by a logger.(ê‚¦›ûÿÿÿÿ
+4
+java:S2178"Correct this "&" to "&&".(ê‚¦›ûÿÿÿÿ
+S	java:S106"9Replace this use of System.out or System.err by a logger.(Ã‡’ûÿÿÿÿ
+e
+java:S1764"JCorrect one of the identical sub-expressions on both sides of operator "&"(Ã‡’ûÿÿÿÿ
+4
+java:S2178"Correct this "&" to "&&".(Ã‡’ûÿÿÿÿ
+N	java:S106"9Replace this use of System.out or System.err by a logger.(–¼€€
+N	java:S106 "9Replace this use of System.out or System.err by a logger.(”¤ÂÑ
+N	java:S106!"9Replace this use of System.out or System.err by a logger.(¦ó°´
+N	java:S106""9Replace this use of System.out or System.err by a logger.(šÛŠ
+N	java:S106$"9Replace this use of System.out or System.err by a logger.(äÅÖ¥
+O
+java:S4719$"9Replace charset name argument with StandardCharsets.UTF_8(äÅÖ¥
+M	java:S106%"9Replace this use of System.out or System.err by a logger.(ÆòèS
+S	java:S106&"9Replace this use of System.out or System.err by a logger.(ÍßÁĞşÿÿÿÿ
+L
+java:S1854,"6Remove this useless assignment to local variable "ip".(Ññåå
+W
+java:S1854+"<Remove this useless assignment to local variable "hostName".(½ıÁÿÿÿÿÿ
+Q
+java:S18546"6Remove this useless assignment to local variable "ip".(ôÜ§úÿÿÿÿ
+H
+java:S1481+"-Remove this unused "hostName" local variable.(½ıÁÿÿÿÿÿ
+=
+java:S1481,"'Remove this unused "ip" local variable.(Ññåå
+K
+java:S1144)"0Remove this unused private "resolveHost" method.(¹«——úÿÿÿÿ

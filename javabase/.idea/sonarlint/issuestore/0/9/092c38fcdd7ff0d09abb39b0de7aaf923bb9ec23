@@ -1,0 +1,30 @@
+
+t
+java:S2293"YReplace the type specification in this constructor call with the diamond operator ("<>").(Ü›üÒøÿÿÿÿ
+o
+java:S2293"YReplace the type specification in this constructor call with the diamond operator ("<>").(–“öÅ
+o
+java:S2293"YReplace the type specification in this constructor call with the diamond operator ("<>").(ğ¶‹ç
+N
+java:S1854"8Remove this useless assignment to local variable "foo5".(ğ¶‹ç
+N
+java:S1854"8Remove this useless assignment to local variable "foo4".(–“öÅ
+S
+java:S1854"8Remove this useless assignment to local variable "foo3".(Ü›üÒøÿÿÿÿ
+D
+java:S1481")Remove this unused "foo3" local variable.(Ü›üÒøÿÿÿÿ
+?
+java:S1481")Remove this unused "foo4" local variable.(–“öÅ
+?
+java:S1481")Remove this unused "foo5" local variable.(ğ¶‹ç
+N	java:S106"9Replace this use of System.out or System.err by a logger.(ÆÀûı
+S	java:S106"9Replace this use of System.out or System.err by a logger.(Ùíëÿÿÿÿÿ
+N	java:S106"9Replace this use of System.out or System.err by a logger.(É·×š
+]
+java:S2094"BRemove this empty class, write its code or make it an "interface".(Ó´Ç¢üÿÿÿÿ
+6
+java:S2326"T is not used in the class.(Ó´Ç¢üÿÿÿÿ
+]
+java:S2094%"BRemove this empty class, write its code or make it an "interface".(ªÊÚÓøÿÿÿÿ
+L
+java:S1128"1Remove this unused import 'java.util.Collection'.(¹ÉĞšùÿÿÿÿ

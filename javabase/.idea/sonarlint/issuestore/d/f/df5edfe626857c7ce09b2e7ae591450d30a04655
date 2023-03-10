@@ -1,0 +1,50 @@
+
+`	java:S112%"FDefine and throw a dedicated exception instead of using a generic one.(¢ÕÖ—ÿÿÿÿÿ
+[	java:S112:"FDefine and throw a dedicated exception instead of using a generic one.(‹³ó¯
+[	java:S112d"FDefine and throw a dedicated exception instead of using a generic one.( ÅŠÈ
+a	java:S112"FDefine and throw a dedicated exception instead of using a generic one.(Î¢‰Øÿÿÿÿÿ
+\	java:S112£"FDefine and throw a dedicated exception instead of using a generic one.(öŠáõ
+a	java:S112´"FDefine and throw a dedicated exception instead of using a generic one.(Áì»Àùÿÿÿÿ
+[	java:S112Á"FDefine and throw a dedicated exception instead of using a generic one.(­¦Á=
+a	java:S112Ý"FDefine and throw a dedicated exception instead of using a generic one.(ö¡Ñ«ùÿÿÿÿ
+E
+java:S3740V"/Provide the parametrized type for this generic.(ÈÄ‰°
+E
+java:S3740r"/Provide the parametrized type for this generic.(ÈÄ‰°
+F
+java:S3740"/Provide the parametrized type for this generic.(ÈÄ‰°
+F
+java:S3740¬"/Provide the parametrized type for this generic.(ÈÄ‰°
+K
+java:S3740ä"/Provide the parametrized type for this generic.(ÿ¥£úùÿÿÿÿ
+
+java:S1192)"dDefine a constant instead of duplicating this literal "dynamic.javassist.existcode.Student" 6 times.(—¸ë—ùÿÿÿÿ
+N	java:S106'"9Replace this use of System.out or System.err by a logger.(•˜¤õ
+N	java:S106/"9Replace this use of System.out or System.err by a logger.(Îòç
+N	java:S1060"9Replace this use of System.out or System.err by a logger.(«‹Îõ
+N	java:S1061"9Replace this use of System.out or System.err by a logger.(ÖøÆÒ
+N	java:S1062"9Replace this use of System.out or System.err by a logger.(–€ø»
+S	java:S1063"9Replace this use of System.out or System.err by a logger.(“ÄËßþÿÿÿÿ
+Q	java:S125>"<This block of commented-out lines of code should be removed.(òì¡•
+N	java:S106["9Replace this use of System.out or System.err by a logger.(–õžË
+Y
+java:S3878\"CDisambiguate this call by either casting as "Object" or "Object[]".(í¹È
+S	java:S106]"9Replace this use of System.out or System.err by a logger.(»¥èÈüÿÿÿÿ
+V	java:S125h"<This block of commented-out lines of code should be removed.(Ô½®ºùÿÿÿÿ
+N	java:S106v"9Replace this use of System.out or System.err by a logger.(–õžË
+S	java:S106z"9Replace this use of System.out or System.err by a logger.(ÚøÆŠýÿÿÿÿ
+O	java:S106”"9Replace this use of System.out or System.err by a logger.(Ø£·Ì
+O	java:S106™"9Replace this use of System.out or System.err by a logger.(Ø£·Ì
+O	java:S106š"9Replace this use of System.out or System.err by a logger.(Ô½­Æ
+N
+java:S1854­"7Remove this useless assignment to local variable "obj".(¢£šø
+T	java:S106©"9Replace this use of System.out or System.err by a logger.(ÀñÎÃûÿÿÿÿ
+?
+java:S1481­"(Remove this unused "obj" local variable.(¢£šø
+T	java:S106»"9Replace this use of System.out or System.err by a logger.(»‹Ýñûÿÿÿÿ
+N
+java:S1135Â"2Complete the task associated to this TODO comment.(» æžÿÿÿÿÿ
+T	java:S106Ò"9Replace this use of System.out or System.err by a logger.(¹çîåúÿÿÿÿ
+O	java:S106×"9Replace this use of System.out or System.err by a logger.(äªÄà
+R	java:S125ß"<This block of commented-out lines of code should be removed.(îñÄé
+W	java:S125â"<This block of commented-out lines of code should be removed.(¿ˆ›ªüÿÿÿÿ
