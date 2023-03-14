@@ -3,10 +3,21 @@ package main
 import (
 	"fmt"
 	"regexp"
+	"sync/atomic"
 	"time"
 )
 
+var index = new(int64)
+
 func main() {
+
+	s := time.Now().Format("2006-01-02 15:04:05")
+	fmt.Printf("%v\n", s)
+
+	atomic.AddInt64(index, 1)
+	fmt.Println(atomic.LoadInt64(index))
+	fmt.Println(atomic.LoadInt64(index))
+
 	now := time.Now()
 	format := now.Format("Jan 02 2006")
 	timeFormat := now.Format("15:04")
