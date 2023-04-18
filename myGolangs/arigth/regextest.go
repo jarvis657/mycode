@@ -10,6 +10,9 @@ import (
 var index = new(int64)
 
 func main() {
+	fmt.Println(len("aaaaa"))
+	s2 := time.Unix(1678788954, 0).Format(time.DateTime)
+	fmt.Println(s2)
 
 	s := time.Now().Format("2006-01-02 15:04:05")
 	fmt.Printf("%v\n", s)
