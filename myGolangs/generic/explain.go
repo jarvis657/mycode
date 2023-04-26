@@ -1,4 +1,6 @@
-package generic
+package main
+
+import "fmt"
 
 type CommonType[T int | string | float32] []T
 
@@ -81,7 +83,7 @@ type SliceMy[T Float] []T
 
 // 类型并集
 type AllInt interface {
-	~int | ~int8 | ~int16 | ~int32 | ~int64 | ~uint | ~uint8 | ~uint16 | ~uint32 | ~uint32
+	~int | ~int8 | ~int16 | ~int32 | ~int64 | ~uint | ~uint8 | ~uint16 | ~uint32
 }
 type Uint interface {
 	~uint | ~uint8 | ~uint16 | ~uint32 | ~uint64
@@ -197,13 +199,105 @@ type ProcessorList[T DataProcessorType[string]] []T
 //}
 
 // 错误，带方法的一般接口不能作为类型并集的成员(参考6.5 接口定义的种种限制规则
-//type StringProcessor interface {
-//	DataProcessor2[string] | DataProcessor2[[]byte]
 //
-//	PrintString()
+//	type StringProcessor interface {
+//		DataProcessor2[string] | DataProcessor2[[]byte]
+//
+//		PrintString()
+//	}
+type Numeric interface {
+	int | int8 | int16 | int32 | int64 | uint | uint8 | uint16 | uint32 | uint64 | float32 | float64
+}
+
+func min[T Numeric](a, b T) T {
+	if a < b {
+		return a
+	}
+	return b
+}
+
+type Stack[T any] []T
+
+func (s *Stack[T]) Push(v T) {
+	*s = append(*s, v)
+}
+
+func (s *Stack[T]) Pop() T {
+	if len(*s) == 0 {
+		var zero T
+		//return nil
+		return zero
+	}
+	t := (*s)[len(*s)-1]
+	*s = (*s)[:len(*s)-1]
+	return t
+}
+
+func (s *Stack[T]) Pop2() (t T) {
+	if len(*s) == 0 {
+		return
+	}
+	t = (*s)[len(*s)-1]
+	*s = (*s)[:len(*s)-1]
+	return t
+}
+
+func Filter[T any](f func(T) bool, src []T) []T {
+	var dst []T
+	for _, v := range src {
+		if f(v) {
+			dst = append(dst, v)
+		}
+	}
+	return dst
+}
+
+func Foo[T any](n T) {
+	//将 T 转化为 interface{}，然后做一次 type assertion
+	if _, ok := (interface{})(n).(int); ok {
+	}
+}
+
+type Int interface {
+	~int | ~uint
+}
+
+func IsSigned[T Int](n T) {
+	switch (interface{})(n).(type) {
+	case int:
+		fmt.Println("signed")
+	default:
+		fmt.Println("unsigned")
+	}
+}
+
+type MyInt int
+
+// IsSigned(1)
+// IsSigned(MyInt(1))
+// Output:
+// signed
+// unsigned
+
+//type Signed interface {
+//	~int
+//}
+//
+//func IsSigned2[T Int](n T) {
+//	if _, ok := (interface{})(n).(Signed); ok { 这里会有异常
+//		fmt.Println("signed")
+//	} else {
+//		fmt.Println("unsigned")
+//	}
 //}
 
 func main() {
+	IsSigned(1)
+	IsSigned(MyInt(1))
+	src := []int{-2, -1, -0, 1, 2}
+	dst := Filter(func(v int) bool { return v >= 0 }, src)
+	fmt.Println(dst)
+
 	Add[int](1, 2)
 	m := MySlice[int]{1, 2, 4}
 	m.Sum()

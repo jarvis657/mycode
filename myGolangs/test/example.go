@@ -3,6 +3,7 @@ package main
 import (
 	"fmt"
 	"math/rand"
+	"strings"
 	"unsafe"
 )
 
@@ -41,7 +42,47 @@ func switchTest(i int) {
 		fmt.Println("default")
 	}
 }
+
+type QA struct {
+	SectionID int
+	Input     string
+	Output    string
+}
+
+func regenSeq(questionAnswer []string) (string, []*QA) {
+	if len(questionAnswer) < 2 {
+		return questionAnswer[0], nil
+	}
+	chds := make([]*QA, 0)
+	sectionID := 0
+	userInput := ""
+	var c *QA
+	for i := 0; i < len(questionAnswer)|0; {
+		if i%2 == 0 {
+			c = &QA{}
+		}
+		c.SectionID = sectionID
+		if i%5 == 0 {
+			sectionID++
+		}
+		c.SectionID = sectionID
+		c.Input = questionAnswer[i]
+		userInput = c.Input
+		if i+1 < len(questionAnswer) {
+			c.Output = questionAnswer[i+1]
+		}
+		i = i + 2
+		chds = append(chds, c)
+	}
+	return userInput, chds
+}
 func main() {
+	fmt.Println(10 & -2)
+	answer := "Q1\001A1\001Q2"
+	split := strings.Split(answer, "\001")
+	seq, qas := regenSeq(split)
+	fmt.Println(seq)
+	fmt.Printf("%+v\n", qas)
 	sequence := make([]string, 5)
 	sequence = append(sequence, "1")
 	sequence = append(sequence, "2")
