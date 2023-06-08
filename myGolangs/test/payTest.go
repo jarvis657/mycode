@@ -13,8 +13,8 @@ import (
 )
 
 const URL = "https://pay.ipaynow.cn/"
-const AppId = "156886024666838"
-const AppKey = "3VzjWmoiu9jKHAhSYMgAk7ZkSRS2vNJx"
+const AppId = "vvvt"
+const AppKey = "xx"
 
 // 公众号对接
 func main() {
