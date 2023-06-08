@@ -3,6 +3,7 @@ package main
 import (
 	"fmt"
 	"math/rand"
+	"path/filepath"
 	"strings"
 	"unsafe"
 )
@@ -77,6 +78,8 @@ func regenSeq(questionAnswer []string) (string, []*QA) {
 	return userInput, chds
 }
 func main() {
+	base := filepath.Base("/Users/jarvis/Documents/code/mycodes/tommyjarvis/aa.txt")
+	fmt.Println(base)
 	fmt.Println(10 & -2)
 	answer := "Q1\001A1\001Q2"
 	split := strings.Split(answer, "\001")

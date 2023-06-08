@@ -291,6 +291,11 @@ type MyInt int
 //	}
 //}
 
+type Aa struct {
+	A string
+	B string
+}
+
 func main() {
 	IsSigned(1)
 	IsSigned(MyInt(1))
