@@ -1,7 +1,7 @@
 package main
 
 import (
-	. "./fsmengine"
+	//. "./fsmengine"
 	"fmt"
 	"reflect"
 )
@@ -15,35 +15,35 @@ type Turnstile struct {
 	States     []string //历史经过的状态
 }
 
-var processor = &TurnstileEventProcessor{}
+//var processor = &TurnstileEventProcessor{}
+//
+//func (p *TurnstileEventProcessor) Test(t *Turnstile, a string, b string) (string, error) {
+//	p.Test3(a, b)
+//	states := t.States
+//	//states := append(states, "aaavv")
+//	states[0] = "vvvvvv"
+//	for i := range states {
+//		fmt.Println(fmt.Sprint(i) + "===============================\n")
+//	}
+//	return "vvvvvvvv", nil
+//}
 
-func (p *TurnstileEventProcessor) Test(t *Turnstile, a string, b string) (string, error) {
-	p.Test3(a, b)
-	states := t.States
-	//states := append(states, "aaavv")
-	states[0] = "vvvvvv"
-	for i := range states {
-		fmt.Println(fmt.Sprint(i) + "===============================\n")
-	}
-	return "vvvvvvvv", nil
-}
-
-func (p *TurnstileEventProcessor) Test3(a string, b string) (string, error) {
-	fmt.Println("===============itest33333333333================" + a + "---" + b)
-	return "vvvvvvvv", nil
-}
+//	func (p *TurnstileEventProcessor) Test3(a string, b string) (string, error) {
+//		fmt.Println("===============itest33333333333================" + a + "---" + b)
+//		return "vvvvvvvv", nil
+//	}
 func main() {
 	ts := &Turnstile{
 		ID:     1,
 		State:  "Locked",
 		States: []string{"Locked"},
 	}
-	processor.fsm = initFSM()
-	err := processor.fsm.Trigger(ts.State, "Push", ts, "a", "b")
+	//processor.fsm = initFSM()
+	//err := processor.fsm.Trigger(ts.State, "Push", ts, "a", "b")
 	fmt.Printf(">>>%+v", ts)
-	if err != nil {
-		fmt.Errorf("trigger err: %v", err)
-	}
+	//if err != nil {
+	//	fmt.Errorf("trigger err: %v", err)
+	//}
 	fmt.Println("vvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvv")
 	var strss = []string{
 		"qwr",
@@ -71,25 +71,25 @@ func NextTrigger(currentState int32, event string, args ...interface{}) {
 	fmt.Println(nextTriggerArgs)
 }
 
-func initFSM() *StateMachine {
-	delegate := &DefaultDelegate{P: processor}
-	transitions := []Transition{
-		Transition{From: "Locked", Event: "Push", To: "Open", Action: "Test"},
-	}
-	return NewStateMachine(delegate, transitions...)
-}
+//func initFSM() *StateMachine {
+//	delegate := &DefaultDelegate{P: processor}
+//	transitions := []Transition{
+//		Transition{From: "Locked", Event: "Push", To: "Open", Action: "Test"},
+//	}
+//	return NewStateMachine(delegate, transitions...)
+//}
+//
+//type TurnstileEventProcessor struct {
+//	fsm *StateMachine
+//}
 
-type TurnstileEventProcessor struct {
-	fsm *StateMachine
-}
-
-func (p *TurnstileEventProcessor) Action(action string, fromState string, toState string, args []interface{}) error {
-	if action == "Test" {
-		fmt.Printf("%v.........invoke.............%+v\n", action)
-		InvokeObjectMethod(p, action, args...)
-	}
-	return nil
-}
+//	func (p *TurnstileEventProcessor) Action(action string, fromState string, toState string, args []interface{}) error {
+//		if action == "Test" {
+//			fmt.Printf("%v.........invoke.............%+v\n", action)
+//			InvokeObjectMethod(p, action, args...)
+//		}
+//		return nil
+//	}
 func InvokeObjectMethod(object interface{}, methodName string, args ...interface{}) {
 	inputs := make([]reflect.Value, len(args))
 	for i, _ := range args {
@@ -98,14 +98,14 @@ func InvokeObjectMethod(object interface{}, methodName string, args ...interface
 	reflect.ValueOf(object).MethodByName(methodName).Call(inputs)
 }
 
-func (p *TurnstileEventProcessor) OnActionFailure(action string, fromState string, toState string, args []interface{}, err error) {
-	fmt.Printf("%v.........invoke.............%+v\n", "OnActionFailure", action)
-}
-
-func (p *TurnstileEventProcessor) OnExit(fromState string, args []interface{}) {
-	fmt.Printf("%v.........invoke.............%+v\n", "OnExit", fromState)
-}
-
-func (p *TurnstileEventProcessor) OnEnter(toState string, args []interface{}) {
-	fmt.Printf("%v.........invoke.............%+v\n", "OnEnter", toState)
-}
+//func (p *TurnstileEventProcessor) OnActionFailure(action string, fromState string, toState string, args []interface{}, err error) {
+//	fmt.Printf("%v.........invoke.............%+v\n", "OnActionFailure", action)
+//}
+//
+//func (p *TurnstileEventProcessor) OnExit(fromState string, args []interface{}) {
+//	fmt.Printf("%v.........invoke.............%+v\n", "OnExit", fromState)
+//}
+//
+//func (p *TurnstileEventProcessor) OnEnter(toState string, args []interface{}) {
+//	fmt.Printf("%v.........invoke.............%+v\n", "OnEnter", toState)
+//}
