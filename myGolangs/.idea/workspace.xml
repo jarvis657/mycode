@@ -5,16 +5,650 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ca216fa3-a02d-4234-9724-157d939842b4" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/baseinterface/inters.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/basic/flags.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/basic/pointer.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/go.mod" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/libs/files-converts/convert.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dbnavigator.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/main.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../javabase/src/main/java/origin/concurrency/StampedLockDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../javabase/src/main/java/origin/jdk8/funcs/Interfaces.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/basic/testDef.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/libs/google-auth/auth.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/libs/sha256withRSA/tls.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/libs/sha256withRSA/tls_client.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javabase/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../javabase/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javabase/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../javabase/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javabase/.idea/libraries/Maven__aopalliance_aopalliance_1_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javabase/.idea/libraries/Maven__com_alibaba_transmittable_thread_local_2_12_6.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javabase/.idea/libraries/Maven__com_baomidou_mybatis_plus_3_5_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javabase/.idea/libraries/Maven__com_baomidou_mybatis_plus_annotation_3_5_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javabase/.idea/libraries/Maven__com_baomidou_mybatis_plus_boot_starter_3_5_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javabase/.idea/libraries/Maven__com_baomidou_mybatis_plus_core_3_5_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javabase/.idea/libraries/Maven__com_baomidou_mybatis_plus_extension_3_5_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javabase/.idea/libraries/Maven__com_beust_jcommander_1_27.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javabase/.idea/libraries/Maven__com_clearspring_analytics_stream_2_9_8.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javabase/.idea/libraries/Maven__com_eatthepath_fast_uuid_0_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javabase/.idea/libraries/Maven__com_esotericsoftware_kryo_shaded_3_0_3.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javabase/.idea/libraries/Maven__com_esotericsoftware_minlog_1_3_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javabase/.idea/libraries/Maven__com_fasterxml_jackson_dataformat_jackson_dataformat_csv_2_7_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javabase/.idea/libraries/Maven__com_github_jai_imageio_jai_imageio_core_1_3_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javabase/.idea/libraries/Maven__com_github_jsqlparser_jsqlparser_1_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javabase/.idea/libraries/Maven__com_github_oshi_oshi_core_3_4_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javabase/.idea/libraries/Maven__com_github_oshi_oshi_json_3_4_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javabase/.idea/libraries/Maven__com_github_pagehelper_pagehelper_5_1_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javabase/.idea/libraries/Maven__com_github_scopt_scopt_2_13_3_7_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javabase/.idea/libraries/Maven__com_github_zero9102_xxl_job_spring_boot_starter_2_3_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javabase/.idea/libraries/Maven__com_google_code_findbugs_jsr305_3_0_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javabase/.idea/libraries/Maven__com_google_errorprone_error_prone_annotations_2_2_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javabase/.idea/libraries/Maven__com_google_flatbuffers_flatbuffers_java_1_10_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javabase/.idea/libraries/Maven__com_google_guava_failureaccess_1_0_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javabase/.idea/libraries/Maven__com_google_guava_guava_27_0_1_jre.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javabase/.idea/libraries/Maven__com_google_guava_listenablefuture_9999_0_empty_to_avoid_conflict_with_guava.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javabase/.idea/libraries/Maven__com_google_inject_guice_4_2_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javabase/.idea/libraries/Maven__com_google_j2objc_j2objc_annotations_1_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javabase/.idea/libraries/Maven__com_google_protobuf_protobuf_java_3_1_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javabase/.idea/libraries/Maven__com_googlecode_aviator_aviator_5_3_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javabase/.idea/libraries/Maven__com_googlecode_juniversalchardet_juniversalchardet_1_0_3.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javabase/.idea/libraries/Maven__com_graphql_java_graphql_java_8_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javabase/.idea/libraries/Maven__com_graphql_java_java_dataloader_2_0_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javabase/.idea/libraries/Maven__com_jakewharton_byteunits_byteunits_0_9_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javabase/.idea/libraries/Maven__com_lmax_disruptor_3_4_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javabase/.idea/libraries/Maven__com_netflix_archaius_archaius_core_0_7_6.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javabase/.idea/libraries/Maven__com_netflix_hystrix_hystrix_core_1_5_18.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javabase/.idea/libraries/Maven__com_netflix_netflix_commons_netflix_commons_util_0_3_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javabase/.idea/libraries/Maven__com_netflix_netflix_commons_netflix_statistics_0_1_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javabase/.idea/libraries/Maven__com_netflix_ribbon_ribbon_2_3_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javabase/.idea/libraries/Maven__com_netflix_ribbon_ribbon_core_2_3_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javabase/.idea/libraries/Maven__com_netflix_ribbon_ribbon_httpclient_2_3_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javabase/.idea/libraries/Maven__com_netflix_ribbon_ribbon_loadbalancer_2_3_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javabase/.idea/libraries/Maven__com_netflix_ribbon_ribbon_transport_2_3_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javabase/.idea/libraries/Maven__com_netflix_servo_servo_core_0_12_21.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javabase/.idea/libraries/Maven__com_offbytwo_jenkins_jenkins_client_0_3_7.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javabase/.idea/libraries/Maven__com_softwaremill_quicklens_quicklens_2_13_1_6_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javabase/.idea/libraries/Maven__com_squareup_okhttp3_okhttp_3_14_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javabase/.idea/libraries/Maven__com_squareup_okio_okio_1_17_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javabase/.idea/libraries/Maven__com_sun_jersey_contribs_jersey_apache_client4_1_19_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javabase/.idea/libraries/Maven__com_sun_jersey_jersey_client_1_19_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javabase/.idea/libraries/Maven__com_sun_jersey_jersey_core_1_19_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javabase/.idea/libraries/Maven__com_tdunning_t_digest_3_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javabase/.idea/libraries/Maven__com_thoughtworks_qdox_qdox_1_12_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javabase/.idea/libraries/Maven__com_twelvemonkeys_common_common_image_3_1_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javabase/.idea/libraries/Maven__com_twelvemonkeys_common_common_io_3_1_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javabase/.idea/libraries/Maven__com_twelvemonkeys_common_common_lang_3_1_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javabase/.idea/libraries/Maven__com_twelvemonkeys_imageio_imageio_bmp_3_1_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javabase/.idea/libraries/Maven__com_twelvemonkeys_imageio_imageio_core_3_1_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javabase/.idea/libraries/Maven__com_twelvemonkeys_imageio_imageio_jpeg_3_1_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javabase/.idea/libraries/Maven__com_twelvemonkeys_imageio_imageio_metadata_3_1_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javabase/.idea/libraries/Maven__com_twelvemonkeys_imageio_imageio_psd_3_1_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javabase/.idea/libraries/Maven__com_twelvemonkeys_imageio_imageio_tiff_3_1_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javabase/.idea/libraries/Maven__com_typesafe_akka_akka_actor_2_13_2_6_11.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javabase/.idea/libraries/Maven__com_typesafe_akka_akka_slf4j_2_13_2_6_11.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javabase/.idea/libraries/Maven__com_typesafe_config_1_4_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javabase/.idea/libraries/Maven__com_typesafe_scala_logging_scala_logging_2_13_3_9_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javabase/.idea/libraries/Maven__com_vaadin_external_google_android_json_0_0_20131108_vaadin1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javabase/.idea/libraries/Maven__com_xuxueli_xxl_job_core_2_3_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javabase/.idea/libraries/Maven__commons_beanutils_commons_beanutils_1_9_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javabase/.idea/libraries/Maven__commons_beanutils_commons_beanutils_core_1_8_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javabase/.idea/libraries/Maven__commons_codec_commons_codec_1_10.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javabase/.idea/libraries/Maven__commons_collections_commons_collections_3_2_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javabase/.idea/libraries/Maven__commons_configuration_commons_configuration_1_6.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javabase/.idea/libraries/Maven__commons_digester_commons_digester_2_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javabase/.idea/libraries/Maven__commons_io_commons_io_2_4.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javabase/.idea/libraries/Maven__commons_lang_commons_lang_2_6.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javabase/.idea/libraries/Maven__commons_logging_commons_logging_1_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javabase/.idea/libraries/Maven__commons_net_commons_net_3_3.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javabase/.idea/libraries/Maven__dom4j_dom4j_1_6_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javabase/.idea/libraries/Maven__io_burt_jmespath_core_0_5_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javabase/.idea/libraries/Maven__io_burt_jmespath_jackson_0_5_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javabase/.idea/libraries/Maven__io_gatling_gatling_app_3_5_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javabase/.idea/libraries/Maven__io_gatling_gatling_charts_3_5_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javabase/.idea/libraries/Maven__io_gatling_gatling_commons_3_5_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javabase/.idea/libraries/Maven__io_gatling_gatling_commons_shared_3_5_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javabase/.idea/libraries/Maven__io_gatling_gatling_commons_shared_unstable_3_5_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javabase/.idea/libraries/Maven__io_gatling_gatling_core_3_5_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javabase/.idea/libraries/Maven__io_gatling_gatling_graphite_3_5_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javabase/.idea/libraries/Maven__io_gatling_gatling_http_3_5_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javabase/.idea/libraries/Maven__io_gatling_gatling_http_client_3_5_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javabase/.idea/libraries/Maven__io_gatling_gatling_jdbc_3_5_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javabase/.idea/libraries/Maven__io_gatling_gatling_jms_3_5_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javabase/.idea/libraries/Maven__io_gatling_gatling_jsonpath_3_5_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javabase/.idea/libraries/Maven__io_gatling_gatling_netty_util_3_5_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javabase/.idea/libraries/Maven__io_gatling_gatling_recorder_3_5_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javabase/.idea/libraries/Maven__io_gatling_gatling_redis_3_5_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javabase/.idea/libraries/Maven__io_gatling_highcharts_gatling_charts_highcharts_3_5_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javabase/.idea/libraries/Maven__io_pebbletemplates_pebble_3_1_4.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javabase/.idea/libraries/Maven__io_projectreactor_addons_reactor_test_3_1_0_M1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javabase/.idea/libraries/Maven__io_protostuff_protostuff_api_1_5_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javabase/.idea/libraries/Maven__io_protostuff_protostuff_collectionschema_1_5_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javabase/.idea/libraries/Maven__io_protostuff_protostuff_core_1_5_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javabase/.idea/libraries/Maven__io_protostuff_protostuff_runtime_1_5_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javabase/.idea/libraries/Maven__io_reactivex_rxjava_1_3_8.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javabase/.idea/libraries/Maven__io_reactivex_rxnetty_0_4_9.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javabase/.idea/libraries/Maven__io_reactivex_rxnetty_contexts_0_4_9.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javabase/.idea/libraries/Maven__io_reactivex_rxnetty_servo_0_4_9.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javabase/.idea/libraries/Maven__io_rsocket_rsocket_core_0_11_13.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javabase/.idea/libraries/Maven__io_rsocket_rsocket_transport_netty_0_11_13.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javabase/.idea/libraries/Maven__io_suzaku_boopickle_2_13_1_3_3.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javabase/.idea/libraries/Maven__io_zipkin_aws_brave_propagation_aws_0_21_3.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javabase/.idea/libraries/Maven__io_zipkin_brave_brave_5_13_7.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javabase/.idea/libraries/Maven__io_zipkin_brave_brave_context_slf4j_5_13_7.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javabase/.idea/libraries/Maven__io_zipkin_brave_brave_instrumentation_http_5_13_7.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javabase/.idea/libraries/Maven__io_zipkin_brave_brave_instrumentation_httpasyncclient_5_13_7.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javabase/.idea/libraries/Maven__io_zipkin_brave_brave_instrumentation_httpclient_5_13_7.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javabase/.idea/libraries/Maven__io_zipkin_brave_brave_instrumentation_jms_5_13_7.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javabase/.idea/libraries/Maven__io_zipkin_brave_brave_instrumentation_kafka_clients_5_13_7.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javabase/.idea/libraries/Maven__io_zipkin_brave_brave_instrumentation_kafka_streams_5_13_7.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javabase/.idea/libraries/Maven__io_zipkin_brave_brave_instrumentation_messaging_5_13_7.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javabase/.idea/libraries/Maven__io_zipkin_brave_brave_instrumentation_mongodb_5_13_7.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javabase/.idea/libraries/Maven__io_zipkin_brave_brave_instrumentation_rpc_5_13_7.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javabase/.idea/libraries/Maven__io_zipkin_brave_brave_instrumentation_spring_rabbit_5_13_7.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javabase/.idea/libraries/Maven__io_zipkin_reporter2_zipkin_reporter_2_16_3.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javabase/.idea/libraries/Maven__io_zipkin_reporter2_zipkin_reporter_brave_2_16_3.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javabase/.idea/libraries/Maven__io_zipkin_reporter2_zipkin_reporter_metrics_micrometer_2_16_3.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javabase/.idea/libraries/Maven__io_zipkin_zipkin2_zipkin_2_23_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javabase/.idea/libraries/Maven__it_unimi_dsi_fastutil_6_5_7.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javabase/.idea/libraries/Maven__javax_inject_javax_inject_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javabase/.idea/libraries/Maven__javax_jms_javax_jms_api_2_0_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javabase/.idea/libraries/Maven__javax_ws_rs_jsr311_api_1_1_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javabase/.idea/libraries/Maven__jaxen_jaxen_1_2_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javabase/.idea/libraries/Maven__jline_jline_2_11.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javabase/.idea/libraries/Maven__joda_time_joda_time_2_9_9.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javabase/.idea/libraries/Maven__net_debasishg_redisclient_2_13_3_30.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javabase/.idea/libraries/Maven__net_ericaro_neoitertools_1_0_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javabase/.idea/libraries/Maven__net_sf_ezmorph_ezmorph_1_0_6.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javabase/.idea/libraries/Maven__net_sf_json_lib_json_lib_jdk15_2_4.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javabase/.idea/libraries/Maven__net_sf_opencsv_opencsv_2_3.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javabase/.idea/libraries/Maven__net_sf_saxon_Saxon_HE_10_3.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javabase/.idea/libraries/Maven__org_antlr_antlr4_runtime_4_7_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javabase/.idea/libraries/Maven__org_apache_commons_commons_collections4_4_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javabase/.idea/libraries/Maven__org_apache_commons_commons_compress_1_18.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javabase/.idea/libraries/Maven__org_apache_commons_commons_lang3_3_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javabase/.idea/libraries/Maven__org_apache_commons_commons_math3_3_5.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javabase/.idea/libraries/Maven__org_apache_poi_poi_3_11.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javabase/.idea/libraries/Maven__org_apache_poi_poi_ooxml_3_11.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javabase/.idea/libraries/Maven__org_apache_poi_poi_ooxml_schemas_3_11.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javabase/.idea/libraries/Maven__org_apache_xmlbeans_xmlbeans_2_6_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javabase/.idea/libraries/Maven__org_aspectj_aspectjrt_1_9_6.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javabase/.idea/libraries/Maven__org_aspectj_aspectjweaver_1_9_6.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javabase/.idea/libraries/Maven__org_beanshell_bsh_2_0b4.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javabase/.idea/libraries/Maven__org_bouncycastle_bcpkix_jdk15on_1_47.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javabase/.idea/libraries/Maven__org_bouncycastle_bcprov_jdk15on_1_47.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javabase/.idea/libraries/Maven__org_bytedeco_artoolkitplus_2_3_1_1_5_5.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javabase/.idea/libraries/Maven__org_bytedeco_ffmpeg_4_3_2_1_5_5.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javabase/.idea/libraries/Maven__org_bytedeco_ffmpeg_android_arm64_4_3_2_1_5_5.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javabase/.idea/libraries/Maven__org_bytedeco_ffmpeg_android_arm_4_3_2_1_5_5.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javabase/.idea/libraries/Maven__org_bytedeco_ffmpeg_android_x86_4_3_2_1_5_5.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javabase/.idea/libraries/Maven__org_bytedeco_ffmpeg_android_x86_64_4_3_2_1_5_5.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javabase/.idea/libraries/Maven__org_bytedeco_ffmpeg_linux_arm64_4_3_2_1_5_5.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javabase/.idea/libraries/Maven__org_bytedeco_ffmpeg_linux_armhf_4_3_2_1_5_5.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javabase/.idea/libraries/Maven__org_bytedeco_ffmpeg_linux_ppc64le_4_3_2_1_5_5.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javabase/.idea/libraries/Maven__org_bytedeco_ffmpeg_linux_x86_4_3_2_1_5_5.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javabase/.idea/libraries/Maven__org_bytedeco_ffmpeg_linux_x86_64_4_3_2_1_5_5.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javabase/.idea/libraries/Maven__org_bytedeco_ffmpeg_macosx_x86_64_4_3_2_1_5_5.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javabase/.idea/libraries/Maven__org_bytedeco_ffmpeg_platform_4_3_2_1_5_5.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javabase/.idea/libraries/Maven__org_bytedeco_ffmpeg_windows_x86_4_3_2_1_5_5.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javabase/.idea/libraries/Maven__org_bytedeco_ffmpeg_windows_x86_64_4_3_2_1_5_5.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javabase/.idea/libraries/Maven__org_bytedeco_flandmark_1_07_1_5_5.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javabase/.idea/libraries/Maven__org_bytedeco_flycapture_2_13_3_31_1_5_5.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javabase/.idea/libraries/Maven__org_bytedeco_hdf5_1_12_0_1_5_5.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javabase/.idea/libraries/Maven__org_bytedeco_hdf5_linux_arm64_1_12_0_1_5_5.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javabase/.idea/libraries/Maven__org_bytedeco_hdf5_linux_armhf_1_12_0_1_5_5.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javabase/.idea/libraries/Maven__org_bytedeco_hdf5_linux_ppc64le_1_12_0_1_5_5.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javabase/.idea/libraries/Maven__org_bytedeco_hdf5_linux_x86_1_12_0_1_5_5.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javabase/.idea/libraries/Maven__org_bytedeco_hdf5_linux_x86_64_1_12_0_1_5_5.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javabase/.idea/libraries/Maven__org_bytedeco_hdf5_macosx_x86_64_1_12_0_1_5_5.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javabase/.idea/libraries/Maven__org_bytedeco_hdf5_platform_1_12_0_1_5_5.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javabase/.idea/libraries/Maven__org_bytedeco_hdf5_windows_x86_1_12_0_1_5_5.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javabase/.idea/libraries/Maven__org_bytedeco_hdf5_windows_x86_64_1_12_0_1_5_5.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javabase/.idea/libraries/Maven__org_bytedeco_javacpp_1_5_5.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javabase/.idea/libraries/Maven__org_bytedeco_javacpp_android_arm64_1_5_5.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javabase/.idea/libraries/Maven__org_bytedeco_javacpp_android_arm_1_5_5.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javabase/.idea/libraries/Maven__org_bytedeco_javacpp_android_x86_1_5_5.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javabase/.idea/libraries/Maven__org_bytedeco_javacpp_android_x86_64_1_5_5.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javabase/.idea/libraries/Maven__org_bytedeco_javacpp_ios_arm64_1_5_5.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javabase/.idea/libraries/Maven__org_bytedeco_javacpp_ios_x86_64_1_5_5.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javabase/.idea/libraries/Maven__org_bytedeco_javacpp_linux_arm64_1_5_5.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javabase/.idea/libraries/Maven__org_bytedeco_javacpp_linux_armhf_1_5_5.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javabase/.idea/libraries/Maven__org_bytedeco_javacpp_linux_ppc64le_1_5_5.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javabase/.idea/libraries/Maven__org_bytedeco_javacpp_linux_x86_1_5_5.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javabase/.idea/libraries/Maven__org_bytedeco_javacpp_linux_x86_64_1_5_5.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javabase/.idea/libraries/Maven__org_bytedeco_javacpp_macosx_arm64_1_5_5.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javabase/.idea/libraries/Maven__org_bytedeco_javacpp_macosx_x86_64_1_5_5.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javabase/.idea/libraries/Maven__org_bytedeco_javacpp_platform_1_5_5.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javabase/.idea/libraries/Maven__org_bytedeco_javacpp_windows_x86_1_5_5.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javabase/.idea/libraries/Maven__org_bytedeco_javacpp_windows_x86_64_1_5_5.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javabase/.idea/libraries/Maven__org_bytedeco_javacv_1_5_5.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javabase/.idea/libraries/Maven__org_bytedeco_leptonica_1_80_0_1_5_5.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javabase/.idea/libraries/Maven__org_bytedeco_leptonica_android_arm64_1_80_0_1_5_5.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javabase/.idea/libraries/Maven__org_bytedeco_leptonica_android_arm_1_80_0_1_5_5.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javabase/.idea/libraries/Maven__org_bytedeco_leptonica_android_x86_1_80_0_1_5_5.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javabase/.idea/libraries/Maven__org_bytedeco_leptonica_android_x86_64_1_80_0_1_5_5.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javabase/.idea/libraries/Maven__org_bytedeco_leptonica_linux_arm64_1_80_0_1_5_5.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javabase/.idea/libraries/Maven__org_bytedeco_leptonica_linux_armhf_1_80_0_1_5_5.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javabase/.idea/libraries/Maven__org_bytedeco_leptonica_linux_ppc64le_1_80_0_1_5_5.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javabase/.idea/libraries/Maven__org_bytedeco_leptonica_linux_x86_1_80_0_1_5_5.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javabase/.idea/libraries/Maven__org_bytedeco_leptonica_linux_x86_64_1_80_0_1_5_5.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javabase/.idea/libraries/Maven__org_bytedeco_leptonica_macosx_x86_64_1_80_0_1_5_5.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javabase/.idea/libraries/Maven__org_bytedeco_leptonica_platform_1_80_0_1_5_5.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javabase/.idea/libraries/Maven__org_bytedeco_leptonica_windows_x86_1_80_0_1_5_5.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javabase/.idea/libraries/Maven__org_bytedeco_leptonica_windows_x86_64_1_80_0_1_5_5.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javabase/.idea/libraries/Maven__org_bytedeco_libdc1394_2_2_6_1_5_5.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javabase/.idea/libraries/Maven__org_bytedeco_libfreenect2_0_2_0_1_5_5.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javabase/.idea/libraries/Maven__org_bytedeco_libfreenect_0_5_7_1_5_5.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javabase/.idea/libraries/Maven__org_bytedeco_librealsense2_2_40_0_1_5_5.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javabase/.idea/libraries/Maven__org_bytedeco_librealsense_1_12_4_1_5_5.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javabase/.idea/libraries/Maven__org_bytedeco_mkl_2021_1_1_5_5.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javabase/.idea/libraries/Maven__org_bytedeco_mkl_linux_x86_2021_1_1_5_5.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javabase/.idea/libraries/Maven__org_bytedeco_mkl_linux_x86_64_2021_1_1_5_5.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javabase/.idea/libraries/Maven__org_bytedeco_mkl_macosx_x86_64_2021_1_1_5_5.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javabase/.idea/libraries/Maven__org_bytedeco_mkl_platform_2021_1_1_5_5.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javabase/.idea/libraries/Maven__org_bytedeco_mkl_windows_x86_2021_1_1_5_5.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javabase/.idea/libraries/Maven__org_bytedeco_mkl_windows_x86_64_2021_1_1_5_5.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javabase/.idea/libraries/Maven__org_bytedeco_openblas_0_3_13_1_5_5.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javabase/.idea/libraries/Maven__org_bytedeco_openblas_android_arm64_0_3_13_1_5_5.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javabase/.idea/libraries/Maven__org_bytedeco_openblas_android_arm_0_3_13_1_5_5.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javabase/.idea/libraries/Maven__org_bytedeco_openblas_android_x86_0_3_13_1_5_5.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javabase/.idea/libraries/Maven__org_bytedeco_openblas_android_x86_64_0_3_13_1_5_5.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javabase/.idea/libraries/Maven__org_bytedeco_openblas_ios_arm64_0_3_13_1_5_5.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javabase/.idea/libraries/Maven__org_bytedeco_openblas_ios_x86_64_0_3_13_1_5_5.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javabase/.idea/libraries/Maven__org_bytedeco_openblas_linux_arm64_0_3_13_1_5_5.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javabase/.idea/libraries/Maven__org_bytedeco_openblas_linux_armhf_0_3_13_1_5_5.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javabase/.idea/libraries/Maven__org_bytedeco_openblas_linux_ppc64le_0_3_13_1_5_5.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javabase/.idea/libraries/Maven__org_bytedeco_openblas_linux_x86_0_3_13_1_5_5.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javabase/.idea/libraries/Maven__org_bytedeco_openblas_linux_x86_64_0_3_13_1_5_5.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javabase/.idea/libraries/Maven__org_bytedeco_openblas_macosx_x86_64_0_3_13_1_5_5.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javabase/.idea/libraries/Maven__org_bytedeco_openblas_platform_0_3_13_1_5_5.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javabase/.idea/libraries/Maven__org_bytedeco_openblas_windows_x86_0_3_13_1_5_5.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javabase/.idea/libraries/Maven__org_bytedeco_openblas_windows_x86_64_0_3_13_1_5_5.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javabase/.idea/libraries/Maven__org_bytedeco_opencv_4_5_1_1_5_5.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javabase/.idea/libraries/Maven__org_bytedeco_opencv_android_arm64_4_5_1_1_5_5.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javabase/.idea/libraries/Maven__org_bytedeco_opencv_android_arm_4_5_1_1_5_5.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javabase/.idea/libraries/Maven__org_bytedeco_opencv_android_x86_4_5_1_1_5_5.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javabase/.idea/libraries/Maven__org_bytedeco_opencv_android_x86_64_4_5_1_1_5_5.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javabase/.idea/libraries/Maven__org_bytedeco_opencv_ios_arm64_4_5_1_1_5_5.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javabase/.idea/libraries/Maven__org_bytedeco_opencv_ios_x86_64_4_5_1_1_5_5.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javabase/.idea/libraries/Maven__org_bytedeco_opencv_linux_arm64_4_5_1_1_5_5.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javabase/.idea/libraries/Maven__org_bytedeco_opencv_linux_armhf_4_5_1_1_5_5.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javabase/.idea/libraries/Maven__org_bytedeco_opencv_linux_ppc64le_4_5_1_1_5_5.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javabase/.idea/libraries/Maven__org_bytedeco_opencv_linux_x86_4_5_1_1_5_5.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javabase/.idea/libraries/Maven__org_bytedeco_opencv_linux_x86_64_4_5_1_1_5_5.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javabase/.idea/libraries/Maven__org_bytedeco_opencv_macosx_x86_64_4_5_1_1_5_5.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javabase/.idea/libraries/Maven__org_bytedeco_opencv_platform_4_5_1_1_5_5.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javabase/.idea/libraries/Maven__org_bytedeco_opencv_windows_x86_4_5_1_1_5_5.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javabase/.idea/libraries/Maven__org_bytedeco_opencv_windows_x86_64_4_5_1_1_5_5.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javabase/.idea/libraries/Maven__org_bytedeco_tesseract_4_1_1_1_5_5.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javabase/.idea/libraries/Maven__org_bytedeco_videoinput_0_200_1_5_5.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javabase/.idea/libraries/Maven__org_checkerframework_checker_qual_2_5_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javabase/.idea/libraries/Maven__org_codehaus_groovy_groovy_3_0_11.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javabase/.idea/libraries/Maven__org_codehaus_mojo_animal_sniffer_annotations_1_17.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javabase/.idea/libraries/Maven__org_datavec_datavec_api_1_0_0_M1_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javabase/.idea/libraries/Maven__org_datavec_datavec_data_image_1_0_0_M1_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javabase/.idea/libraries/Maven__org_deeplearning4j_deeplearning4j_common_1_0_0_M1_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javabase/.idea/libraries/Maven__org_deeplearning4j_deeplearning4j_core_1_0_0_M1_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javabase/.idea/libraries/Maven__org_deeplearning4j_deeplearning4j_datasets_1_0_0_M1_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javabase/.idea/libraries/Maven__org_deeplearning4j_deeplearning4j_datavec_iterators_1_0_0_M1_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javabase/.idea/libraries/Maven__org_deeplearning4j_deeplearning4j_modelimport_1_0_0_M1_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javabase/.idea/libraries/Maven__org_deeplearning4j_deeplearning4j_nn_1_0_0_M1_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javabase/.idea/libraries/Maven__org_deeplearning4j_deeplearning4j_ui_components_1_0_0_M1_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javabase/.idea/libraries/Maven__org_deeplearning4j_deeplearning4j_utility_iterators_1_0_0_M1_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javabase/.idea/libraries/Maven__org_glassfish_javax_json_1_0_4.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javabase/.idea/libraries/Maven__org_hdrhistogram_HdrHistogram_2_1_12.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javabase/.idea/libraries/Maven__org_jboss_javassist_3_7_1_GA.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javabase/.idea/libraries/Maven__org_jetbrains_annotations_13_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javabase/.idea/libraries/Maven__org_jodd_jodd_lagarto_6_0_3.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javabase/.idea/libraries/Maven__org_jodd_jodd_util_6_0_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javabase/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_5_8_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javabase/.idea/libraries/Maven__org_lucee_oswego_concurrent_1_3_4.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javabase/.idea/libraries/Maven__org_mybatis_mybatis_3_5_10.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javabase/.idea/libraries/Maven__org_mybatis_mybatis_spring_2_0_7.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javabase/.idea/libraries/Maven__org_nd4j_guava_1_0_0_M1_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javabase/.idea/libraries/Maven__org_nd4j_jackson_1_0_0_M1_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javabase/.idea/libraries/Maven__org_nd4j_nd4j_api_1_0_0_M1_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javabase/.idea/libraries/Maven__org_nd4j_nd4j_common_1_0_0_M1_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javabase/.idea/libraries/Maven__org_nd4j_nd4j_native_1_0_0_M1_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javabase/.idea/libraries/Maven__org_nd4j_nd4j_native_android_arm64_1_0_0_M1_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javabase/.idea/libraries/Maven__org_nd4j_nd4j_native_android_arm_1_0_0_M1_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javabase/.idea/libraries/Maven__org_nd4j_nd4j_native_android_x86_1_0_0_M1_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javabase/.idea/libraries/Maven__org_nd4j_nd4j_native_android_x86_64_1_0_0_M1_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javabase/.idea/libraries/Maven__org_nd4j_nd4j_native_api_1_0_0_M1_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javabase/.idea/libraries/Maven__org_nd4j_nd4j_native_linux_armhf_1_0_0_M1_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javabase/.idea/libraries/Maven__org_nd4j_nd4j_native_linux_x86_64_1_0_0_M1_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javabase/.idea/libraries/Maven__org_nd4j_nd4j_native_macosx_x86_64_1_0_0_M1_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javabase/.idea/libraries/Maven__org_nd4j_nd4j_native_platform_1_0_0_M1_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javabase/.idea/libraries/Maven__org_nd4j_nd4j_native_preset_1_0_0_M1_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javabase/.idea/libraries/Maven__org_nd4j_nd4j_native_preset_macosx_x86_64_1_0_0_M1_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javabase/.idea/libraries/Maven__org_nd4j_nd4j_native_windows_x86_64_1_0_0_M1_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javabase/.idea/libraries/Maven__org_nd4j_protobuf_1_0_0_M1_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javabase/.idea/libraries/Maven__org_objenesis_objenesis_2_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javabase/.idea/libraries/Maven__org_projectlombok_lombok_1_18_24.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javabase/.idea/libraries/Maven__org_scala_lang_modules_scala_java8_compat_2_13_0_9_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javabase/.idea/libraries/Maven__org_scala_lang_modules_scala_parser_combinators_2_13_1_1_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javabase/.idea/libraries/Maven__org_scala_lang_modules_scala_swing_2_13_3_0_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javabase/.idea/libraries/Maven__org_scala_lang_scala_library_2_13_3.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javabase/.idea/libraries/Maven__org_scala_lang_scala_reflect_2_13_3.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javabase/.idea/libraries/Maven__org_simpleflatmapper_lightning_csv_8_2_3.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javabase/.idea/libraries/Maven__org_simpleflatmapper_sfm_util_8_2_3.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javabase/.idea/libraries/Maven__org_skyscreamer_jsonassert_1_5_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javabase/.idea/libraries/Maven__org_slf4j_slf4j_api_1_7_36.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javabase/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_rsocket_2_2_0_M4.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javabase/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_commons_2_1_2_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javabase/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_context_2_1_2_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javabase/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_function_context_2_0_2_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javabase/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_function_core_2_0_2_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javabase/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_netflix_archaius_2_1_2_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javabase/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_netflix_ribbon_2_1_2_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javabase/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_sleuth_api_3_1_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javabase/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_sleuth_autoconfigure_3_1_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javabase/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_sleuth_brave_3_1_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javabase/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_sleuth_instrumentation_3_1_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javabase/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_starter_2_1_2_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javabase/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_starter_netflix_archaius_2_1_2_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javabase/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_starter_netflix_ribbon_2_2_10_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javabase/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_starter_sleuth_3_1_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javabase/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_stream_2_1_3_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javabase/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_stream_reactive_2_1_3_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javabase/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_stream_test_support_2_1_3_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javabase/.idea/libraries/Maven__org_springframework_integration_spring_integration_tuple_1_0_0_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javabase/.idea/libraries/Maven__org_springframework_security_spring_security_rsa_1_0_7_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javabase/.idea/libraries/Maven__org_springframework_spring_tuple_1_0_0_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javabase/.idea/libraries/Maven__org_testng_testng_6_8_21.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javabase/.idea/libraries/Maven__org_threeten_threetenbp_1_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javabase/.idea/libraries/Maven__org_typelevel_spire_macros_2_13_0_17_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javabase/.idea/libraries/Maven__org_unbescape_unbescape_1_1_6_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javabase/.idea/libraries/Maven__redis_clients_jedis_2_8_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javabase/.idea/libraries/Maven__stax_stax_api_1_0_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javabase/.idea/libraries/Maven__xml_apis_xml_apis_1_4_01.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javabase/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../javabase/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javabase/java.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../javabase/java.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javabase/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../javabase/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javabase/src/main/java/guice/tutorial/Sample.java" beforeDir="false" afterPath="$PROJECT_DIR$/../javabase/src/main/java/guice/tutorial/Sample.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javabase/src/main/java/origin/concurrency/FalseSharing.java" beforeDir="false" afterPath="$PROJECT_DIR$/../javabase/src/main/java/origin/concurrency/FalseSharing.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javabase/src/main/java/origin/concurrency/bugs/FixedRateSampler.java" beforeDir="false" afterPath="$PROJECT_DIR$/../javabase/src/main/java/origin/concurrency/bugs/FixedRateSampler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javabase/src/main/java/origin/jdk8/lambda/Completure.java" beforeDir="false" afterPath="$PROJECT_DIR$/../javabase/src/main/java/origin/jdk8/lambda/Completure.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javabase/src/main/java/origin/perf/DirectMemorySize.java" beforeDir="false" afterPath="$PROJECT_DIR$/../javabase/src/main/java/origin/perf/DirectMemorySize.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javabase/src/main/java/origin/spring/controller/BasicErrorResolver.java" beforeDir="false" afterPath="$PROJECT_DIR$/../javabase/src/main/java/origin/spring/controller/BasicErrorResolver.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javabase/src/main/java/origin/utils/Jacksons.java" beforeDir="false" afterPath="$PROJECT_DIR$/../javabase/src/main/java/origin/utils/Jacksons.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javabase/target/classes/OkHttpClientTest$HttpResult.class" beforeDir="false" afterPath="$PROJECT_DIR$/../javabase/target/classes/OkHttpClientTest$HttpResult.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javabase/target/classes/OkHttpClientTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/../javabase/target/classes/OkHttpClientTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javabase/target/classes/argrith/BitOps.class" beforeDir="false" afterPath="$PROJECT_DIR$/../javabase/target/classes/argrith/BitOps.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javabase/target/classes/argrith/ListReverse$Node.class" beforeDir="false" afterPath="$PROJECT_DIR$/../javabase/target/classes/argrith/ListReverse$Node.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javabase/target/classes/argrith/ListReverse.class" beforeDir="false" afterPath="$PROJECT_DIR$/../javabase/target/classes/argrith/ListReverse.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javabase/target/classes/dynamic/javassist/DynamicProperties.class" beforeDir="false" afterPath="$PROJECT_DIR$/../javabase/target/classes/dynamic/javassist/DynamicProperties.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javabase/target/classes/dynamic/javassist/MyClass.class" beforeDir="false" afterPath="$PROJECT_DIR$/../javabase/target/classes/dynamic/javassist/MyClass.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javabase/target/classes/dynamic/javassist/existcode/Auto.class" beforeDir="false" afterPath="$PROJECT_DIR$/../javabase/target/classes/dynamic/javassist/existcode/Auto.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javabase/target/classes/dynamic/javassist/existcode/Earth.class" beforeDir="false" afterPath="$PROJECT_DIR$/../javabase/target/classes/dynamic/javassist/existcode/Earth.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javabase/target/classes/dynamic/javassist/existcode/JavassistTests.class" beforeDir="false" afterPath="$PROJECT_DIR$/../javabase/target/classes/dynamic/javassist/existcode/JavassistTests.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javabase/target/classes/dynamic/javassist/existcode/People.class" beforeDir="false" afterPath="$PROJECT_DIR$/../javabase/target/classes/dynamic/javassist/existcode/People.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javabase/target/classes/dynamic/javassist/existcode/PersonService.class" beforeDir="false" afterPath="$PROJECT_DIR$/../javabase/target/classes/dynamic/javassist/existcode/PersonService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javabase/target/classes/dynamic/javassist/existcode/Point.class" beforeDir="false" afterPath="$PROJECT_DIR$/../javabase/target/classes/dynamic/javassist/existcode/Point.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javabase/target/classes/dynamic/javassist/existcode/Student.class" beforeDir="false" afterPath="$PROJECT_DIR$/../javabase/target/classes/dynamic/javassist/existcode/Student.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javabase/target/classes/groovy/GroovyBindingConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/../javabase/target/classes/groovy/GroovyBindingConfig.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javabase/target/classes/groovy/GroovyComponent.class" beforeDir="false" afterPath="$PROJECT_DIR$/../javabase/target/classes/groovy/GroovyComponent.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javabase/target/classes/groovy/GroovyScriptController.class" beforeDir="false" afterPath="$PROJECT_DIR$/../javabase/target/classes/groovy/GroovyScriptController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javabase/target/classes/groovy/GroovyUtil.class" beforeDir="false" afterPath="$PROJECT_DIR$/../javabase/target/classes/groovy/GroovyUtil.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javabase/target/classes/groovy/TestGroovyBase.class" beforeDir="false" afterPath="$PROJECT_DIR$/../javabase/target/classes/groovy/TestGroovyBase.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javabase/target/classes/guice/tutorial/ComplexHelloPrinter.class" beforeDir="false" afterPath="$PROJECT_DIR$/../javabase/target/classes/guice/tutorial/ComplexHelloPrinter.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javabase/target/classes/guice/tutorial/HelloPrinter.class" beforeDir="false" afterPath="$PROJECT_DIR$/../javabase/target/classes/guice/tutorial/HelloPrinter.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javabase/target/classes/guice/tutorial/IHelloPrinter.class" beforeDir="false" afterPath="$PROJECT_DIR$/../javabase/target/classes/guice/tutorial/IHelloPrinter.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javabase/target/classes/guice/tutorial/Sample$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/../javabase/target/classes/guice/tutorial/Sample$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javabase/target/classes/guice/tutorial/Sample$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/../javabase/target/classes/guice/tutorial/Sample$2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javabase/target/classes/guice/tutorial/Sample.class" beforeDir="false" afterPath="$PROJECT_DIR$/../javabase/target/classes/guice/tutorial/Sample.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javabase/target/classes/guice/tutorial/SampleModule.class" beforeDir="false" afterPath="$PROJECT_DIR$/../javabase/target/classes/guice/tutorial/SampleModule.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javabase/target/classes/guice/tutorial/Service.class" beforeDir="false" afterPath="$PROJECT_DIR$/../javabase/target/classes/guice/tutorial/Service.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javabase/target/classes/guice/tutorial/ServiceContainer.class" beforeDir="false" afterPath="$PROJECT_DIR$/../javabase/target/classes/guice/tutorial/ServiceContainer.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javabase/target/classes/guice/tutorial/ServiceProvider_One.class" beforeDir="false" afterPath="$PROJECT_DIR$/../javabase/target/classes/guice/tutorial/ServiceProvider_One.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javabase/target/classes/guice/tutorial/SimpleHelloPrinter.class" beforeDir="false" afterPath="$PROJECT_DIR$/../javabase/target/classes/guice/tutorial/SimpleHelloPrinter.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javabase/target/classes/guice/tutorial/ThreadServiceScope$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/../javabase/target/classes/guice/tutorial/ThreadServiceScope$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javabase/target/classes/guice/tutorial/ThreadServiceScope.class" beforeDir="false" afterPath="$PROJECT_DIR$/../javabase/target/classes/guice/tutorial/ThreadServiceScope.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javabase/target/classes/guice/tutorial/WwwServiceProvider.class" beforeDir="false" afterPath="$PROJECT_DIR$/../javabase/target/classes/guice/tutorial/WwwServiceProvider.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javabase/target/classes/netty/HelloServer$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/../javabase/target/classes/netty/HelloServer$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javabase/target/classes/netty/HelloServer.class" beforeDir="false" afterPath="$PROJECT_DIR$/../javabase/target/classes/netty/HelloServer.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javabase/target/classes/netty/InboundHandler1.class" beforeDir="false" afterPath="$PROJECT_DIR$/../javabase/target/classes/netty/InboundHandler1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javabase/target/classes/netty/InboundHandler2.class" beforeDir="false" afterPath="$PROJECT_DIR$/../javabase/target/classes/netty/InboundHandler2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javabase/target/classes/netty/OutboundHandler1.class" beforeDir="false" afterPath="$PROJECT_DIR$/../javabase/target/classes/netty/OutboundHandler1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javabase/target/classes/netty/OutboundHandler2.class" beforeDir="false" afterPath="$PROJECT_DIR$/../javabase/target/classes/netty/OutboundHandler2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javabase/target/classes/org/slf4j/MDCThreadPoolExecutor.class" beforeDir="false" afterPath="$PROJECT_DIR$/../javabase/target/classes/org/slf4j/MDCThreadPoolExecutor.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javabase/target/classes/org/slf4j/TraceLog.class" beforeDir="false" afterPath="$PROJECT_DIR$/../javabase/target/classes/org/slf4j/TraceLog.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javabase/target/classes/org/slf4j/TtlMDCAdapter.class" beforeDir="false" afterPath="$PROJECT_DIR$/../javabase/target/classes/org/slf4j/TtlMDCAdapter.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javabase/target/classes/origin/aspect/Point.class" beforeDir="false" afterPath="$PROJECT_DIR$/../javabase/target/classes/origin/aspect/Point.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javabase/target/classes/origin/aspect/TestPointAspect.class" beforeDir="false" afterPath="$PROJECT_DIR$/../javabase/target/classes/origin/aspect/TestPointAspect.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javabase/target/classes/origin/base/BitwiseOperator/FindOnceInThreeTimesArray.class" beforeDir="false" afterPath="$PROJECT_DIR$/../javabase/target/classes/origin/base/BitwiseOperator/FindOnceInThreeTimesArray.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javabase/target/classes/origin/base/DirectAssignMemory.class" beforeDir="false" afterPath="$PROJECT_DIR$/../javabase/target/classes/origin/base/DirectAssignMemory.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javabase/target/classes/origin/base/ExceptionDeep.class" beforeDir="false" afterPath="$PROJECT_DIR$/../javabase/target/classes/origin/base/ExceptionDeep.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javabase/target/classes/origin/base/Host.class" beforeDir="false" afterPath="$PROJECT_DIR$/../javabase/target/classes/origin/base/Host.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javabase/target/classes/origin/base/M2N.class" beforeDir="false" afterPath="$PROJECT_DIR$/../javabase/target/classes/origin/base/M2N.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javabase/target/classes/origin/base/NumberTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/../javabase/target/classes/origin/base/NumberTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javabase/target/classes/origin/base/RegexTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/../javabase/target/classes/origin/base/RegexTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javabase/target/classes/origin/base/StringTokenizerTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/../javabase/target/classes/origin/base/StringTokenizerTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javabase/target/classes/origin/base/Strings.class" beforeDir="false" afterPath="$PROJECT_DIR$/../javabase/target/classes/origin/base/Strings.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javabase/target/classes/origin/base/Task.class" beforeDir="false" afterPath="$PROJECT_DIR$/../javabase/target/classes/origin/base/Task.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javabase/target/classes/origin/base/TypeCheck$MyClass.class" beforeDir="false" afterPath="$PROJECT_DIR$/../javabase/target/classes/origin/base/TypeCheck$MyClass.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javabase/target/classes/origin/base/TypeCheck$MyExtend.class" beforeDir="false" afterPath="$PROJECT_DIR$/../javabase/target/classes/origin/base/TypeCheck$MyExtend.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javabase/target/classes/origin/base/TypeCheck$MyGenericClass.class" beforeDir="false" afterPath="$PROJECT_DIR$/../javabase/target/classes/origin/base/TypeCheck$MyGenericClass.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javabase/target/classes/origin/base/TypeCheck$MyStringSubClass.class" beforeDir="false" afterPath="$PROJECT_DIR$/../javabase/target/classes/origin/base/TypeCheck$MyStringSubClass.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javabase/target/classes/origin/base/TypeCheck.class" beforeDir="false" afterPath="$PROJECT_DIR$/../javabase/target/classes/origin/base/TypeCheck.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javabase/target/classes/origin/base/VolatileTest$ObjectA.class" beforeDir="false" afterPath="$PROJECT_DIR$/../javabase/target/classes/origin/base/VolatileTest$ObjectA.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javabase/target/classes/origin/base/VolatileTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/../javabase/target/classes/origin/base/VolatileTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javabase/target/classes/origin/base/VolatileTestAgain$ObjectA.class" beforeDir="false" afterPath="$PROJECT_DIR$/../javabase/target/classes/origin/base/VolatileTestAgain$ObjectA.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javabase/target/classes/origin/base/VolatileTestAgain$ObjectASub.class" beforeDir="false" afterPath="$PROJECT_DIR$/../javabase/target/classes/origin/base/VolatileTestAgain$ObjectASub.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javabase/target/classes/origin/base/VolatileTestAgain.class" beforeDir="false" afterPath="$PROJECT_DIR$/../javabase/target/classes/origin/base/VolatileTestAgain.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javabase/target/classes/origin/base/beans/BeanIntrospector$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/../javabase/target/classes/origin/base/beans/BeanIntrospector$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javabase/target/classes/origin/base/beans/BeanIntrospector$GetterBean.class" beforeDir="false" afterPath="$PROJECT_DIR$/../javabase/target/classes/origin/base/beans/BeanIntrospector$GetterBean.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javabase/target/classes/origin/base/beans/BeanIntrospector$TestBean.class" beforeDir="false" afterPath="$PROJECT_DIR$/../javabase/target/classes/origin/base/beans/BeanIntrospector$TestBean.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javabase/target/classes/origin/base/beans/BeanIntrospector.class" beforeDir="false" afterPath="$PROJECT_DIR$/../javabase/target/classes/origin/base/beans/BeanIntrospector.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javabase/target/classes/origin/base/beans/User.class" beforeDir="false" afterPath="$PROJECT_DIR$/../javabase/target/classes/origin/base/beans/User.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javabase/target/classes/origin/base/files/FileListener.class" beforeDir="false" afterPath="$PROJECT_DIR$/../javabase/target/classes/origin/base/files/FileListener.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javabase/target/classes/origin/base/files/FileMonitor.class" beforeDir="false" afterPath="$PROJECT_DIR$/../javabase/target/classes/origin/base/files/FileMonitor.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javabase/target/classes/origin/base/files/FileRunner.class" beforeDir="false" afterPath="$PROJECT_DIR$/../javabase/target/classes/origin/base/files/FileRunner.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javabase/target/classes/origin/base/files/WatchFileDemo.class" beforeDir="false" afterPath="$PROJECT_DIR$/../javabase/target/classes/origin/base/files/WatchFileDemo.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javabase/target/classes/origin/base/floatfp/m1.class" beforeDir="false" afterPath="$PROJECT_DIR$/../javabase/target/classes/origin/base/floatfp/m1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javabase/target/classes/origin/base/floatfp/m2.class" beforeDir="false" afterPath="$PROJECT_DIR$/../javabase/target/classes/origin/base/floatfp/m2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javabase/target/classes/origin/bloom/BloomFilters.class" beforeDir="false" afterPath="$PROJECT_DIR$/../javabase/target/classes/origin/bloom/BloomFilters.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javabase/target/classes/origin/concurrency/CasTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/../javabase/target/classes/origin/concurrency/CasTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javabase/target/classes/origin/concurrency/FIFOMutex.class" beforeDir="false" afterPath="$PROJECT_DIR$/../javabase/target/classes/origin/concurrency/FIFOMutex.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javabase/target/classes/origin/concurrency/FalseSharing.class" beforeDir="false" afterPath="$PROJECT_DIR$/../javabase/target/classes/origin/concurrency/FalseSharing.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javabase/target/classes/origin/concurrency/InteruptExample$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/../javabase/target/classes/origin/concurrency/InteruptExample$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javabase/target/classes/origin/concurrency/InteruptExample.class" beforeDir="false" afterPath="$PROJECT_DIR$/../javabase/target/classes/origin/concurrency/InteruptExample.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javabase/target/classes/origin/concurrency/ParkTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/../javabase/target/classes/origin/concurrency/ParkTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javabase/target/classes/origin/concurrency/PhaserExample$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/../javabase/target/classes/origin/concurrency/PhaserExample$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javabase/target/classes/origin/concurrency/PhaserExample.class" beforeDir="false" afterPath="$PROJECT_DIR$/../javabase/target/classes/origin/concurrency/PhaserExample.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javabase/target/classes/origin/concurrency/PrintDeadLocks$DealThread.class" beforeDir="false" afterPath="$PROJECT_DIR$/../javabase/target/classes/origin/concurrency/PrintDeadLocks$DealThread.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javabase/target/classes/origin/concurrency/PrintDeadLocks.class" beforeDir="false" afterPath="$PROJECT_DIR$/../javabase/target/classes/origin/concurrency/PrintDeadLocks.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javabase/target/classes/origin/concurrency/RLock$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/../javabase/target/classes/origin/concurrency/RLock$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javabase/target/classes/origin/concurrency/RLock$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/../javabase/target/classes/origin/concurrency/RLock$2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javabase/target/classes/origin/concurrency/RLock$3.class" beforeDir="false" afterPath="$PROJECT_DIR$/../javabase/target/classes/origin/concurrency/RLock$3.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javabase/target/classes/origin/concurrency/RLock.class" beforeDir="false" afterPath="$PROJECT_DIR$/../javabase/target/classes/origin/concurrency/RLock.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javabase/target/classes/origin/concurrency/ReadWriteLock.class" beforeDir="false" afterPath="$PROJECT_DIR$/../javabase/target/classes/origin/concurrency/ReadWriteLock.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javabase/target/classes/origin/concurrency/StampedLockSample$Point.class" beforeDir="false" afterPath="$PROJECT_DIR$/../javabase/target/classes/origin/concurrency/StampedLockSample$Point.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javabase/target/classes/origin/concurrency/StampedLockSample.class" beforeDir="false" afterPath="$PROJECT_DIR$/../javabase/target/classes/origin/concurrency/StampedLockSample.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javabase/target/classes/origin/concurrency/SyncWaiter.class" beforeDir="false" afterPath="$PROJECT_DIR$/../javabase/target/classes/origin/concurrency/SyncWaiter.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javabase/target/classes/origin/concurrency/TestWaitSleep.class" beforeDir="false" afterPath="$PROJECT_DIR$/../javabase/target/classes/origin/concurrency/TestWaitSleep.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javabase/target/classes/origin/concurrency/Thread1.class" beforeDir="false" afterPath="$PROJECT_DIR$/../javabase/target/classes/origin/concurrency/Thread1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javabase/target/classes/origin/concurrency/Thread2.class" beforeDir="false" afterPath="$PROJECT_DIR$/../javabase/target/classes/origin/concurrency/Thread2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javabase/target/classes/origin/concurrency/TurnPrintByThread$IdContain.class" beforeDir="false" afterPath="$PROJECT_DIR$/../javabase/target/classes/origin/concurrency/TurnPrintByThread$IdContain.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javabase/target/classes/origin/concurrency/TurnPrintByThread.class" beforeDir="false" afterPath="$PROJECT_DIR$/../javabase/target/classes/origin/concurrency/TurnPrintByThread.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javabase/target/classes/origin/concurrency/UUIDTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/../javabase/target/classes/origin/concurrency/UUIDTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javabase/target/classes/origin/concurrency/VolatileLong.class" beforeDir="false" afterPath="$PROJECT_DIR$/../javabase/target/classes/origin/concurrency/VolatileLong.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javabase/target/classes/origin/concurrency/WaitLocks.class" beforeDir="false" afterPath="$PROJECT_DIR$/../javabase/target/classes/origin/concurrency/WaitLocks.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javabase/target/classes/origin/concurrency/bugs/FixedRateSampler.class" beforeDir="false" afterPath="$PROJECT_DIR$/../javabase/target/classes/origin/concurrency/bugs/FixedRateSampler.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javabase/target/classes/origin/concurrency/bugs/TopNode.class" beforeDir="false" afterPath="$PROJECT_DIR$/../javabase/target/classes/origin/concurrency/bugs/TopNode.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javabase/target/classes/origin/concurrency/threadlocals/TestThreadLocal$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/../javabase/target/classes/origin/concurrency/threadlocals/TestThreadLocal$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javabase/target/classes/origin/concurrency/threadlocals/TestThreadLocal.class" beforeDir="false" afterPath="$PROJECT_DIR$/../javabase/target/classes/origin/concurrency/threadlocals/TestThreadLocal.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javabase/target/classes/origin/concurrency/threads/ThreadUncaughtExceptionHandlerExample$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javabase/target/classes/origin/concurrency/threads/ThreadUncaughtExceptionHandlerExample$CaughtExceptionsThreadFactory.class" beforeDir="false" afterPath="$PROJECT_DIR$/../javabase/target/classes/origin/concurrency/threads/ThreadUncaughtExceptionHandlerExample$CaughtExceptionsThreadFactory.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javabase/target/classes/origin/concurrency/threads/ThreadUncaughtExceptionHandlerExample$ExceptionalTask.class" beforeDir="false" afterPath="$PROJECT_DIR$/../javabase/target/classes/origin/concurrency/threads/ThreadUncaughtExceptionHandlerExample$ExceptionalTask.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javabase/target/classes/origin/concurrency/threads/ThreadUncaughtExceptionHandlerExample$ExceptionalThread.class" beforeDir="false" afterPath="$PROJECT_DIR$/../javabase/target/classes/origin/concurrency/threads/ThreadUncaughtExceptionHandlerExample$ExceptionalThread.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javabase/target/classes/origin/concurrency/threads/ThreadUncaughtExceptionHandlerExample$MyUncaughtExceptionHandler.class" beforeDir="false" afterPath="$PROJECT_DIR$/../javabase/target/classes/origin/concurrency/threads/ThreadUncaughtExceptionHandlerExample$MyUncaughtExceptionHandler.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javabase/target/classes/origin/concurrency/threads/ThreadUncaughtExceptionHandlerExample.class" beforeDir="false" afterPath="$PROJECT_DIR$/../javabase/target/classes/origin/concurrency/threads/ThreadUncaughtExceptionHandlerExample.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javabase/target/classes/origin/eventbus/EventSubProcessor.class" beforeDir="false" afterPath="$PROJECT_DIR$/../javabase/target/classes/origin/eventbus/EventSubProcessor.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javabase/target/classes/origin/excel/ExcelHeader.class" beforeDir="false" afterPath="$PROJECT_DIR$/../javabase/target/classes/origin/excel/ExcelHeader.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javabase/target/classes/origin/excel/ExcelProcessor.class" beforeDir="false" afterPath="$PROJECT_DIR$/../javabase/target/classes/origin/excel/ExcelProcessor.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javabase/target/classes/origin/excel/ExcelResourceTitle.class" beforeDir="false" afterPath="$PROJECT_DIR$/../javabase/target/classes/origin/excel/ExcelResourceTitle.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javabase/target/classes/origin/graphql/HelloWorld.class" beforeDir="false" afterPath="$PROJECT_DIR$/../javabase/target/classes/origin/graphql/HelloWorld.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javabase/target/classes/origin/hbase/HbaseClient.class" beforeDir="false" afterPath="$PROJECT_DIR$/../javabase/target/classes/origin/hbase/HbaseClient.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javabase/target/classes/origin/httpclient/Http9Client.class" beforeDir="false" afterPath="$PROJECT_DIR$/../javabase/target/classes/origin/httpclient/Http9Client.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javabase/target/classes/origin/httpclient/UsageExample$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/../javabase/target/classes/origin/httpclient/UsageExample$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javabase/target/classes/origin/httpclient/UsageExample$IdleConnectionMonitorThread.class" beforeDir="false" afterPath="$PROJECT_DIR$/../javabase/target/classes/origin/httpclient/UsageExample$IdleConnectionMonitorThread.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javabase/target/classes/origin/httpclient/UsageExample.class" beforeDir="false" afterPath="$PROJECT_DIR$/../javabase/target/classes/origin/httpclient/UsageExample.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javabase/target/classes/origin/jdk8/AnotherSuppressedExceptionResources.class" beforeDir="false" afterPath="$PROJECT_DIR$/../javabase/target/classes/origin/jdk8/AnotherSuppressedExceptionResources.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javabase/target/classes/origin/jdk8/CloseChecker.class" beforeDir="false" afterPath="$PROJECT_DIR$/../javabase/target/classes/origin/jdk8/CloseChecker.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javabase/target/classes/origin/jdk8/CustomAutoCloseable.class" beforeDir="false" afterPath="$PROJECT_DIR$/../javabase/target/classes/origin/jdk8/CustomAutoCloseable.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javabase/target/classes/origin/jdk8/ForkJoinCaculate$ForkJoinCaculate0.class" beforeDir="false" afterPath="$PROJECT_DIR$/../javabase/target/classes/origin/jdk8/ForkJoinCaculate$ForkJoinCaculate0.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javabase/target/classes/origin/jdk8/ForkJoinCaculate$ForkJoinCaculate0_sub.class" beforeDir="false" afterPath="$PROJECT_DIR$/../javabase/target/classes/origin/jdk8/ForkJoinCaculate$ForkJoinCaculate0_sub.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javabase/target/classes/origin/jdk8/ForkJoinCaculate.class" beforeDir="false" afterPath="$PROJECT_DIR$/../javabase/target/classes/origin/jdk8/ForkJoinCaculate.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javabase/target/classes/origin/jdk8/NotAutoCloseable.class" beforeDir="false" afterPath="$PROJECT_DIR$/../javabase/target/classes/origin/jdk8/NotAutoCloseable.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javabase/target/classes/origin/jdk8/SuppressedExceptionResources.class" beforeDir="false" afterPath="$PROJECT_DIR$/../javabase/target/classes/origin/jdk8/SuppressedExceptionResources.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javabase/target/classes/origin/jdk8/TryWithResourcesTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/../javabase/target/classes/origin/jdk8/TryWithResourcesTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javabase/target/classes/origin/jdk8/lambda/Compares.class" beforeDir="false" afterPath="$PROJECT_DIR$/../javabase/target/classes/origin/jdk8/lambda/Compares.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javabase/target/classes/origin/jdk8/lambda/CompleteFs.class" beforeDir="false" afterPath="$PROJECT_DIR$/../javabase/target/classes/origin/jdk8/lambda/CompleteFs.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javabase/target/classes/origin/jdk8/lambda/CompleteFutureTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/../javabase/target/classes/origin/jdk8/lambda/CompleteFutureTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javabase/target/classes/origin/jdk8/lambda/Completure.class" beforeDir="false" afterPath="$PROJECT_DIR$/../javabase/target/classes/origin/jdk8/lambda/Completure.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javabase/target/classes/origin/jdk8/lambda/ConsumerTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/../javabase/target/classes/origin/jdk8/lambda/ConsumerTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javabase/target/classes/origin/jdk8/lambda/DataMatcher.class" beforeDir="false" afterPath="$PROJECT_DIR$/../javabase/target/classes/origin/jdk8/lambda/DataMatcher.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javabase/target/classes/origin/jdk8/lambda/Examples.class" beforeDir="false" afterPath="$PROJECT_DIR$/../javabase/target/classes/origin/jdk8/lambda/Examples.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javabase/target/classes/origin/jdk8/lambda/FastMap.class" beforeDir="false" afterPath="$PROJECT_DIR$/../javabase/target/classes/origin/jdk8/lambda/FastMap.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javabase/target/classes/origin/jdk8/lambda/MyFunc.class" beforeDir="false" afterPath="$PROJECT_DIR$/../javabase/target/classes/origin/jdk8/lambda/MyFunc.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javabase/target/classes/origin/jdk8/lambda/MyThreadExecs.class" beforeDir="false" afterPath="$PROJECT_DIR$/../javabase/target/classes/origin/jdk8/lambda/MyThreadExecs.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javabase/target/classes/origin/jdk8/lambda/Reducing$Rating.class" beforeDir="false" afterPath="$PROJECT_DIR$/../javabase/target/classes/origin/jdk8/lambda/Reducing$Rating.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javabase/target/classes/origin/jdk8/lambda/Reducing$Review.class" beforeDir="false" afterPath="$PROJECT_DIR$/../javabase/target/classes/origin/jdk8/lambda/Reducing$Review.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javabase/target/classes/origin/jdk8/lambda/Reducing$User.class" beforeDir="false" afterPath="$PROJECT_DIR$/../javabase/target/classes/origin/jdk8/lambda/Reducing$User.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javabase/target/classes/origin/jdk8/lambda/Reducing.class" beforeDir="false" afterPath="$PROJECT_DIR$/../javabase/target/classes/origin/jdk8/lambda/Reducing.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javabase/target/classes/origin/jdk8/lambda/StreamPartitions$Domain.class" beforeDir="false" afterPath="$PROJECT_DIR$/../javabase/target/classes/origin/jdk8/lambda/StreamPartitions$Domain.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javabase/target/classes/origin/jdk8/lambda/StreamPartitions$DomainSpliterator.class" beforeDir="false" afterPath="$PROJECT_DIR$/../javabase/target/classes/origin/jdk8/lambda/StreamPartitions$DomainSpliterator.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javabase/target/classes/origin/jdk8/lambda/StreamPartitions.class" beforeDir="false" afterPath="$PROJECT_DIR$/../javabase/target/classes/origin/jdk8/lambda/StreamPartitions.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javabase/target/classes/origin/jenkins/JenkinsMain.class" beforeDir="false" afterPath="$PROJECT_DIR$/../javabase/target/classes/origin/jenkins/JenkinsMain.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javabase/target/classes/origin/jenkins/JenkinsTree.class" beforeDir="false" afterPath="$PROJECT_DIR$/../javabase/target/classes/origin/jenkins/JenkinsTree.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javabase/target/classes/origin/jenkins/Kv.class" beforeDir="false" afterPath="$PROJECT_DIR$/../javabase/target/classes/origin/jenkins/Kv.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javabase/target/classes/origin/jenkins/Type.class" beforeDir="false" afterPath="$PROJECT_DIR$/../javabase/target/classes/origin/jenkins/Type.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javabase/target/classes/origin/json/Circle.class" beforeDir="false" afterPath="$PROJECT_DIR$/../javabase/target/classes/origin/json/Circle.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javabase/target/classes/origin/json/JacksonSerializers$AdcodeSerializer.class" beforeDir="false" afterPath="$PROJECT_DIR$/../javabase/target/classes/origin/json/JacksonSerializers$AdcodeSerializer.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javabase/target/classes/origin/json/JacksonSerializers$SecondToFORMATyyyyMMddHHmmss.class" beforeDir="false" afterPath="$PROJECT_DIR$/../javabase/target/classes/origin/json/JacksonSerializers$SecondToFORMATyyyyMMddHHmmss.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javabase/target/classes/origin/json/JacksonSerializers$StateJsonSerializer.class" beforeDir="false" afterPath="$PROJECT_DIR$/../javabase/target/classes/origin/json/JacksonSerializers$StateJsonSerializer.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javabase/target/classes/origin/json/JacksonSerializers.class" beforeDir="false" afterPath="$PROJECT_DIR$/../javabase/target/classes/origin/json/JacksonSerializers.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javabase/target/classes/origin/json/JsonTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/../javabase/target/classes/origin/json/JsonTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javabase/target/classes/origin/json/Rectangle.class" beforeDir="false" afterPath="$PROJECT_DIR$/../javabase/target/classes/origin/json/Rectangle.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javabase/target/classes/origin/json/Shape.class" beforeDir="false" afterPath="$PROJECT_DIR$/../javabase/target/classes/origin/json/Shape.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javabase/target/classes/origin/json/TreeNode.class" beforeDir="false" afterPath="$PROJECT_DIR$/../javabase/target/classes/origin/json/TreeNode.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javabase/target/classes/origin/json/View.class" beforeDir="false" afterPath="$PROJECT_DIR$/../javabase/target/classes/origin/json/View.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javabase/target/classes/origin/jvm/ClassReloading$MyClassLoader.class" beforeDir="false" afterPath="$PROJECT_DIR$/../javabase/target/classes/origin/jvm/ClassReloading$MyClassLoader.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javabase/target/classes/origin/jvm/ClassReloading$User.class" beforeDir="false" afterPath="$PROJECT_DIR$/../javabase/target/classes/origin/jvm/ClassReloading$User.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javabase/target/classes/origin/jvm/ClassReloading.class" beforeDir="false" afterPath="$PROJECT_DIR$/../javabase/target/classes/origin/jvm/ClassReloading.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javabase/target/classes/origin/jvm/ContextReloading$Context.class" beforeDir="false" afterPath="$PROJECT_DIR$/../javabase/target/classes/origin/jvm/ContextReloading$Context.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javabase/target/classes/origin/jvm/ContextReloading$MyClassLoader.class" beforeDir="false" afterPath="$PROJECT_DIR$/../javabase/target/classes/origin/jvm/ContextReloading$MyClassLoader.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javabase/target/classes/origin/jvm/ContextReloading$User.class" beforeDir="false" afterPath="$PROJECT_DIR$/../javabase/target/classes/origin/jvm/ContextReloading$User.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javabase/target/classes/origin/jvm/ContextReloading$UserDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/../javabase/target/classes/origin/jvm/ContextReloading$UserDao.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javabase/target/classes/origin/jvm/ContextReloading$UserService.class" beforeDir="false" afterPath="$PROJECT_DIR$/../javabase/target/classes/origin/jvm/ContextReloading$UserService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javabase/target/classes/origin/jvm/ContextReloading.class" beforeDir="false" afterPath="$PROJECT_DIR$/../javabase/target/classes/origin/jvm/ContextReloading.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javabase/target/classes/origin/jvm/ContextStaticReloading$Cache.class" beforeDir="false" afterPath="$PROJECT_DIR$/../javabase/target/classes/origin/jvm/ContextStaticReloading$Cache.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javabase/target/classes/origin/jvm/ContextStaticReloading$Context.class" beforeDir="false" afterPath="$PROJECT_DIR$/../javabase/target/classes/origin/jvm/ContextStaticReloading$Context.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javabase/target/classes/origin/jvm/ContextStaticReloading$MyClassLoader.class" beforeDir="false" afterPath="$PROJECT_DIR$/../javabase/target/classes/origin/jvm/ContextStaticReloading$MyClassLoader.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javabase/target/classes/origin/jvm/ContextStaticReloading$User.class" beforeDir="false" afterPath="$PROJECT_DIR$/../javabase/target/classes/origin/jvm/ContextStaticReloading$User.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javabase/target/classes/origin/jvm/ContextStaticReloading$UserDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/../javabase/target/classes/origin/jvm/ContextStaticReloading$UserDao.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javabase/target/classes/origin/jvm/ContextStaticReloading$UserService.class" beforeDir="false" afterPath="$PROJECT_DIR$/../javabase/target/classes/origin/jvm/ContextStaticReloading$UserService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javabase/target/classes/origin/jvm/ContextStaticReloading.class" beforeDir="false" afterPath="$PROJECT_DIR$/../javabase/target/classes/origin/jvm/ContextStaticReloading.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javabase/target/classes/origin/math/Derivatives.class" beforeDir="false" afterPath="$PROJECT_DIR$/../javabase/target/classes/origin/math/Derivatives.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javabase/target/classes/origin/math/Stat.class" beforeDir="false" afterPath="$PROJECT_DIR$/../javabase/target/classes/origin/math/Stat.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javabase/target/classes/origin/mysql/multiDataSource/DataSourceConfiguration.class" beforeDir="false" afterPath="$PROJECT_DIR$/../javabase/target/classes/origin/mysql/multiDataSource/DataSourceConfiguration.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javabase/target/classes/origin/mysql/multiDataSource/DataSourceScan.class" beforeDir="false" afterPath="$PROJECT_DIR$/../javabase/target/classes/origin/mysql/multiDataSource/DataSourceScan.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javabase/target/classes/origin/mysql/multiDataSource/TestBatchService.class" beforeDir="false" afterPath="$PROJECT_DIR$/../javabase/target/classes/origin/mysql/multiDataSource/TestBatchService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javabase/target/classes/origin/mysql/multiDataSource/TestDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/../javabase/target/classes/origin/mysql/multiDataSource/TestDao.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javabase/target/classes/origin/mysql/typeHandlers/LongToStringTypeHandler.class" beforeDir="false" afterPath="$PROJECT_DIR$/../javabase/target/classes/origin/mysql/typeHandlers/LongToStringTypeHandler.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javabase/target/classes/origin/nio/BaseNio.class" beforeDir="false" afterPath="$PROJECT_DIR$/../javabase/target/classes/origin/nio/BaseNio.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javabase/target/classes/origin/nio/NioBug.class" beforeDir="false" afterPath="$PROJECT_DIR$/../javabase/target/classes/origin/nio/NioBug.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javabase/target/classes/origin/perf/CodeCacheUsage.class" beforeDir="false" afterPath="$PROJECT_DIR$/../javabase/target/classes/origin/perf/CodeCacheUsage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javabase/target/classes/origin/perf/bttracetest/BtraceTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/../javabase/target/classes/origin/perf/bttracetest/BtraceTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javabase/target/classes/origin/perf/bttracetest/HelloWorld.class" beforeDir="false" afterPath="$PROJECT_DIR$/../javabase/target/classes/origin/perf/bttracetest/HelloWorld.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javabase/target/classes/origin/practise/rateLimit/RateLimit_Window.class" beforeDir="false" afterPath="$PROJECT_DIR$/../javabase/target/classes/origin/practise/rateLimit/RateLimit_Window.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javabase/target/classes/origin/rules/AviatorDemo$AddFunction.class" beforeDir="false" afterPath="$PROJECT_DIR$/../javabase/target/classes/origin/rules/AviatorDemo$AddFunction.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javabase/target/classes/origin/rules/AviatorDemo.class" beforeDir="false" afterPath="$PROJECT_DIR$/../javabase/target/classes/origin/rules/AviatorDemo.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javabase/target/classes/origin/rules/Aviators$FieldsFunction.class" beforeDir="false" afterPath="$PROJECT_DIR$/../javabase/target/classes/origin/rules/Aviators$FieldsFunction.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javabase/target/classes/origin/rules/Aviators$RedisCountFunction.class" beforeDir="false" afterPath="$PROJECT_DIR$/../javabase/target/classes/origin/rules/Aviators$RedisCountFunction.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javabase/target/classes/origin/rules/Aviators.class" beforeDir="false" afterPath="$PROJECT_DIR$/../javabase/target/classes/origin/rules/Aviators.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javabase/target/classes/origin/spi/SpiLoader.class" beforeDir="false" afterPath="$PROJECT_DIR$/../javabase/target/classes/origin/spi/SpiLoader.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javabase/target/classes/origin/spring/Configuration$BaseProcessConfiguration.class" beforeDir="false" afterPath="$PROJECT_DIR$/../javabase/target/classes/origin/spring/Configuration$BaseProcessConfiguration.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javabase/target/classes/origin/spring/Configuration.class" beforeDir="false" afterPath="$PROJECT_DIR$/../javabase/target/classes/origin/spring/Configuration.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javabase/target/classes/origin/spring/MyMain.class" beforeDir="false" afterPath="$PROJECT_DIR$/../javabase/target/classes/origin/spring/MyMain.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javabase/target/classes/origin/spring/aop/AspectTest$ExecutionAspect$AnnotationAspect.class" beforeDir="false" afterPath="$PROJECT_DIR$/../javabase/target/classes/origin/spring/aop/AspectTest$ExecutionAspect$AnnotationAspect.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javabase/target/classes/origin/spring/aop/AspectTest$ExecutionAspect.class" beforeDir="false" afterPath="$PROJECT_DIR$/../javabase/target/classes/origin/spring/aop/AspectTest$ExecutionAspect.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javabase/target/classes/origin/spring/aop/AspectTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/../javabase/target/classes/origin/spring/aop/AspectTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javabase/target/classes/origin/spring/controller/BasicErrorResolver.class" beforeDir="false" afterPath="$PROJECT_DIR$/../javabase/target/classes/origin/spring/controller/BasicErrorResolver.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javabase/target/classes/origin/spring/controller/CommonMapping.class" beforeDir="false" afterPath="$PROJECT_DIR$/../javabase/target/classes/origin/spring/controller/CommonMapping.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javabase/target/classes/origin/spring/controller/ExceptionResolver.class" beforeDir="false" afterPath="$PROJECT_DIR$/../javabase/target/classes/origin/spring/controller/ExceptionResolver.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javabase/target/classes/origin/spring/controller/JsonPControllerAdvice.class" beforeDir="false" afterPath="$PROJECT_DIR$/../javabase/target/classes/origin/spring/controller/JsonPControllerAdvice.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javabase/target/classes/origin/spring/controller/RespJson.class" beforeDir="false" afterPath="$PROJECT_DIR$/../javabase/target/classes/origin/spring/controller/RespJson.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javabase/target/classes/origin/spring/converter/CustomStringToCollectionConverter.class" beforeDir="false" afterPath="$PROJECT_DIR$/../javabase/target/classes/origin/spring/converter/CustomStringToCollectionConverter.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javabase/target/classes/origin/spring/event/NotifyEvent.class" beforeDir="false" afterPath="$PROJECT_DIR$/../javabase/target/classes/origin/spring/event/NotifyEvent.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javabase/target/classes/origin/spring/event/NotifyPublisher.class" beforeDir="false" afterPath="$PROJECT_DIR$/../javabase/target/classes/origin/spring/event/NotifyPublisher.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javabase/target/classes/origin/spring/event/NotifyQueueListener.class" beforeDir="false" afterPath="$PROJECT_DIR$/../javabase/target/classes/origin/spring/event/NotifyQueueListener.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javabase/target/classes/origin/spring/infra/bean/processors/BeanTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/../javabase/target/classes/origin/spring/infra/bean/processors/BeanTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javabase/target/classes/origin/spring/infra/bean/processors/BeanTestMethodInterceptor.class" beforeDir="false" afterPath="$PROJECT_DIR$/../javabase/target/classes/origin/spring/infra/bean/processors/BeanTestMethodInterceptor.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javabase/target/classes/origin/spring/infra/bean/processors/MyAnnotation.class" beforeDir="false" afterPath="$PROJECT_DIR$/../javabase/target/classes/origin/spring/infra/bean/processors/MyAnnotation.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javabase/target/classes/origin/spring/infra/bean/processors/MyAnnotationLookup.class" beforeDir="false" afterPath="$PROJECT_DIR$/../javabase/target/classes/origin/spring/infra/bean/processors/MyAnnotationLookup.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javabase/target/classes/origin/spring/infra/bean/processors/MyselfIBeanPostProcessor.class" beforeDir="false" afterPath="$PROJECT_DIR$/../javabase/target/classes/origin/spring/infra/bean/processors/MyselfIBeanPostProcessor.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javabase/target/classes/origin/spring/infra/lifecycle/Test.class" beforeDir="false" afterPath="$PROJECT_DIR$/../javabase/target/classes/origin/spring/infra/lifecycle/Test.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javabase/target/classes/origin/spring/messageSend/DownloadController.class" beforeDir="false" afterPath="$PROJECT_DIR$/../javabase/target/classes/origin/spring/messageSend/DownloadController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javabase/target/classes/origin/spring/messageSend/MockDownloadComponent.class" beforeDir="false" afterPath="$PROJECT_DIR$/../javabase/target/classes/origin/spring/messageSend/MockDownloadComponent.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javabase/target/classes/origin/spring/messageSend/SseNotificationController.class" beforeDir="false" afterPath="$PROJECT_DIR$/../javabase/target/classes/origin/spring/messageSend/SseNotificationController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javabase/target/classes/origin/spring/messageSend/WebSocketConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/../javabase/target/classes/origin/spring/messageSend/WebSocketConfig.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javabase/target/classes/origin/spring/messageSend/WebSocketNotificationHandler.class" beforeDir="false" afterPath="$PROJECT_DIR$/../javabase/target/classes/origin/spring/messageSend/WebSocketNotificationHandler.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javabase/target/classes/origin/spring/reactives/GreetReactiveController$Person.class" beforeDir="false" afterPath="$PROJECT_DIR$/../javabase/target/classes/origin/spring/reactives/GreetReactiveController$Person.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javabase/target/classes/origin/spring/reactives/GreetReactiveController.class" beforeDir="false" afterPath="$PROJECT_DIR$/../javabase/target/classes/origin/spring/reactives/GreetReactiveController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javabase/target/classes/origin/spring/reactives/Greeting.class" beforeDir="false" afterPath="$PROJECT_DIR$/../javabase/target/classes/origin/spring/reactives/Greeting.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javabase/target/classes/origin/spring/webflux/Controller.class" beforeDir="false" afterPath="$PROJECT_DIR$/../javabase/target/classes/origin/spring/webflux/Controller.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javabase/target/classes/origin/spring/webflux/WebFilesMain.class" beforeDir="false" afterPath="$PROJECT_DIR$/../javabase/target/classes/origin/spring/webflux/WebFilesMain.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javabase/target/classes/origin/spring/webflux/WebFluxFileMain.class" beforeDir="false" afterPath="$PROJECT_DIR$/../javabase/target/classes/origin/spring/webflux/WebFluxFileMain.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javabase/target/classes/origin/spring/websocket/SocketProcessor.class" beforeDir="false" afterPath="$PROJECT_DIR$/../javabase/target/classes/origin/spring/websocket/SocketProcessor.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javabase/target/classes/origin/stream/StreamPartitionMain$FixedSizeSpliterator.class" beforeDir="false" afterPath="$PROJECT_DIR$/../javabase/target/classes/origin/stream/StreamPartitionMain$FixedSizeSpliterator.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javabase/target/classes/origin/stream/StreamPartitionMain$PartitioningSpliterator.class" beforeDir="false" afterPath="$PROJECT_DIR$/../javabase/target/classes/origin/stream/StreamPartitionMain$PartitioningSpliterator.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javabase/target/classes/origin/stream/StreamPartitionMain.class" beforeDir="false" afterPath="$PROJECT_DIR$/../javabase/target/classes/origin/stream/StreamPartitionMain.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javabase/target/classes/origin/stream/reduce/NumCounter.class" beforeDir="false" afterPath="$PROJECT_DIR$/../javabase/target/classes/origin/stream/reduce/NumCounter.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javabase/target/classes/origin/stream/reduce/NumCounterSpliterator.class" beforeDir="false" afterPath="$PROJECT_DIR$/../javabase/target/classes/origin/stream/reduce/NumCounterSpliterator.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javabase/target/classes/origin/stream/reduce/NumberCounterTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/../javabase/target/classes/origin/stream/reduce/NumberCounterTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javabase/target/classes/origin/stream/reduce/StreamExample.class" beforeDir="false" afterPath="$PROJECT_DIR$/../javabase/target/classes/origin/stream/reduce/StreamExample.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javabase/target/classes/origin/utils/DateUtils.class" beforeDir="false" afterPath="$PROJECT_DIR$/../javabase/target/classes/origin/utils/DateUtils.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javabase/target/classes/origin/utils/FileEncodingDetect.class" beforeDir="false" afterPath="$PROJECT_DIR$/../javabase/target/classes/origin/utils/FileEncodingDetect.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javabase/target/classes/origin/utils/Geo$LonLat.class" beforeDir="false" afterPath="$PROJECT_DIR$/../javabase/target/classes/origin/utils/Geo$LonLat.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javabase/target/classes/origin/utils/Geo.class" beforeDir="false" afterPath="$PROJECT_DIR$/../javabase/target/classes/origin/utils/Geo.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javabase/target/classes/origin/utils/Jacksons.class" beforeDir="false" afterPath="$PROJECT_DIR$/../javabase/target/classes/origin/utils/Jacksons.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javabase/target/classes/origin/utils/Kv.class" beforeDir="false" afterPath="$PROJECT_DIR$/../javabase/target/classes/origin/utils/Kv.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javabase/target/classes/origin/valid/VinNo$List.class" beforeDir="false" afterPath="$PROJECT_DIR$/../javabase/target/classes/origin/valid/VinNo$List.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javabase/target/classes/origin/valid/VinNo.class" beforeDir="false" afterPath="$PROJECT_DIR$/../javabase/target/classes/origin/valid/VinNo.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javabase/target/classes/origin/valid/VinNoValidator.class" beforeDir="false" afterPath="$PROJECT_DIR$/../javabase/target/classes/origin/valid/VinNoValidator.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javabase/target/classes/origin/web/WebServletTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/../javabase/target/classes/origin/web/WebServletTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javabase/target/classes/origin/web/WrapperRequestFilter$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javabase/target/classes/origin/web/WrapperRequestFilter$ResettableStreamHttpServletRequest$ResettableServletInputStream.class" beforeDir="false" afterPath="$PROJECT_DIR$/../javabase/target/classes/origin/web/WrapperRequestFilter$ResettableStreamHttpServletRequest$ResettableServletInputStream.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javabase/target/classes/origin/web/WrapperRequestFilter$ResettableStreamHttpServletRequest.class" beforeDir="false" afterPath="$PROJECT_DIR$/../javabase/target/classes/origin/web/WrapperRequestFilter$ResettableStreamHttpServletRequest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javabase/target/classes/origin/web/WrapperRequestFilter.class" beforeDir="false" afterPath="$PROJECT_DIR$/../javabase/target/classes/origin/web/WrapperRequestFilter.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javabase/target/classes/origin/web/XssBlockFilter$RequestWrapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/../javabase/target/classes/origin/web/XssBlockFilter$RequestWrapper.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javabase/target/classes/origin/web/XssBlockFilter.class" beforeDir="false" afterPath="$PROJECT_DIR$/../javabase/target/classes/origin/web/XssBlockFilter.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javabase/target/classes/reactives/base/BackPressure$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/../javabase/target/classes/reactives/base/BackPressure$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javabase/target/classes/reactives/base/BackPressure$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/../javabase/target/classes/reactives/base/BackPressure$2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javabase/target/classes/reactives/base/BackPressure$Pair.class" beforeDir="false" afterPath="$PROJECT_DIR$/../javabase/target/classes/reactives/base/BackPressure$Pair.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javabase/target/classes/reactives/base/BackPressure.class" beforeDir="false" afterPath="$PROJECT_DIR$/../javabase/target/classes/reactives/base/BackPressure.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javabase/target/classes/reactives/base/FluxTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/../javabase/target/classes/reactives/base/FluxTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javabase/target/classes/regression/MathTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/../javabase/target/classes/regression/MathTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javabase/target/classes/regression/TestPolynomial.class" beforeDir="false" afterPath="$PROJECT_DIR$/../javabase/target/classes/regression/TestPolynomial.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javabase/target/classes/regression/libs/CalcCurveFitting.class" beforeDir="false" afterPath="$PROJECT_DIR$/../javabase/target/classes/regression/libs/CalcCurveFitting.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javabase/target/classes/regression/libs/CurveFitting.class" beforeDir="false" afterPath="$PROJECT_DIR$/../javabase/target/classes/regression/libs/CurveFitting.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javabase/target/classes/regression/libs/TimeCostCalculator.class" beforeDir="false" afterPath="$PROJECT_DIR$/../javabase/target/classes/regression/libs/TimeCostCalculator.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javabase/target/classes/regression/other/CholeskyDecomposition.class" beforeDir="false" afterPath="$PROJECT_DIR$/../javabase/target/classes/regression/other/CholeskyDecomposition.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javabase/target/classes/regression/other/EigenvalueDecomposition.class" beforeDir="false" afterPath="$PROJECT_DIR$/../javabase/target/classes/regression/other/EigenvalueDecomposition.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javabase/target/classes/regression/other/LUDecomposition.class" beforeDir="false" afterPath="$PROJECT_DIR$/../javabase/target/classes/regression/other/LUDecomposition.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javabase/target/classes/regression/other/LinearRegression$XX.class" beforeDir="false" afterPath="$PROJECT_DIR$/../javabase/target/classes/regression/other/LinearRegression$XX.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javabase/target/classes/regression/other/LinearRegression.class" beforeDir="false" afterPath="$PROJECT_DIR$/../javabase/target/classes/regression/other/LinearRegression.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javabase/target/classes/regression/other/MathMain.class" beforeDir="false" afterPath="$PROJECT_DIR$/../javabase/target/classes/regression/other/MathMain.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javabase/target/classes/regression/other/Maths.class" beforeDir="false" afterPath="$PROJECT_DIR$/../javabase/target/classes/regression/other/Maths.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javabase/target/classes/regression/other/Matrix.class" beforeDir="false" afterPath="$PROJECT_DIR$/../javabase/target/classes/regression/other/Matrix.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javabase/target/classes/regression/other/PolynomialRegression.class" beforeDir="false" afterPath="$PROJECT_DIR$/../javabase/target/classes/regression/other/PolynomialRegression.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javabase/target/classes/regression/other/QRDecomposition.class" beforeDir="false" afterPath="$PROJECT_DIR$/../javabase/target/classes/regression/other/QRDecomposition.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javabase/target/classes/regression/other/SingularValueDecomposition.class" beforeDir="false" afterPath="$PROJECT_DIR$/../javabase/target/classes/regression/other/SingularValueDecomposition.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javabase/target/classes/rsockets/ReqResClient.class" beforeDir="false" afterPath="$PROJECT_DIR$/../javabase/target/classes/rsockets/ReqResClient.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javabase/target/classes/rsockets/Server$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javabase/target/classes/rsockets/Server$RSocketImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/../javabase/target/classes/rsockets/Server$RSocketImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javabase/target/classes/rsockets/Server.class" beforeDir="false" afterPath="$PROJECT_DIR$/../javabase/target/classes/rsockets/Server.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javabase/target/classes/rsockets/spring/Account.class" beforeDir="false" afterPath="$PROJECT_DIR$/../javabase/target/classes/rsockets/spring/Account.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javabase/target/classes/rsockets/spring/AccountRSocketController.class" beforeDir="false" afterPath="$PROJECT_DIR$/../javabase/target/classes/rsockets/spring/AccountRSocketController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javabase/target/classes/rsockets/spring/AccountService.class" beforeDir="false" afterPath="$PROJECT_DIR$/../javabase/target/classes/rsockets/spring/AccountService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/baseinterface/inters.go" beforeDir="false" afterPath="$PROJECT_DIR$/baseinterface/inters.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/go.mod" beforeDir="false" afterPath="$PROJECT_DIR$/go.mod" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/go.sum" beforeDir="false" afterPath="$PROJECT_DIR$/go.sum" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/http/simpleHttp.go" beforeDir="false" afterPath="$PROJECT_DIR$/http/simpleHttp.go" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,6 +672,10 @@
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
+  <component name="ProjectColorInfo">{
+  &quot;customColor&quot;: &quot;&quot;,
+  &quot;associatedIndex&quot;: 7
+}</component>
   <component name="ProjectId" id="2RmND48xH6Nty9XAuCpPQO6tUVz" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -49,6 +687,7 @@
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.go.formatter.settings.were.checked&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.go.migrated.go.modules.settings&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.go.modules.automatic.dependencies.download&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.go.modules.go.list.on.any.changes.was.set&quot;: &quot;true&quot;,
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
     &quot;git-widget-placeholder&quot;: &quot;master&quot;,
@@ -59,14 +698,23 @@
     &quot;settings.editor.selected.configurable&quot;: &quot;reference.settings.ide.settings.new.ui&quot;
   }
 }</component>
-  <component name="RunManager" selected="Go Build.go build myGolangs/basic (1)">
-    <configuration name="go build myGolangs/basic (1)" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Go Build.go build apple.go">
+    <configuration name="go build apple.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="myGolangs" />
       <working_directory value="$PROJECT_DIR$" />
       <kind value="FILE" />
-      <package value="myGolangs/basic" />
+      <package value="myGolangs" />
       <directory value="$PROJECT_DIR$" />
-      <filePath value="$PROJECT_DIR$/basic/pointer.go" />
+      <filePath value="$PROJECT_DIR$/libs/apple-auth/apple.go" />
+      <method v="2" />
+    </configuration>
+    <configuration name="go build inters.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="myGolangs" />
+      <working_directory value="$PROJECT_DIR$" />
+      <kind value="FILE" />
+      <package value="myGolangs" />
+      <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$/baseinterface/inters.go" />
       <method v="2" />
     </configuration>
     <configuration name="go build myGolangs/basic" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
@@ -75,23 +723,34 @@
       <kind value="FILE" />
       <package value="myGolangs/basic" />
       <directory value="$PROJECT_DIR$" />
-      <filePath value="$PROJECT_DIR$/basic/flags.go" />
+      <filePath value="$PROJECT_DIR$/basic/testDef.go" />
       <method v="2" />
     </configuration>
-    <configuration name="go build myGolangs/libs/files-converts" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+    <configuration name="go build myGolangs/libs/apple-auth" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="myGolangs" />
       <working_directory value="$PROJECT_DIR$" />
       <kind value="PACKAGE" />
-      <package value="myGolangs/libs/files-converts" />
+      <package value="myGolangs/libs/apple-auth" />
       <directory value="$PROJECT_DIR$" />
-      <filePath value="$PROJECT_DIR$/libs/files-converts/convert.go" />
+      <filePath value="$PROJECT_DIR$/libs/apple-auth/apple.go" />
+      <method v="2" />
+    </configuration>
+    <configuration name="go build myGolangs/libs/google-auth" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="myGolangs" />
+      <working_directory value="$PROJECT_DIR$" />
+      <kind value="PACKAGE" />
+      <package value="myGolangs/libs/google-auth" />
+      <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$/libs/google-auth/auth.go" />
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Go Build.go build myGolangs/basic (1)" />
+        <item itemvalue="Go Build.go build apple.go" />
+        <item itemvalue="Go Build.go build myGolangs/libs/apple-auth" />
         <item itemvalue="Go Build.go build myGolangs/basic" />
-        <item itemvalue="Go Build.go build myGolangs/libs/files-converts" />
+        <item itemvalue="Go Build.go build myGolangs/libs/google-auth" />
+        <item itemvalue="Go Build.go build inters.go" />
       </list>
     </recent_temporary>
   </component>
@@ -114,6 +773,16 @@
           <url>file://$PROJECT_DIR$/libs/files-converts/convert.go</url>
           <line>33</line>
           <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DlvLineBreakpoint">
+          <url>file://$PROJECT_DIR$/basic/testDef.go</url>
+          <line>14</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DlvLineBreakpoint">
+          <url>file://$USER_HOME$/go/pkg/mod/github.com/!gian!ortiz/apple-auth-go@v0.1.0/auth.go</url>
+          <line>118</line>
+          <option name="timeStamp" value="7" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

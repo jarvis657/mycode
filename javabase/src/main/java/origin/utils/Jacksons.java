@@ -59,7 +59,7 @@ public class Jacksons {
             ObjectMapper objectMapper = new ObjectMapper();
             objectMapper.configure(DeserializationFeature.FAIL_ON_UNKNOWN_PROPERTIES, false);
             try {
-                T t = objectMapper.readValue(content, typeReference);
+                T t = (T) objectMapper.readValue(content, typeReference);
                 return t;
             } catch (IOException e) {
             }

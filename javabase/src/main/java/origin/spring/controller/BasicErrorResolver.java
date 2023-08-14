@@ -28,15 +28,15 @@ public class BasicErrorResolver extends BasicErrorController {
     @RequestMapping(produces = {MediaType.APPLICATION_JSON_VALUE})
     public ResponseEntity<Map<String, Object>> error(HttpServletRequest request) {
         Map<String, Object> rj = new HashMap<>();
-        Map<String, Object> body = getErrorAttributes(request, isIncludeStackTrace(request, MediaType.ALL));
-        HttpStatus status = getStatus(request);
-        rj.put("errorCode", status.value());
-        rj.put("msg", body.get("message"));
-        rj.put("data", body);
+//        Map<String, Object> body = getErrorAttributes(request, isIncludeStackTrace(request, MediaType.ALL));
+//        HttpStatus status = getStatus(request);
+//        rj.put("errorCode", status.value());
+//        rj.put("msg", body.get("message"));
+//        rj.put("data", body);
         return new ResponseEntity<>(rj, HttpStatus.OK);
     }
 
-    @Override
+//    @Override
     public String getErrorPath() {
         return PATH;
     }

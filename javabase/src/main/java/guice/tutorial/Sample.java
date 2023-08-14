@@ -1,6 +1,7 @@
 package guice.tutorial;
 
 import com.google.inject.*;
+import com.google.inject.Module;
 import com.google.inject.multibindings.MapBinder;
 import com.google.inject.multibindings.Multibinder;
 import com.google.inject.name.Names;

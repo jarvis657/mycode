@@ -10,13 +10,10 @@
         <module name="java" />
       </profile>
     </annotationProcessing>
-    <bytecodeTargetLevel>
-      <module name="java" target="1.8" />
-    </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
-      <module name="java" options="-parameters" />
+      <module name="java" options="-parameters --add-exports java.base/jdk.internal.vm.annotation=ALL-UNNAMED --add-exports java.desktop/com.sun.beans.editors=ALL-UNNAMED" />
     </option>
   </component>
 </project>

@@ -12,7 +12,7 @@
     <parent>
         <groupId>org.springframework.boot</groupId>
         <artifactId>spring-boot-starter-parent</artifactId>
-        <version>2.2.0.M4</version>
+        <version>2.6.6</version>
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
     <groupId>com.myjava</groupId>
@@ -23,9 +23,9 @@
     <description>Demo project</description>
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-        <java.version>1.8</java.version>
+        <java.version>19</java.version>
         <!--        <spring.version>4.3.9.RELEASE</spring.version>-->
-        <spring-boot.version>2.2.0.M4</spring-boot.version>
+        <spring-boot.version>2.6.6</spring-boot.version>
         <ignite.version>2.3.0</ignite.version>
         <protostuff.version>1.5.2</protostuff.version>
         <!--        <spring-cloud.version>Dalston.RC1</spring-cloud.version>-->
@@ -97,7 +97,7 @@
             <groupId>org.jboss</groupId>
             <artifactId>javassist</artifactId>
             <version>3.7.1.GA</version>
-            <scope>compile</scope>
+<!--            <scope>compile</scope>-->
         </dependency>
         <dependency>
             <groupId>org.deeplearning4j</groupId>
@@ -125,12 +125,12 @@
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-rsocket</artifactId>
-            <version>2.2.0.M4</version>
+            <version>2.7.14</version>
         </dependency>
         <dependency>
             <groupId>io.projectreactor.addons</groupId>
             <artifactId>reactor-test</artifactId>
-            <version>3.1.0.M1</version>
+            <version>3.0.7.RELEASE</version>
         </dependency>
         <dependency>
             <groupId>io.rsocket</groupId>
@@ -422,6 +422,11 @@
             <groupId>com.google.code.gson</groupId>
             <artifactId>gson</artifactId>
         </dependency>
+<!--        <dependency>-->
+<!--            <groupId>javassist</groupId>-->
+<!--            <artifactId>javassist</artifactId>-->
+<!--            <version>3.28.0-GA</version>-->
+<!--        </dependency>-->
     </dependencies>
     <dependencyManagement>
         <dependencies>
@@ -492,7 +497,7 @@
                 <conf-dir>daily</conf-dir>
                 <maven.compiler.source>11</maven.compiler.source>
                 <maven.compiler.target>11</maven.compiler.target>
-                <maven.compiler.compilerVersion>1.8</maven.compiler.compilerVersion>
+                <maven.compiler.compilerVersion>19</maven.compiler.compilerVersion>
             </properties>
         </profile>
         <profile>
@@ -572,29 +577,29 @@
         <testSourceDirectory>src/test/scala</testSourceDirectory>
         <pluginManagement>
             <plugins>
-                <plugin>
-                    <groupId>org.codehaus.mojo</groupId>
-                    <artifactId>aspectj-maven-plugin</artifactId>
-                    <version>1.7</version>
-                    <configuration>
-                        <complianceLevel>1.8</complianceLevel>
-                        <source>1.8</source>
-                        <target>1.8</target>
-                        <showWeaveInfo>true</showWeaveInfo>
-                        <verbose>true</verbose>
-                        <encoding>utf-8</encoding>
-                    </configuration>
-                    <executions>
-                        <execution>
-                            <goals>
-                                <!--use this goal to weave all your main classes-->
-                                <goal>compile</goal>
-                                <!--use this goal to weave all your test classes-->
-                                <goal>test-compile</goal>
-                            </goals>
-                        </execution>
-                    </executions>
-                </plugin>
+<!--                <plugin>-->
+<!--                    <groupId>org.codehaus.mojo</groupId>-->
+<!--                    <artifactId>aspectj-maven-plugin</artifactId>-->
+<!--                    <version>1.7</version>-->
+<!--                    <configuration>-->
+<!--                        <complianceLevel>1.8</complianceLevel>-->
+<!--                        <source>1.8</source>-->
+<!--                        <target>1.8</target>-->
+<!--                        <showWeaveInfo>true</showWeaveInfo>-->
+<!--                        <verbose>true</verbose>-->
+<!--                        <encoding>utf-8</encoding>-->
+<!--                    </configuration>-->
+<!--                    <executions>-->
+<!--                        <execution>-->
+<!--                            <goals>-->
+<!--                                &lt;!&ndash;use this goal to weave all your main classes&ndash;&gt;-->
+<!--                                <goal>compile</goal>-->
+<!--                                &lt;!&ndash;use this goal to weave all your test classes&ndash;&gt;-->
+<!--                                <goal>test-compile</goal>-->
+<!--                            </goals>-->
+<!--                        </execution>-->
+<!--                    </executions>-->
+<!--                </plugin>-->
                 <!--                <plugin>-->
                 <!--                    <groupId>net.alchim31.maven</groupId>-->
                 <!--                    <artifactId>scala-maven-plugin</artifactId>-->
@@ -706,9 +711,18 @@
                 <artifactId>maven-compiler-plugin</artifactId>
                 <version>3.8.1</version>
                 <configuration>
-                    <source>8</source>
-                    <target>8</target>
+                    <release>${java.version}</release>
+                    <compilerArgs>
+                        <arg>--add-exports</arg>
+                        <arg>java.base/jdk.internal.vm.annotation=ALL-UNNAMED</arg>
+                        <arg>--add-exports</arg>
+                        <arg>java.desktop/com.sun.beans.editors=ALL-UNNAMED</arg>
+                    </compilerArgs>
                 </configuration>
+<!--                <configuration>-->
+<!--                    <source>8</source>-->
+<!--                    <target>8</target>-->
+<!--                </configuration>-->
             </plugin>
             <!--            <plugin>-->
             <!--                <groupId>io.btrace</groupId>-->

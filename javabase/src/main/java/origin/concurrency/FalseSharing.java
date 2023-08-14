@@ -4,7 +4,7 @@ package origin.concurrency;
 
 //import jdk.internal.vm.annotation.Contended;
 
-import sun.misc.Contended;
+import jdk.internal.vm.annotation.Contended;
 
 /**
  * @author muqi.lmq
@@ -61,8 +61,19 @@ public final class FalseSharing implements Runnable {
 }
 
 //-XX:-RestrictContended
-@Contended
+//@Contended
 class VolatileLong {
     public volatile long value = 0L;
 }
+//36018120029
+//49359695226
+
+//24653554058
+//20652688242
+
+//28607688256
+
+
+//56573639296
+//42873627382
 
