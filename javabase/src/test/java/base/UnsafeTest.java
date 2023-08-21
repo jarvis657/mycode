@@ -1,10 +1,14 @@
 package base;
 
+import com.fasterxml.jackson.core.JsonEncoding;
+import com.fasterxml.jackson.core.JsonFactory;
+import com.fasterxml.jackson.core.JsonGenerator;
 import org.junit.Before;
 import org.junit.Test;
 import sun.misc.Unsafe;
 import sun.reflect.ReflectionFactory;
 
+import java.io.IOException;
 import java.lang.reflect.Constructor;
 import java.lang.reflect.Field;
 import java.lang.reflect.Modifier;

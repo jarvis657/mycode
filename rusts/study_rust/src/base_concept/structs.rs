@@ -1,8 +1,8 @@
 use std::fmt::Display;
 
-use crate::trait_concept::basic::Summary;
+//use crate::trait_concept::basic::Summary;
 
-#[derive(PartialEq, PartialOrd, Debug)]//衍生属性
+#[derive(PartialEq, PartialOrd)] //衍生属性
 pub struct TraitStArticle {
     pub headline: String,
     pub location: String,
@@ -10,24 +10,31 @@ pub struct TraitStArticle {
     pub content: String,
 }
 
-
-//impl std::fmt::Debug for TraitStArticle {
-//    fn fmt(&self, f: &mut std::fmt::Formatter) -> std::fmt::Result {
-//        write!(f, "headline:{},location:{},author:{},content:{}", self.headline, self.author, self.location, self.content)
-//    }
-//}
-
-impl std::fmt::Display for TraitStArticle {
+impl std::fmt::Debug for TraitStArticle {
     fn fmt(&self, f: &mut std::fmt::Formatter) -> std::fmt::Result {
-        write!(f, "headline:{},location:{},author:{},content:{}", self.headline, self.author, self.location, self.content)
+        write!(
+            f,
+            "headline:{},location:{},author:{},content:{}",
+            self.headline, self.author, self.location, self.content
+        )
     }
 }
 
-#[derive(PartialEq, PartialOrd, Debug)]//衍生属性
+impl std::fmt::Display for TraitStArticle {
+    fn fmt(&self, f: &mut std::fmt::Formatter) -> std::fmt::Result {
+        write!(
+            f,
+            "headline:{},location:{},author:{},content:{}",
+            self.headline, self.author, self.location, self.content
+        )
+    }
+}
+
+#[derive(PartialEq, PartialOrd, Debug)] //衍生属性
 pub struct TraitStUser {
-    pub  username: String,
-    pub  age: u8,
-    pub  location: String,
+    pub username: String,
+    pub age: u8,
+    pub location: String,
 }
 
 //impl std::fmt::Debug for TraitStUser {
@@ -38,7 +45,11 @@ pub struct TraitStUser {
 
 impl std::fmt::Display for TraitStUser {
     fn fmt(&self, f: &mut std::fmt::Formatter) -> std::fmt::Result {
-        write!(f, "username:{},age:{},location:{}", self.username, self.age, self.location)
+        write!(
+            f,
+            "username:{},age:{},location:{}",
+            self.username, self.age, self.location
+        )
     }
 }
 

@@ -1,0 +1,32 @@
+
+<
+java:S1452"&Remove usage of generic wildcard type.(í¶•Å
+\
+java:S2142Y"FEither re-interrupt this method or rethrow the "InterruptedException".(ä ¹€
+E
+java:S1481F"(Remove this unused "tmp" local variable.(øœ ³8Ç“”µ½.
+T
+java:S1854!"7Remove this useless assignment to local variable "tmp".(øœ ³8Ç“”µ½.
+H
+java:S1452C"&Remove usage of generic wildcard type.(‡¯ò“úÿÿÿÿ8Ç“”µ½.
+]	java:S125G"<This block of commented-out lines of code should be removed.(€°¾Ëþÿÿÿÿ8Ç“”µ½.
+T
+java:S1854F"7Remove this useless assignment to local variable "tmp".(øœ ³8¯Ï·ð».
+P
+java:S22095"5Change this instance-reference to a static reference.(éÄä©ýÿÿÿÿ
+S	java:S106*"9Replace this use of System.out or System.err by a logger.(ø—¸Œúÿÿÿÿ
+J
+java:S3740""/Provide the parametrized type for this generic.(€‰Ý†úÿÿÿÿ
+B
+java:S1602)",Remove useless curly braces around statement(ÀÀÒ÷
+W
+java:S2209X"5Change this instance-reference to a static reference.(éÄä©ýÿÿÿÿ8Ç“”µ½.
+]	java:S125J"<This block of commented-out lines of code should be removed.(Ø‰Ö¬üÿÿÿÿ8Ç“”µ½.
+N	java:S106'"9Replace this use of System.out or System.err by a logger.(ÃÒŸ¦
+E
+java:S1481!"(Remove this unused "tmp" local variable.(øœ ³8¯Ï·ð».
+c
+java:S21426"FEither re-interrupt this method or rethrow the "InterruptedException".(ä ¹€8Ç“”µ½.
+J
+java:S3740""/Provide the parametrized type for this generic.(€‰Ý†úÿÿÿÿ
+S	java:S106."9Replace this use of System.out or System.err by a logger.(ôÞ´Âÿÿÿÿÿ

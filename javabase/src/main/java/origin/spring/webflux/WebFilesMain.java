@@ -2,7 +2,6 @@ package origin.spring.webflux;
 
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.boot.SpringApplication;
-import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.context.annotation.Bean;
 import org.springframework.integration.dsl.IntegrationFlow;
 import org.springframework.integration.dsl.IntegrationFlows;
@@ -23,7 +22,6 @@ import java.util.concurrent.ConcurrentHashMap;
  * @author muqi.lmq
  * @date 2018/6/29.
  */
-@SpringBootApplication
 @RestController
 public class WebFilesMain {
     private final Map<String, SseEmitter> sses = new ConcurrentHashMap<>();

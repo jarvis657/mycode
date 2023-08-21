@@ -1,0 +1,11 @@
+
+N	java:S106'"9Replace this use of System.out or System.err by a logger.(ä¹¿“
+V	java:S125"<This block of commented-out lines of code should be removed.(…ÑíÝúÿÿÿÿ
+S	java:S106"9Replace this use of System.out or System.err by a logger.(€”‡Õýÿÿÿÿ
+<
+java:S1481%"&Remove this unused "o" local variable.(Ë«éƒ
+M	java:S106"9Replace this use of System.out or System.err by a logger.(Ç¹B
+`	java:S112 "FDefine and throw a dedicated exception instead of using a generic one.(ô¼á×øÿÿÿÿ
+S	java:S1065"9Replace this use of System.out or System.err by a logger.(ÆÒ²­úÿÿÿÿ
+K
+java:S1854%"5Remove this useless assignment to local variable "o".(Ë«éƒ

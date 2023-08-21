@@ -1,0 +1,52 @@
+
+N	java:S106!"9Replace this use of System.out or System.err by a logger.(ÁºÃ…
+‡
+java:S1130"lRemove the declaration of thrown exception 'java.io.IOException', as it cannot be thrown from method's body.(ÈƒíÙüÿÿÿÿ
+S	java:S106="9Replace this use of System.out or System.err by a logger.(®ÍÌüÿÿÿÿ
+S	java:S106b"9Replace this use of System.out or System.err by a logger.(©†şùÿÿÿÿ
+V
+java:S2274"";Remove this call to "await" or move it into a "while" loop.(‰«¸àıÿÿÿÿ
+N	java:S1062"9Replace this use of System.out or System.err by a logger.(ÉŒºå
+V
+java:S22747";Remove this call to "await" or move it into a "while" loop.(âòâ«şÿÿÿÿ
+P
+java:S2209]"5Change this instance-reference to a static reference.(éÄä©ıÿÿÿÿ
+N	java:S1066"9Replace this use of System.out or System.err by a logger.(ñ‡Œ­
+S	java:S106F"9Replace this use of System.out or System.err by a logger.(ƒş–¾şÿÿÿÿ
+S	java:S106L"9Replace this use of System.out or System.err by a logger.(¨ˆ’ƒùÿÿÿÿ
+N	java:S106R"9Replace this use of System.out or System.err by a logger.(£’ıÿ
+N	java:S106*"9Replace this use of System.out or System.err by a logger.(„ËĞ
+N	java:S106H"9Replace this use of System.out or System.err by a logger.(“¼÷
+S	java:S106T"9Replace this use of System.out or System.err by a logger.(Ñ‚İ’üÿÿÿÿ
+N	java:S106("9Replace this use of System.out or System.err by a logger.(û¢›À
+S	java:S1060"9Replace this use of System.out or System.err by a logger.(·”Šûÿÿÿÿ
+\
+java:S21429"FEither re-interrupt this method or rethrow the "InterruptedException".(ä ¹€
+C
+java:S1604-"(Make this anonymous inner class a lambda(’¯Ì¢ùÿÿÿÿ
+K
+java:S2209 "5Change this instance-reference to a static reference.(õÍÀ®
+S	java:S106"9Replace this use of System.out or System.err by a logger.(àœúÿÿÿÿ
+S	java:S106J"9Replace this use of System.out or System.err by a logger.(×¥‹Ÿøÿÿÿÿ
+N	java:S106\"9Replace this use of System.out or System.err by a logger.(ñ»¦ğ
+\
+java:S2142N"FEither re-interrupt this method or rethrow the "InterruptedException".(ä ¹€
+\
+java:S2142$"FEither re-interrupt this method or rethrow the "InterruptedException".(ä ¹€
+S	java:S1068"9Replace this use of System.out or System.err by a logger.(Û¾Êæüÿÿÿÿ
+>
+java:S1604"(Make this anonymous inner class a lambda(ÚØ•¹
+M	java:S106#"9Replace this use of System.out or System.err by a logger.(©Ïî 
+S	java:S1064"9Replace this use of System.out or System.err by a logger.(¥‘‹ßıÿÿÿÿ
+S	java:S106`"9Replace this use of System.out or System.err by a logger.(ÂÏôÿÿÿÿÿ
+N	java:S106"9Replace this use of System.out or System.err by a logger.(Å×ö
+N	java:S106"9Replace this use of System.out or System.err by a logger.(ƒŸ•
+V	java:S125"<This block of commented-out lines of code should be removed.(€ÜÉƒùÿÿÿÿ
+K
+java:S22095"5Change this instance-reference to a static reference.(‹İ¶Û
+f	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¿ªë
+P
+java:S2209K"5Change this instance-reference to a static reference.(ˆñ…‘üÿÿÿÿ
+N	java:S106@"9Replace this use of System.out or System.err by a logger.(¡íß
+C
+java:S1604C"(Make this anonymous inner class a lambda(â™½Àıÿÿÿÿ

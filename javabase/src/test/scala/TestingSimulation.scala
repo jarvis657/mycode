@@ -12,7 +12,7 @@ import io.gatling.http.Predef._
 
 //class TestingSimulation extends Simulation {
 
-//  val httpProtocol = http.baseUrl("http://11.161.236.65:7001") // Here is the root for all relative URLs
+//  val httpProtocol = http.baseURL("http://11.161.236.65:7001") // Here is the root for all relative URLs
 //    .acceptHeader("text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8") // Here are the common headers
 //    .doNotTrackHeader("1")
 //    .acceptLanguageHeader("en-US,en;q=0.5")

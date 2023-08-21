@@ -45,10 +45,10 @@ mod array_my {
         }
         // End of the block
         // Error! `short_lived_binding` doesn't exist in this scope
-//        println!("outer short: {}", short_lived_binding);
+        //        println!("outer short: {}", short_lived_binding);
         // FIXME ^ Comment out this line
         println!("outer long: {}", long_lived_binding); //等于几？
-        // This binding also *shadows* the previous binding
+                                                        // This binding also *shadows* the previous binding
         let long_lived_binding = 'a';
         println!("outer long: {}", long_lived_binding);
     }

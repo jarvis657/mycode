@@ -1,7 +1,7 @@
 use std::ops::Deref;
 use std::rc::Rc;
 
-use crate::indexes::base::ListEnum::{Cons, Nil};
+use crate::indexes::base::ListEnum::{Consm, Nilm};
 
 pub fn box_test() {
     let x = Box::new(5);
@@ -17,14 +17,23 @@ enum Message {
 
 //递归数据大小无法确定.使用Box
 pub enum ListEnum {
-    Cons(i32, Box<ListEnum>),
-    Nil,
+    Consm(i32, Box<ListEnum>),
+    Nilm,
 }
 
 pub fn testListEnum() -> ListEnum {
     Cons(
         1,
         Box::new(Cons(2, Box::new(Cons(3, Box::new(Cons(4, Box::new(Nil))))))),
+    )
+}
+pub fn test_list_enum() -> ListEnum {
+    Consm(
+        1,
+        Box::new(Consm(
+            2,
+            Box::new(Consm(3, Box::new(Consm(4, Box::new(Nilm))))),
+        )),
     )
 }
 

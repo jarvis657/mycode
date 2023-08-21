@@ -1,0 +1,15 @@
+
+S	java:S106+"9Replace this use of System.out or System.err by a logger.(º¬Âıÿÿÿÿ
+Q
+java:S2696*"6Make the enclosing method "static" or remove this set.(ëæûÿÿÿÿÿ
+L
+java:S2696H"6Make the enclosing method "static" or remove this set.( §
+N	java:S106I"9Replace this use of System.out or System.err by a logger.(‘¸Ø«
+T
+java:S4973#"9Use the "equals" method if value comparison was intended.(¼‡Â×ÿÿÿÿÿ
+\
+java:S2142<"FEither re-interrupt this method or rethrow the "InterruptedException".(‘í†
+\
+java:S2142&"FEither re-interrupt this method or rethrow the "InterruptedException".(ä ¹€
+G
+java:S1068"*Remove this unused "rwLock" private field.(ÂşÔÛ8ƒòÄë.

@@ -1,6 +1,6 @@
 //====================
-use std::io::{Error, ErrorKind, Read, Result};
 use std::io::Cursor;
+use std::io::{Error, ErrorKind, Read, Result};
 
 //⭐️ As you can see methods take a special first parameter, the type itself. It can be either self, &self, or &mut self; self if it’s a value on the stack (taking ownership), &self if it’s a reference, and &mut self if it’s a mutable reference.
 pub trait FullName {
@@ -13,7 +13,6 @@ impl FullName for Player {
     }
 }
 
-
 //====== impl for struct
 #[derive(Debug)]
 pub struct Player {
@@ -23,12 +22,12 @@ pub struct Player {
 
 impl Player {
     //Impls with Associated functions
-//Some other languages support static methods. At such times, we call a function directly through the class without creating an object. In Rust, we call them Associated Functions. we use :: instead of . when calling them from struct.
-//ex. Person::new(“Elon Musk Jr”);
-//    / we have used :: notation for `new()` and . notation for `full_name()`
-// 🔎 Also in here we have used `Method Chaining`. Instead of using two statements for new() and full_name()
-// calls, we can use a single statement with Method Chaining.
-// ex. player.add_points(2).get_point_count();
+    //Some other languages support static methods. At such times, we call a function directly through the class without creating an object. In Rust, we call them Associated Functions. we use :: instead of . when calling them from struct.
+    //ex. Person::new(“Elon Musk Jr”);
+    //    / we have used :: notation for `new()` and . notation for `full_name()`
+    // 🔎 Also in here we have used `Method Chaining`. Instead of using two statements for new() and full_name()
+    // calls, we can use a single statement with Method Chaining.
+    // ex. player.add_points(2).get_point_count();
     pub fn new(first_name: String, last_name: String) -> Player {
         Player {
             first_name: first_name,
@@ -52,7 +51,7 @@ pub trait GetSound {
 }
 
 pub struct Cat {
-    pub   sound: String,
+    pub sound: String,
 }
 
 impl GetSound for Cat {

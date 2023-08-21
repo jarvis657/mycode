@@ -1,0 +1,13 @@
+
+N	java:S106"9Replace this use of System.out or System.err by a logger.(™²“õ
+N	java:S106"9Replace this use of System.out or System.err by a logger.(€çî
+S	java:S106"9Replace this use of System.out or System.err by a logger.(‹É½Çøÿÿÿÿ
+S	java:S106"9Replace this use of System.out or System.err by a logger.(ëæÛûÿÿÿÿ
+N	java:S1062"9Replace this use of System.out or System.err by a logger.(…ÖèÅ
+\
+java:S1192"FDefine a constant instead of duplicating this literal "cost:" 3 times.(€çî
+S	java:S106"9Replace this use of System.out or System.err by a logger.(íï•íúÿÿÿÿ
+M
+java:S3655"7Call "Optional#isPresent()" before accessing the value.(ÆƒÑ
+N	java:S106"9Replace this use of System.out or System.err by a logger.(˜šÖ
+h	java:S100F"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ìÁ£âûÿÿÿÿ

@@ -137,8 +137,8 @@ public class Sample {
                         System.out.println(String.format("%s-%d:%d", getName(), m, injector3.getInstance(Service.class).hashCode()));
                         //不能同时跑,因为threadlocal里面 又放ServiceProvider_one又放IHelloPrinter  获取的时候
 //                        会有java.lang.ClassCastException: guice.tutorial.ServiceProvider_One cannot be cast to guice.tutorial.IHelloPrinter
-//                        System.out.println(String.format("injector2 %s-%d:%d", getName(), m, injector2.getInstance(Key.get(IHelloPrinter.class, Names.named("ici"))).hashCode()));
-//                        System.out.println(String.format("injector2 %s-%d:%d", getName(), m, injector2.getInstance(Key.get(IHelloPrinter.class, Names.named("simple"))).hashCode()));
+                        System.out.println(String.format("injector2 %s-%d:%d", getName(), m, injector2.getInstance(Key.get(IHelloPrinter.class, Names.named("ici"))).hashCode()));
+                        System.out.println(String.format("injector2 %s-%d:%d", getName(), m, injector2.getInstance(Key.get(IHelloPrinter.class, Names.named("simple"))).hashCode()));
                         try {
                             Thread.sleep(50L);
                         } catch (Exception e) {

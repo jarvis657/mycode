@@ -1,0 +1,13 @@
+
+k
+java:S3014r"IRemove this use of "ThreadGroup". Prefer the use of "ThreadPoolExecutor".(‹©Öıÿÿÿÿ8¹²™ÀÈ.
+{
+java:S2293`"YReplace the type specification in this constructor call with the diamond operator ("<>").(ú…ØÏüÿÿÿÿ8ø†ÀÈ.
+^
+java:S3457/"AFormat specifiers should be used instead of string concatenation.(·ÊÄ˜8ê›ÀÈ.
+v
+java:S2293j"YReplace the type specification in this constructor call with the diamond operator ("<>").(ÓÕ…ı8ø†ÀÈ.
+c
+java:S3457;"AFormat specifiers should be used instead of string concatenation.(è®‹ÿÿÿÿÿ8ê›ÀÈ.
+c
+java:S3457Q"AFormat specifiers should be used instead of string concatenation.(ô‰¹üÿÿÿÿ8”º›ÀÈ.

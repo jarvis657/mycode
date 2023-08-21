@@ -6,6 +6,8 @@ package origin.perf;
 //import sun.jvm.hotspot.tools.Tool;
 //import sun.jvm.hotspot.utilities.SystemDictionaryHelper;
 
+import org.apache.poi.util.LongField;
+
 import java.util.Arrays;
 import org.apache.poi.util.LongField;
 //import sun.misc.VM;
@@ -17,7 +19,8 @@ import org.apache.poi.util.LongField;
  * or  sudo -u admin java -cp .:$JAVA_HOME/lib/sa-jdi.jar DirectMemorySize -e `pgrep -u admin java`
  **/
 
-//public class DirectMemorySize extends Tool {
+//public class DirectMemorySize {
+//        extends Tool {
 //    private boolean exactMallocMode;
 //    private boolean verbose;
 //

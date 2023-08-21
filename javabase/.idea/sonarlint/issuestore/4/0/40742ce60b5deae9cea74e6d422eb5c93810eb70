@@ -1,0 +1,11 @@
+
+X	java:S125"<This block of commented-out lines of code should be removed.(‰ζΡ+8‰β«ζ.
+Z	java:S106c"9Replace this use of System.out or System.err by a logger.(›µ²Ψψÿÿÿÿ8¶Ε„χε.
+>
+java:S1659~"!Declare "end" on a separate line.(ΔΧβ8‰β«ζ.
+U	java:S1063"9Replace this use of System.out or System.err by a logger.(ΧΖαξ8¶Ε„χε.
+r
+java:S1149Q"PReplace the synchronized class "Stack" by an unsynchronized one such as "Deque".(ϋ›ώφύÿÿÿÿ8¶Ε„χε.
+R
+java:S1144O"5Remove this unused private "nonRec_quickSort" method.(σΎΘ8¶Ε„χε.
+j	java:S100O"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(σΎΘ8¶Ε„χε.

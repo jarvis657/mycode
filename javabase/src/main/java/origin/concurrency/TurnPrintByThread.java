@@ -5,6 +5,8 @@ import sun.misc.Unsafe;
 import java.lang.reflect.Field;
 import java.util.ArrayList;
 import java.util.List;
+import java.util.concurrent.locks.Condition;
+import java.util.concurrent.locks.ReentrantLock;
 
 /**
  * @author muqi.lmq
@@ -26,10 +28,10 @@ public class TurnPrintByThread {
         }
     }
 
-    public static void main(String[] args) {
+//    public static void main(String[] args) {
 //        originTurnPrint();
-        mTurnPrint();
-    }
+////        mTurnPrint();
+//    }
 
     private static String who(int i) {
         switch (i) {
@@ -136,5 +138,57 @@ public class TurnPrintByThread {
         public void setI(int i) {
             this.i = i;
         }
+    }
+    //其他简单方式
+    private final Object monitor = new Object();
+    private final int limit;
+    private volatile int count;
+
+    public TurnPrintByThread(int limit, int initCount) {
+        this.limit = limit;
+        this.count = initCount;
+    }
+
+//    public void print() {
+//        synchronized (monitor) {
+//            while (count < limit) {
+//                try {
+//                    System.out.println(String.format("线程[%s]打印数字:%d", Thread.currentThread().getName(), ++count));
+//                    monitor.notifyAll();
+//                    monitor.wait();
+//                } catch (InterruptedException e) {
+//                    //ignore
+//                }
+//            }
+//        }
+//    }
+    private final ReentrantLock lock = new ReentrantLock();
+    private final Condition condition = lock.newCondition();
+
+    public void print()  {
+        lock.lock();
+        try {
+            while (count < limit){
+                System.out.println(String.format("线程[%s]打印数字:%d", Thread.currentThread().getName(), ++count));
+                condition.signalAll();
+                try {
+                    condition.await();
+                } catch (InterruptedException e) {
+                    //ignore
+                }
+            }
+        } finally {
+            lock.unlock();
+        }
+    }
+
+
+    public static void main(String[] args) throws Exception {
+        TurnPrintByThread printer = new TurnPrintByThread(10, 0);
+        Thread thread1 = new Thread(printer::print, "thread-1");
+        Thread thread2 = new Thread(printer::print, "thread-2");
+        thread1.start();
+        thread2.start();
+        Thread.sleep(Integer.MAX_VALUE);
     }
 }

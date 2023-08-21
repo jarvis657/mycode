@@ -4,16 +4,16 @@ use std::fmt::Error;
 use crate::calc;
 
 struct Cacher<T>
-where
-    T: Fn(u32, &str) -> u32,
+    where
+        T: Fn(u32, &str) -> u32,
 {
     calculation: T,
     value: HashMap<u32, u32>,
 }
 
 impl<T> Cacher<T>
-where
-    T: Fn(u32, &str) -> u32,
+    where
+        T: Fn(u32, &str) -> u32,
 {
     pub fn new(cal: T) -> Cacher<T> {
         Cacher {
@@ -53,8 +53,8 @@ mod tests {
     }
 
     pub fn test_clo<T>(abc: T) -> T
-    where
-        T: Copy,
+        where
+            T: Copy,
     {
         let c1 = |x| x;
         return c1(abc);

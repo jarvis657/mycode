@@ -1,0 +1,54 @@
+
+h
+java:S1124‘"EReorder the modifiers to comply with the Java Language Specification.(µÌÀúÿÿÿÿ8Ş¬ÉÏÂ.
+|	java:S116â"ZRename this field "value_othername" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(š±®ÿÿÿÿÿ8Ş¬ÉÏÂ.
+c	java:S112‰"FDefine and throw a dedicated exception instead of using a generic one.(­ƒš¡8Ş¬ÉÏÂ.
+
+java:S1130©"lRemove the declaration of thrown exception 'java.lang.Exception', as it cannot be thrown from method's body.(âêßŸÿÿÿÿÿ8Ş¬ÉÏÂ.
+a	java:S112D"FDefine and throw a dedicated exception instead of using a generic one.(¶ª)8Ş¬ÉÏÂ.
+e
+java:S1128"CRemove this unused import 'com.fasterxml.jackson.core.JsonFactory'.(”òà°ÿÿÿÿÿ8Ş¬ÉÏÂ.
+g	java:S1125"FDefine and throw a dedicated exception instead of using a generic one.(³©•Áşÿÿÿÿ8Ş¬ÉÏÂ.
+g	java:S112S"FDefine and throw a dedicated exception instead of using a generic one.(Úªäøÿÿÿÿ8Ş¬ÉÏÂ.
+b	java:S1120"FDefine and throw a dedicated exception instead of using a generic one.(ˆ¢øÙ8Ş¬ÉÏÂ.
+h	java:S112©"FDefine and throw a dedicated exception instead of using a generic one.(âêßŸÿÿÿÿÿ8Ş¬ÉÏÂ.
+V
+java:S1068â"3Remove this unused "value_othername" private field.(š±®ÿÿÿÿÿ8Ş¬ÉÏÂ.
+N
+java:S3011?",This accessibility update should be removed.(Àœ£ùÿÿÿÿ8Ş¬ÉÏÂ.
+g	java:S112;"FDefine and throw a dedicated exception instead of using a generic one.(ªÅµ•ûÿÿÿÿ8Ş¬ÉÏÂ.
+h	java:S112Â"FDefine and throw a dedicated exception instead of using a generic one.(ûâ©ßøÿÿÿÿ8Ş¬ÉÏÂ.
+a
+java:S1128"DRemove this unused import 'com.fasterxml.jackson.core.JsonEncoding'.(Šã‘8Ş¬ÉÏÂ.
+h	java:S112²"FDefine and throw a dedicated exception instead of using a generic one.(†éö»øÿÿÿÿ8Ş¬ÉÏÂ.
+
+java:S1130_"lRemove the declaration of thrown exception 'java.lang.Exception', as it cannot be thrown from method's body.(ÆŸÁîşÿÿÿÿ8ò¾ĞéÂ.
+s
+java:S1206‡"PThis class overrides "equals()" and should therefore also override "hashCode()".(İ¢êÍıÿÿÿÿ8Ş¬ÉÏÂ.
+g	java:S112"FDefine and throw a dedicated exception instead of using a generic one.(©Ê©ƒùÿÿÿÿ8Ş¬ÉÏÂ.
+g	java:S112_"FDefine and throw a dedicated exception instead of using a generic one.(ÆŸÁîşÿÿÿÿ8Ş¬ÉÏÂ.
+g	java:S112w"FDefine and throw a dedicated exception instead of using a generic one.(ì“Ñüÿÿÿÿ8Ş¬ÉÏÂ.
+b	java:S112#"FDefine and throw a dedicated exception instead of using a generic one.(Û‰Ú8Ş¬ÉÏÂ.
+R
+java:S1128"0Remove this unused import 'java.io.IOException'.(ªº»Úıÿÿÿÿ8Ş¬ÉÏÂ.
+d
+java:S2142Õ"FEither re-interrupt this method or rethrow the "InterruptedException".(ä ¹€8Ş¬ÉÏÂ.
+I
+java:S3011",This accessibility update should be removed.(Ç”‚Œ8Ş¬ÉÏÂ.
+b
+java:S1128"ERemove this unused import 'com.fasterxml.jackson.core.JsonGenerator'.(ñ£õÈ8Ş¬ÉÏÂ.
+‰
+java:S11300"lRemove the declaration of thrown exception 'java.lang.Exception', as it cannot be thrown from method's body.(ˆ¢øÙ8Ş¬ÉÏÂ.
+N
+java:S3011H",This accessibility update should be removed.(Àœ£ùÿÿÿÿ8Ş¬ÉÏÂ.
+[	java:S106æ"9Replace this use of System.out or System.err by a logger.(–†˜éùÿÿÿÿ8Ş¬ÉÏÂ.
+
+java:S1130S"lRemove the declaration of thrown exception 'java.lang.Exception', as it cannot be thrown from method's body.(Úªäøÿÿÿÿ8ò¾ĞéÂ.
+I
+java:S3011%",This accessibility update should be removed.(‚˜ÛË8Ş¬ÉÏÂ.
+
+java:S1130Â"lRemove the declaration of thrown exception 'java.lang.Exception', as it cannot be thrown from method's body.(ûâ©ßøÿÿÿÿ8ò¾ĞéÂ.
+N
+java:S1068ã"0Remove this unused "unknownValue" private field.(ß¯¤î8Ş¬ÉÏÂ.
+R
+java:S1191"5Use classes from the Java API instead of Sun classes.(éª‚€8Ş¬ÉÏÂ.

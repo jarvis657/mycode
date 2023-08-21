@@ -2,6 +2,11 @@ package main
 
 import (
 	"fmt"
+	"reflect"
+	"runtime"
+	"sync"
+	"time"
+
 	"github.com/go-co-op/gocron"
 	"math/rand"
 	"sync"
@@ -27,6 +32,14 @@ func (f *Foo) Hash() uint32 {
 		h *= 16777619
 	}
 	return h
+}
+
+// 获取正在运行的函数名
+func runFuncName() string {
+	pc := make([]uintptr, 1)
+	runtime.Callers(2, pc)
+	f := runtime.FuncForPC(pc[0])
+	return f.Name()
 }
 
 var expireRenderDetails = sync.Map{}
@@ -60,7 +73,6 @@ type SupplierChatGPTConfig struct {
 		IsDisable bool   `json:"is_disable"`
 	} `json:"tokenConfig"`
 }
-
 func main() {
 	s := gocron.NewScheduler(time.UTC)
 	s.Every(10).Seconds().Do(func() {
@@ -70,63 +82,67 @@ func main() {
 	for {
 		time.Sleep(1 * time.Second)
 	}
-	//date := time.Now().AddDate(0, 0, 2)
-	//fmt.Println(date.Format("20060102"))
-	//var config = SupplierChatGPTConfig{}
-	//supplierConfig := `{"user_tokens_per_day_limit":10000,"tokenConfig":[{"account":"default","token":"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","is_disable":false}]}`
-	//json.Unmarshal([]byte(supplierConfig), &config)
-	//fmt.Println(config.TokenConfig)
-	//now := time.Now()
-	//fmt.Println(now.Format("20060102"))
-	//randPut()
-	//randPut()
-	//randPut()
-	//randPut()
-	//randPut()
-	//printMap(&expireRenderDetails)
-	//expireRenderDetails.Range(func(k, v interface{}) bool {
-	//	if 15 < k.(int) {
-	//		fmt.Printf("del:%v\n", k.(int))
-	//		expireRenderDetails.Delete(k)
-	//	}
-	//	//printMap(&expireRenderDetails)
-	//	return true
-	//})
-	//printMap(&expireRenderDetails)
-	//
-	//time.Sleep(time.Duration(5) * time.Second)
-	//expireRenderDetails.Store("f", "f")
-	//printMap(&expireRenderDetails)
-	//
-	//m := make(map[Foo]string)
-	//bar := &Bar{"one"}
-	//foo := Foo{bar}
-	//m[foo] = "foo"
-	//fmt.Printf("foo: %s bar one:%s\n", foo, m[foo])
-	//fmt.Printf("foo: %s bar one:%s\n", foo, m[foo])
-	//bar.Id = "two"
-	//fmt.Printf("bar id change two:%s\n", m)
-	//
-	//bar2 := &Bar{"two"}
-	//foo2 := Foo{bar2}
-	//
-	//fmt.Printf("foo2:%s  foo:%s  foo2==foo:%s\n", foo2, foo, foo2 == foo)
-	//fmt.Printf("reflect.DeepEqual(a, b): %s \n", reflect.DeepEqual(foo2, foo))
-	//
-	//fmt.Printf("foo2:%s  :%s\n", foo2, m[foo2])
-	//// At this point, your map may be irreversibly broken.
-	//// It contains an element that is probably in the wrong bucket.
-	//fmt.Println("================================================")
-	//query := map[string]string{}
-	//// 需要按照字典排序
-	//query["test0"] = "0"
-	//query["test1"] = "1"
-	//query["test2"] = "2"
-	//
+	m := make(map[Foo]string)
+	bar := &Bar{"one"}
+	foo := Foo{bar}
+	m[foo] = "foo"
+	fmt.Printf("foo: %s bar one:%s\n", foo, m[foo])
+	bar.Id = "two"
+	fmt.Printf("bar id change two:%s\n", m)
+
+	bar2 := &Bar{"two"}
+	foo2 := Foo{bar2}
+
+	fmt.Printf("foo2:%s  foo:%s  foo2==foo:%s\n", foo2, foo, foo2 == foo)
+	fmt.Printf("reflect.DeepEqual(a, b): %s \n", reflect.DeepEqual(foo2, foo))
+
+	fmt.Printf("foo2:%s  :%s\n", foo2, m[foo2])
+	// At this point, your map may be irreversibly broken.
+	// It contains an element that is probably in the wrong bucket.
+	fmt.Println("================================================")
+	query := map[string]string{}
+	// 需要按照字典排序
+	query["test1"] = "1"
+	query["test0"] = "0"
+	query["test2"] = "2"
+
 	//for i := 0; i < 100; i++ {
-	//	for _, v := range query {
-	//		fmt.Print(v)
-	//	}
-	//	fmt.Println()
+	for i, v := range query {
+		fmt.Println(i, " # ", v)
+	}
 	//}
+	ch := make(chan bool, 2)
+	ch <- true
+	ch <- true
+	close(ch)
+	fmt.Println("len:==========cap:{}", len(ch), cap(ch))
+	for i := 0; i < cap(ch)+2; i++ {
+		v, ok := <-ch
+		fmt.Println(i, v, ok)
+	}
+	fmt.Println("testSelect======================================")
+	testSelect()
+}
+func testSelect() {
+	fmt.Println(runFuncName(), " 测试函数调用:")
+	finish := make(chan bool)
+	var done sync.WaitGroup
+	done.Add(1)
+	go func() {
+		select {
+		case <-time.After(2 * time.Second):
+			fmt.Println("v")
+		case <-finish:
+		}
+		fmt.Println("done before")
+		done.Done()
+	}()
+	t0 := time.Now()
+	//<-time.After(3 * time.Second) //如果这里的时间超过 select case上的2秒 则 fatal error: all goroutines are asleep - deadlock!出现这个错误,因为finish是无buffer的channel,无buffer是'先消费后生产',
+	//// 不然会堵塞生产者 将channel改成有buffer可解决这个问题
+	//finish <- true // send the close signal
+	close(finish)
+	fmt.Println("done wait")
+	done.Wait() // wait for the goroutine to stop
+	fmt.Printf("Waited %v for goroutine to stop\n", time.Since(t0))
 }

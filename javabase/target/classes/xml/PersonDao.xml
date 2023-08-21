@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="origin.spring.db.PersonDao">
+    <resultMap id="BaseResultMap" type="origin.spring.db.Person">
+        <id column="person_id" jdbcType="BIGINT" property="id"/>
+        <result column="person_name" jdbcType="VARCHAR" property="name"/>
+        <result column="person_age" jdbcType="TINYINT" property="age"/>
+    </resultMap>
+    <sql id="Base_Column_List">
+    person.id as person_id, person.`name` as `person_name`, person.age as person_age
+  </sql>
+    <select id="selectByPrimaryKey" parameterType="java.lang.Long" resultMap="BaseResultMap">
+        select
+        <include refid="Base_Column_List"/>
+        from person person
+        where person.id = #{id,jdbcType=BIGINT}
+    </select>
+    <delete id="deleteByPrimaryKey" parameterType="java.lang.Long">
+    delete from person
+    where id = #{id,jdbcType=BIGINT}
+  </delete>
+    <insert id="insert" keyColumn="id" keyProperty="id" parameterType="origin.spring.db.Person" useGeneratedKeys="true">
+    insert into person (`name`, age)
+    values (#{name,jdbcType=VARCHAR}, #{age,jdbcType=TINYINT})
+  </insert>
+    <insert id="insertSelective" keyColumn="id" keyProperty="id" parameterType="origin.spring.db.Person" useGeneratedKeys="true">
+        insert into person
+        <trim prefix="(" suffix=")" suffixOverrides=",">
+            <if test="name != null">
+                `name`,
+            </if>
+            <if test="age != null">
+                age,
+            </if>
+        </trim>
+        <trim prefix="values (" suffix=")" suffixOverrides=",">
+            <if test="name != null">
+                #{name,jdbcType=VARCHAR},
+            </if>
+            <if test="age != null">
+                #{age,jdbcType=TINYINT},
+            </if>
+        </trim>
+    </insert>
+    <update id="updateByPrimaryKeySelective" parameterType="origin.spring.db.Person">
+        update person
+        <set>
+            <if test="name != null">
+                `name` = #{name,jdbcType=VARCHAR},
+            </if>
+            <if test="age != null">
+                age = #{age,jdbcType=TINYINT},
+            </if>
+        </set>
+        where id = #{id,jdbcType=BIGINT}
+    </update>
+    <update id="updateByPrimaryKey" parameterType="origin.spring.db.Person">
+    update person
+    set `name` = #{name,jdbcType=VARCHAR},
+      age = #{age,jdbcType=TINYINT}
+    where id = #{id,jdbcType=BIGINT}
+  </update>
+</mapper>

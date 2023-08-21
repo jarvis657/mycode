@@ -1,0 +1,205 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configuration>
+    <!--待修改-->
+    <include resource="org/springframework/boot/logging/logback/base.xml"/>
+    <springProperty name="logging.biz.info.file" scope="context" source="logging.biz.info.file"/>
+    <springProperty name="logging.biz.err.file" scope="context" source="logging.biz.err.file"/>
+    <springProperty name="logging.sal.info.file" scope="context" source="logging.sal.info.file"/>
+    <springProperty name="logging.sal.err.file" scope="context" source="logging.sal.err.file"/>
+    <springProperty name="logging.web.info.file" scope="context" source="logging.web.info.file"/>
+    <springProperty name="logging.web.err.file" scope="context" source="logging.web.err.file"/>
+    <springProperty name="logging.redis.err.file" scope="context" source="logging.redis.err.file"/>
+
+
+    <property name="BIZ_LOG_INFO_FILE"
+              value="${logging.biz.info.file:-${LOG_PATH}/${spring.application.name}.biz.info.log}"/>
+    <property name="BIZ_LOG_ERR_FILE"
+              value="${logging.biz.err.file:-${LOG_PATH}/${spring.application.name}.biz.err.log}"/>
+
+    <property name="SAL_LOG_INFO_FILE"
+              value="${logging.sal.info.file:-${LOG_PATH}/${spring.application.name}.sal.info.log}"/>
+    <property name="SAL_LOG_ERR_FILE"
+              value="${logging.sal.err.file:-${LOG_PATH}/${spring.application.name}.sal.err.log}"/>
+
+    <property name="WEB_LOG_INFO_FILE"
+              value="${logging.web.info.file:-${LOG_PATH}/${spring.application.name}.web.info.log}"/>
+    <property name="WEB_LOG_ERR_FILE"
+              value="${logging.web.err.file:-${LOG_PATH}/${spring.application.name}.web.err.log}"/>
+
+    <property name="REDIS_LOG_ERR_FILE"
+              value="${logging.redis.err.file:-${LOG_PATH}/${spring.application.name}.redis.err.log}"/>
+
+
+    <appender name="BIZINFO" class="ch.qos.logback.core.rolling.RollingFileAppender">
+        <file>${BIZ_LOG_INFO_FILE}</file>
+        <encoder>
+            <pattern>${FILE_LOG_PATTERN}</pattern>
+        </encoder>
+        <rollingPolicy class="ch.qos.logback.core.rolling.SizeAndTimeBasedRollingPolicy">
+            <fileNamePattern>${BIZ_LOG_INFO_FILE}.%d{yyyy-MM-dd}.%i.log</fileNamePattern>
+            <maxHistory>7</maxHistory>
+            <maxFileSize>100MB</maxFileSize>
+            <totalSizeCap>10GB</totalSizeCap>
+        </rollingPolicy>
+    </appender>
+
+    <appender name="BIZERR" class="ch.qos.logback.core.rolling.RollingFileAppender">
+        <file>${BIZ_LOG_ERR_FILE}</file>
+        <encoder>
+            <pattern>${FILE_LOG_PATTERN}</pattern>
+        </encoder>
+        <rollingPolicy class="ch.qos.logback.core.rolling.SizeAndTimeBasedRollingPolicy">
+            <fileNamePattern>${BIZ_LOG_ERR_FILE}.%d{yyyy-MM-dd}.%i.log</fileNamePattern>
+            <maxHistory>7</maxHistory>
+            <maxFileSize>100MB</maxFileSize>
+            <totalSizeCap>10GB</totalSizeCap>
+        </rollingPolicy>
+    </appender>
+
+    <appender name="REDISERR" class="ch.qos.logback.core.rolling.RollingFileAppender">
+        <file>${REDIS_LOG_ERR_FILE}</file>
+        <encoder>
+            <pattern>${FILE_LOG_PATTERN}</pattern>
+        </encoder>
+        <rollingPolicy class="ch.qos.logback.core.rolling.SizeAndTimeBasedRollingPolicy">
+            <fileNamePattern>${REDIS_LOG_ERR_FILE}.%d{yyyy-MM-dd}.%i.log</fileNamePattern>
+            <maxHistory>7</maxHistory>
+            <maxFileSize>100MB</maxFileSize>
+            <totalSizeCap>10GB</totalSizeCap>
+        </rollingPolicy>
+    </appender>
+
+
+    <appender name="SALINFO" class="ch.qos.logback.core.rolling.RollingFileAppender">
+        <file>${SAL_LOG_INFO_FILE}</file>
+        <encoder>
+            <pattern>${FILE_LOG_PATTERN}</pattern>
+        </encoder>
+        <rollingPolicy class="ch.qos.logback.core.rolling.SizeAndTimeBasedRollingPolicy">
+            <fileNamePattern>${SAL_LOG_INFO_FILE}.%d{yyyy-MM-dd}.%i.log</fileNamePattern>
+            <maxHistory>7</maxHistory>
+            <maxFileSize>50MB</maxFileSize>
+            <totalSizeCap>10GB</totalSizeCap>
+        </rollingPolicy>
+    </appender>
+
+    <appender name="SALERR" class="ch.qos.logback.core.rolling.RollingFileAppender">
+        <file>${SAL_LOG_ERR_FILE}</file>
+        <encoder>
+            <pattern>${FILE_LOG_PATTERN}</pattern>
+        </encoder>
+        <rollingPolicy class="ch.qos.logback.core.rolling.SizeAndTimeBasedRollingPolicy">
+            <fileNamePattern>${SAL_LOG_ERR_FILE}.%d{yyyy-MM-dd}.%i.log</fileNamePattern>
+            <maxHistory>7</maxHistory>
+            <maxFileSize>100MB</maxFileSize>
+            <totalSizeCap>10GB</totalSizeCap>
+        </rollingPolicy>
+    </appender>
+
+    <appender name="WEBINFO" class="ch.qos.logback.core.rolling.RollingFileAppender">
+        <file>${WEB_LOG_INFO_FILE}</file>
+        <encoder>
+            <pattern>${FILE_LOG_PATTERN}</pattern>
+        </encoder>
+        <rollingPolicy class="ch.qos.logback.core.rolling.SizeAndTimeBasedRollingPolicy">
+            <fileNamePattern>${WEB_LOG_INFO_FILE}.%d{yyyy-MM-dd}.%i.log</fileNamePattern>
+            <maxHistory>7</maxHistory>
+            <maxFileSize>100MB</maxFileSize>
+            <totalSizeCap>10GB</totalSizeCap>
+        </rollingPolicy>
+    </appender>
+
+    <appender name="WEBERR" class="ch.qos.logback.core.rolling.RollingFileAppender">
+        <file>${WEB_LOG_ERR_FILE}</file>
+        <encoder>
+            <pattern>${FILE_LOG_PATTERN}</pattern>
+        </encoder>
+        <rollingPolicy class="ch.qos.logback.core.rolling.SizeAndTimeBasedRollingPolicy">
+            <fileNamePattern>${WEB_LOG_ERR_FILE}.%d{yyyy-MM-dd}.%i.log</fileNamePattern>
+            <maxHistory>7</maxHistory>
+            <maxFileSize>100MB</maxFileSize>
+            <totalSizeCap>10GB</totalSizeCap>
+        </rollingPolicy>
+    </appender>
+
+
+    <springProfile name="production">
+<!--        <root level="INFO">-->
+<!--            <appender-ref ref="ALIMONITOR"/>-->
+<!--            <appender-ref ref="APPLICATION"/>-->
+<!--        </root>-->
+<!--        <logger name="WEB_INFO" additivity="false">-->
+<!--            <appender-ref ref="APPLICATION"/>-->
+<!--            <appender-ref ref="WEBINFO"/>-->
+<!--        </logger>-->
+
+<!--        <logger name="WEB_ERR" additivity="false">-->
+<!--            <appender-ref ref="APPLICATION"/>-->
+<!--            <appender-ref ref="WEBERR"/>-->
+<!--        </logger>-->
+<!--        <logger name="BIZ_INFO" additivity="false">-->
+<!--            <appender-ref ref="APPLICATION"/>-->
+<!--            <appender-ref ref="BIZINFO"/>-->
+<!--        </logger>-->
+
+<!--        <logger name="BIZ_ERR" additivity="false">-->
+<!--            <appender-ref ref="APPLICATION"/>-->
+<!--            <appender-ref ref="BIZERR"/>-->
+<!--        </logger>-->
+
+<!--        <logger name="REDIS_ERR" additivity="false">-->
+<!--            <appender-ref ref="APPLICATION"/>-->
+<!--            <appender-ref ref="REDISERR"/>-->
+<!--        </logger>-->
+
+<!--        <logger name="SAL_INFO" additivity="false">-->
+<!--            <appender-ref ref="APPLICATION"/>-->
+<!--            <appender-ref ref="SALINFO"/>-->
+<!--        </logger>-->
+
+<!--        <logger name="SAL_ERR" additivity="false">-->
+<!--            <appender-ref ref="APPLICATION"/>-->
+<!--            <appender-ref ref="SALERR"/>-->
+<!--        </logger>-->
+    </springProfile>
+
+    <springProfile name="!production">
+        <root level="INFO">
+            <appender-ref ref="CONSOLE"/>
+<!--            <appender-ref ref="APPLICATION"/>-->
+        </root>
+        <logger name="WEB_INFO" additivity="false">
+            <appender-ref ref="CONSOLE"/>
+<!--            <appender-ref ref="WEBINFO"/>-->
+        </logger>
+
+        <logger name="WEB_ERR" additivity="false">
+            <appender-ref ref="CONSOLE"/>
+<!--            <appender-ref ref="WEBERR"/>-->
+        </logger>
+        <logger name="BIZ_INFO" additivity="false">
+            <appender-ref ref="CONSOLE"/>
+<!--            <appender-ref ref="BIZINFO"/>-->
+        </logger>
+
+        <logger name="BIZ_ERR" additivity="false">
+            <appender-ref ref="CONSOLE"/>
+<!--            <appender-ref ref="BIZERR"/>-->
+        </logger>
+
+        <logger name="SAL_INFO" additivity="false">
+            <appender-ref ref="CONSOLE"/>
+<!--            <appender-ref ref="SALINFO"/>-->
+        </logger>
+
+        <logger name="SAL_ERR" additivity="false">
+            <appender-ref ref="CONSOLE"/>
+<!--            <appender-ref ref="SALERR"/>-->
+        </logger>
+
+        <logger name="REDIS_ERR" additivity="false">
+            <appender-ref ref="CONSOLE"/>
+<!--            <appender-ref ref="REDISERR"/>-->
+        </logger>
+    </springProfile>
+</configuration>

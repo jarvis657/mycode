@@ -1,20 +1,25 @@
 package rsockets;
 
-import io.rsocket.AbstractRSocket;
-import io.rsocket.Payload;
-import io.rsocket.RSocketFactory;
+//import io.rsocket.AbstractRSocket;
+//import io.rsocket.Payload;
+//import io.rsocket.RSocketFactory;
+//import io.rsocket.transport.netty.server.TcpServerTransport;
+//import io.rsocket.util.DefaultPayload;
+//import reactor.core.Disposable;
+//import reactor.core.publisher.Flux;
+//import reactor.core.publisher.Mono;
+//import reactor.core.scheduler.Schedulers;
+
 import io.rsocket.transport.netty.server.TcpServerTransport;
 import io.rsocket.util.DefaultPayload;
-import reactor.core.Disposable;
-import reactor.core.publisher.Flux;
-import reactor.core.publisher.Mono;
-import reactor.core.scheduler.Schedulers;
-import reactor.test.StepVerifier;
-
 import java.time.Duration;
 import java.time.temporal.ChronoUnit;
 import java.util.ArrayList;
 import java.util.Random;
+import reactor.core.Disposable;
+import reactor.core.publisher.Flux;
+import reactor.core.publisher.Mono;
+import reactor.core.scheduler.Schedulers;
 
 /**
  * @Author:qishan
@@ -23,15 +28,15 @@ import java.util.Random;
  **/
 public class Server {
     private static final int TCP_PORT = 7777;
-    private final Disposable server;
+//    private final Disposable server;
 
-    public Server() {
-        this.server = RSocketFactory.receive()
-                .acceptor((setupPayload, reactiveSocket) -> Mono.just(new RSocketImpl()))
-                .transport(TcpServerTransport.create("localhost", TCP_PORT))
-                .start()
-                .subscribe();
-    }
+//    public Server() {
+//        this.server = RSocketFactory.receive()
+//                .acceptor((setupPayload, reactiveSocket) -> Mono.just(new RSocketImpl()))
+//                .transport(TcpServerTransport.create("localhost", TCP_PORT))
+//                .start()
+//                .subscribe();
+//    }
 
     public static void main(String[] args) {
         Flux.generate(sink -> {
@@ -129,33 +134,33 @@ public class Server {
 //                .verifyComplete();
     }
 
-    public void dispose() {
-        this.server.dispose();
-    }
-
-    private class RSocketImpl extends AbstractRSocket {
-        @Override
-        public Mono<Payload> requestResponse(Payload payload) {
-            try {
-//                return Mono.just(DefaultPayload.create(String.format("Hello %s!", payload.getDataUtf8())));
-                return Mono.just(payload); // reflect the payload back to the sender
-            } catch (Exception x) {
-                return Mono.error(x);
-            }
-        }
-
-        @Override
-        public Flux<Payload> requestStream(Payload payload) {
-            return Flux.just("first", "second", "third", "fourth").map(text -> DefaultPayload.create(text));
-        }
+//    public void dispose() {
+//        this.server.dispose();
+//    }
+//
+//    private class RSocketImpl extends AbstractRSocket {
 //        @Override
-//        public Mono<Void> fireAndForget(Payload payload) {
+//        public Mono<Payload> requestResponse(Payload payload) {
 //            try {
-//                dataPublisher.publish(payload); // forward the payload
-//                return Mono.empty();
+////                return Mono.just(DefaultPayload.create(String.format("Hello %s!", payload.getDataUtf8())));
+//                return Mono.just(payload); // reflect the payload back to the sender
 //            } catch (Exception x) {
 //                return Mono.error(x);
 //            }
 //        }
-    }
+//
+//        @Override
+//        public Flux<Payload> requestStream(Payload payload) {
+//            return Flux.just("first", "second", "third", "fourth").map(text -> DefaultPayload.create(text));
+//        }
+////        @Override
+////        public Mono<Void> fireAndForget(Payload payload) {
+////            try {
+////                dataPublisher.publish(payload); // forward the payload
+////                return Mono.empty();
+////            } catch (Exception x) {
+////                return Mono.error(x);
+////            }
+////        }
+//    }
 }

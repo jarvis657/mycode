@@ -1,0 +1,499 @@
+
+https://www.atatech.org/users/67513/my/?p=2 | TA的ATA
+https://www.atatech.org/users/67513 | TA的ATA
+https://www.atatech.org/articles/117877 | 技术演讲培训干货分享：三大要点，14个tips
+https://www.atatech.org/users/102243 | TA的ATA
+https://www.atatech.org/users/19274 | TA的ATA
+https://www.atatech.org/articles/48534 | Log4j、Logback性能优化方案
+https://www.atatech.org/articles/53316 | 领域建模中域边界划分原则（写入了某BU的应用架构P9能力要求标准中）
+https://www.atatech.org/articles/58230 | 如果你是架构师之一，你会如何处理这些领域建模的相关问题？
+https://www.atatech.org/articles/51799 | 问题空间领域模型基本抽象方法
+https://www.atatech.org/articles/49040 | AE域模型梳理之二：域模型梳理的3大目标
+https://www.atatech.org/articles/48797 | AE域模型梳理之一：域模型影响着生产效率
+https://www.atatech.org/articles/51799 | 问题空间领域模型基本抽象方法
+https://www.atatech.org/articles/51799 | 问题空间领域模型基本抽象方法
+https://www.atatech.org/articles/32432 | 全站性能损耗 – 我们为什么要做性能？值吗？
+https://www.atatech.org/articles/27382 | 关于AliExpress(AE)安全漏洞的总结和思考
+https://www.atatech.org/articles/26132 | 一种全球多机房部署场景下强一致性调用的解决方案
+https://www.atatech.org/articles/22254 | OceanBase何以做到高性能
+https://www.atatech.org/articles/122194/?flag_data_from=mail_daily_team&uid=245924 | Istio流量管理实践之(1): 通过Istio规则来实现TCP入口流量路由的统一管理
+https://www.atatech.org/articles/122651/?flag_data_from=mail_daily_team&uid=245924 | kube-controller-manager内存泄露问题分析
+
+https://www.atatech.org/articles/95466 | 如果你是架构师之二：如何自底向上推导应用逻辑架构
+https://www.atatech.org/articles/104688 | 如果你是架构师之三，如何自顶向下构建架构（进阶之路）
+https://www.atatech.org/articles/98535 | 送给准备参加晋升的同学（技术线）
+https://www.atatech.org/articles/107669 | 技术人员的职业发展规划的思考
+https://www.atatech.org/articles/105575 | 架构设计实战 - 平台产品中如何进行域划分
+https://www.atatech.org/articles/112281 | 两万字长文深度揭秘 Amazon 千亿营收的增长黑客策略
+https://www.atatech.org/articles/103541 | 交易大脑2017总结
+https://www.atatech.org/articles/47143 | 我眼中的中台 - 对总架构师组的诉求
+https://www.atatech.org/articles/26824 | 随需应变的软件设计：领域驱动设计在灰度发布领域的实践
+http://www.infoq.com/cn/articles/implementation-road-of-domain-driven-design?utm_source=infoq&utm_medium=related_content_link&utm_campaign=relatedContent_articles_clk | 领域驱动设计实现之路
+http://www.infoq.com/cn/news/2018/07/decomposing-system-microservices?utm_campaign=rightbar_v2&utm_source=infoq&utm_medium=news_link&utm_content=link_text | 将系统分解为微服务的策略
+http://www.infoq.com/cn/articles/ddd-evolving-architecture | 演进架构中的领域驱动设计
+https://skillsmatter.com/conferences/6453-ddd-exchange-2015#skillscasts | DDD eXchange 2015 | 12th Jun 2015 | London
+https://blog.csdn.net/bluishglc/article/details/6681253 | 领域驱动设计(Domain Driven Design)参考架构详解 - CSDN博客
+https://martinfowler.com/eaaDev/DomainEvent.html | Domain Event
+http://dddsample.sourceforge.net/ | DDD Sample Application - Introduction
+https://www.atatech.org/articles/55370 | 领域建模刍议（一）:分清问题域和问题解决域
+https://www.atatech.org/articles/52758 | 领域模型设计的几点心得
+https://www.atatech.org/articles/56017 | 浅谈我对DDD领域驱动设计的理解
+https://www.atatech.org/articles/68985/?flag_data_from=mail_daily_recommend&uid=245924 | Godeye 1.0(内部版本号2.0)发布
+https://idb4.alibaba-inc.com/ | iDB 4.0 - 企业级数据库服务平台
+
+http://www.cnblogs.com/study-everyday/default.html?page=3 | 随笔列表第3页 - 明志健致远 - 博客园
+https://www.cnblogs.com/study-everyday/p/7762761.html | 认证鉴权与API权限控制在微服务架构中的设计与实现（四） - 明志健致远 - 博客园
+https://www.cnblogs.com/study-everyday/p/7755260.html | 认证鉴权与API权限控制在微服务架构中的设计与实现（三） - 明志健致远 - 博客园
+http://www.cnblogs.com/study-everyday/p/7754596.html#3978535 | 认证鉴权与API权限控制在微服务架构中的设计与实现（一） - 明志健致远 - 博客园
+http://www.cnblogs.com/study-everyday/tag/%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8F/ | 设计模式 - 标签 - 明志健致远 - 博客园
+https://www.cnblogs.com/study-everyday/p/6535606.html | 设计模式（二）： 工厂模式 - 明志健致远 - 博客园
+https://doc.rust-lang.org/stable/rust-by-example/ | Introduction - Rust By Example
+https://hackr.io/tutorials/learn-rust?account-creation=github | Learn Rust - [2018] Best Rust Tutorials | Hackr.io
+https://doc.rust-lang.org/book/second-edition/ch00-00-introduction.html | Introduction - The Rust Programming Language
+https://www.atatech.org/search/articles/?q=%E7%AE%A1%E7%90%86%E5%9B%A2%E9%98%9F&idx=default&order=&days=&p=5 | 搜索
+https://www.atatech.org/articles/106034 | 前端技术团队规划之道
+https://www.atatech.org/articles/100629 | CEM敏捷管理实践-提高团队研发效能
+https://www.atatech.org/articles/64985 | 【团队业务】阿里妈妈-质量控制中心-流量质量管理团队
+https://www.atatech.org/articles/111744 | FY201906工作总结
+https://www.atatech.org/articles/111620?flag_data_from=recommend | Blink 漫谈系列 - DISTINCT
+https://www.atatech.org/articles/111724?flag_data_from=yuan | 分析core，是从案发现场，推导案发经过
+https://www.atatech.org/ask/35614?flag_data_from=hot_question | java8 parallelStream 执行如下代码，线程hang住的问题？
+https://www.atatech.org/articles/111224?flag_data_from=headline | PB级实时数仓技术揭秘：深度解析分析型数据库AnalyticDB
+
+https://www.atatech.org/articles/12115 | 如何得到java编译的整个树形图
+https://www.atatech.org/articles/17778 | 开发团队的效率
+https://www.atatech.org/articles/14837 | 一个磁盘io100%引起的惨案
+https://www.atatech.org/articles/19710 | 疑似Jetty的nio bug
+https://www.atatech.org/articles/46933 | 深入浅出文件系统
+https://www.atatech.org/articles/86209 | MetaQ与Notify学习记录
+https://www.atatech.org/articles/32873 | 关于TCP连接的几个实验
+https://www.atatech.org/articles/78858 | 就是要你懂TCP -- 半连接队列和全连接队列
+https://www.atatech.org/articles/58149 | KeyCenter介绍
+https://www.atatech.org/articles/90248 | DTS原理分析
+https://www.atatech.org/articles/100864 | ADS SQL优化最佳实践
+https://www.atatech.org/articles/99738 | 时空数据库实践(含 纽约TAXI数据透视分析) - PostGIS + TimescaleDB => PostgreSQL
+
+http://www.zhangxinxu.com/wordpress/2017/12/js-css-encrypt-to-image/ | 瞎折腾：把JS,CSS任意文本文件加密成一张图片 « 张鑫旭-鑫空间-鑫生活
+https://www.atatech.org/articles/99016?flag_data_from=recommend | 《重构基础设施，技术共创未来 - 基础设施架构白皮书》连载 - 第五章 网络技术（1/2）
+https://www.atatech.org/articles/99332?flag_data_from=headline | 详解区块链（很详很长）
+https://bitcoin.org/bitcoin.pdf | bitcoin.pdf
+https://www.atatech.org/articles/100011?flag_data_from=headline | 浅谈中台战略
+
+https://www.atatech.org/articles/96400 | 问题排查：Spring Boot应用management endpoints间歇性RT极长
+https://www.atatech.org/groups/45/?p=4 | ATA之家
+https://www.atatech.org/articles/98911 | 日志框架Logback的坑
+https://www.atatech.org/articles/98684 | Load周期性波动问题排查
+https://www.atatech.org/articles/80573 | 程序员的网络知识 -- 一个网络包的旅程
+https://www.atatech.org/articles/98198?commentId=160096#comment-160096 | Cloudy --区块链技术对云计算行业的颠覆
+
+https://www.atatech.org/articles/70365?from_yk | 我对负载均衡演变过程的理解
+http://docs.scala-lang.org/overviews/index.html | Guides and Overviews | Scala Documentation
+https://www.tutorialspoint.com/scala/ | Scala Tutorial
+https://learnxinyminutes.com/docs/scala/ | Learn Scala in Y Minutes
+https://www.scala-exercises.org/ | Scala Exercises
+https://www.quora.com/How-do-I-learn-Scala | How do I learn Scala?
+https://twitter.github.io/scala_school/ | Scala School
+http://twitter.github.io/effectivescala/ | Effective Scala
+http://docs.scala-lang.org/ | Documentation | Scala Documentation
+
+https://www.google.com/search?newwindow=1&ei=_fZMWt7dCcbMjwOQ0qnACA&q=mysql+left+join+subquery+performance&oq=mysql+left+join++subquery+&gs_l=psy-ab.3.4.0l3j0i22i30k1l5.43669.61418.0.64654.24.23.0.0.0.0.594.2332.3-2j0j3.5.0....0...1..64.psy-ab..19.5.2327...35i39k1j0i67k1.0.Vh5G0dp4sfY | mysql left join subquery performance - Google Search
+https://www.quora.com/Which-is-faster-joins-or-subqueries | Which is faster - joins or subqueries? - Quora
+https://www.xaprb.com/blog/2006/04/30/how-to-optimize-subqueries-and-joins-in-mysql/ | How to optimize subqueries and joins in MySQL · Baron Schwartz's Blog
+https://www.essentialsql.com/what-is-the-difference-between-a-join-and-subquery/ | What is the Difference between a Join and Subquery?
+http://www.chrislondon.co/joins-vs-subqueries/ | JOINs vs Subqueries | Chris London
+https://stackoverflow.com/questions/2577174/join-vs-sub-query | sql - Join vs. sub-query - Stack Overflow
+http://blog.sae.sina.com.cn/archives/5206/comment-page-1#comment-62819 | 对于Linux系统管理员很有用的16个在线工具 | Sina App Engine Blog
+http://blog.sae.sina.com.cn/archives/5380/comment-page-1#comment-62818 | 感悟：谈谈编程中的哲学，数学，基础，理论，思考与经验 | Sina App Engine Blog
+http://blog.sae.sina.com.cn/archives/4999/comment-page-1#comment-61979 | 取代cookie的网站追踪技术：”帆布指纹识别”初探 | Sina App Engine Blog
+http://blog.sae.sina.com.cn/archives/5037/comment-page-1#comment-61980 | 利用 Linux 系统生成随机密码的10种方法 | Sina App Engine Blog
+http://blog.sae.sina.com.cn/archives/5115/comment-page-1#comment-62001 | linux下杀死进程的N种方法 | Sina App Engine Blog
+http://blog.sae.sina.com.cn/archives/5151/comment-page-1#comment-62087 | 9个最好用的在线编译/调试工具 | Sina App Engine Blog
+
+http://developer.51cto.com/art/200907/138442.htm | Scala：尾递归的跟踪调用及其局限 - 51CTO.COM
+http://wiki.jikexueyuan.com/project/scala-development-guide/function-eight.html | 函数–尾递归 - Scala 开发教程 - 极客学院Wiki
+http://wiki.jikexueyuan.com/list/scala/ | Scala入门基础教程_Scala开发学习书籍-极客学院Wiki
+http://wiki.jikexueyuan.com/project/guides-to-scala-book/chp1-extractors.html | 提取器 - Scala 初学指南 - 极客学院Wiki
+http://blog.csdn.net/jasonding1354/article/details/50525735 | 【Scala】尾递归优化 - CSDN博客
+
+https://www.toptal.com/scala/why-should-i-learn-scala | Java vs. Scala: Why Should I Learn Scala? | Toptal
+https://docs.scala-lang.org/tutorials/scala-for-java-programmers.html | A Scala Tutorial for Java Programmers | Scala Documentation
+http://blog.csdn.net/qq1010885678/article/details/45954731 | Spark（八） -- 使用Intellij Idea搭建Spark开发环境 - 小黑 - CSDN博客
+http://blog.csdn.net/qq1010885678/article/details/45788083 | Spark（六） -- Spark计算模型 - 小黑 - CSDN博客
+http://blog.csdn.net/qq1010885678/article/category/3195707 | Spark - 小黑 - CSDN博客
+http://blog.csdn.net/lovehuangjiaju/article/details/47746391 | Scala入门到精通——第一节 Scala语言初步 - CSDN博客
+http://blog.csdn.net/huanghuitan/article/details/69681184 | Scala快速入门 - CSDN博客
+http://blog.csdn.net/xummgg/article/details/50450697 | Spark学习笔记1-Scala基础语法 - CSDN博客
+http://blog.csdn.net/u013063153/article/details/53023852 | scala基本语法及注意点 - - CSDN博客
+
+https://www.google.com/ | Google
+
+https://www.google.com/#newwindow=1&q=samza+vs+storm+fault+tolerance&* | samza vs storm fault tolerance - Google Search
+http://www.cakesolutions.net/teamblogs/comparison-of-apache-stream-processing-frameworks-part-1 | Comparison of Apache Stream Processing Frameworks: Part 1
+https://tsicilian.wordpress.com/2015/02/16/streaming-big-data-storm-spark-and-samza/ | Streaming Big Data: Storm, Spark and Samza | Blog T
+http://stackoverflow.com/questions/29111549/where-do-apache-samza-and-apache-storm-differ-in-their-use-cases | Where do Apache Samza and Apache Storm differ in their use cases? - Stack Overflow
+http://mw.alibaba-inc.com/products/eagleeye/_book/architecture-sunhua.html?spm=a1zco.8292288.0.0.wWk7rL | 架构设计 · GitBook
+https://www.atatech.org/articles/72408/?frm=mail_week | 高并发系统处理方式-限流
+http://10.125.15.163/FE/build/index.html?page=2&platVersion=adf+ | http://10.125.15.163/FE/build/index.html?page=2&platVersion=adf+
+http://mw.alibaba-inc.com/ | 阿里中间件
+https://login-test.alibaba-inc.com/ssoLogin.htm?APP_NAME=hsfops&BACK_URL=http%3A%2F%2Fhsf.alibaba.net%2Fhsfops%3Fspm%3Da1zco.mw-index.hsf.2.wxJMIw&CONTEXT_PATH=%2Fhsfops | 统一登录中心 @Alibaba
+
+https://www.atatech.org/articles/70999 | 新人学习HSF笔记
+http://www.atatech.org/articles/64252 | hsf http相关命令
+http://www.atatech.org/articles/72879 | 高QPS的基于snowflake优化的分布式唯一有序id生成器介绍（提供接入文档）
+http://www.atatech.org/articles/72946 | HSF源码解读之HSF服务如何完成发布，订阅以及消费
+http://www.atatech.org/articles/11091 | a way to simplify the configuration of HSFSpringConsumerBean
+http://docs.alibaba-inc.com/pages/viewpage.action?pageId=473967348 | 均匀化改造-问题调查系统文档 - 交通信息业务线 - 重要提示：请用您的域帐号和域密码登录本系统!
+
+http://www.atatech.org/articles/71594?from_yk | 大规模并行强化学习框架 iGorila
+http://www.atatech.org/articles/71294?from_yk | 我的java问题排查工具单
+http://www.atatech.org/articles/73066?from_yk | 技术之声2017年1/2月刊
+http://www.atatech.org/articles/73066?from_yk | 技术之声2017年1/2月刊
+http://www.atatech.org/articles/73066?from_yk | 技术之声2017年1/2月刊
+
+https://lark.alipay.com/aone/docker | 仓库 · Docker实践 · 云雀
+https://lark.alipay.com/aone/platform/features-app-exhgfg | 研发角色使用Aone最佳路径 - Aone - 研发协同平台帮助中心 · 云雀
+https://www.atatech.org/articles/56294 | 应用docker化概念和规范
+https://yq.aliyun.com/articles/40494 | Docker学习路线图 (持续更新中)-博客-云栖社区-阿里云
+http://www.atatech.org/articles/60641 | 集团内部Redis云服务接入指南
+http://www.atatech.org/articles/12470 | 高性能网络编程6--reactor反应堆与定时器管理
+http://www.atatech.org/articles/40755 | Actor、Reactor、Proactor
+http://www.atatech.org/articles/36949 | hsf2.0源代码分析之服务启动
+http://www.atatech.org/articles/22997 | HSF原理介绍之provider
+http://www.atatech.org/articles/52227 | 一个类目API引发的血案——梳理类目hsf核心代码
+http://www.atatech.org/articles/57236 | [新手笔记]HSF入门指南
+http://www.atatech.org/articles/58268 | HSF学习总结
+http://www.atatech.org/articles/53441 | HSF 笔记
+http://www.atatech.org/articles/59065 | 【HSF源码】HSF如何处理一次调用
+http://www.atatech.org/articles/67765 | HSF分享
+http://www.atatech.org/articles/67784 | HSF使用总结
+http://blog.csdn.net/goodboy1881/article/details/665041 | TCP/IP详解学习笔记(1)-基本概念 - 一块积木 - 博客频道 - CSDN.NET
+http://www.atatech.org/ | 阿里巴巴技术协会首页
+http://www.atatech.org/articles/72020?flag_data_from=recommend | linux主机resolv.conf文件详解
+http://www.atatech.org/articles/25715?flag_data_from=tpp&pvid=59ec7100-6fa5-42df-988d-3570313519f0 | Domain Driven Design(DDD，领域驱动设计)学习资料
+http://www.atatech.org/articles/72671?flag_data_from=week_hot | 揭秘Kibana无法连接Elasticsearch代理问题的真相
+http://www.atatech.org/articles/72807?flag_data_from=week_hot | 阿里开源强化学习研究平台Gym StarCraft
+https://github.com/reactor/reactor | reactor/reactor: Reactor BOM and legacy (2.x, 1.x)
+https://github.com/kilim/kilim | kilim/kilim: Lightweight threads for Java, with message passing, nio, http and scheduling support.
+
+http://www.atatech.org/articles/71479#11 | 分钟级创建微服务新应用（ PandoraBoot + SpringBoot ）
+http://gitlab.alibaba-inc.com/middleware-container/pandora-boot/wikis/implement | Implement · Wiki · middleware-container / pandora-boot · GitLab
+
+http://gitlab.alibaba-inc.com/middleware/eagleeye-docs/wikis/eagleeye-guide | How to use eagleeye · Wiki · Middleware / eagleeye-docs · GitLab
+http://gitlab.alibaba-inc.com/middleware/eagleeye-docs/wikis/how-to-use-eagleeye#%E6%A6%82%E8%A6%81 | How to use eagleeye · Wiki · Middleware / eagleeye-docs · GitLab
+http://docs.alibaba-inc.com/pages/viewpage.action?pageId=473967298 | 评测系统文档 - 交通信息业务线 - 重要提示：请用您的域帐号和域密码登录本系统!
+
+http://www.atatech.org/articles/10185 | HBase上基于辅助存储的二级索引使用教程
+http://www.atatech.org/articles/7946?commentId=17854#comment-17854 | 一种HBase上Region级别的二级索引存储
+http://www.atatech.org/articles/19574 | 表的分级存储功能 （0.94-adh3u5）
+http://www.atatech.org/articles/19550 | 其他API相关文章
+http://www.atatech.org/articles/10839?rnd=450310476 | FuzzyRowFilter 的说明和使用
+http://www.atatech.org/articles/19365 | HBase Java API Guide HTablePool
+http://www.atatech.org/articles/71291 | Java基础之TreeMap
+http://www.atatech.org/articles/72032 | 倒排与列存
+http://www.atatech.org/articles/59352 | 实习笔记之ConcurrentHashMap
+https://golang.org/pkg/context/ | context - The Go Programming Language
+https://golang.org/doc/go1.8#compiler | Go 1.8 Release Notes - The Go Programming Language
+http://docs.alibaba-inc.com/pages/viewpage.action?pageId=473967298 | 评测系统文档 - 交通信息业务线 - 重要提示：请用您的域帐号和域密码登录本系统!
+https://www.atatech.org/articles/63987 | [DevOps]运维那些事第1期－DNS
+https://www.atatech.org/articles/72392/?flag_data_from=mail_daily_recommend&uid=245924 | [DevOps]运维那些事第3期-资源池相关
+https://www.atatech.org/articles/64343 | [DevOps]运维那些事第2期－IP
+https://www.atatech.org/articles/72392 | [DevOps]运维那些事第3期-资源池相关
+http://d2.alibaba-inc.com/ | 数据开发工作台
+http://www.ttlsa.com/nginx/nginx-modules-ngx_http_log_request_speed/ | nginx记录分析网站响应慢的请求(ngx_http_log_request_speed) - 运维生存时间
+http://www.ttlsa.com/linux/depth-in-http2/ | 深度了解HTTP/2 - 运维生存时间
+http://www.ttlsa.com/yun_wei_an_li/tcp_-time-wait-bucket-table-overflow-solution/ | TCP: time wait bucket table overflow解决方法 - 运维生存时间
+http://www.atatech.org/articles/72408/?flag_data_from=mail_daily_recommend&uid=245924 | 高并发系统处理方式-限流
+http://www.atatech.org/articles/72574/?flag_data_from=mail_daily_recommend&uid=245924 | MySQL之最
+http://www.atatech.org/articles/72531/?flag_data_from=mail_daily_recommend&uid=245924 | 广告淘客接入docker
+http://www.atatech.org/articles/72645/?flag_data_from=mail_daily_recommend&uid=245924 | 小哥哥带你使用Aviator——轻量级Java表达式求值引擎
+http://www.atatech.org/articles/72611/?flag_data_from=mail_daily_team&uid=245924 | 【成长集投稿】工作流升级遇到的磕磕绊绊
+http://www.atatech.org/articles/45765 | odps集群性能优化实践
+http://www.atatech.org/ | 504 Gateway Time-out
+
+http://stackoverflow.com/questions/40258015/how-do-i-create-a-row-key-prefix-scan-using-asynchbase | java - How do I create a row key prefix scan using asynchbase - Stack Overflow
+https://github.com/OpenTSDB/asynchbase | OpenTSDB/asynchbase: A fully asynchronous, non-blocking, thread-safe, high-performance HBase client.
+https://hbase.apache.org/testdevapidocs/src-html/org/apache/hadoop/hbase/filter/TestScanRowPrefix.html | Source code
+http://wrox.cn/article/100002545/ | Yac (Yet Another Cache) – 无锁共享内存Cache - IT博客汇
+http://wrox.cn/article/100009297/ | Linux获取当前系统状态 - IT博客汇
+http://wrox.cn/article/100091857/ | [原]JAVA将字符串表示的ip地址转换为long表示 - IT博客汇
+http://wrox.cn/article/100091856/ | [原]JAVA将整数表示的ip地址转换为字符串表示 - IT博客汇
+http://wrox.cn/article/300001615/ | Mac下mysql导入数据时报错”data too long for column”解决办法 - IT博客汇
+http://wrox.cn/article/100001239/ | Go和HTTPS - IT博客汇
+http://wrox.cn/article/100019338/ | Golang程序配置方案小结 - IT博客汇
+http://wrox.cn/article/100026262/ | [原]分布式系统生成唯一主键 - IT博客汇
+http://wrox.cn/article/100031797/ | 字符串匹配(hash算法） - 殇雪 - IT博客汇
+http://wrox.cn/article/100032475/ | 关于Go，你可能不注意的7件事 - IT博客汇
+http://wrox.cn/article/100035770/ | 怎么写出好代码——坏味道 - 砺能 - IT博客汇
+http://wrox.cn/article/100039989/ | TreeMap 排序 - 坚守一辈子的幸福 - IT博客汇
+http://wrox.cn/article/100046352/ | Linux内核异常处理体系结构详解（一） - IT博客汇
+http://wrox.cn/article/100046623/ | SystemTap 笔记 （15）—— syscall probes - IT博客汇
+http://wrox.cn/article/100049944/ | HBase应用开发回顾与总结系列之二：RowKey行键设计规范 - 北方客 - IT博客汇
+http://wrox.cn/article/100068203/ | 蜕变成蝶：Linux设备驱动之CPU与内存和I/O - IT博客汇
+http://wrox.cn/article/100071091/ | 剖析Disruptor为什么会这么快(2)：神奇的缓存行填充 - IT博客汇
+http://wrox.cn/article/200106456/ | HBase的RowKey设计 - IT博客汇
+http://wrox.cn/article/100074376/ | springmvc 分页查询的简单实现 - IT博客汇
+http://wrox.cn/article/100075520/ | Java线程池架构2-多线程调度器（ScheduledThreadPoolExecutor） - IT博客汇
+http://wrox.cn/article/100093127/ | 「Java 8 函数式编程」读书笔记——lambda表达式 - IT博客汇
+http://wrox.cn/article/100092503/ | 伪共享（false sharing），并发编程无声的性能杀手 - IT博客汇
+http://wrox.cn/article/100077708/ | Intellij IDEA java: constant string too long - IT博客汇
+http://www.itwendao.com/article/detail/194202.html | HBase源码分析之服务端数据读取 - 数据库 - IT问道
+http://codenav.org/code.html?project=/org/mousio/async-hbase-client/0.9.0&path=/Source%20Packages/org.apache.hadoop.hbase.client/AsyncReversedClientScanner.java | CodeNav - AsyncReversedClientScanner.java
+http://www.atatech.org/articles/71610/?flag_data_from=mail_daily_recommend&uid=245924 | pandora-boot中使用intl-test的兼容性问题排查
+http://www.atatech.org/articles/71769/?flag_data_from=mail_daily_recommend&uid=245924 | HTTP/2下淘宝首页性能优化（二）
+http://www.atatech.org/articles/71660/?flag_data_from=mail_daily_recommend&uid=245924 | 初识druid
+http://www.atatech.org/articles/72076/?flag_data_from=mail_daily_recommend&uid=245924 | 虾米推荐应用RT 超时问题排查记录
+http://www.atatech.org/articles/72061/?flag_data_from=mail_daily_recommend&uid=245924 | 说说资源加载的问题(Class的getResource方法)
+http://www.atatech.org/articles/72270/?flag_data_from=mail_daily_recommend&uid=245924 | Java和微服务技术新闻（2017-02-13/2017-02-20 ）
+http://www.atatech.org/articles/72246/?flag_data_from=mail_daily_recommend&uid=245924 | 淘宝视频上传国际化部署——架构篇
+http://www.atatech.org/articles/72211/?flag_data_from=mail_daily_recommend&uid=245924 | Io语言快餐(1) - 一切皆是对象，消息和槽的语言
+http://www.atatech.org/articles/72170/?flag_data_from=mail_daily_recommend&uid=245924 | Datax轮询作业状态时间优化
+http://www.atatech.org/articles/72164/?flag_data_from=mail_daily_recommend&uid=245924 | 一次Tcpdump流量采集来分析和解决tcp重传报警问题
+http://www.atatech.org/articles/72162/?flag_data_from=mail_daily_recommend&uid=245924 | 可用性保障总括
+http://www.atatech.org/articles/72144/?flag_data_from=mail_daily_recommend&uid=245924 | Oceanbase1.0 DataSource路由规则
+http://www.atatech.org/articles/72134/?flag_data_from=mail_daily_recommend&uid=245924 | 雷音识字-OCR算法
+http://www.atatech.org/articles/72127/?flag_data_from=mail_daily_recommend&uid=245924 | 故障演练白皮书——业务视角场景设计实践
+http://www.atatech.org/articles/72126/?flag_data_from=mail_daily_recommend&uid=245924 | 复合工具组合拳 之 系统环境快照、飞天用户工具
+
+http://blog.csdn.net/wireless_com/article/list/2 | 我相信...... - 博客频道 - CSDN.NET
+http://blog.csdn.net/wireless_com/article/details/53408896 | 全栈必备 面向数据的架构 - 我相信...... - 博客频道 - CSDN.NET
+http://blog.csdn.net/wireless_com/article/details/53239124 | 全栈必备的技术栈设想 - 我相信...... - 博客频道 - CSDN.NET
+http://blog.csdn.net/wireless_com/article/details/53148971 | 全栈必备 个人环境 - 我相信...... - 博客频道 - CSDN.NET
+http://blog.csdn.net/wireless_com/article/details/53573519 | 再谈<全栈必备的技术栈设想>一文 - 我相信...... - 博客频道 - CSDN.NET
+http://blog.csdn.net/wireless_com/article/details/53725385 | 全栈必备 敏捷基础 - 我相信...... - 博客频道 - CSDN.NET
+http://blog.csdn.net/wireless_com/article/details/52761138 | 全栈必备 负载均衡 - 我相信...... - 博客频道 - CSDN.NET
+http://blog.csdn.net/wireless_com/article/details/52749393 | 全栈必备 缓存cache - 我相信...... - 博客频道 - CSDN.NET
+http://blog.jobbole.com/106827/ | 全栈必备：Linux 基础 - 文章 - 伯乐在线
+http://blog.jobbole.com/106851/ | 全栈必备：负载均衡 - 文章 - 伯乐在线
+http://blog.jobbole.com/107021/ | 全栈必备：DevOps - 文章 - 伯乐在线
+http://blog.jobbole.com/107263/ | 全栈必备：缓存cache - 文章 - 伯乐在线
+http://blog.jobbole.com/107264/ | 全栈必备：MySQL性能调优 - 文章 - 伯乐在线
+http://group.jobbole.com/11227/#comment-76177 | 全栈工程师都要具备哪些技能栈？ - 小组 - 伯乐在线
+http://blog.jobbole.com/110041/ | 全栈必备：网络编程基础 - 文章 - 伯乐在线
+http://top.jobbole.com/36289/?utm_source=blog.jobbole.com&utm_medium=sidebar-top-news | Go 1.8 正式发布，编译速度比 Go 1.7 提高约 15％ - 资讯 - 伯乐在线
+http://top.jobbole.com/36251/?utm_source=blog.jobbole.com&utm_medium=sidebar-top-news | GitHub 推出「开源指南」，从零参与开源再也不怕了 - 资讯 - 伯乐在线
+http://blog.jobbole.com/108828/?utm_source=blog.jobbole.com&utm_medium=relatedPosts | Git 王者超神之路 - 文章 - 伯乐在线
+
+http://www.atatech.org/articles/71773/?flag_data_from=mail_daily_recommend&uid=245924 | Java和微服务技术新闻（2017-02-06/2017-02-11 ）
+http://www.atatech.org/articles/71766/?flag_data_from=mail_daily_recommend&uid=245924 | 新魔戒——搜索流量处罚系统技术架构介绍
+http://www.atatech.org/articles/70775/?flag_data_from=mail_daily_team&uid=245924 | 业务系统在网络异常下的案例若干
+http://www.atatech.org/articles/71930/?flag_data_from=mail_daily_recommend&uid=245924 | 分布式一致性及Zookeeper实现
+http://www.atatech.org/articles/71893/?flag_data_from=mail_daily_recommend&uid=245924 | 编码实现Spring Cloud微服务负载均衡调用（eureka、ribbon）
+http://www.atatech.org/articles/71879/?flag_data_from=mail_daily_recommend&uid=245924 | 2017年你需要了解的ES6知识
+http://www.atatech.org/articles/71873/?flag_data_from=mail_daily_recommend&uid=245924 | AliSQL开源Sequence Engine
+http://www.atatech.org/articles/63115/?flag_data_from=mail_daily_team&uid=245924 | 深入分析TDDL3断网后无法恢复问题
+http://alilog.alibaba-inc.com/logcenter/welcome#checkpointTab | logcenter
+
+http://idb4.alibaba-inc.com/ | iDB 4.0 - 企业级数据库服务平台
+http://gitlab.alibaba-inc.com/ali-hbase/doc/wikis/public_test_env | Public_test_env · Wiki · ali-hbase / doc · GitLab
+http://gitlab.alibaba-inc.com/ali-hbase/doc/wikis/simple-demo-0.94 | Simple demo 0.94 · Wiki · ali-hbase / doc · GitLab
+http://gitlab.alibaba-inc.com/ali-hbase/doc/wikis/crud-introduction | Crud introduction · Wiki · ali-hbase / doc · GitLab
+http://gitlab.alibaba-inc.com/ali-hbase/doc/wikis/filters | Filters · Wiki · ali-hbase / doc · GitLab
+http://www.atatech.org/articles/19362 | HBase Java API Guide Delete
+http://www.atatech.org/articles/19361 | HBase Java API Guide Put
+http://www.atatech.org/articles/5538 | 菜鸟学习Hbase
+about:reader?url=http%3A%2F%2Fwww.atatech.org%2Farticles%2F19773 | HBase学习总结（笔记）
+https://www.google.com/#newwindow=1&q=hbase+rowkey%E4%BD%BF%E7%94%A8 | hbase rowkey使用 - Google Search
+http://blog.bcmeng.com/post/hbase-rowkey.html | 编程小梦|HBase Rowkey设计
+https://www.google.com/#newwindow=1&q=+MurmurHash3+128+%E5%92%8C+32+ | MurmurHash3 128 和 32 - Google Search
+http://yonik.com/murmurhash3-for-java/ | MurmurHash3 java 32 bit, 128 bit hash
+http://yonik.com/murmurhash3-for-java/ | MurmurHash3 java 32 bit, 128 bit hash
+http://www.importnew.com/15476.html | Google Guava的5个鲜为人知的特性 - ImportNew
+http://sgq0085.iteye.com/blog/2230528 | MurmurHash一致性Hash算法JAVA版 - 纸上得来终觉浅 绝知此事要躬行——https://github.com/sgq0085/learn - ITeye技术网站
+https://zh.wikipedia.org/zh-hans/Murmur%E5%93%88%E5%B8%8C | https://zh.wikipedia.org/zh-hans/Murmur%E5%93%88%E5%B8%8C
+http://xinklabi.iteye.com/blog/2195092 | MurmurHash算法（高运算性能，低碰撞率，hadoop、memcached等使用） - - ITeye技术网站
+http://alilog.alibaba-inc.com/logcenter/log/details/traffic_radio_web_nds#checkpointTab | 日志订阅
+
+http://schedulerx.alibaba-inc.com:9999/dts-console/jobManager.htm?clusterId=102 | http://schedulerx.alibaba-inc.com:9999/dts-console/jobManager.htm?clusterId=102
+http://ops.jm.taobao.net/dts-console/jobManager.htm | http://ops.jm.taobao.net/dts-console/jobManager.htm
+about:reader?url=http%3A%2F%2Fwww.atatech.org%2Farticles%2F71706 | 数据库选型十八摸 之 PostgreSQL - 致 架构师、开发者
+http://www.atatech.org/articles/71479 | 分钟级创建微服务新应用（ PandoraBoot + SpringBoot ）
+http://ops.jm.taobao.net/dts-console/jobManager.htm | http://ops.jm.taobao.net/dts-console/jobManager.htm
+https://lark.alipay.com/mydds/wiki/before_you_start | 配置须知 - wiki · 云雀
+http://www.atatech.org/articles/65275 | Mydds配置说明文档
+http://www.atatech.org/articles/8779 | 使用Tprofiler进行性能监控
+http://www.atatech.org/articles/71300 | PostgreSQL GIN索引实现原理
+https://aone.alibaba-inc.com/appcenter/app/setting/envConfig?spm=0.1.page.18.0L38JG&appId=35966 | traffic-radio-mdw
+http://www.atatech.org/articles/65380 | 如何在Aone上新增环境（schema）
+
+https://www.google.com/ | Google
+
+https://github.com/digoal/blog/blob/master/201610/20161021_01.md | blog/20161021_01.md at master · digoal/blog
+https://github.com/digoal/blog/blob/master/201610/20161018_01.md | blog/20161018_01.md at master · digoal/blog
+
+http://www.atatech.org/articles/71647 | 数据库选型思索 - 致 架构师、开发者
+https://github.com/digoal/blog/blob/master/201510/20151015_01.md | blog/20151015_01.md at master · digoal/blog
+https://github.com/digoal/blog/blob/master/201512/20151215_01.md | blog/20151215_01.md at master · digoal/blog
+https://github.com/digoal/blog/blob/master/201701/20170113_01.md | blog/20170113_01.md at master · digoal/blog
+https://github.com/digoal/blog/blob/master/201701/20170112_02.md | blog/20170112_02.md at master · digoal/blog
+https://github.com/digoal/blog/blob/master/201611/20161126_01.md | blog/20161126_01.md at master · digoal/blog
+https://github.com/digoal/blog/blob/master/201612/20161222_02.md | blog/20161222_02.md at master · digoal/blog
+https://github.com/digoal/blog/blob/master/201701/20170105_09.md | blog/20170105_09.md at master · digoal/blog
+https://github.com/digoal/blog/blob/master/201604/20160419_01.md | blog/20160419_01.md at master · digoal/blog
+https://github.com/digoal/blog/blob/master/201701/20170106_04.md | blog/20170106_04.md at master · digoal/blog
+https://github.com/digoal/blog/blob/master/201612/20161231_01.md | blog/20161231_01.md at master · digoal/blog
+https://github.com/digoal/blog/blob/master/201612/20161216_01.md | blog/20161216_01.md at master · digoal/blog
+https://github.com/digoal/blog/blob/master/201610/20161001_01.md | blog/20161001_01.md at master · digoal/blog
+https://github.com/digoal/blog/blob/master/201612/20161225_01.md | blog/20161225_01.md at master · digoal/blog
+https://github.com/digoal/blog/blob/master/201612/20161213_01.md | blog/20161213_01.md at master · digoal/blog
+https://github.com/digoal/blog/blob/master/201612/20161201_01.md | blog/20161201_01.md at master · digoal/blog
+https://github.com/digoal/blog/blob/master/201611/20161128_01.md | blog/20161128_01.md at master · digoal/blog
+https://github.com/digoal/blog/blob/master/201612/20161205_02.md | blog/20161205_02.md at master · digoal/blog
+https://yq.aliyun.com/articles/58246 | 弱水三千,只取一瓢,当图像搜索遇见PostgreSQL(Haar wavelet)-博客-云栖社区-阿里云
+https://github.com/digoal/blog/blob/master/201611/20161115_01.md | blog/20161115_01.md at master · digoal/blog
+https://github.com/digoal/blog/blob/master/201610/20161019_01.md | blog/20161019_01.md at master · digoal/blog
+https://github.com/digoal/blog/blob/master/201607/20160725_05.md | blog/20160725_05.md at master · digoal/blog
+https://github.com/digoal/blog/blob/master/201611/20161118_01.md | blog/20161118_01.md at master · digoal/blog
+https://github.com/digoal/blog/blob/master/201605/20160506_02.md | blog/20160506_02.md at master · digoal/blog
+https://github.com/digoal/blog/blob/master/201603/20160302_01.md | blog/20160302_01.md at master · digoal/blog
+https://github.com/digoal/blog/blob/master/201603/20160307_01.md | blog/20160307_01.md at master · digoal/blog
+https://github.com/digoal/blog/blob/master/201608/20160817_01.md | blog/20160817_01.md at master · digoal/blog
+https://github.com/digoal/blog/blob/master/201611/20161117_01.md | blog/20161117_01.md at master · digoal/blog
+
+http://www.atatech.org/articles/71707 | 详述个性化推荐场景如何优化性能？
+http://www.atatech.org/articles/71032 | 菜鸟Docker应用新加坡上云手册
+http://www.atatech.org/articles/71637 | tair架构和源码学习总结
+http://www.atatech.org/articles/71646 | PostgreSQL MySQL 数据类型映射
+http://www.atatech.org/articles/71388 | HSF学习(照虎画猫)
+http://www.atatech.org/articles/71294 | 我的java问题排查工具单
+http://www.atatech.org/articles/71058 | 使用HotCode2实现JDK8下应用的开发热部署
+http://hotcode.alibaba-inc.com/ | 阿里巴巴开发者中心-HotCode2
+http://mw.alibaba-inc.com/products/hotcode2/docs/middleware-container/hotcode2.wiki/users-core-design.html?spm=a1z9z.8109794.book-catalogue.14.9DpVEu | HotCode2的文档
+http://gitlab.alibaba-inc.com/middleware-container/pandora-boot/wikis/spring-boot | 页面载入出错
+http://gitlab.alibaba-inc.com/middleware-container/pandora-boot/wikis/home | Home · Wiki · middleware-container / pandora-boot · GitLab
+http://gitlab.alibaba-inc.com/middleware-container/pandora-boot/wikis/implement | Implement · Wiki · middleware-container / pandora-boot · GitLab
+http://gitlab.alibaba-inc.com/spring-boot/docs/wikis/home | Home · Wiki · spring-boot / docs · GitLab
+https://github.com/spring-projects/spring-boot/tree/master/spring-boot-starters | spring-boot/spring-boot-starters at master · spring-projects/spring-boot
+http://gitlab.alibaba-inc.com/middleware-container/pandora-boot/wikis/spring-boot | Spring boot · Wiki · middleware-container / pandora-boot · GitLab
+http://gitlab.alibaba-inc.com/spring-boot/docs/wikis/springboot_starters | Springboot_starters · Wiki · spring-boot / docs · GitLab
+http://gitlab.alibaba-inc.com/middleware-container/pandora-boot/wikis/spring-boot-diamond | Spring boot diamond · Wiki · middleware-container / pandora-boot · GitLab
+http://gitlab.alibaba-inc.com/middleware-container/pandora-boot/wikis/spring-boot-tddl | Spring boot tddl · Wiki · middleware-container / pandora-boot · GitLab
+http://www.mybatis.org/mybatis-3/zh/dynamic-sql.html | mybatis – MyBatis 3 | 动态 SQL
+http://gitlab.alibaba-inc.com/middleware-container/pandora-boot/wikis/spring-boot-hsf | Spring boot hsf · Wiki · middleware-container / pandora-boot · GitLab
+http://www.atatech.org/articles/58566 | 线上问题排查套路 - 系统基本指标
+http://www.atatech.org/articles/49030 | 浅谈12306的核心模型设计思路和服务端架构设计
+http://www.atatech.org/articles/11830 | 如何提升超过一倍的QPS性能——Java实体机应用的优化之路
+https://github.com/digoal/blog/blob/master/201702/20170208_03.md | blog/20170208_03.md at master · digoal/blog
+https://github.com/digoal/blog/blob/master/201702/20170205_01.md | blog/20170205_01.md at master · digoal/blog
+https://github.com/digoal/blog/blob/master/201605/20160523_01.md | blog/20160523_01.md at master · digoal/blog
+https://github.com/digoal/blog/blob/master/201701/20170126_02.md | blog/20170126_02.md at master · digoal/blog
+https://github.com/digoal/blog/blob/master/201206/20120607_01.md | blog/20120607_01.md at master · digoal/blog
+https://github.com/digoal/blog/blob/master/201205/20120517_01.md | blog/20120517_01.md at master · digoal/blog
+https://github.com/digoal/blog/blob/master/201612/20161231_01.md | blog/20161231_01.md at master · digoal/blog
+https://github.com/digoal/blog/blob/master/201612/20161231_01.md | blog/20161231_01.md at master · digoal/blog
+https://github.com/digoal/blog/blob/master/201701/20170124_01.md | blog/20170124_01.md at master · digoal/blog
+https://github.com/digoal/blog/blob/master/201701/20170116_01.md | blog/20170116_01.md at master · digoal/blog
+https://github.com/digoal/blog/blob/master/201701/20170113_03.md | blog/20170113_03.md at master · digoal/blog
+https://github.com/digoal/blog/blob/master/201701/20170113_02.md | blog/20170113_02.md at master · digoal/blog
+https://github.com/digoal/blog/blob/master/201612/20161220_01.md | blog/20161220_01.md at master · digoal/blog
+
+http://www.atatech.org/articles/64157 | 淘宝行业 AB Test 方案新鲜出炉
+http://www.atatech.org/articles/59407 | AB Test - 前端影响业务的一把利器
+http://www.atatech.org/articles/2803 | 哪些公司在使用AB测试？
+http://www.atatech.org/articles/4184 | 天猫导购AB实验框架的设计
+http://www.atatech.org/articles/53844 | 使用ab和wrk对OSS进行benchmark测试
+
+http://www.atatech.org/articles/71637 | tair架构和源码学习总结
+http://www.atatech.org/articles/34085 | tair知识整理和实践
+http://www.atatech.org/articles/70480 | Tair学习笔记
+http://mw.alibaba-inc.com/products/arthas/_book/cmds/thread.html?spm=a1zco.8288981.0.0.j3oGj3 | 线程堆栈 · GitBook
+http://mw.alibaba-inc.com/products/hotcode2/_book/index.html?spm=a1zco.bootstrap.2854193.7.OmHJFg | README.md · GitBook
+http://mw.alibaba-inc.com/products/pandoraboot/_book/index.html?spm=a1zco.bootstrap.2854193.6.OmHJFg | README.md · GitBook
+
+http://gitlab.alibaba-inc.com/spring-boot/tair-spring-boot-starter | spring-boot / tair-spring-boot-starter · GitLab
+http://www.atatech.org/article/detail/4741/418 | Tair开发手册——00——开发手册目录
+http://www.atatech.org/article/detail/4567/418 | Tair开发手册——04——接口
+http://www.atatech.org/search?type=ARTICLE&q=tair+mget | 搜索
+http://www.atatech.org/articles/66161 | 无线店铺tair序列化调优
+http://www.atatech.org/articles/67448 | tair client源码分析热点key
+http://www.atatech.org/articles/37413 | 近期SM系统升级JDK7和Tomcat7后的一些性能问题和优化
+http://www.atatech.org/articles/20622 | tairclient中mget的一个bug的分析和解决，解决后最高提高25%的qps
+https://aone.alibaba-inc.com/ec/app/54135/mix/publish?spm=aone2015.appMixPublish.page.11.725Na3&flowId=560 | ndstracedisplay 正式
+
+http://www.atatech.org/articles/21351 | JStorm 源码分析及原理 ppt
+http://mysql.taobao.org/monthly/2015/05/02/ | MySQL · 专家投稿 · MySQL数据库SYS CPU高的可能性分析
+http://www.atatech.org/articles/52970 | 【分享】协同过滤推荐算法的原理及实现
+http://www.atatech.org/articles/4639 | 已购买/我的订单（tradeface）优化思路
+http://www.atatech.org/articles/4505 | 高访问量系统的静态化改造方案
+https://github.com/alibaba/tsar | alibaba/tsar: Taobao System Activity Reporter
+
+http://tonybai.com/2014/11/05/how-stacks-are-handled-in-go/ | Go语言是如何处理栈的 | Tony Bai
+http://www.ctolib.com/amp/stats.html | stats - 监视 Go MemStats + System stats 比如内存，Swap 和 CPU - Go开发社区 | CTOLib码库
+https://segmentfault.com/a/1190000000670041 | Go 程序的性能调试问题 - 内存篇 - yexiaoxiaobai - SegmentFault
+https://tiancaiamao.gitbooks.io/go-internals/content/zh/10.1.html | 内存模型 · 深入解析Go
+https://mikespook.com/2014/12/%E7%90%86%E8%A7%A3-go-%E8%AF%AD%E8%A8%80%E7%9A%84%E5%86%85%E5%AD%98%E4%BD%BF%E7%94%A8/ | [翻译]理解 Go 语言的内存使用 | Gopher beyond El[i]phants
+
+http://tbdocs.alibaba-inc.com/display/HSF/EagleEye?spm=0.0.0.0.9Bk9R5 | EagleEye - ARCH_高性能服务框架(HSF) - 淘宝产品工程部文档
+http://www.atatech.org/articles/47574?spm=0.0.0.0.9Bk9R5 | 鹰眼下的淘宝——分布式调用跟踪系统介绍 ( 2015年版 )
+
+https://springcloud.cc/spring-cloud-netflix-zhcn.html | Spring Cloud Netflix【spring cloud中文版】--spring cloud中文文档
+http://www.atatech.org/articles/11174 | 《Java 7 并发编程指南》中文版
+http://www.atatech.org/articles/50709 | Driver 端长时容错详解
+http://www.atatech.org/articles/42239 | Zookeeper分布式一致性原则学习总结
+http://www.atatech.org/articles/61215 | ZooKeeper Watcher 和 AsyncCallback 的区别与实现
+http://www.atatech.org/articles/44320 | 对象存储的多副本一致性算法
+http://www.atatech.org/articles/12480 | 构建基于Akka的集群进行聚划算售后数据统计详解
+http://www.atatech.org/articles/13994 | 聊聊并发－CopyOnWrite并发容器
+http://www.atatech.org/articles/50202 | 有关异步的几种设计模式
+http://www.atatech.org/articles/17005 | 聊聊并发（十）生产者消费者模式
+http://www.atatech.org/articles/64354 | 聊聊SharePreferences的坑
+http://www.atatech.org/articles/58394 | [转载]聊聊Greenplum的那些事
+http://www.atatech.org/articles/70646 | OpenKV：一个替代SharedPreferences的解决方案
+http://www.atatech.org/articles/70035 | 你是软件工程师还是程序员？
+http://www.atatech.org/articles/38172 | 高效MacBook工作环境配置
+http://www.atatech.org/articles/5581 | 聊聊高性能I/O设计模式与快餐店的点餐机制
+http://www.atatech.org/articles/70576?flag_data_from=yuan | 态势感知架构总结
+http://www.atatech.org/articles/?sort=yuan | 文章列表
+http://www.atatech.org/articles/70250?flag_data_from=active | 推荐一种Git Commit信息格式
+http://www.atatech.org/articles/68385?flag_data_from=tpp&pvid=314592bd-dbcd-45b4-b92f-599be33d1a6d | Mac+IDEA+AliTomcat 搭建ICBU Posting本地运行环境
+http://www.atatech.org/articles/69896?flag_data_from=recommend | AJDK8多租户特性开发指南
+http://www.atatech.org/articles/69734?flag_data_from=recommend | UC News 两印移动网络TCP速度优化
+http://www.atatech.org/articles/70362?flag_data_from=week_hot | 大话胡焕庸线
+http://www.atatech.org/articles/64497 | Chrome 好用插件分享
+https://w3ctrain.com/2016/10/16/my-chrome-extension/ | 我的 Chrome 插件集 | w3cTrain
+https://aone.alibaba-inc.com/ec/app/50605/mix/publish?spm=aone2015.appMixPublish.page.11.5xAdy5&flowId=560 | traffic-average-tool 正式
+
+http://www.atatech.org/articles/48605 | 学习一下Disruptor
+http://baike.corp.taobao.com/index.php/Tair:scenario | Tair:scenario - 淘宝百科
+http://baike.corp.taobao.com/index.php/Tair:client_overview | Tair:client overview - 淘宝百科
+
+http://javarticles.com/2016/09/determining-java-version.html | Determining Java Version
+http://javarticles.com/2016/09/jaxb-binding-and-unmarshalling-example.html | JAXB Binding and Unmarshalling Example
+http://stackoverflow.com/questions/25687754/spring-boot-automatically-import-applicationcontext-xml | java - Spring-boot automatically import applicationContext.xml? - Stack Overflow
+http://stackoverflow.com/questions/21470409/spring-boot-how-do-i-reference-application-properties-in-an-importresource | java - Spring-Boot: How do I reference application.properties in an @ImportResource - Stack Overflow
+https://geowarin.github.io/understanding-spring-boot.html | Understanding Spring Boot
+http://docs.spring.io/spring-boot/docs/current/reference/html/using-boot-configuration-classes.html | 15. Configuration classes
+http://www.atatech.org/articles/8860 | HSFJetty插件原理
+http://www.atatech.org/articles/64958 | 浅谈Spring Annotation
+http://www.atatech.org/articles/68346 | 深入浅出RPC原理
+http://mp.weixin.qq.com/s/8cC4Ewt6yPjnxdYxuNZlFQ | [演讲稿] SFDC 微服务实践之路 2016.12.10 杭州（整理）
+
+http://www.atatech.org/articles/17305 | TCP 的那些事儿（下篇）
+http://www.atatech.org/articles/63825 | 深入解析-为何 4 层负载均衡后端 ECS 无法访问负载均衡
+http://packetlife.net/blog/2010/jun/7/understanding-tcp-sequence-acknowledgment-numbers/ | Understanding TCP Sequence and Acknowledgment Numbers - PacketLife.net
+http://www.ibm.com/developerworks/cn/linux/l-tcp-sack/ | TCP 选择性应答的性能权衡
+http://www.cnblogs.com/zszmhd/p/3623202.html | TCP的拥塞控制 (四) - 使命召唤 - 博客园
+http://www.docin.com/p-1544429424.html | Fast retransmit inhibitions for TCP - Kau - 豆丁网
+http://www.pagefault.info/?p=457 | Early Retransmit for TCP原理以及实现 | pagefault
+http://www.cnblogs.com/neujie/archive/2012/05/18/2507581.html | ［转发］TCP DupACKs and TCP Fast Retransmits - GeekyNiu - 博客园
+
+https://yq.aliyun.com/articles/68282?spm=5176.100239.blogcont7569.31.Ny91mG | jdk1.8的HashMap和ConcurrentHashMap-博客-云栖社区-阿里云
+https://yq.aliyun.com/articles/17186?spm=5176.100239.blogcont17187.7.eNFtiL | 《JVM故障诊断指南》之4 —— Java 8:从持久代到metaspace-博客-云栖社区-阿里云
+https://yq.aliyun.com/articles/17184?spm=5176.100239.blogcont17186.8.5kW1cW | JUC中Atomic class之lazySet的一点疑惑-博客-云栖社区-阿里云
+http://blog.csdn.net/erlib/article/details/53956732 | [Go语言]binary tree算法的华山论剑 - Sunface - 博客频道 - CSDN.NET
+http://blog.csdn.net/erlib/article/details/53434124 | 5张图看尽Go语言GC的演变史 - Sunface - 博客频道 - CSDN.NET
+http://blog.csdn.net/erlib/article/details/52743704 | Go、Nginx、Php、Nodejs谁能胜出紫禁之巅 - Sunface - 博客频道 - CSDN.NET
+http://blog.csdn.net/erlib/article/details/52621546 | 想在公司推广Golang吗－Golang之美 - Sunface - 博客频道 - CSDN.NET
+http://blog.csdn.net/erlib/article/details/52106209 | 为什么公司要从Scala转到Go？ - Sunface - 博客频道 - CSDN.NET
+http://blog.csdn.net/erlib/article/details/51850912 | 为Go语言GC正名－20秒到100微妙的演变史 - Sunface - 博客频道 - CSDN.NET
+http://blog.csdn.net/erlib/article/details/53761116 | [Go语言] 面向外网的Web调优详解(go1.8) - Sunface - 博客频道 - CSDN.NET
+http://blog.csdn.net/erlib/article/details/52758123 | 我们如何用Go来处理每分钟100万复杂请求的场景 - Sunface - 博客频道 - CSDN.NET
+http://blog.csdn.net/erlib/article/details/52703165 | 一些不常见的Go命令参数详解 - Sunface - 博客频道 - CSDN.NET
+http://blog.csdn.net/erlib/article/details/52571793 | [独家] Go1.8大幅改进了海量对象的GC性能(不同语言的横向对比) - Sunface - 博客频道 - CSDN.NET
+http://blog.csdn.net/erlib/article/details/52078417 | Go和Rust计算性能大比武 - Sunface - 博客频道 - CSDN.NET
+http://edu.csdn.net/course/detail/2845 | 微服务架构下数据一致性的保证 - CSDN学院 - CSDN.NET
+
+http://projects.spring.io/spring-cloud/spring-cloud.html | Spring Cloud
+http://www.atatech.org/articles/64077 | 基于zookeeper的分布式调度系统的实现和应用
+http://www.atatech.org/articles/67775 | SpringBoot AutoConfiguration解密[译]
+
+http://docs.spring.io/spring-boot/docs/1.4.2.RELEASE/reference/htmlsingle/#boot-features-customizing-spring-application | Spring Boot Reference Guide

@@ -1,6 +1,7 @@
 package origin.concurrency;
 
 import java.lang.invoke.MethodHandles;
+import java.util.concurrent.atomic.AtomicIntegerFieldUpdater;
 //import java.lang.invoke.VarHandle;
 
 /**
@@ -25,5 +26,29 @@ public class CasTest {
 //        result = varHandle.compareAndSet(CasTest.this, 0, 1);
 //        System.out.println("compareAndSet, expected: " + 0 +
 //                ", x: " + 1 + ", result: " + result);
+    }
+
+    static class Account {
+        private volatile int money;
+        private static final AtomicIntegerFieldUpdater<Account> updater = AtomicIntegerFieldUpdater.newUpdater(Account.class, "money");  // 引入AtomicIntegerFieldUpdater
+
+        Account(int initial) {
+            this.money = initial;
+        }
+
+        public void increMoney() {
+            updater.incrementAndGet(this);    // 通过AtomicIntegerFieldUpdater操作字段
+        }
+
+        public int getMoney() {
+            return money;
+        }
+
+        @Override
+        public String toString() {
+            return "Account{" +
+                    "money=" + money +
+                    '}';
+        }
     }
 }

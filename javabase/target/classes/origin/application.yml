@@ -1,0 +1,11 @@
+server:
+  port: 7001
+#mybatis:
+#  type-handlers-package: com.my.model.enums.crowdfunding
+
+spring:
+  main:
+    banner-mode: "off"
+    allow-bean-definition-overriding: true
+app:
+  id: my-test

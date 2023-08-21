@@ -23,13 +23,12 @@ pub fn test_panic() {
 
 pub fn complex_function() -> Option<&'static str> {
     let x = get_an_optional_value()?; // if None, returns immidiately; if Some("abc"), set x to "abc"
-    // some other code, ex
+                                      // some other code, ex
     println!("{}", x); // "abc" ; if you change line 19 `false` to `true`
     Some("")
 }
 
 fn get_an_optional_value() -> Option<&'static str> {
-
     //if the optional value is not empty
     if false {
         return Some("abc");
@@ -41,59 +40,59 @@ fn get_an_optional_value() -> Option<&'static str> {
 
 pub fn test_std_macos() {
     // Standard Macros also defined by both compiler and std
-// print, println, eprint, eprintln
-// format, format_args
-// write, writeln
+    // print, println, eprint, eprintln
+    // format, format_args
+    // write, writeln
 
-// concat, concat_idents, stringify //concat_idents : nightly-only experimental API
+    // concat, concat_idents, stringify //concat_idents : nightly-only experimental API
 
-// include, include_bytes, include_str
+    // include, include_bytes, include_str
 
-// assert, assert_eq, assert_ne
-// debug_assert, debug_assert_eq, debug_assert_ne
+    // assert, assert_eq, assert_ne
+    // debug_assert, debug_assert_eq, debug_assert_ne
 
-// try, panic, compile_error, unreachable, unimplemented
+    // try, panic, compile_error, unreachable, unimplemented
 
-// file, line, column, module_path
-// env, option_env
-// cfg
+    // file, line, column, module_path
+    // env, option_env
+    // cfg
 
-// select, thread_local //select : nightly-only experimental API
+    // select, thread_local //select : nightly-only experimental API
 
-// vec
+    // vec
 
-// std modules
-// char, str
+    // std modules
+    // char, str
 
-// i8, i16, i32, i64, i128, isize
-// u8, u16, u32 ,u64, u128, usize
-// f32, f64
-// num
+    // i8, i16, i32, i64, i128, isize
+    // u8, u16, u32 ,u64, u128, usize
+    // f32, f64
+    // num
 
-// vec, slice, hash, heap, collections // heap : nightly-only experimental API
+    // vec, slice, hash, heap, collections // heap : nightly-only experimental API
 
-// string, ascii, fmt
+    // string, ascii, fmt
 
-// default
+    // default
 
-// marker, clone, convert, cmp, iter
+    // marker, clone, convert, cmp, iter
 
-// ops, ffi
+    // ops, ffi
 
-// option, result, panic, error
+    // option, result, panic, error
 
-// io
-// fs, path
-// mem, thread, sync
-// process, env
-// net
-// time
-// os
+    // io
+    // fs, path
+    // mem, thread, sync
+    // process, env
+    // net
+    // time
+    // os
 
-// ptr, boxed, borrow, cell, any, rc
+    // ptr, boxed, borrow, cell, any, rc
 
-// prelude
+    // prelude
 
-// intrinsics // intrinsics : nightly-only experimental API
-// raw // raw : nightly-only experimental API
+    // intrinsics // intrinsics : nightly-only experimental API
+    // raw // raw : nightly-only experimental API
 }

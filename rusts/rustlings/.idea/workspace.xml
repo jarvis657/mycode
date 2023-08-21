@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CMakeRunConfigurationManager" shouldGenerate="true" shouldDeleteObsolete="true">
+    <generated />
+  </component>
+  <component name="CMakeSettings">
+    <configurations>
+      <configuration PROFILE_NAME="Debug" CONFIG_NAME="Debug" />
+    </configurations>
+  </component>
+  <component name="CargoProjects">
+    <cargoProject FILE="$PROJECT_DIR$/Cargo.toml" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="240389ef-99fd-4513-a939-415a6a67dbea" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/Cargo.lock" beforeDir="false" afterPath="$PROJECT_DIR$/Cargo.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exercises/functions/functions1.rs" beforeDir="false" afterPath="$PROJECT_DIR$/exercises/functions/functions1.rs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exercises/functions/functions2.rs" beforeDir="false" afterPath="$PROJECT_DIR$/exercises/functions/functions2.rs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exercises/functions/functions3.rs" beforeDir="false" afterPath="$PROJECT_DIR$/exercises/functions/functions3.rs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exercises/functions/functions4.rs" beforeDir="false" afterPath="$PROJECT_DIR$/exercises/functions/functions4.rs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exercises/functions/functions5.rs" beforeDir="false" afterPath="$PROJECT_DIR$/exercises/functions/functions5.rs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exercises/if/if1.rs" beforeDir="false" afterPath="$PROJECT_DIR$/exercises/if/if1.rs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exercises/macros/macros1.rs" beforeDir="false" afterPath="$PROJECT_DIR$/exercises/macros/macros1.rs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exercises/macros/macros2.rs" beforeDir="false" afterPath="$PROJECT_DIR$/exercises/macros/macros2.rs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exercises/macros/macros3.rs" beforeDir="false" afterPath="$PROJECT_DIR$/exercises/macros/macros3.rs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exercises/macros/macros4.rs" beforeDir="false" afterPath="$PROJECT_DIR$/exercises/macros/macros4.rs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exercises/modules/modules1.rs" beforeDir="false" afterPath="$PROJECT_DIR$/exercises/modules/modules1.rs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exercises/modules/modules2.rs" beforeDir="false" afterPath="$PROJECT_DIR$/exercises/modules/modules2.rs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exercises/move_semantics/move_semantics1.rs" beforeDir="false" afterPath="$PROJECT_DIR$/exercises/move_semantics/move_semantics1.rs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exercises/move_semantics/move_semantics2.rs" beforeDir="false" afterPath="$PROJECT_DIR$/exercises/move_semantics/move_semantics2.rs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exercises/move_semantics/move_semantics3.rs" beforeDir="false" afterPath="$PROJECT_DIR$/exercises/move_semantics/move_semantics3.rs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exercises/move_semantics/move_semantics4.rs" beforeDir="false" afterPath="$PROJECT_DIR$/exercises/move_semantics/move_semantics4.rs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exercises/primitive_types/primitive_types1.rs" beforeDir="false" afterPath="$PROJECT_DIR$/exercises/primitive_types/primitive_types1.rs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exercises/primitive_types/primitive_types2.rs" beforeDir="false" afterPath="$PROJECT_DIR$/exercises/primitive_types/primitive_types2.rs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exercises/primitive_types/primitive_types3.rs" beforeDir="false" afterPath="$PROJECT_DIR$/exercises/primitive_types/primitive_types3.rs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exercises/primitive_types/primitive_types4.rs" beforeDir="false" afterPath="$PROJECT_DIR$/exercises/primitive_types/primitive_types4.rs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exercises/primitive_types/primitive_types5.rs" beforeDir="false" afterPath="$PROJECT_DIR$/exercises/primitive_types/primitive_types5.rs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exercises/primitive_types/primitive_types6.rs" beforeDir="false" afterPath="$PROJECT_DIR$/exercises/primitive_types/primitive_types6.rs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exercises/strings/strings1.rs" beforeDir="false" afterPath="$PROJECT_DIR$/exercises/strings/strings1.rs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exercises/strings/strings2.rs" beforeDir="false" afterPath="$PROJECT_DIR$/exercises/strings/strings2.rs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exercises/structs/structs1.rs" beforeDir="false" afterPath="$PROJECT_DIR$/exercises/structs/structs1.rs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exercises/test1.rs" beforeDir="false" afterPath="$PROJECT_DIR$/exercises/test1.rs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exercises/test2.rs" beforeDir="false" afterPath="$PROJECT_DIR$/exercises/test2.rs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exercises/test3.rs" beforeDir="false" afterPath="$PROJECT_DIR$/exercises/test3.rs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exercises/test4.rs" beforeDir="false" afterPath="$PROJECT_DIR$/exercises/test4.rs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exercises/tests/tests1.rs" beforeDir="false" afterPath="$PROJECT_DIR$/exercises/tests/tests1.rs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exercises/tests/tests2.rs" beforeDir="false" afterPath="$PROJECT_DIR$/exercises/tests/tests2.rs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exercises/tests/tests3.rs" beforeDir="false" afterPath="$PROJECT_DIR$/exercises/tests/tests3.rs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exercises/variables/variables1.rs" beforeDir="false" afterPath="$PROJECT_DIR$/exercises/variables/variables1.rs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exercises/variables/variables2.rs" beforeDir="false" afterPath="$PROJECT_DIR$/exercises/variables/variables2.rs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exercises/variables/variables3.rs" beforeDir="false" afterPath="$PROJECT_DIR$/exercises/variables/variables3.rs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exercises/variables/variables4.rs" beforeDir="false" afterPath="$PROJECT_DIR$/exercises/variables/variables4.rs" afterDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ClangdSettings">
+    <option name="formatViaClangd" value="false" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MacroExpansionManager">
+    <option name="directoryName" value="NjuCTHLb" />
+  </component>
+  <component name="ProjectId" id="1RapxrJ4LiPDccyRQ3a1HTgWVZT" />
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="org.rust.cargo.project.model.PROJECT_DISCOVERY" value="true" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RustProjectSettings">
+    <option name="toolchainHomeDirectory" value="$USER_HOME$/.cargo/bin" />
+    <option name="version" value="2" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="240389ef-99fd-4513-a939-415a6a67dbea" name="Default Changelist" comment="" />
+      <created>1569915310957</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1569915310957</updated>
+      <workItem from="1569915312150" duration="634000" />
+      <workItem from="1569916270228" duration="204000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>

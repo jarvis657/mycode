@@ -1,0 +1,10 @@
+
+N	java:S106'"9Replace this use of System.out or System.err by a logger.(ÀÜÀ»
+S	java:S106/"9Replace this use of System.out or System.err by a logger.(Å­ËÝúÿÿÿÿ
+S	java:S106*"9Replace this use of System.out or System.err by a logger.(»¹èõÿÿÿÿÿ
+N	java:S106"9Replace this use of System.out or System.err by a logger.(Ò¨á½
+S	java:S1064"9Replace this use of System.out or System.err by a logger.(³²ó¹ûÿÿÿÿ
+N	java:S1069"9Replace this use of System.out or System.err by a logger.(Œ¾ÉÑ
+V	java:S125
+"<This block of commented-out lines of code should be removed.(ïðç•ûÿÿÿÿ
+S	java:S106"9Replace this use of System.out or System.err by a logger.(ñéïäýÿÿÿÿ

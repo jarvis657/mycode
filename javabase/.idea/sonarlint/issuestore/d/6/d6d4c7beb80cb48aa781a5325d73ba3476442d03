@@ -1,0 +1,33 @@
+
+V	java:S125l"<This block of commented-out lines of code should be removed.(™åÝäýÿÿÿÿ
+N	java:S106z"9Replace this use of System.out or System.err by a logger.(îÝíê
+N	java:S106Ã"9Replace this use of System.out or System.err by a logger.(³ìÙ5
+S	java:S106v"9Replace this use of System.out or System.err by a logger.(„ÞÅúÿÿÿÿ
+T	java:S106ž"9Replace this use of System.out or System.err by a logger.(‚ò¦Íÿÿÿÿÿ
+Q
+java:S1161†":Add the "@Override" annotation above this method signature(“–ýþ
+k	java:S117u"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ï¨„Ûþÿÿÿÿ
+N	java:S106{"9Replace this use of System.out or System.err by a logger.(èÏðÍ
+?	java:S108")Either remove or fill this block of code.(”ý¾
+O	java:S106¼"9Replace this use of System.out or System.err by a logger.(­ÃÜ÷
+J
+java:S16048"(Make this anonymous inner class a lambda(ôŸ¼ûÿÿÿÿ8¶Í®¿¹.
+N	java:S106r"9Replace this use of System.out or System.err by a logger.(®¿ÒÈ
+l	java:S117Þ"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(˜ëóðøÿÿÿÿ
+O	java:S106Œ"9Replace this use of System.out or System.err by a logger.(˜Ü…Š
+]
+java:S2142š"FEither re-interrupt this method or rethrow the "InterruptedException".(ä ¹€
+N	java:S106y"9Replace this use of System.out or System.err by a logger.( ¯–§
+R	java:S125Ë"<This block of commented-out lines of code should be removed.(ÁÚ¥ø
+S	java:S106"9Replace this use of System.out or System.err by a logger.(’›Òûÿÿÿÿ
+T	java:S106µ"9Replace this use of System.out or System.err by a logger.(‹Å‰»üÿÿÿÿ
+g	java:S101"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(…íôçúÿÿÿÿ
+R	java:S125Ò"<This block of commented-out lines of code should be removed.(Ë¹û´
+n
+java:S22934"YReplace the type specification in this constructor call with the diamond operator ("<>").(þÞ’x
+T	java:S106ˆ"9Replace this use of System.out or System.err by a logger.(÷éÍæýÿÿÿÿ
+^
+java:S1192Œ"GDefine a constant instead of duplicating this literal "simple" 3 times.(˜Ü…Š
+S	java:S106|"9Replace this use of System.out or System.err by a logger.(¦ƒ««úÿÿÿÿ
+O	java:S106‹"9Replace this use of System.out or System.err by a logger.(ÂÓ¼ù
+T	java:S106¡"9Replace this use of System.out or System.err by a logger.(ªäˆ¥ùÿÿÿÿ

@@ -1,0 +1,38 @@
+
+Q
+java:S1144G"/Remove this unused private "mTurnPrint" method.(–÷ôŒıÿÿÿÿ8…à¾ê.
+A
+java:S1068"+Remove this unused "monitor" private field.(íø×
+B
+java:S1264[",Replace this "for" loop with a "while" loop.(…İ±Ğ
+B
+java:S1264m",Replace this "for" loop with a "while" loop.(…İ±Ğ
+]
+java:S2142°"FEither re-interrupt this method or rethrow the "InterruptedException".(ä ¹€
+K
+java:S1191"5Use classes from the Java API instead of Sun classes.(éª‚€
+S	java:S106N"9Replace this use of System.out or System.err by a logger.(Ï²í”ùÿÿÿÿ
+[	java:S112"FDefine and throw a dedicated exception instead of using a generic one.(Âğğ
+N	java:S106f"9Replace this use of System.out or System.err by a logger.(Âã‚æ
+6	java:S131%""Add a default case to this switch.(ìúÇV
+B
+java:S1264d",Replace this "for" loop with a "while" loop.(…İ±Ğ
+]
+java:S3078¬"AUse an "AtomicInteger" for this field; its operations are atomic.(ÍÒôÇıÿÿÿÿ
+N	java:S106]"9Replace this use of System.out or System.err by a logger.(äÀµ
+S	java:S106o"9Replace this use of System.out or System.err by a logger.(Ù€ƒéøÿÿÿÿ
+]	java:S125"<This block of commented-out lines of code should be removed.(»•ûÿÿÿÿ8…à¾ê.
+h
+java:S3776Y"RRefactor this method to reduce its Cognitive Complexity from 19 to the 15 allowed.(Ó¹²Û
+J
+java:S1144Y"4Remove this unused private "originTurnPrint" method.(Ó¹²Û
+W	java:S125˜"<This block of commented-out lines of code should be removed.(²ÕÛ”øÿÿÿÿ
+T	java:S106¬"9Replace this use of System.out or System.err by a logger.(ÍÒôÇıÿÿÿÿ
+G
+java:S1264L",Replace this "for" loop with a "while" loop.(––²Ïûÿÿÿÿ
+>	java:S108A")Either remove or fill this block of code.(”ı¾
+G
+java:S1612V",Replace this lambda with a method reference.(’ÑĞ“ÿÿÿÿÿ
+6	java:S1311""Add a default case to this switch.(ìúÇV
+B
+java:S3011?",This accessibility update should be removed.(˜ÂÓ˜

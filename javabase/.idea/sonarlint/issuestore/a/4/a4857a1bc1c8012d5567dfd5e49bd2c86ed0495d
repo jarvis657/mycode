@@ -1,0 +1,16 @@
+
+:
+java:S2129"$Remove this "BigInteger" constructor(Ã¹ìØ
+N	java:S1063"9Replace this use of System.out or System.err by a logger.(ŒÓì™
+S	java:S1064"9Replace this use of System.out or System.err by a logger.(þ­Òˆûÿÿÿÿ
+N
+java:S1197"8Move the array designator from the variable to the type.(Öñù¯
+?
+java:S2129+"$Remove this "BigInteger" constructor(ÀÏÆ¨øÿÿÿÿ
+h	java:S100"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(åšˆÝúÿÿÿÿ
+S	java:S1061"9Replace this use of System.out or System.err by a logger.(Ëéÿ˜ùÿÿÿÿ
+S	java:S106+"9Replace this use of System.out or System.err by a logger.(ÀÏÆ¨øÿÿÿÿ
+M	java:S106/"9Replace this use of System.out or System.err by a logger.(Æéñc
+k	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(åšˆÝúÿÿÿÿ
+9
+java:S2129!"$Remove this "BigInteger" constructor(æüÎ

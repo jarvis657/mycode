@@ -3,13 +3,19 @@ pub trait Messager {
 }
 
 //pub struct LimitTracker<'a, T: 'a + Messager> {
-pub struct LimitTracker<'a, T: 'a> where T: Messager {
+pub struct LimitTracker<'a, T: 'a>
+where
+    T: Messager,
+{
     messenger: &'a T,
     value: usize,
     max: usize,
 }
 
-impl<'a, T> LimitTracker<'a, T> where T: Messager {
+impl<'a, T> LimitTracker<'a, T>
+where
+    T: Messager,
+{
     pub fn new(messenger: &'a T, max: usize) -> LimitTracker<T> {
         LimitTracker {
             messenger,
@@ -43,7 +49,7 @@ mod tests {
     impl MockMessager {
         fn new() -> MockMessager {
             MockMessager {
-                sent_message: RefCell::new(vec![])
+                sent_message: RefCell::new(vec![]),
             }
         }
     }
@@ -62,4 +68,3 @@ mod tests {
         assert_eq!(vec[0], "haha")
     }
 }
-

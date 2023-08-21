@@ -40,8 +40,8 @@ public aspect PointAspect {
     // implement toString() for Point
     // include the fields added in the aspect file
     public String Point.toString() {
-        return String.format( "Point: {name=%s, x=%d; y=%d, created=%d, updated=%d}",
-                getName(), getX(), getY(), created, lastUpdated);
+//        return String.format( "Point: {name=%s, x=%d; y=%d, created=%d, updated=%d}", getName(), getX(), getY(), created, lastUpdated);
+        return "";
     }
 
     // pointcut the constructor, and set the value for created

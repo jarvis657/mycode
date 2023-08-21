@@ -1,0 +1,10 @@
+
+K
+java:S1068O"5Remove this unused "MASK_ALL_OUTBOUND" private field.(ô²›Ž
+O
+java:S1068L"4Remove this unused "MASK_ALL_INBOUND" private field.(ÖûÀ³üÿÿÿÿ
+V	java:S125."<This block of commented-out lines of code should be removed.(ùïƒ«øÿÿÿÿ
+N	java:S106U"9Replace this use of System.out or System.err by a logger.(ä¸Îô
+V	java:S125S"<This block of commented-out lines of code should be removed.(ŸóÞÿÿÿÿÿ
+J
+java:S3740h"/Provide the parametrized type for this generic.(÷±þøÿÿÿÿ

@@ -19,10 +19,10 @@ impl Summary for TraitStUser {
 }
 
 //true for user false for article
-pub fn returns_summarizable(switch: bool) -> Box<dyn Summary> {
+pub fn returns_summarizable(switch: bool) -> Box<dyn Summary> where {
     if !switch {
         //error when open
-//        #[derive(Debug)]
+        //        #[derive(Debug)]
         Box::new(TraitStArticle {
             headline: "headline".to_string(),
             location: "location".to_string(),

@@ -26,8 +26,8 @@ import org.springframework.stereotype.Component;
  */
 public class AspectTest {
 
-    @Aspect
-    @Component
+//    @Aspect
+//    @Component
     public static class ExecutionAspect {
 
         @Before("execution(* club.myapp.aspectJ.*.before*(..))")
@@ -58,8 +58,8 @@ public class AspectTest {
             return null;
         }
 
-        @Aspect
-        @Component
+//        @Aspect
+//        @Component
         public static class AnnotationAspect {
 
             @Around("@annotation(club.myapp.annotation.RpcService)")

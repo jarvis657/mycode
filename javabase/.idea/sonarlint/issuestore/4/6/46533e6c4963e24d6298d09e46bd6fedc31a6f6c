@@ -1,0 +1,39 @@
+
+d
+java:S2184""BCast one of the operands of this addition operation to a "double".(’ªòüÿÿÿÿÿ8äºÀÂ.
+Z	java:S106p"9Replace this use of System.out or System.err by a logger.(ªÓ¼áşÿÿÿÿ8Î¦ÏÏÂ.
+Z	java:S106k"9Replace this use of System.out or System.err by a logger.(ªÓ¼áşÿÿÿÿ8ş±¥ÁÂ.
+c	java:S112–"FDefine and throw a dedicated exception instead of using a generic one.(á½³ô8ÙÍÏÂ.
+L
+java:S1481v"*Remove this unused "value" local variable.(ÛŒ„àÿÿÿÿÿ8÷ÿÎÏÂ.
+L
+java:S14819"*Remove this unused "timer" local variable.(‰ÏÚ´üÿÿÿÿ8³â¬ÀÂ.
+[
+java:S1854v"9Remove this useless assignment to local variable "value".(ÛŒ„àÿÿÿÿÿ8÷ÿÎÏÂ.
+Z	java:S106g"9Replace this use of System.out or System.err by a logger.(ªÓ¼áşÿÿÿÿ8¡‚¥ÁÂ.
+J
+java:S1604"(Make this anonymous inner class a lambda(Óæó„ùÿÿÿÿ8Ä›ŠÀÂ.
+[
+java:S18549"9Remove this useless assignment to local variable "timer".(‰ÏÚ´üÿÿÿÿ8³â¬ÀÂ.
+U
+java:S1874š"7Remove this use of "ROUND_HALF_DOWN"; it is deprecated.(Öòñº8êèÓÏÂ.
+Z	java:S106s"9Replace this use of System.out or System.err by a logger.(ªÓ¼áşÿÿÿÿ8Î¦ÏÏÂ.
+X	java:S125H"<This block of commented-out lines of code should be removed.(Ê³Ã…8Çœ´ÀÂ.
+]	java:S125L"<This block of commented-out lines of code should be removed.(×§ŠÕüÿÿÿÿ8Çœ´ÀÂ.
+Z	java:S106r"9Replace this use of System.out or System.err by a logger.(ªÓ¼áşÿÿÿÿ8Î¦ÏÏÂ.
+[	java:S106ƒ"9Replace this use of System.out or System.err by a logger.(”á®öüÿÿÿÿ8¡‚¥ÁÂ.
+Z	java:S106i"9Replace this use of System.out or System.err by a logger.(ªÓ¼áşÿÿÿÿ8ş±¥ÁÂ.
+Z	java:S106j"9Replace this use of System.out or System.err by a logger.(ªÓ¼áşÿÿÿÿ8ş±¥ÁÂ.
+]	java:S1252"<This block of commented-out lines of code should be removed.(å¹Øíşÿÿÿÿ8™Õ¥ÀÂ.
+Z	java:S106l"9Replace this use of System.out or System.err by a logger.(ªÓ¼áşÿÿÿÿ8ş±¥ÁÂ.
+]	java:S125P"<This block of commented-out lines of code should be removed.(×§ŠÕüÿÿÿÿ8Çœ´ÀÂ.
+]	java:S125N"<This block of commented-out lines of code should be removed.(—“ûúÿÿÿÿ8Çœ´ÀÂ.
+Š
+java:S1130–"lRemove the declaration of thrown exception 'java.lang.Exception', as it cannot be thrown from method's body.(á½³ô8áÊÔÏÂ.
+Z	java:S106q"9Replace this use of System.out or System.err by a logger.(ªÓ¼áşÿÿÿÿ8Î¦ÏÏÂ.
+Z	java:S106h"9Replace this use of System.out or System.err by a logger.(ªÓ¼áşÿÿÿÿ8ş±¥ÁÂ.
+L
+java:S1874š".Remove this use of "divide"; it is deprecated.(Öòñº8êèÓÏÂ.
+Y	java:S125’"<This block of commented-out lines of code should be removed.(ü…‘ÿ8›ÔÕÏÂ.
+Z	java:S106o"9Replace this use of System.out or System.err by a logger.(ªÓ¼áşÿÿÿÿ8Î¦ÏÏÂ.
+Z	java:S106t"9Replace this use of System.out or System.err by a logger.(ªÓ¼áşÿÿÿÿ8Î¦ÏÏÂ.

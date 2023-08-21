@@ -1,0 +1,10 @@
+
+U	java:S106"9Replace this use of System.out or System.err by a logger.(“±Øå8²²‘Å·.
+Z	java:S106"9Replace this use of System.out or System.err by a logger.(¯Ñ¬áúÿÿÿÿ8²²‘Å·.
+…
+java:S3008	"cRename this field "INHERITABLE_THREAD_LOCAL" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ýÝã°ÿÿÿÿÿ8²²‘Å·.
+Q
+java:S3740	"/Provide the parametrized type for this generic.(ýÝã°ÿÿÿÿÿ8²²‘Å·.
+y
+java:S3008
+"WRename this field "THREAD_LOCAL" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(©òáˆýÿÿÿÿ8²²‘Å·.

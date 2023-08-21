@@ -1,0 +1,28 @@
+
+`
+java:S1124"EReorder the modifiers to comply with the Java Language Specification.(Ώ¥εÿÿÿÿÿ
+X	java:S125"<This block of commented-out lines of code should be removed.(ο£έΒ8ªΛ†Ελ.
+Y
+java:S1854?"<Remove this useless assignment to local variable "instance".(δ›€μ8ªΛ†Ελ.
+E
+java:S2440")Remove this instantiation of "Singleton".(‡ΤΖ8ªΛ†Ελ.
+L
+java:S3985("1Remove this unused private "SingletonEnum" class.(€ή•ψÿÿÿÿ
+r
+java:S3077"WUse a thread-safe type; adding "volatile" is not enough to make this field thread-safe.(Ώ¥εÿÿÿÿÿ
+S	java:S106,"9Replace this use of System.out or System.err by a logger.(Σμ™§ϋÿÿÿÿ
+^
+java:S1854>"<Remove this useless assignment to local variable "instance".(ρ±Ιϊÿÿÿÿ8ªΛ†Ελ.
+Y
+java:S1854@"<Remove this useless assignment to local variable "instance".(δ›€μ8ªΛ†Ελ.
+H
+java:S1068"-Remove this unused "singleton" private field.(Ώ¥εÿÿÿÿÿ
+Y
+java:S1854A"<Remove this useless assignment to local variable "instance".(δ›€μ8ªΛ†Ελ.
+U	java:S106"9Replace this use of System.out or System.err by a logger.(¨Ϊςκ8ªΛ†Ελ.
+Z	java:S106="9Replace this use of System.out or System.err by a logger.(Π΅­Ιωÿÿÿÿ8ªΛ†Ελ.
+Z	java:S106"9Replace this use of System.out or System.err by a logger.(‘·ϊόÿÿÿÿ8ªΛ†Ελ.
+]	java:S1253"<This block of commented-out lines of code should be removed.(·ΦΟϋÿÿÿÿ8ªΛ†Ελ.
+O
+java:S1481>"-Remove this unused "instance" local variable.(ρ±Ιϊÿÿÿÿ8ªΛ†Ελ.
+Z	java:S106B"9Replace this use of System.out or System.err by a logger.(­Μ•Οψÿÿÿÿ8ªΛ†Ελ.

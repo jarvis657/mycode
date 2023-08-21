@@ -1,0 +1,22 @@
+
+X	java:S125#"<This block of commented-out lines of code should be removed.(»Ù™¿8ÅïÒŞ¾.
+Z	java:S106("9Replace this use of System.out or System.err by a logger.(ªÓ¼áşÿÿÿÿ8úŞÂŞ¾.
+T	java:S106 "9Replace this use of System.out or System.err by a logger.(Ê“ç8ÒúúŞ¾.
+U	java:S1062"9Replace this use of System.out or System.err by a logger.(ç¬ô8İÊ±ŒÀ.
+Z	java:S106'"9Replace this use of System.out or System.err by a logger.(ªÓ¼áşÿÿÿÿ8ü¼ÈŞ¾.
+U	java:S1060"9Replace this use of System.out or System.err by a logger.(òÏíï8İÊ±ŒÀ.
+U	java:S106"9Replace this use of System.out or System.err by a logger.(ª³æ£8úŞÂŞ¾.
+Z	java:S1065"9Replace this use of System.out or System.err by a logger.(ß­¶§øÿÿÿÿ8Óø¸ŒÀ.
+U	java:S106"9Replace this use of System.out or System.err by a logger.(ğÔ‘¬8Í¢¾ŒÀ.
+U	java:S106"9Replace this use of System.out or System.err by a logger.(Æ’äÀ8úŞÂŞ¾.
+U	java:S106"9Replace this use of System.out or System.err by a logger.(ğ¹ËÓ8úŞÂŞ¾.
+]	java:S125%"<This block of commented-out lines of code should be removed.(éØ»Úûÿÿÿÿ8ÅïÒŞ¾.
+b	java:S101"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(òäƒ
+Z	java:S106$"9Replace this use of System.out or System.err by a logger.(äòû™ÿÿÿÿÿ8ú’ÉŞ¾.
+W
+java:S1854"5Remove this useless assignment to local variable "a".(œ¹õ¹ÿÿÿÿÿ8ÿ§ŒÀ.
+U	java:S106"9Replace this use of System.out or System.err by a logger.(Õ˜Ùº8úŞÂŞ¾.
+U	java:S106"9Replace this use of System.out or System.err by a logger.(Ÿ¶ˆ—8úŞÂŞ¾.
+W
+java:S1854"5Remove this useless assignment to local variable "b".(‘©’àûÿÿÿÿ8ÿ§ŒÀ.
+U	java:S106"9Replace this use of System.out or System.err by a logger.(íğşÚ8ÿ§ŒÀ.

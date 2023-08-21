@@ -4,11 +4,18 @@ import (
 	"bufio"
 	"fmt"
 	"strings"
+	"sync/atomic"
 
 	"github.com/Jeffail/gabs/v2"
 )
 
+var sum int32 = 1
+
 func main() {
+	fmt.Println("old sum: ", sum)
+	addInt32 := atomic.AddInt32(&sum, 100)
+	fmt.Println("addInt32 ", addInt32)
+	fmt.Println("new sum: ", sum)
 	j := `{"id":"chatcmpl-7449CmDEpJKsJjDOyf6Zj7TJgrDPz","object":"chat.completion","created":1681203610,"model":"gpt-3.5-turbo-0301","usage":{"prompt_tokens":15,"completion_tokens":36,"total_tokens":51},"choices":[{"message":{"role":"assistant","content":"我不知道您想吃什么，您可以自己决定或者提供更多信息，我可以给您建议。"},"finish_reason":"stop","index":0}]}`
 
 	json := GetVFromJson(j, "")

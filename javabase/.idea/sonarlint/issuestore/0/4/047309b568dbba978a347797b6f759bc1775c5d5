@@ -1,0 +1,12 @@
+
+N	java:S106"9Replace this use of System.out or System.err by a logger.(ô¾
+G
+java:S14815",Remove this unused "myBean2" local variable.(¬°Šƒûÿÿÿÿ
+V
+java:S18545";Remove this useless assignment to local variable "myBean2".(¬°Šƒûÿÿÿÿ
+Q
+java:S18544";Remove this useless assignment to local variable "myBean1".(°ÁêŠ
+P
+java:S1161$":Add the "@Override" annotation above this method signature(°Şß
+B
+java:S14814",Remove this unused "myBean1" local variable.(°ÁêŠ

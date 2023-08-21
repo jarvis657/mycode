@@ -1,0 +1,725 @@
+https://juejin.im/post/5e7bfd5b51882535f8733ded?utm_source=gold_browser_extension | 初创公司如何做DevOps - 掘金
+https://juejin.im/post/5e7c1382f265da42cb79949c?utm_source=gold_browser_extension | (15) SpringBoot2.x基础篇：使用YAML代替Properties的对应配置 - 掘金
+https://juejin.im/post/5e7c139df265da42ca4ccbcc?utm_source=gold_browser_extension | (15) 让 Linux 防火墙新秀 nftables 为你的 VPS 保驾护航 - 掘金
+https://juejin.im/post/5e7c0234e51d455c3120dfc4?utm_source=gold_browser_extension | (15) 10/24 设计模式之桥接模式 Bridge Pattern - 掘金
+https://juejin.im/post/5e7b5bfbe51d4526dc7c0706?utm_source=gold_browser_extension | (15) F版本SpringCloud 2—什么是SpringCloud？SpringCloud版本选择 - 掘金
+https://juejin.im/post/5e7c0ea8f265da42bb53cd8e?utm_source=gold_browser_extension | (15) Java 14 发布了，再也不怕 NullPointerException 了！ - 掘金
+https://juejin.im/post/5e7b78ee6fb9a0099877fdd3?utm_source=gold_browser_extension | (15) TCP的滑动窗口机制，谈谈其设计演化过程（如何从无到有？从不可靠到可靠？） - 掘金
+
+https://refactoring.guru/design-patterns/factory-method | Factory Method
+https://wiki.shuiditech.com/pages/viewpage.action?pageId=268043323 | 录入规范&技巧说明大全 - 保险产品库 - 知识库 - 纵情向前
+https://github.com/labuladong/fucking-algorithm/blob/master/%E5%8A%A8%E6%80%81%E8%A7%84%E5%88%92%E7%B3%BB%E5%88%97/%E9%AB%98%E6%A5%BC%E6%89%94%E9%B8%A1%E8%9B%8B%E9%97%AE%E9%A2%98.md | fucking-algorithm/高楼扔鸡蛋问题.md at master · labuladong/fucking-algorithm
+https://juejin.im/post/5e426a276fb9a07ccc45e10a | DDD-CQRS的落地案例 - 掘金
+https://juejin.im/post/5cf635066fb9a07ed911ae84 | (15) 李航：分布式存储 Ceph 介绍及原理架构分享 - 掘金
+https://juejin.im/post/5cbf2d58f265da0380436fde | (15) 简历写了会Kafka，面试官90%会让你讲讲acks参数对消息持久化的影响 - 掘金
+https://juejin.im/post/5bf201f7f265da610f63528a | (15) 拜托，面试请不要再问我TCC分布式事务的实现原理！ - 掘金
+https://blog.csdn.net/weixin_44296862/article/details/88666322 | Spring Cloud微服务中网关服务是如何实现的?（Zuul篇）_Java_无敌码农-CSDN博客
+https://juejin.im/post/5e7ca41c518825360310d3c5 | 全网最全微服务架构—Spring Cloud详解，没有比这更详细的了！ - 掘金
+https://juejin.im/post/5e7d2ff1e51d4546f70cfb5c | 「 Offer收割机之JVM」：生存还是毁灭 - 掘金
+https://juejin.im/post/5e7ca3686fb9a0094365f220 | F版本SpringCloud 3—大白话Eureka服务注册与发现 - 掘金
+https://juejin.im/post/5e7d5447f265da799376cdd1 | java中ThreadLocalRandom的使用 - 掘金
+https://juejin.im/post/5d61407be51d4561cd246657 | 当面试遇到 Redis，我作为一个面试官是这么“刁难”你的！ - 掘金
+https://juejin.im/post/5d5c9c7ae51d4561eb0b2691 | 快看，我们的分布式缓存就是这样把注册中心搞崩的！ - 掘金
+https://juejin.im/post/5d5b44ecf265da038f480ea6 | 记一次JVM FullGC引发严重线上事故的定位、分析、解决过程 - 掘金
+https://juejin.im/post/5d557c24f265da03f66dbad7 | 【性能优化实战】4次版本迭代，我们将项目性能提升了360倍！ - 掘金
+https://juejin.im/post/5d52e83df265da03a1484edb | 一次业务逻辑优化，竟然解决了MySQL CPU消耗800%的性能问题！ - 掘金
+https://juejin.im/post/5d50aa556fb9a06ad00560a8 | 案例实战：每秒10万并发的BI系统是如何频繁发生Young GC的？ - 掘金
+https://juejin.im/post/5ab09943f265da238f125ee8 | (15) 聊聊Dubbo（三）：架构原理 - 掘金
+https://juejin.im/post/5e6ce50f51882549315fcb32?utm_source=gold_browser_extension | (15) Redis 6.0 权限控制基于 Bitmap 实现 - 掘金
+https://juejin.im/post/5e79702af265da570c75580a?utm_source=gold_browser_extension | (15) 《吐血整理》Redis 性能优化的 13 条军规！史上最全 - 掘金
+https://juejin.im/post/5e79d8bb6fb9a07cd52c06a3?utm_source=gold_browser_extension | (15) TiKV 源码解析系列文章（十八）Raft Propose 的 Commit 和 Apply 情景分析 - 掘金
+https://juejin.im/post/5e781696f265da57434bde9e?utm_source=gold_browser_extension | (15) 新版任你发，我用Java 8 - 掘金
+https://github.com/jwasham/coding-interview-university/blob/master/README.md | coding-interview-university/README.md at master · jwasham/coding-interview-university
+https://docs.spring.io/spring-boot/docs/2.1.8.RELEASE/reference/html/configuration-metadata.html#configuration-metadata-annotation-processor | Appendix B. Configuration Metadata
+https://www.cnblogs.com/wangtao_20/p/3243009.html | 技术工作者上升到思想，哲学层面也许更好 - 王滔 - 博客园
+
+https://www.cl.cam.ac.uk/sitemap/ | Department of Computer Science and Technology: Sitemap
+https://www.cl.cam.ac.uk/teaching/1819/ConcDisSys/ | Department of Computer Science and Technology – Course pages 2018–19: Concurrent and Distributed Systems
+
+https://juejin.im/post/5e8140afe51d4546cc26aa6d?utm_source=gold_browser_extension | 99%的程序员都在用Lombok，原理竟然这么简单？我也手撸了一个！|建议收藏 - 掘金
+
+https://www.jianshu.com/p/163c96983ca9 | MySQL优化笔记（八）--锁机制超详细解析（锁分类、事务并发、引擎并发控制） - 简书
+https://www.jianshu.com/p/163c96983ca9 | MySQL优化笔记（八）--锁机制超详细解析（锁分类、事务并发、引擎并发控制） - 简书
+https://blog.51cto.com/louisyang/1379813 | show engine innodb status 详细介绍-MySQL 初学者到专家之路-51CTO博客
+https://juejin.im/post/5e72e97c6fb9a07cb346083f?utm_source=gold_browser_extension | 一口气说出 6种，@Transactional注解的失效场景 - 掘金
+https://juejin.im/post/5e73249bf265da573c0c9912?utm_source=gold_browser_extension | (15) 什么是TCP拥塞控制算法？ - 掘金
+https://juejin.im/post/5e72c4ac518825491b11e805?utm_source=gold_browser_extension | (15) 《 面试又挂了》这次竟然和 Random 有关...... - 掘金
+https://juejin.im/post/5e72246ae51d4527143e6a0d?utm_source=gold_browser_extension | (15) 浅谈MySQL并发控制：隔离级别、锁与MVCC - 掘金
+https://juejin.im/post/5c21b584e51d4548ac6f6c99 | (15) 深入Babel，这一篇就够了 - 掘金
+https://juejin.im/post/5decff136fb9a016544bce67 | (15) 深入理解Golang之channel - 掘金
+https://juejin.im/post/5da2e31ef265da5b5a721f9f | 深入理解Golang之interface和reflect - 掘金
+
+https://fangjian0423.github.io/2019/04/03/spring-cloud-stream-intro/ | 干货｜Spring Cloud Stream 体系及原理介绍 | Format's Notes
+https://www.jianshu.com/p/fb7d11c7f798 | 使用 Spring Cloud Stream 构建消息驱动微服务 - 简书
+https://www.cnblogs.com/fengzheng/p/11576661.html | Spring Cloud 系列之 Spring Cloud Stream - 风的姿态 - 博客园
+https://www.baeldung.com/spring-cloud-stream | Introduction to Spring Cloud Stream | Baeldung
+https://blog.csdn.net/qq_26545305/article/details/80381146 | 【Spring Cloud Stream】异步任务_Java_柠檬树-CSDN博客
+https://blog.csdn.net/u012702547/article/details/78710120 | Spring Cloud Stream使用细节_Java_江南一点雨的专栏-CSDN博客
+https://juejin.im/post/5d2201346fb9a07ee4638512 | 消息驱动式微服务：Spring Cloud Stream & RabbitMQ - 掘金
+
+https://juejin.im/post/5e69c5136fb9a07ccc460306?utm_source=gold_browser_extension | (15) 近2万字详解JAVA NIO2文件操作，过瘾！ - 掘金
+https://juejin.im/post/5e736d71f265da572e4f49ce?utm_source=gold_browser_extension | (15) Redis 服务端程序实现原理 - 掘金
+https://juejin.im/post/5e72d2fbe51d45271c301136?utm_source=gold_browser_extension | (15) 你能搞懂connectTimeout和socketTimeout的区别么？ - 掘金
+https://juejin.im/post/5e746002f265da57663ff6b4?utm_source=gold_browser_extension | 美团面试题：Hashmap的结构，1.7和1.8有哪些区别（史上最深入的分析） - 掘金
+https://juejin.im/post/5e74713651882549564b7a79?utm_source=gold_browser_extension | 大白话聊聊秒杀系统的优化思路 - 掘金
+
+https://juejin.im/post/5e78626ae51d45270c27a66f?utm_source=gold_browser_extension | 后端程序员不得不会的 Nginx 转发匹配规则 - 掘金
+https://juejin.im/post/5e7865dc5188255dd240fb2c?utm_source=gold_browser_extension | (15) 观察者模式，这一篇就搞定 - 掘金
+https://juejin.im/post/5e7782976fb9a07cdf5368de?utm_source=gold_browser_extension | (15) 送别了好友，敖丙跟你聊聊【离职】这个话题 - 掘金
+https://juejin.im/post/5e781696f265da57434bde9e?utm_source=gold_browser_extension | (15) 新版任你发，我用Java 8 - 掘金
+https://juejin.im/post/5e786bcce51d45761319541c?utm_source=gold_browser_extension | (15) 面试官：如何快速排查死锁？如何避免死锁？ - 掘金
+https://juejin.im/post/5e737d155188254943200ed0?utm_source=gold_browser_extension | (15) 基于RocketMQ分布式事务 - 完整示例 - 掘金
+https://juejin.im/post/5e639014e51d45270f52cbac?utm_source=gold_browser_extension | (15) [万字长文，建议收藏]关于Synchronized锁升级，你该了解这些 - 掘金
+https://juejin.im/post/5e624d156fb9a07ca80ab6f2?utm_source=gold_browser_extension | (15) 后端程序员必备：书写高质量SQL的30条建议 - 掘金
+https://juejin.im/post/5e749c77518825490762125d?utm_source=gold_browser_extension | (15) 字节跳动在 RocksDB 存储引擎上的改进实践 - 掘金
+https://juejin.im/post/5e776c53e51d45270b7d843d?utm_source=gold_browser_extension | (15) 多维度分析 Express、Koa 之间的区别 - 掘金
+https://juejin.im/post/5e74b9f051882549746818a7?utm_source=gold_browser_extension | (15) 面试问到IOC我该如何回答呢？ - 掘金
+
+https://juejin.im/post/5e7b14ca5188255e103b4ebf?utm_source=gold_browser_extension | Reactor模型 - 掘金
+https://juejin.im/post/5e7a3346e51d4526cf482467?utm_source=gold_browser_extension | (15) MySQL InnoDB 中 B+ 树索引，哈希索引，全文索引 详解 - 掘金
+https://juejin.im/post/5e7b13505188255e0f0bf689?utm_source=gold_browser_extension | (15) JVM源码分析之javaagent原理完全解读 - 掘金
+https://juejin.im/post/5e7ab80d5188255e143906b3?utm_source=gold_browser_extension | (15) 面试官再问我如何保证 RocketMQ 不丢失消息,这回我笑了！ - 掘金
+
+https://juejin.im/post/5e6aee11e51d452703137ce6?utm_source=gold_browser_extension | 你一定不知道的有关HttpServletResponse和HttpServletRequest取值的两个坑 - 掘金
+https://juejin.im/post/5e64540ef265da5735505f6e?utm_source=gold_browser_extension | (15) 「是时候升级java11了」HTTP/2.0 协议 - 掘金
+https://juejin.im/post/5e48a9af6fb9a07cc200c203?utm_source=gold_browser_extension | (15) 一口气说出 9种 分布式ID生成方式，面试官有点懵了 - 掘金
+https://juejin.im/post/5e6b5913518825492442e2cb?utm_source=gold_browser_extension | (15) 腾讯面试官这样问我二叉树，我刚好都会 - 掘金
+https://juejin.im/post/5e6d01ca518825496814b78a?utm_source=gold_browser_extension | (15) MySQL性能优化步骤演进 - 掘金
+https://juejin.im/post/5e6588fc6fb9a07cbe347747?utm_source=gold_browser_extension | (15) 编程老司机带你玩转 CompletableFuture 异步编程 - 掘金
+https://juejin.im/post/5e6b1acef265da576543c3ec?utm_source=gold_browser_extension | (15) 收藏 | 15 个你非了解不可的 Linux 特殊字符，妈妈再也不用担心我看不懂这些符号了！ - 掘金
+https://juejin.im/post/5e6ce50f51882549315fcb32?utm_source=gold_browser_extension | (15) Redis 6.0 权限控制基于 Bitmap 实现 - 掘金
+https://juejin.im/post/5e6f8a1951882549380ca93b?utm_source=gold_browser_extension | (15) 聊聊skywalking的sharding-sphere-plugin - 掘金
+https://juejin.im/post/5e6c80516fb9a07c8076ce81?utm_source=gold_browser_extension | (15) 面试总被问分布式ID怎么办？ 滴滴（Tinyid）甩给他 - 掘金
+https://juejin.im/post/5e6f703fe51d45270531a214?utm_source=gold_browser_extension | (15) Spring Data Redis 最佳实践！ - 掘金
+https://juejin.im/post/5e707fdfe51d45271d5d55b2?utm_source=gold_browser_extension | (15) 排序算法(Java) - 掘金
+https://juejin.im/post/5e6f7eee518825491b11e420?utm_source=gold_browser_extension | (15) 存储优化(2)-排序引起的慢查询优化 - 掘金
+https://juejin.im/post/5e6f550f51882549087dbd04?utm_source=gold_browser_extension | (15) 一次百万长连接压测 Nginx OOM 的问题排查分析 - 掘金
+https://juejin.im/post/5e7040536fb9a07c8334f965?utm_source=gold_browser_extension | (15) 手把手教你实现一个方法耗时统计的 java agent - 掘金
+
+https://juejin.im/post/5e7ec9506fb9a03c5b2faeb9?utm_source=gold_browser_extension | Nacos + Grafana + Prometheu安装（standalone-derby） - 掘金
+https://juejin.im/post/5e7aea03f265da57616abd46?utm_source=gold_browser_extension | 简直不要太硬了！一文带你彻底理解文件系统 - 掘金
+https://juejin.im/post/5e7c0ea8f265da42bb53cd8e?utm_source=gold_browser_extension | Java 14 发布了，再也不怕 NullPointerException 了！ - 掘金
+https://juejin.im/post/5e7c8a68f265da42b3480fdd?utm_source=gold_browser_extension | 为什么我们要从 MySQL 迁移到 TiDB？ - 掘金
+https://juejin.im/post/5e7da390f265da79a16d9a56?utm_source=gold_browser_extension | 高并发场景-请求合并（二）揭秘HystrixCollapser-利用Queue和线程池异步实现 - 掘金
+https://juejin.im/post/5e7c3348f265da42f26476eb?utm_source=gold_browser_extension | 高并发场景-请求合并（一）SpringCloud中Hystrix请求合并 - 掘金
+https://juejin.im/post/5e7b6e2351882535bc7b944d?utm_source=gold_browser_extension | 听说你 ping 用的很 6 ？给我图解一下 ping 的工作原理！ - 掘金
+https://juejin.im/post/5e7db22ff265da796f63f55b?utm_source=gold_browser_extension | TiDB 4.0 新特性前瞻（三）再也不用担心我的 SQL 突然变慢了 - 掘金
+
+https://pulsar.apache.org/docs/en/pulsar-2.0/ | Pulsar 2.0 · Apache Pulsar
+https://www.google.com/search?newwindow=1&sxsrf=ALeKk02cfWZzNYCCfloLtGs7h7QA0JlfEA%3A1585745450852&source=hp&ei=Ko6EXoS6MaeHr7wPqsqRkAs&q=ConfigurableBeanFactory+defaultlistable&oq=ConfigurableBeanFactory+defaultlistable&gs_lcp=CgZwc3ktYWIQAzIFCCEQoAE6AggAOgQIABAeOgUIABDLAToGCAAQCBAeUJAGWLORAWCqmwFoA3AAeACAAe8BiAHEGZIBBjAuMTIuNZgBAKABAqABAaoBB2d3cy13aXo&sclient=psy-ab&ved=0ahUKEwiE97KSosfoAhWnw4sBHSplBLIQ4dUDCAY&uact=5 | ConfigurableBeanFactory defaultlistable - Google 搜索
+
+https://htmlpreview.github.io/?https://github.com/get-set/reactor-core/blob/master-zh/src/docs/index.html#about-doc | Reactor 3 参考文档
+
+https://www.google.com/search?newwindow=1&sxsrf=ALeKk01JpLeJvOYfVw_IJSllH7gxc4gigg%3A1584444683851&ei=C7VwXqfGM-yIr7wP-5iU-AE&q=redisson+bounded+blockingqueue+delete+&oq=redisson+bounded+blockingqueue+delete+&gs_l=psy-ab.3...301206.305199..306752...0.0..0.167.1531.0j10......0....1..gws-wiz.......35i39j33i160.SeYqfWkDm5Q&ved=0ahUKEwjn96-0tKHoAhVsxIsBHXsMBR8Q4dUDCAs&uact=5 | redisson bounded blockingqueue delete - Google 搜索
+https://www.bookstack.cn/read/redisson-wiki-zh/spilt.10.7.-%E5%88%86%E5%B8%83%E5%BC%8F%E9%9B%86%E5%90%88.md | 7. 分布式集合 - 7.10. 阻塞队列（Blocking Queue） - 《Redisson 使用手册》 - 书栈网 · BookStack
+https://juejin.im/post/5cf5ec9af265da1bc23f642a | (15) Redisson之几种分布式队列 - 掘金
+
+https://tech.meituan.com/2019/12/05/aqs-theory-and-apply.html | 从ReentrantLock的实现看AQS的原理及应用 - 美团技术团队
+https://tech.meituan.com/2019/11/07/java-dynamic-debugging-technology.html | Java 动态调试技术原理及实践 - 美团技术团队
+https://tech.meituan.com/2019/10/10/jvm-cpu-profiler.html | JVM CPU Profiler技术原理及源码深度解析 - 美团技术团队
+https://tech.meituan.com/2019/09/19/common-method-of-reduce-complexity.html | 降低软件复杂性一般原则和方法 - 美团技术团队
+https://tech.meituan.com/2019/09/05/java-bytecode-enhancement.html | 字节码增强技术探索 - 美团技术团队
+https://tech.meituan.com/2019/01/03/spring-boot-native-memory-leak.html | Spring Boot引起的“堆外内存泄漏”排查及经验总结 - 美团技术团队
+https://tech.meituan.com/2018/12/20/lrucache-practice-dsp.html | LruCache在美团DSP系统中的应用演进 - 美团技术团队
+https://tech.meituan.com/2018/11/22/mysql-pingcap-practice.html | 新一代数据库TiDB在美团的实践 - 美团技术团队
+https://tech.meituan.com/2018/08/02/erp-cd-jenkins-pipeline.html | Jenkins的Pipeline脚本在美团餐饮SaaS中的实践 - 美团技术团队
+https://tech.meituan.com/2018/03/16/redis-high-concurrency-optimization.html | Redis 高负载下的中断优化 - 美团技术团队
+https://tech.meituan.com/2017/12/04/logictree.html | 智能分析最佳实践——指标逻辑树 - 美团技术团队
+https://tech.meituan.com/2017/12/22/ddd-in-practice.html | 领域驱动设计在互联网业务开发中的实践 - 美团技术团队
+https://tech.meituan.com/2017/06/09/maze-framework.html | 从0到1：构建强大且易用的规则引擎 - 美团技术团队
+https://tech.meituan.com/2017/05/19/speculative-partial-writes-erasure-coded-systems.html | 纠删码存储系统中的投机性部分写技术 - 美团技术团队
+https://tech.meituan.com/2017/05/19/about-desk-io.html | 磁盘I/O那些事 - 美团技术团队
+https://tech.meituan.com/2017/05/26/ios-hyperloop.html | Hyperloop，让发布简洁高效 - 美团技术团队
+https://tech.meituan.com/2016/12/02/redblack-tree.html | 红黑树深入剖析及Java实现 - 美团技术团队
+https://tech.meituan.com/2016/11/18/disruptor.html | 高性能队列——Disruptor - 美团技术团队
+https://tech.meituan.com/2016/07/29/distributed-queue-based-programming.html | 分布式队列编程：模型、实战 - 美团技术团队
+https://tech.meituan.com/2016/08/05/distributed-queue-based-programming-optimization.html | 分布式队列编程优化篇 - 美团技术团队
+https://blog.7street.top/2018/04/13/pangu/ | 阿里云分布式存储系统的研究与分享 | 老K的杂货铺
+
+https://www.google.com/maps/place/%E6%AF%94%E5%88%A9%E6%97%B6/@49.8149637,18.6717117,2543630m/data=!3m1!1e3!4m5!3m4!1s0x47c17d64edf39797:0x47ebf2b439e60ff2!8m2!3d50.503887!4d4.469936 | 比利时 - Google地图
+http://primeurmagazine.com/flash/AE-PF-09-15-38.html | Why Twitter prefers BookKeeper over Kafka for its high-performance distributed log service
+
+https://www.google.com/search?newwindow=1&sxsrf=ALeKk03k0EdIF8Nuc6B1bTSQVKipumcwQg%3A1585030882650&ei=4qZ5XrmTJ4H4hwOlwoHQCw&q=Mockito+&oq=Mockito+&gs_l=psy-ab.3..0i67l7j0l2j0i203.17210.17210..17541...0.2..0.222.222.2-1......0....1..gws-wiz.......0i71.VUn_tZRsoyE&ved=0ahUKEwi5jN-VvLLoAhUB_GEKHSVhALoQ4dUDCAs&uact=5 | Mockito - Google 搜索
+https://waylau.com/mockito-quick-start/ | Mockito 简明教程 | waylau.com
+https://juejin.im/post/5b3a23cd6fb9a024e53ce223 | (15) 单元测试利器Mockito框架 - 掘金
+https://juejin.im/post/5ca408f0e51d453a0c6e276c | (15) Java单元测试神器之Mockito - 掘金
+https://blog.csdn.net/zhangxin09/article/details/42422643 | JUnit + Mockito 单元测试（二）_Java_zhangxin09的专栏-CSDN博客
+https://blog.csdn.net/u010834071/article/details/47665791 | Mockito的简单用法示例_Java_欲望以提升热忱 毅力以磨平高山-CSDN博客
+https://juejin.im/post/5ca408f0e51d453a0c6e276c | (15) Java单元测试神器之Mockito - 掘金
+
+https://github.com/ | GitHub
+http://www.zdingke.com/2018/10/16/%e6%95%b0%e6%8d%ae%e9%ab%98%e5%8f%af%e7%94%a8%e6%9e%b6%e6%9e%842%ef%bc%9a%e6%97%a0%e7%8a%b6%e6%80%81%e6%9c%8d%e5%8a%a1%e5%b1%82/ | 数据高可用架构 系列二：无状态服务层 – DATAV
+http://www.zdingke.com/2018/11/27/%e5%85%b3%e8%81%94%e6%97%b6%ef%bc%8c%e5%b0%8f%e8%a1%a8%e6%b0%b8%e8%bf%9c%e5%9c%a8%e5%89%8d/ | 关联时，小表永远在前 – DATAV
+http://lxkaka.wang/2019/03/25/pulsar/ | Pulsar(新一代高性能消息系统)核心总结 | lxkaka
+http://www.uml.org.cn/zjjs/2016111505.asp | Twitter开源DistributedLog，对比Kafka和雅虎Pulsar
+https://www.cnblogs.com/hzmark/p/pulsar.html | Apache Pulsar简介 - 杭州.Mark - 博客园
+http://www.kgula.com/article/1521501.html | Apache Pulsar和Kafka之间的性能比较-热门资讯
+https://blog.csdn.net/liyiming2017/article/details/82875068 | Kafka的时代已经过去了，未来是Pulsar的吗？_大数据_稀有气体的技术博客-CSDN博客
+https://kknews.cc/code/pvqg4p2.html
+http://www.mobabel.net/%E8%BD%AC%E6%AF%94%E6%8B%BCkafka%EF%BC%8C%E5%A4%A7%E6%95%B0%E6%8D%AE%E5%88%86%E6%9E%90%E6%96%B0%E7%A7%80pulsar%E5%88%B0%E5%BA%95%E5%A5%BD%E5%9C%A8%E5%93%AA/ | [转]比拼Kafka，大数据分析新秀Pulsar到底好在哪 | Mobabel
+https://www.google.com/search?q=%CE%BA%E6%9E%B6%E6%9E%84&oq=%CE%BA%E6%9E%B6%E6%9E%84&aqs=chrome..69i57&sourceid=chrome&ie=UTF-8 | κ架构 - Google 搜索
+https://cloud.tencent.com/developer/article/1580657 | Kafka Consumer 的 Rebalance 机制 - 云+社区 - 腾讯云
+https://www.cnblogs.com/yoke/p/11405397.html | Kafka Rebalance机制分析 - gaoyanliang - 博客园
+https://yhyr.github.io/2018/12/26/Kafka%E7%90%86%E8%AE%BA%E4%B9%8BConsumer-Group-Coordinator/
+http://lday.me/2017/07/24/0011_kafka_consumer_rebalance_evolution/
+https://blog.csdn.net/wingofeagle/article/details/60966125 | kafka rebalance机制_大数据_北方的雪之博客专栏-CSDN博客
+https://matt33.com/2017/01/16/kafka-group/
+https://zhuanlan.zhihu.com/p/46963810 | 困扰许久的Kafka Rebalance问题 - 知乎
+https://juejin.im/post/5dd3a552f265da0bf045f3ed | Kafka Consumer 的 Rebalance 机制 - 掘金
+https://intellij-rust.github.io/2020/03/30/changelog-119.html
+
+https://blog.csdn.net/lizhitao/article/details/51718185 | Kafka副本同步机制理解_大数据_李志涛的专栏-CSDN博客
+https://blog.csdn.net/lizhitao/article/details/45380811#comments | apache Kafka中partition的leader为-1情况分析_大数据_李志涛的专栏-CSDN博客
+https://blog.csdn.net/lizhitao/article/details/23744675#comments | apache kafka系列之在zookeeper中存储结构_大数据_李志涛的专栏-CSDN博客
+https://blog.csdn.net/lizhitao/article/details/52426850#comments | 基于Kafka时间粒度消息回溯设计方案_大数据_李志涛的专栏-CSDN博客
+https://blog.csdn.net/lizhitao/article/details/52426477#comments | apache Kafka Replication设计分析_大数据_李志涛的专栏-CSDN博客
+https://blog.csdn.net/lizhitao/article/details/44907417#comments | Apache Kafka消息传递可靠性分析_大数据_李志涛的专栏-CSDN博客
+https://blog.csdn.net/lizhitao/article/details/39499283 | apache kafka技术分享系列(目录索引)_大数据_李志涛的专栏-CSDN博客
+https://blog.csdn.net/lizhitao/article/details/51728925 | Kafka Consumer机制优化-保证每条消息至少消费一次_大数据_李志涛的专栏-CSDN博客
+https://blog.csdn.net/lizhitao/article/details/51714963 | Mafka消息中间件系统SLA_大数据_李志涛的专栏-CSDN博客
+https://blog.csdn.net/lizhitao/article/details/45079803 | 『大型网站技术架构：核心原理与案例分析』（一）_数据库_李志涛的专栏-CSDN博客
+https://blog.csdn.net/lizhitao/article/details/45079825 | 大型网站技术架构』（二）：高性能架构_网络_李志涛的专栏-CSDN博客
+https://blog.csdn.net/lizhitao/article/details/45079847 | 『大型网站技术架构：核心原理与案例分析』（三）_数据库_李志涛的专栏-CSDN博客
+https://blog.csdn.net/lizhitao/article/details/45079875 | 『大型网站技术架构：核心原理与案例分析』（五）_数据库_李志涛的专栏-CSDN博客
+https://blog.csdn.net/lizhitao/article/details/45079861 | 『大型网站技术架构：核心原理与案例分析』（四）_数据库_李志涛的专栏-CSDN博客
+https://blog.csdn.net/lizhitao/article/details/45079847 | 『大型网站技术架构：核心原理与案例分析』（三）_数据库_李志涛的专栏-CSDN博客
+https://blog.csdn.net/lizhitao/article/details/45079825 | 大型网站技术架构』（二）：高性能架构_网络_李志涛的专栏-CSDN博客
+https://blog.csdn.net/lizhitao/article/details/45079803 | 『大型网站技术架构：核心原理与案例分析』（一）_数据库_李志涛的专栏-CSDN博客
+https://blog.csdn.net/lizhitao/article/details/45066437 | Apache Kafka中Follower如何与Leader同步数据_大数据_李志涛的专栏-CSDN博客
+https://blog.csdn.net/qq_36142114/article/details/80314947 | Kafka副本同步机制理解_大数据_leofionn的博客-CSDN博客
+https://blog.csdn.net/lizhitao/article/details/52296102 | Kafka数据可靠性与一致性解析_大数据_李志涛的专栏-CSDN博客
+https://blog.csdn.net/qrne06/article/details/79586212 | 一张图看懂kafka：leader， follower ，分区， 节点(broker)_大数据_qrne06的博客-CSDN博客
+https://blog.csdn.net/lingbo229/article/details/80761778 | Kafka史上最详细原理总结 ----用于自己看的_大数据_微步的博客-CSDN博客
+https://blog.csdn.net/lizhitao/article/details/9405479 | Linux内存管理之mmap详解_运维_李志涛的专栏-CSDN博客
+https://blog.csdn.net/lizhitao/article/details/9358579 | PACKET_MMAP实现原理分析_网络_李志涛的专栏-CSDN博客
+https://blog.csdn.net/lingbo229/article/details/80761778 | Kafka史上最详细原理总结 ----用于自己看的_大数据_微步的博客-CSDN博客
+https://blog.csdn.net/qrne06/article/details/79586212 | 一张图看懂kafka：leader， follower ，分区， 节点(broker)_大数据_qrne06的博客-CSDN博客
+https://blog.csdn.net/lizhitao/article/details/52296102 | Kafka数据可靠性与一致性解析_大数据_李志涛的专栏-CSDN博客
+https://blog.csdn.net/qq_36142114/article/details/80314947 | Kafka副本同步机制理解_大数据_leofionn的博客-CSDN博客
+https://blog.csdn.net/lizhitao/article/details/45066437 | Apache Kafka中Follower如何与Leader同步数据_大数据_李志涛的专栏-CSDN博客
+https://blog.csdn.net/lizhitao/article/details/45079803 | 『大型网站技术架构：核心原理与案例分析』（一）_数据库_李志涛的专栏-CSDN博客
+
+https://blog.csdn.net/zzp448561636/article/details/103012153 | Resilience4j+Feign实现熔断，fallback_Java_Michael曾的博客-CSDN博客
+https://blog.csdn.net/zzp448561636/article/details/101443007 | FeignClient Hystrix超时重试降级_Java_Michael曾的博客-CSDN博客
+https://blog.csdn.net/eson_15/article/details/83651732 | 【夯实Spring Cloud】Dubbo沉睡5年，Spring Cloud开始崛起！_Java_武哥聊编程-CSDN博客
+https://blog.csdn.net/eson_15/article/details/83585344 | 【夯实Spring Cloud】Spring Cloud中基于maven的分布式项目框架的搭建_Java_武哥聊编程-CSDN博客
+https://blog.csdn.net/eson_15/article/details/85002026 | 【夯实Spring Cloud】Spring Cloud中的Eureka服务注册与发现详解_Java_武哥聊编程-CSDN博客
+https://blog.csdn.net/eson_15/article/details/85226439 | 【夯实Spring Cloud】Spring Cloud中如何完善Eureka中的服务信息_Java_武哥聊编程-CSDN博客
+https://blog.csdn.net/eson_15/article/details/85252697 | 【夯实Spring Cloud】Spring Cloud中使用Eureka集群搭建高可用服务注册中心_Java_武哥聊编程-CSDN博客
+https://blog.csdn.net/eson_15/article/details/85561179 | 【夯实Spring Cloud】Spring Cloud中的Eureka和Zookeeper的区别在哪？_Java_武哥聊编程-CSDN博客
+https://blog.csdn.net/eson_15/article/details/86182477 | 【夯实Spring Cloud】Spring Cloud中使用Ribbon实现负载均衡详解（上）_Java_武哥聊编程-CSDN博客
+https://blog.csdn.net/eson_15/article/details/86225272 | 【夯实Spring Cloud】Spring Cloud中使用Ribbon实现负载均衡详解（下）_Java_武哥聊编程-CSDN博客
+https://blog.csdn.net/eson_15/article/details/86578207 | 【夯实Spring Cloud】Spring Cloud中自定义Ribbon负载均衡策略_Java_武哥聊编程-CSDN博客
+https://blog.csdn.net/eson_15/article/details/86590402 | 【夯实Spring Cloud】Spring Cloud中使用Feign实现负载均衡详解_Java_武哥聊编程-CSDN博客
+https://blog.csdn.net/eson_15/article/details/86628622 | 【夯实Spring Cloud】Spring Cloud中使用Hystrix实现断路器原理详解（上）_Java_武哥聊编程-CSDN博客
+https://blog.csdn.net/eson_15/article/details/86673843 | 【夯实Spring Cloud】Spring Cloud中使用Hystrix实现断路器原理详解（下）_Java_武哥聊编程-CSDN博客
+https://blog.csdn.net/eson_15/article/details/86689681 | 【夯实Spring Cloud】Spring Cloud中使用Zuul实现路由网关详解_Java_武哥聊编程-CSDN博客
+https://blog.csdn.net/eson_15/article/details/86715157 | 【夯实Spring Cloud】Spring Cloud分布式配置中心详解_Java_武哥聊编程-CSDN博客
+https://blog.csdn.net/eson_15/article/details/86673843?depth_1-utm_source=distribute.pc_relevant.none-task&utm_source=distribute.pc_relevant.none-task | 【夯实Spring Cloud】Spring Cloud中使用Hystrix实现断路器原理详解（下）_Java_武哥聊编程-CSDN博客
+
+https://juejin.im/post/5e82b1e9e51d4547052ce9b1?utm_source=gold_browser_extension | 4. Go语言中byte、rune与字符串区别？ - 掘金
+https://juejin.im/post/5e82c4c76fb9a03c875c870e?utm_source=gold_browser_extension | Apache Druid底层存储设计 - 掘金
+https://juejin.im/post/5e829b6df265da47ca691085?utm_source=gold_browser_extension | JUC 中提供的限流利器-Semaphore（信号量） - 掘金
+
+https://www.google.com/search?newwindow=1&sxsrf=ALeKk00DjkDDw-Qag4Zonsqk-UIwQP-klw%3A1585932433361&source=hp&ei=kWiHXu3lE869rQGDv42QAg&q=rust+fibonacci&oq=rust+fib&gs_lcp=CgZwc3ktYWIQARgIMgQIABAKMgQIABAKMgQIABAKMgQIABAKMgQIABAKMgQIABAKMgQIABAKMgQIABAKMgUIABDLATIFCAAQywE6AggAOgYIIxAnEBM6BAgjECc6BAgAEAw6BAgAEA06BAgAEB46BQghEKABUKcOWPo9YPtqaAVwAHgBgAGtCYgByC2SAQ0yLTIuMS4yLjIuMi4xmAEAoAEBqgEHZ3dzLXdpeg&sclient=psy-ab | rust fibonacci - Google 搜索
+https://benjaminbrandt.com/fibonacci-in-rust/ | Fibonacci in Rust
+
+https://blog.csdn.net/qiushangren/article/details/94128407 | B树，r树，k-d树，bvh(bound volumn heuristic)树, octtree ,quadtree（待更）_数据结构与算法_qiushangren的专栏-CSDN博客
+https://stackoverrun.com/cn/q/6358614
+http://www.wanfangdata.com.cn/details/detail.do?_type=perio&id=jsjgc200715029 | 面向移动GIS的动态四叉树空间索引算法
+http://html.rhhz.net/CHXB/html/2016-11-1342.htm | M-Quadtree索引:一种基于改进四叉树编码方法的云存储环境下空间索引方法
+https://blog.csdn.net/zhouxuguang236/article/details/12312099 | 四叉树空间索引原理及其实现_数据库_心如止水-GISer的成长之路-CSDN博客
+
+https://www.google.com/search?newwindow=1&sxsrf=ALeKk00C3QVB-33JCQw0zLuFGqLc_j50CQ%3A1584276550914&source=hp&ei=RiRuXoXVNY2NoASX-quIBA&q=github+the+system+design+primer&oq=github+the+system+&gs_l=psy-ab.3.0.0i203j0i8i30j0i333.89226.95602..96949...2.0..0.446.4564.0j1j14j2j1......0....1..gws-wiz.....10..35i362i39j0i131j0j35i39j0i12j0i30.OSFJ0al87lE | github the system design primer - Google 搜索
+https://github.com/donnemartin/system-design-primer | donnemartin/system-design-primer: Learn how to design large-scale systems. Prep for the system design interview. Includes Anki flashcards.
+
+https://www.iflym.com/index.php/code/201911290001.html | spring体系中控制List注入时的顺序 – i flym
+
+https://www.google.com/search?newwindow=1&sxsrf=ALeKk03I1zHXU4KwGWW1ZSqzNZ2LmKl63w%3A1585550778008&ei=upWBXtILhqX1A4vDhagD&q=java+sandbox-module+luanjia&oq=java+sandbox-module+luanjia&gs_lcp=CgZwc3ktYWIQAzIFCCEQoAEyBQghEKABMgUIIRCgATIFCCEQoAE6BAgjECdQj6QCWNiuAmC8sAJoAHAAeAGAAaIDiAGRFpIBBzItNC40LjGYAQCgAQGqAQdnd3Mtd2l6&sclient=psy-ab&ved=0ahUKEwjS0JX3zMHoAhWGUn0KHYthATUQ4dUDCAs&uact=5 | java sandbox-module luanjia - Google 搜索
+https://github.com/alibaba/jvm-sandbox | alibaba/jvm-sandbox: Real - time non-invasive AOP framework container based on JVM
+http://www.programmersought.com/article/3362652617/ | Decrypt Ali online problem diagnosis tools Arthas and jvm-sandbox - Programmer Sought
+https://zhuanlan.zhihu.com/p/92217141 | Java线上问题排查神器Arthas快速上手与原理浅谈 - 知乎
+https://blog.csdn.net/hancky/article/details/88593011 | Arthas、BTrace线上问题诊断工具比较_Java_HankYue's Blog-CSDN博客
+http://javaquan.com/post/31066_1_1.html | 阿里在线分析诊断工具Arthas和jvm-sandbox使用demo-天下java本站尽知
+https://www.cnblogs.com/ttzzyy/p/11414051.html | 阿里在线分析诊断工具Arthas和jvm-sandbox使用demo - 咘雷扎克 - 博客园
+https://my.oschina.net/u/4072299/blog/3005300 | 解密阿里线上问题诊断工具Arthas和jvm-sandbox - 咖啡拿铁的技术分享的个人空间 - OSCHINA
+
+https://blog.csdn.net/shenchaohao12321/article/details/79302791 | 【maven实战】42-使用maven-release-plugin自动化版本发布_Java_通往神秘的道路的专栏-CSDN博客
+https://www.jianshu.com/p/c4c2ae1686a2 | maven release 插件使用 - 简书
+https://blog.csdn.net/shenchaohao12321/article/details/79302791 | 【maven实战】42-使用maven-release-plugin自动化版本发布_Java_通往神秘的道路的专栏-CSDN博客
+
+https://www.google.com/search?newwindow=1&sxsrf=ALeKk02zLxcDv5wHTPU3H-nMA2xm-4mPng%3A1585218438450&source=hp&ei=hoN8XufoGJfrwQO09broBg&q=redisson+RBuckets+&oq=redisson+RBuckets+&gs_l=psy-ab.3..0i19j0i13i30i19l2j0i333l4.916.9403..10006...2.0..2.2969.10644.0j7j1j7-1j0j3......0....1j2..gws-wiz.......0j35i39j0i131j0i203j0i13j0i13i30.l9qMdhgHKP4&ved=0ahUKEwjnw6bv9rfoAhWXdXAKHbS6Dm0Q4dUDCAY&uact=5 | redisson RBuckets - Google 搜索
+https://github.com/redisson/redisson/wiki/6.-%E5%88%86%E5%B8%83%E5%BC%8F%E5%AF%B9%E8%B1%A1 | 6. 分布式对象 · redisson/redisson Wiki
+
+https://www.google.com/search?newwindow=1&sxsrf=ACYBGNRHwpCDl_-B01VzYqFwzkhMZnto3Q%3A1576089891217&source=hp&ei=IznxXfO4CpjT-Qbw1Y6AAw&q=rust+clap+tutorial&oq=rust+clap+&gs_l=psy-ab.3.2.0i203l10.250.1655..5304...1.0..0.759.2124.0j3j2j1j6-1......0....1j2..gws-wiz.......35i39j0.Id6DAr1pqHI | rust clap tutorial - Google 搜索
+http://siciarz.net/24-days-rust-clap/ | 24 days of Rust - clap | siciarz.net
+https://docs.rs/clap/2.27.1/clap/ | clap - Rust
+https://www.google.com/search?newwindow=1&sxsrf=ACYBGNStx8mFW4SgFvSV-LP-yntG_2EUQA%3A1580699948836&source=hp&ei=LJE3XruLMY6R0QT9tYzYDQ&q=%E8%AE%BE%E8%AE%A1+%E6%8F%92%E4%BB%B6%E5%8C%96&oq=%E8%AE%BE%E8%AE%A1+%E6%8F%92%E4%BB%B6%E5%8C%96&gs_l=psy-ab.3..0l10.34459.38486..39478...4.0..0.810.2114.5-2j1......0....1..gws-wiz.....10..35i362i39.FypkDXizmTQ&ved=0ahUKEwi70ceXtrTnAhWOSJQKHf0aA9sQ4dUDCAY&uact=5 | 设计 插件化 - Google 搜索
+https://linz.ink/skywalking/microcore/2018/11/26/how-to-build-micro-core-project-by-skywalking-style.html | 从Skywalking看如何设计一个微核+插件式扩展的高扩展框架
+https://www.zhihu.com/question/23697429 | 插件机制实现的原理是什么？ - 知乎
+https://juejin.im/post/5cb6147f6fb9a0685255369b | 谈谈 MyBatis 的插件化设计 - 掘金
+https://blog.csdn.net/blacksoil55/article/details/49452253 | 插件化设计_插件_blacksoil55的博客-CSDN博客
+https://www.jianshu.com/p/1c19400bd9a2 | 插件化框架下模块间接口新尝试（一种反设计模式的接口设计） - 简书
+https://cloud.tencent.com/developer/article/1163499 | 插件化思维 - 云+社区 - 腾讯云
+https://juejin.im/post/5e339754e51d451ca967775b?utm_source=gold_browser_extension | 一文带你了解 HTTP 黑科技 - 掘金
+https://juejin.im/post/5e357c4d6fb9a02fef3a7180?utm_source=gold_browser_extension | TCP：不丢包的三十六计 - 掘金
+https://juejin.im/post/5e377244e51d450269717b5f?utm_source=gold_browser_extension | 聊聊计算和存储分离 - 掘金
+https://juejin.im/post/5e364aa8e51d453ca734f1da?utm_source=gold_browser_extension | JVM G1垃圾回收总结 - 掘金
+https://juejin.im/post/5e36b4486fb9a02ffc376ba0?utm_source=gold_browser_extension | Springboot 获取配置信息的优雅实践 - 掘金
+https://juejin.im/post/5e36e1e56fb9a02fda4f4fc1?utm_source=gold_browser_extension | 聊聊artemis的groupRebalance - 掘金
+https://juejin.im/post/5e37b5dc6fb9a02fd742bf68?utm_source=gold_browser_extension | (15) 万字总结之反射（框架之魂） - 掘金
+
+https://cloud.tencent.com/developer/news/240987 | 保险企业IT架构转型系列（一）：烟囱式保险系统 - 云+社区 - 腾讯云
+https://wenku.baidu.com/view/08b74d7517fc700abb68a98271fe910ef02dae54.html?re=view | 保险行业核心业务系统架构设计 - 图文 - 百度文库
+https://www.dxc.technology/cn_cn/offerings/123577/123673-integral | 保险保单管理 (Integral) | DXC Technology
+http://www.esky86.com/system.html | 保险系统开发_倚天科技
+https://www.jianshu.com/p/50e467e9d001 | 保险系统的前世今生 - 简书
+https://blog.wislay.com/articles/527 | 订单系统设计的思考（状态一致篇） | Wislay
+https://docs.open.alipay.com/203/105286 | 开放平台文档中心
+https://pay.weixin.qq.com/wiki/doc/api/jsapi.php?chapter=9_7 | 【微信支付】JSAPI支付开发者文档
+http://kongbao100.com/newsinfo.asp?id=9722 | 哪个空包网口碑好：订单状态流转设计
+https://www.v2ex.com/t/397392 | 商城订单超过 30 分钟未支付自动取消订单，最佳解决方案是怎样？ - V2EX
+https://t.cj.sina.com.cn/articles/view/6429008120/17f32e0f8001003ftn | 以订单状态为例，聊聊产品策划的八字法则！__财经头条
+https://tech.meituan.com/2018/01/15/high-performance-platform-design.html | 高性能平台设计—美团旅行结算平台实践 - 美团技术团队
+http://www.sohu.com/a/250661715_114819 | 基础向：电商平台的订单设计流程_状态
+https://www.signcc.com/help?type=%E8%AE%A2%E5%8D%95%E7%8A%B6%E6%80%81%E8%AF%B4%E6%98%8E | 标识设计知识_标识行业_标识协会_标识设计案例_标识行业会展信息 - 标识圈
+http://www.cocoachina.com/articles/29094 | 状态机在马蜂窝机票订单交易系统中的应用与优化实践 - CocoaChina_一站式开发者成长社区
+http://www.woshipm.com/pd/1055272.html | 3个方面解析：电商订单系统设计 | 人人都是产品经理
+https://juejin.im/entry/58bf718344d90400696a50b9 | 电商订单系统中订单状态有哪些？ - 阅读 - 掘金
+https://github.com/tangxuehua/ecommerce/wiki/%E8%AE%A2%E5%8D%95%E4%B8%AD%E5%BF%83%E8%AE%BE%E8%AE%A1 | 订单中心设计 · tangxuehua/ecommerce Wiki
+https://www.jianshu.com/p/03522e3938c0 | 关于数据库‘状态’字段设计的思考与实践 - 简书
+https://www.jianshu.com/p/557848f6ee29 | 电商中订单的形成与订单状态的转换 - 简书
+https://kuaibao.qq.com/s/20180416G02MPZ00?refer=spider | 看点快报
+https://segmentfault.com/a/1190000015784047 | 电商系统设计之订单 - Grace development - SegmentFault 思否
+https://zhuanlan.zhihu.com/p/73073164 | 订单系统：从0到1设计思路 - 知乎
+https://my.oschina.net/cevin15/blog/683628 | 数据库订单表状态字段值设计的一些思考 - 关于Cevin - OSCHINA
+https://q.cnblogs.com/q/105084/ | 订单状态的表设计问题。_已解决_博问_博客园
+https://blog.csdn.net/likaibk/article/details/52577393 | 一般电商的几种订单状态 - likaibk的博客 - CSDN博客
+https://www.xttblog.com/?p=4400 | 一文看懂RocketMQ的顺序消息、重复消息、事务消息和消息存储 – 业余草
+https://www.xttblog.com/?p=4507 | Redis 的 Key 是如何寻址的？ – 业余草
+
+https://www.google.com/search?q=TICKscript&oq=TICKscript&aqs=chrome..69i57j69i60l3&sourceid=chrome&ie=UTF-8 | TICKscript - Google 搜索
+https://segmentfault.com/a/1190000012088345 | 短网址(short URL)系统的原理及其实现 - 小猿大圣的技术之路 - SegmentFault 思否
+https://www.jianshu.com/p/43eea66a2235 | 短网址(short URL)系统的原理及其实现 - 简书
+https://juejin.im/entry/5a5eee25518825733707ad6d | 短网址(short URL)系统的原理及其实现 - 后端 - 掘金
+https://www.consul.io/intro/vs/zookeeper.html | Consul vs. ZooKeeper, doozerd, etcd - Consul by HashiCorp
+https://github.com/kubernetes-sigs/krew | kubernetes-sigs/krew: 📦 Package manager for kubectl plugins
+https://github.com/alibaba/transmittable-thread-local/blob/master/docs/requirement-scenario.md | transmittable-thread-local/requirement-scenario.md at master · alibaba/transmittable-thread-local
+https://github.com/alibaba/transmittable-thread-local#-user-guide | alibaba/transmittable-thread-local: 📌 The missing Java™ std lib(simple & 0-dependency) for framework/middleware, provide an enhanced InheritableThreadLocal that transmits ThreadLocal value between threads even using thread pooling components.
+https://github.com/alibaba/transmittable-thread-local/issues/53 | 分布式追踪系统场景下，如何使用TTL · Issue #53 · alibaba/transmittable-thread-local
+https://github.com/alibaba/Sentinel | alibaba/Sentinel: A lightweight powerful flow control component enabling reliability and monitoring for microservices. (轻量级的流量控制、熔断降级 Java 库)
+https://github.com/alibaba/Sentinel/wiki/Dashboard | Dashboard · alibaba/Sentinel Wiki
+https://github.com/alibaba/Sentinel/wiki/%E4%BB%8B%E7%BB%8D | 介绍 · alibaba/Sentinel Wiki
+https://github.com/redisson/redisson/wiki/Redisson%E9%A1%B9%E7%9B%AE%E4%BB%8B%E7%BB%8D | Redisson项目介绍 · redisson/redisson Wiki
+https://yeasy.gitbooks.io/docker_practice/content/basic_concept/repository.html | 仓库 · Docker —— 从入门到实践
+
+https://jeremyxu2010.github.io/2018/08/%E7%A0%94%E7%A9%B6%E7%9B%91%E6%8E%A7%E7%B3%BB%E7%BB%9F%E4%B9%8Bprometheus/ | 研究监控系统之prometheus - jeremy的技术点滴
+https://songjiayang.gitbooks.io/prometheus/content/introduction/what.html | Prometheus 是什么 · Prometheus 实战
+https://zhuanlan.zhihu.com/p/24811652 | 基于Prometheus的分布式在线服务监控实践 - 知乎
+https://book.douban.com/subject/26875239/ | SRE (豆瓣)
+https://blog.51cto.com/youerning/2050543 | 使用Prometheus+grafana打造高逼格监控平台-又耳笔记-51CTO博客
+https://www.hi-linux.com/posts/25047.html | Prometheus 入门 - 运维之美
+https://www.aneasystone.com/archives/2018/11/prometheus-in-action.html | 实战 Prometheus 搭建监控系统 - aneasystone's blog
+https://www.cnblogs.com/chenqionghe/p/10494868.html | 从零开始搭建Prometheus自动监控报警系统 - 雪山飞猪 - 博客园
+https://www.consul.io/intro/vs/istio.html | Consul vs. Istio - Consul by HashiCorp
+https://www.consul.io/docs/glossary.html | Consul Glossary - Consul by HashiCorp
+https://github.com/pingcap/talent-plan/blob/master/rust/projects/project-1/README.md | talent-plan/README.md at master · pingcap/talent-plan
+
+https://juejin.im/post/5de0ed6ae51d4533007261d2 | https://juejin.im/post/5de0ed6ae51d4533007261d2
+https://juejin.im/post/5dd1fbcff265da0bf175d51d | Spring 中异常处理的各种姿势 - 掘金
+https://juejin.im/post/5dbd9728f265da4d45769c73 | Spring Boot 2 实战：自定义启动运行逻辑 - 掘金
+https://www.felord.cn/spring-security-filters.html | Spring Security 实战干货：内置 Filter 全解析 | Spring Security | Spring Boot | Spring Cloud | https://felord.cn 码农小胖哥的博客
+https://www.felord.cn/categories/spring-security/page/2/ | 分类: spring security | Spring Security | Spring Boot | Spring Cloud | https://felord.cn 码农小胖哥的博客
+https://www.felord.cn/spring-security-login.html | Spring Security 实战干货： 玩转自定义登录 | Spring Security | Spring Boot | Spring Cloud | https://felord.cn 码农小胖哥的博客
+
+https://www.google.com/search?newwindow=1&sxsrf=ACYBGNQt-t_8YSv_mPuBIUNpFOSwY3Wl4Q%3A1574168348915&source=hp&ei=HOfTXYWNNYemoASPrq7ACA&q=sharding-sphere+%E6%8C%89%E6%97%B6%E9%97%B4+%E5%88%86%E5%BA%93%E5%88%86%E8%A1%A8&oq=sharding-sphere+%E6%8C%89%E6%97%B6%E9%97%B4+%E5%88%86%E5%BA%93%E5%88%86%E8%A1%A8&gs_l=psy-ab.3...1043.13646..13952...10.0..0.763.7847.0j7j3j1j2j5j3......0....1..gws-wiz.....10..35i39j0j0i131j0i12j35i362i39j0i30j0i10i30j0i333j33i160j0i13.lv2NFtdXJvQ&ved=0ahUKEwiFi4GKqvblAhUHE4gKHQ-XC4gQ4dUDCAY&uact=5 | sharding-sphere 按时间 分库分表 - Google 搜索
+https://segmentfault.com/a/1190000020220240 | shardingsphere 水平分库分表实战 - 黎明晓 - SegmentFault 思否
+http://132.232.38.45/home/hexo/2018/08/02/springboot-shardingjdbc/ | Springboot使用Sharing-JDBC进行分库分表 | 个人知识分享
+https://my.oschina.net/liangxiao/blog/3108423 | Sharding-Sphere数据分库分表实践(水平分表） - liangxiao的个人空间 - OSCHINA
+https://blog.csdn.net/u012394095/article/details/81705382 | sharding-jdbc系列之按月动态分表（十二） - sharedCode源码交流 - CSDN博客
+https://www.cnblogs.com/zwt1990/p/6762135.html | sharding-jdbc结合mybatis实现分库分表功能 - 等待九月 - 博客园
+
+https://www.jianshu.com/p/8c7b92b4396c | Spring Cloud Feign设计原理 - 简书
+https://juejin.im/post/5ccbe82851882544da5008ce | (15) Feign的工作原理 - 掘金
+https://blog.csdn.net/forezp/article/details/83896098 | FeignClient源码深度解析_Java_方志朋的专栏-CSDN博客
+https://blog.csdn.net/forezp/article/details/73480304 | 深入理解Feign之源码解析_Java_方志朋的专栏-CSDN博客
+https://juejin.im/post/5adee93551882567137dd71f | (15) Spring Cloud Feign 声明式服务调用 - 掘金
+https://bbs.huaweicloud.com/blogs/104568 | SpringCloud系列：FeignClient源码深度解析_云博客_云社区-华为云
+http://www.360linker.com/wfw/394.jhtml | Spring Cloud Feign 使用总结-360linker
+https://www.jianshu.com/p/f7aaf0ba0f2b | Spring Cloud注解 - 简书
+https://www.cnblogs.com/phpdragon/p/12119065.html | Spring Cloud 中 Feign 不捆绑远程应用名称， 实现服务应用名称传入，调用通用自动化 - phpdragon - 博客园
+https://www.cnblogs.com/jpfss/p/12107144.html | Spring cloud Feign 入门demo - 星朝 - 博客园
+https://blog.csdn.net/yxwb1253587469/article/details/81560665 | spring cloud 两个feignclient 名称相同时的问题_Java_yxwb1253587469的博客-CSDN博客
+https://blog.csdn.net/neosmith/article/details/82349449 | @FeignClient同一个name使用多个配置类的解决方案_Java_王鸿飞的专栏-CSDN博客
+https://www.google.com/search?newwindow=1&sxsrf=ALeKk03R34ex4MKnMebBhw-vnm6tQHOWmg%3A1582857895321&source=hp&ei=p35YXqbEEZaC-Qbi-afACQ&q=Ribbon%E5%92%8Ceureka&oq=Ribbon%E5%92%8Ceureka&gs_l=psy-ab.3...385.385..696...1.0..0.254.254.2-1......0....2j1..gws-wiz.8Hg7wyiw6Tc&ved=0ahUKEwjms9CUnfPnAhUWQd4KHeL8CZgQ4dUDCAY&uact=5 | Ribbon和eureka - Google 搜索
+
+http://xiaorui.cc/archives/5970 | nginx grpc streaming负载均衡的排坑和思考 – 峰云就她了
+https://www.servercoder.com/2018/05/13/should-we-use-1111-as-dns-server/ | 是时候使用1.1.1.1作为DNS服务器了吗？ | 后台服务开发
+https://cloud.tencent.com/developer/article/1177159 | Eureka 虽然闭源了，但注册中心还有更多选择：Consul 使用详解 - 云+社区 - 腾讯云
+https://blog.csdn.net/weixin_38055381/article/details/84138952 | 常用的服务发现对比（Consul、zookeeper、etcd、eureka）_大数据_小马过河-CSDN博客
+https://www.jianshu.com/p/4d15725f08aa | 服务发现比较:Consul vs Zookeeper vs Etcd vs Eureka - 简书
+https://www.cnblogs.com/doit8791/p/9246594.html | 服务注册选型比较:Consul vs Zookeeper vs Etcd vs Eureka - 时间朋友 - 博客园
+https://luyiisme.github.io/2017/04/22/spring-cloud-service-discovery-products/ | 服务发现比较:Consul vs Zookeeper vs Etcd vs Eureka - Luyi's Blog
+http://www.shaoqun.com/a/342007.html | [Java教程]转：SpringCloud服务注册中心比较:Consul vs Zookeeper vs Etcd vs Eureka
+https://www.google.com/search?newwindow=1&sxsrf=ALeKk02X5TrDD0_tnVKpOIuzgh5aQJxxEQ%3A1582451346535&ei=kkpSXraMIIG9mAXvjY_oDw&q=grpc%E6%9C%8D%E5%8A%A1%E5%8F%91%E7%8E%B0+%E8%B4%9F%E8%BD%BD%E5%9D%87%E8%A1%A1&oq=grpc%E6%9C%8D%E5%8A%A1%E5%8F%91%E7%8E%B0+%E8%B4%9F%E8%BD%BD%E5%9D%87%E8%A1%A1&gs_l=psy-ab.3..0i30.13241.18617..18878...2.0..0.170.1037.0j7......0....1..gws-wiz.......35i39j0i7i30j0i12j0i8i30j0i5i30.TonNvjj5bdY&ved=0ahUKEwi2nYnTsufnAhWBHqYKHe_GA_0Q4dUDCAs&uact=5 | grpc服务发现 负载均衡 - Google 搜索
+https://cloud.tencent.com/developer/article/1165541 | gRPC服务发现&amp;负载均衡 - 云+社区 - 腾讯云
+https://juejin.im/post/5d282476f265da1b80207252 | gRPC服务发现与服务治理技术选型 - 掘金
+https://segmentfault.com/a/1190000008672912 | gRPC服务发现&负载均衡 - grpc - SegmentFault 思否
+https://colobu.com/2017/04/06/dive-into-gRPC-streaming/ | gRPC的那些事 - streaming | 鸟窝
+https://grpc.io/docs/guides/ | gRPC
+
+http://roaringbitmap.org/ | Roaring Bitmaps
+https://arxiv.org/pdf/1402.6407v4.pdf | 1402.6407v4.pdf
+
+https://juejin.im/post/5e1eb1326fb9a02fcf18dce4?utm_source=gold_browser_extension | Docker灵魂探讨 - 掘金
+https://www.google.com/search?newwindow=1&sxsrf=ACYBGNStVdP7yC-IurfLkI9Eb83bu3bF-A%3A1579141392006&source=hp&ei=D8kfXpLpOsWJoASispfoCA&q=ENTRYPOINT+vs+cmd&oq=ENTRYPOINT+vs+cmd&gs_l=psy-ab.3..0j0i203l3j0i5i10i30j0i5i30l5.793.5856..6053...2.0..1.441.3316.2j3j3j3j2......0....1j2..gws-wiz.....10..35i39j0i131j0i12j35i362i39j0i8i30.3laJsbrQZ5A&ved=0ahUKEwjSrN-NiIfnAhXFBIgKHSLZBY0Q4dUDCAY&uact=5 | ENTRYPOINT vs cmd - Google 搜索
+https://zhuanlan.zhihu.com/p/30555962 | Dockerfile: ENTRYPOINT和CMD的区别 - 知乎
+https://www.cnblogs.com/hujihon/p/5357481.html | Hibernate validation 注解 springmvc 验证 分组 - jhhu - 博客园
+https://www.baeldung.com/javax-validation-groups | Grouping Javax Validation Constraints | Baeldung
+https://www.ibm.com/developerworks/cn/java/j-lo-beanvalid/index.html | Bean Validation 技术规范特性概述
+https://morningspace.github.io/tech/k8s-net-docker0/ | Kubernetes网络篇——从docker0开始 - 晴耕小筑
+https://morningspace.github.io/tech/git-merge-stories-7/ | Git合并那些事——交互式Rebase - 晴耕小筑
+https://morningspace.github.io/tech/git-merge-stories-6/ | Git合并那些事——神奇的Rebase - 晴耕小筑
+
+https://zhuanlan.zhihu.com/p/33813367 | Kubernetes Helm 初体验 - 知乎
+https://whmzsu.github.io/helm-doc-zh-cn/chart_template_guide/getting_started-zh_cn.html | 入门 · Helm用户与开发者指南
+https://www.hi-linux.com/posts/21466.html | Helm 入门指南 - 运维之美
+http://dockone.io/article/2701 | 简化Kubernetes应用部署工具-Helm简介 - DockOne.io
+https://blog.frognew.com/2017/12/its-time-to-use-helm.html
+https://www.jianshu.com/p/d55e91e28f94 | Kubernetes 包管理工具 Helm 简介 - 简书
+https://zhaohuabing.com/2018/04/16/using-helm-to-deploy-to-kubernetes/ | Helm介绍-赵化冰的博客 | Zhaohuabing Blog
+
+https://juejin.im/post/5db7d60df265da4d1518e34e?utm_source=gold_browser_extension | OkHttp源码解析（执行流程） - 掘金
+https://github.com/Snailclimb/JavaGuide/blob/master/docs/dataStructures-algorithms/Backtracking-NQueens.md | JavaGuide/Backtracking-NQueens.md at master · Snailclimb/JavaGuide
+https://github.com/Snailclimb/JavaGuide/blob/master/docs/system-design/authority-certification/basis-of-authority-certification.md | JavaGuide/basis-of-authority-certification.md at master · Snailclimb/JavaGuide
+https://github.com/Snailclimb/JavaGuide/blob/master/docs/system-design/authority-certification/JWT-advantages-and-disadvantages.md | JavaGuide/JWT-advantages-and-disadvantages.md at master · Snailclimb/JavaGuide
+https://github.com/Snailclimb/spring-security-jwt-guide | Snailclimb/spring-security-jwt-guide: 从零入门 ！Spring Security With JWT（含权限验证）后端部分代码。
+https://github.com/Snailclimb/JavaGuide/blob/master/docs/system-design/micro-service/API%E7%BD%91%E5%85%B3.md | JavaGuide/API网关.md at master · Snailclimb/JavaGuide
+https://github.com/Snailclimb/JavaGuide/blob/master/docs/system-design/micro-service/%E5%88%86%E5%B8%83%E5%BC%8Fid%E7%94%9F%E6%88%90%E6%96%B9%E6%A1%88%E6%80%BB%E7%BB%93.md | JavaGuide/分布式id生成方案总结.md at master · Snailclimb/JavaGuide
+https://juejin.im/post/5dd21debf265da0bb61fed81?utm_source=gold_browser_extension | 理解Kotlin函数式编程 - 掘金
+https://juejin.im/post/5dcbc6ad5188250cfe60cf48?utm_source=gold_browser_extension | 你真的搞懂了事件分发？ - 掘金
+https://www.google.com/ | Google
+
+https://www.youtube.com/watch?v=yUOsD_HgfeY | 金灿荣教授最新人大重阳名家讲坛讲座（完整版） - YouTube
+https://rust-lang.github.io/async-book/01_getting_started/01_chapter.html | Getting Started - Asynchronous Programming in Rust
+https://rustwasm.github.io/docs/book/ | Introduction - Rust and WebAssembly
+https://rust-cli.github.io/book/index.html | Getting started - Command Line Applications in Rust
+https://rust-embedded.github.io/book/ | Introduction - The Embedded Rust Book
+https://doc.rust-lang.org/std/index.html | std - Rust
+https://doc.rust-lang.org/edition-guide/index.html | Introduction - The Edition Guide
+https://doc.rust-lang.org/cargo/index.html | Introduction - The Cargo Book
+https://doc.rust-lang.org/rustdoc/index.html | What is rustdoc? -
+https://doc.rust-lang.org/rustc/index.html | What is rustc? - The rustc book
+https://doc.rust-lang.org/error-index.html | Rust Compiler Error Index
+https://blog.rust-lang.org/2019/12/03/survey-launch.html | Launching the 2019 State of Rust Survey | Rust Blog
+https://blog.rust-lang.org/2019/11/07/Rust-1.39.0.html | Announcing Rust 1.39.0 | Rust Blog
+https://blog.rust-lang.org/2019/11/07/Async-await-stable.html | Async-await on stable Rust! | Rust Blog
+https://blog.rust-lang.org/2019/11/01/nll-hard-errors.html | Completing the transition to the new borrow checker | Rust Blog
+https://blog.rust-lang.org/2019/10/29/A-call-for-blogs-2020.html | A call for blogs 2020 | Rust Blog
+https://learning-rust.github.io/ | Learning Rust
+https://juejin.im/post/5df21332f265da33f9794edc?utm_source=gold_browser_extension | Spring Boot注解学习之@ServletComponentScan及扩展 - 掘金
+https://juejin.im/post/5df18edae51d4557fb20eeb0?utm_source=gold_browser_extension | 有点干货 | Jdk1.8新特性实战篇(41个案例) - 掘金
+https://juejin.im/post/5decff136fb9a016544bce67?utm_source=gold_browser_extension | 深入理解Golang之channel - 掘金
+
+https://medium.com/@kent.rancourt/go-pointers-why-i-use-interfaces-in-go-338ae0bdc9e4
+https://medium.com/better-programming/7-habits-of-highly-effective-programmers-563ee3b63f33 | 7 Skills of Highly Effective Programmers - Better Programming - Medium
+https://codeburst.io/crafting-a-command-line-experience-that-developers-love-68657b20c28d | Crafting a Command Line Experience that Developers Love
+https://blog.envoyproxy.io/envoy-and-grpc-web-a-fresh-new-alternative-to-rest-6504ce7eb880 | Envoy and gRPC-Web: a fresh new alternative to REST
+https://medium.com/free-code-camp/fzf-a-command-line-fuzzy-finder-missing-demo-a7de312403ff | Why you should be using fzf, the command line fuzzy finder
+https://medium.com/netflix-techblog/netflix-hack-day-november-2019-c9b31d95d134 | Netflix Hack Day — Fall 2019 - Netflix TechBlog - Medium
+
+https://simpletutorials.com/c/2883/Spacemacs
+https://scarletsky.github.io/2016/01/22/spacemacs-usage/ | Spacemacs 使用总结 - scarletsky
+https://everettjf.github.io/2017/03/11/spacemacs-tutorial/ | Spacemacs 入门总结 - everettjf - 首先很有趣
+https://xiaozhou.net/from-neovim-to-spacemacs-2019-09-04.html | 使用Spacemacs打造你的开发环境 | iTimothy
+https://bitmingw.com/2017/03/02/spacemacs-install-configuration/ | spacemacs: 安装与配置 | Ming's Blog
+https://www.zhihu.com/question/36911995 | 零基础如何学习spacemacs的使用? - 知乎
+https://www.jianshu.com/p/8a8a35596b9d | 因为刚好遇见你：Spacemacs - 简书
+https://code-monkey.top/2016/12/26/spacemacs-usage/ | spacemacs使用指南 - Anthon
+https://www.lijigang.com/blog/2018/06/14/%E4%BB%8E%E9%9B%B6%E5%BC%80%E5%A7%8B%E9%85%8D%E7%BD%AE-spacemacs/ | 从零开始配置 Spacemacs - 常识
+https://blog.itswincer.com/posts/2aa541e6/ | Spacemacs 生存指北 · Wincer's Blog
+https://www.javaworld.com/article/2078440/java-tip-when-to-use-forkjoinpool-vs-executorservice.html?page=2 | Java Tip: When to use ForkJoinPool vs ExecutorService | JavaWorld
+https://javahuang.github.io/2016/05/11/java-concurrent-forkjoinpool/ | 我理解的ForkJoinPoll | 进击的大黄
+https://weinan.io/2018/02/06/llvm.html | 编译器，LLVM与IR
+https://blog.csdn.net/Evankaka/article/details/51627380 | Java并发编程与技术内幕:ThreadGroup线程组应用_网络_Evankaka的专栏-CSDN博客
+https://juejin.im/post/5ca33a0af265da30c1724a6e | (15) Java并发 之 线程组 ThreadGroup 介绍 - 掘金
+https://weinan.io/2017/03/04/Dijkstra-algorithm.html | A Java Implementation of Dijkstra's Algorithm
+https://github.com/ztlevi/spacemacs-config | ztlevi/spacemacs-config: My personal spacemacs configuration but tweaked for speed and simplicity
+https://www.google.com/search?newwindow=1&sxsrf=ALeKk01gQU1Y5WVIlq07dNFV3sFJo5FJFg%3A1583430082355&source=hp&ei=wjlhXoPWEeWVr7wPxs6goAI&q=java8+parallelstream+%E5%A6%82%E4%BD%95%E5%AE%9E%E7%8E%B0&oq=java8+parallelstream+%E5%A6%82%E4%BD%95%E5%AE%9E%E7%8E%B0&gs_l=psy-ab.3...8115.24103..24293...20.0..0.395.7250.0j31j5j2......0....1..gws-wiz.......0j35i39j0i67j0i203j0i10i203j0i12j0i10i30j0i30j0i8i30j0i8i10i30j0i10j33i160j0i13j0i13i10i30j0i13i30j0i8i13i30j0i13i10.gOl2X-dSMFo&ved=0ahUKEwiDv9Pc8IPoAhXlyosBHUYnCCQQ4dUDCAY&uact=5 | java8 parallelstream 如何实现 - Google 搜索
+https://blog.csdn.net/u011001723/article/details/52794455 | 深入浅出parallelStream_Java_梦铃之境的专栏-CSDN博客
+https://blog.csdn.net/weixin_41896427/article/details/96898607 | jdk8 stream与parallelStream实现源码阅读_Java_weixin_41896427的博客-CSDN博客
+https://www.jianshu.com/p/3d4e76467990 | Java8 parallelStream - 简书
+https://www.xz577.com/j/12647.html | Java8 parallelStream并发安全原理讲解-码农之家
+https://zhuanlan.zhihu.com/p/43039062 | Java8 parallelStream浅析 - 知乎
+
+https://github.com/amethyst/amethyst?utm_source=gold_browser_extension | amethyst/amethyst: Data-oriented and data-driven game engine written in Rust
+https://zhuanlan.zhihu.com/p/94880238 | Rust入坑指南：鳞次栉比 - 知乎
+https://zhuanlan.zhihu.com/p/86674870 | Rust入坑指南：核心概念 - 知乎
+https://zhuanlan.zhihu.com/p/94880238 | Rust入坑指南：鳞次栉比 - 知乎
+https://zhuanlan.zhihu.com/p/93193353 | Rust生命周期详解 - 知乎
+https://zhuanlan.zhihu.com/p/91710113 | RFC#2457——Rust语言选择支持非ASCII码标识符在 GitHub 引发的激辩（一） - 知乎
+https://zhuanlan.zhihu.com/p/92057476 | RFC#2457——Rust 语言选择支持非 ASCII 码标识符在 GitHub 引发的激辩（二） - 知乎
+https://zhuanlan.zhihu.com/p/90612241 | Rust v1.39发布 - 这个编程语言真不一般！ - 知乎
+https://zhuanlan.zhihu.com/p/91538250 | Rust - 废弃mem::uninitialized - 知乎
+https://zhuanlan.zhihu.com/p/91186796 | 给Rust实现一个简单的stackful generator（下）完善各种功能 - 知乎
+https://zhuanlan.zhihu.com/p/89712922 | 中文版《Rust标准库》来了 - 知乎
+https://zhuanlan.zhihu.com/p/87922545 | 从openresty谈到rust - 知乎
+https://zhuanlan.zhihu.com/p/88926962 | 正确的Rust引用类型心智模型 - 知乎
+https://zhuanlan.zhihu.com/p/89852850 | 从零开始构建实时抢占式内核 （二）：最干货的上下文切换介绍 - 知乎
+https://zhuanlan.zhihu.com/p/89932207 | cargo 插件推荐 - 知乎
+https://zhuanlan.zhihu.com/p/90439878 | TIOBE 11 月榜单：C、Swift、Go、D 与 Rust 起起伏伏 - 知乎
+https://zhuanlan.zhihu.com/p/90137305 | Rust入坑指南：有条不紊 - 知乎
+https://www.zhihu.com/question/354833549/answer/896863632 | 有用Rust语言开发游戏服务器的吗？开发的是什么类型的游戏？ - 知乎
+https://zhuanlan.zhihu.com/p/87514788 | Rust“与众不同”的地方 - 知乎
+https://zhuanlan.zhihu.com/p/93155786 | Rust:String::from、 into、to_string、to_owned哪个效率高？ - 知乎
+https://www.zhihu.com/question/27226962/answer/892687251 | Golang vs Rust vs Dlang 哪个更有前途，哪位大牛这 3 门语言都用过？ - 知乎
+https://www.zhihu.com/question/353091922/answer/875039459 | rust泛型的单态化，会不会使编译出来的结果变大？ - 知乎
+https://zhuanlan.zhihu.com/p/93846179 | Rust生命周期 - 知乎
+https://zhuanlan.zhihu.com/p/93862361 | [水文] Rust 的 std::cell - 知乎
+https://zhuanlan.zhihu.com/p/93491726 | [水文] Rust 的 std::rc::Rc 阅读 - 知乎
+https://zhuanlan.zhihu.com/p/83776098 | 《Too Many Lists》:一本学习Rust的好书 - 知乎
+https://zhuanlan.zhihu.com/p/84953434 | Rust 链表！ - 知乎
+https://zhuanlan.zhihu.com/p/84396856 | TiKV Rust Client 迁移记 - Futures 0.1 至 0.3 - 知乎
+https://www.zhihu.com/question/350875273/answer/858896613 | 为啥我用 Rust 的 Web 框架写的例子，并发性能是如此的差（已解决，使用纯异步方法）？ - 知乎
+https://zhuanlan.zhihu.com/p/83363692 | 2020 年编程趋势预测：Java老当益壮，Rust独领风骚？ - 知乎
+https://www.zhihu.com/question/354722344/answer/887317049 | 如何看待Rust的async/await终于稳定下来? - 知乎
+https://zhuanlan.zhihu.com/p/88281560 | Error Handling - 知乎
+https://zhuanlan.zhihu.com/p/82202199 | 在Rust中实现分散式的路由注册 - 知乎
+https://zhuanlan.zhihu.com/p/80517671 | [Rust异步] TCP 回声服务 - 知乎
+https://www.zhihu.com/question/341870957/answer/820942764 | 如何看待Rust合并async/await? - 知乎
+https://www.zhihu.com/question/310567973/answer/584320983 | Rust 2018之后，Rust已经发展到什么程度？ - 知乎
+https://zhuanlan.zhihu.com/p/92679351 | Rust Async: async-task源码分析 - 知乎
+https://zhuanlan.zhihu.com/p/93799869 | Rust 数据结构: 广义表 - 知乎
+https://zhuanlan.zhihu.com/p/93853806 | 引擎盖下: 尽量短的Rust Future执行原理介绍 - 知乎
+https://www.ctolib.com/Amethyst.html | Amethyst：OS X的自动平铺窗口管理器 - Swift开发社区 | CTOLib码库
+https://doc.rust-lang.org/book/index.html | The Rust Programming Language - The Rust Programming Language
+https://doc.rust-lang.org/rust-by-example/index.html | Introduction - Rust By Example
+
+https://resilience4j.readme.io/docs/getting-started | Introduction
+
+http://grafana.shuiditech.com/d/jUrdgvdmk/hz_msg_monitor?orgId=1&from=1577287413549&to=1577421328350 | hz_msg_monitor - Grafana
+https://github.com/testerSunshine/12306 | testerSunshine/12306: 12306智能刷票，订票
+https://segmentfault.com/a/1190000017151019 | MacOS Docker安装及使用 - 个人文章 - SegmentFault 思否
+https://www.jianshu.com/p/fb0bf4aca7bd | Mac环境下Docker的初识和运用 - 简书
+https://yeasy.gitbooks.io/docker_practice/image/dockerfile/cmd.html | CMD 容器启动命令 · Docker —— 从入门到实践
+
+https://docs.spring.io/spring/docs/5.2.4.RELEASE/spring-framework-reference/core.html#spring-core | Core Technologies
+
+https://www.01hai.com/note/av322473 | RocketMQ奇技淫巧之堆外内存 – 零一海
+https://blog.yeskery.com/articles/332098100 | ByteBuffer 与 DirectByteBuffer 在堆外内存的应用 - Sprout Blog
+https://cloud.tencent.com/developer/article/1152616 | 堆外内存 之 DirectByteBuffer 详解 - 云+社区 - 腾讯云
+https://www.cnblogs.com/duanxz/p/6089485.html | Java堆外内存之三：堆外内存回收方法 - duanxz - 博客园
+https://juejin.im/post/5be538fff265da611b57da10 | (15) 关于JVM堆外内存的一切 - 掘金
+https://www.jianshu.com/p/007052ee3773 | 堆外内存 之 DirectByteBuffer 详解 - 简书
+https://juejin.im/post/5e64540ef265da5735505f6e?utm_source=gold_browser_extension | (15) 「是时候升级java11了」HTTP/2.0 协议 - 掘金
+https://juejin.im/post/5e60f971e51d4526f071e167?utm_source=gold_browser_extension | (15) 一位 Rust 开发者的 Go 初体验 - 掘金
+https://github.com/Gonzih/crabler?utm_source=gold_browser_extension | Gonzih/crabler: Web Crawler for Crabs
+https://mp.weixin.qq.com/s/jXvJokFMXVTL80FLsy9Omg | 微服务时代的DDD
+https://mp.weixin.qq.com/s/E36rqRzv3x7RnByR39Etqg | Delivery Hero的Kubernetes之旅：从YAML泥潭到Helm乐园
+https://juejin.im/post/5e67a4f6e51d4526c47ae2be?utm_source=gold_browser_extension | (15) 可计算、高性能的自定义用户字段方案 - 掘金
+https://juejin.im/post/5e6794e6f265da573550633a?utm_source=gold_browser_extension | (15) SpringBoot图文教程14—SpringBoot集成EasyExcel「上」 - 掘金
+https://juejin.im/post/5e679a136fb9a07c9a196fc2?utm_source=gold_browser_extension | (15) 复盘MySQL分页查询优化方案 - 掘金
+https://juejin.im/post/5e65fbed51882549122abda0?utm_source=gold_browser_extension | (15) springboot+mybatis多数据源实现原理 - 掘金
+https://juejin.im/post/5e68384ef265da574b7924e0?utm_source=gold_browser_extension | (15) 2. JPA对象关系映射--值对象映射 - 掘金
+https://juejin.im/post/5e63ab6251882549165423a1?utm_source=gold_browser_extension | (15) 面试官看了我之前的文章对我说：你回去等通知吧！ - 掘金
+https://juejin.im/post/5e679c75518825495a2788e7?utm_source=gold_browser_extension | (15) 聊聊skywalking的http-async-client-plugin - 掘金
+https://juejin.im/post/5e66f9e1e51d4526d326ca13?utm_source=gold_browser_extension | (15) Spring Boot 2.x基础教程：使用MyBatis的XML配置方式 - 掘金
+https://juejin.im/post/5e5cfaa9f265da574b7918f6?utm_source=gold_browser_extension | (15) 商品SKU功能设计与优化 - 掘金
+https://juejin.im/post/5e673f6f6fb9a07c820fbd43?utm_source=gold_browser_extension | (15) JVM源码分析之jstat工具原理完全解读 - 掘金
+https://juejin.im/post/5e6733bcf265da57553deed8?utm_source=gold_browser_extension | (15) 责任链模式与lambda重构责任链模式 - 掘金
+https://juejin.im/post/5e64571bf265da57104393a1?utm_source=gold_browser_extension | (15) 超详细的网络抓包神器 tcpdump 使用指南 - 掘金
+https://juejin.im/post/5e65ca03518825494466b7d1?utm_source=gold_browser_extension | (15) Apache Druid 的集群设计与工作流程 - 掘金
+https://juejin.im/post/5e645d1be51d4526d90d1e12?utm_source=gold_browser_extension | (15) Redis 位图基础到统计活跃用户 - 掘金
+https://juejin.im/post/5e6647946fb9a07cd248df30?utm_source=gold_browser_extension | (15) 聊聊skywalking的httpclient-plugin - 掘金
+https://juejin.im/post/5e48a9af6fb9a07cc200c203?utm_source=gold_browser_extension | (15) 一口气说出 9种 分布式ID生成方式，面试官有点懵了 - 掘金
+https://juejin.im/post/5e53d8d4518825494067027d?utm_source=gold_browser_extension | (15) 有的线程它死了，于是它变成一道面试题 - 掘金
+https://juejin.im/post/5e55fd2af265da5729788d04?utm_source=gold_browser_extension | (15) 看懂了责任链模式，你就能明白很多 - 掘金
+https://juejin.im/post/5e61dfaa51882549717d8851?utm_source=gold_browser_extension | (15) 揭秘RocketMQ新特性以及在金融场景下的实践 - 掘金
+https://juejin.im/post/5e63058cf265da574c5684e8?utm_source=gold_browser_extension | (15) 聊聊skywalking的spring-cloud-gateway-plugin - 掘金
+https://juejin.im/post/5e638b41f265da57584db1ee?utm_source=gold_browser_extension | (15) 【从零单排HBase】全面认识HBase架构（建议收藏） - 掘金
+https://juejin.im/post/5e660418e51d4526f363ba39?utm_source=gold_browser_extension | (15) 图解kubernetes中informer机制基础设计原理 - 掘金
+https://juejin.im/post/5e4df461e51d4526cd1de49a?utm_source=gold_browser_extension | (15) 「是时候升级java11了」 jdk11优势和jdk选择 - 掘金
+https://juejin.im/post/5e670f0151882549274a65ef?utm_source=gold_browser_extension | (15) Insert into select语句引发的生产事故 - 掘金
+https://juejin.im/post/5e6776c5f265da57127e5884?utm_source=gold_browser_extension | (15) 黑客入侵攻击下的银行 App，数据安全何去何从？ - 掘金
+https://juejin.im/post/5e64540ef265da5735505f6e?utm_source=gold_browser_extension | (15) 「是时候升级java11了」HTTP/2.0 协议 - 掘金
+https://juejin.im/post/5e671a53518825494b3ce22c?utm_source=gold_browser_extension | (15) 如何找到系统里的重复文件，快速释放磁盘空间？ - 掘金
+https://juejin.im/post/5e65a5d7e51d4526c148221c?utm_source=gold_browser_extension | (15) 科学计数之BigDecimal - 掘金
+
+https://segmentfault.com/a/1190000017955654 | Charles 从入门到精通 - 无线前端技术 - SegmentFault 思否
+
+https://www.cnblogs.com/wonyun/p/5586746.html | charles本地调试之map和rewrite功能 - wonyun - 博客园
+
+http://www.rooat.com/mod/visibility.html | 可见性 - 通过例子学 Rust
+https://kaisery.gitbooks.io/rust-book-chinese/content/content/Crates%20and%20Modules%20crate%20%E5%92%8C%E6%A8%A1%E5%9D%97.html | 4.25.crate 和模块 · Rust 程序设计语言（第一版） 简体中文版
+https://doc.rust-lang.org/reference/visibility-and-privacy.html | Visibility and Privacy - The Rust Reference
+
+https://www.google.com/search?newwindow=1&sxsrf=ACYBGNRg-iAvLV0TUrCwu_mnuAdD2XlghQ%3A1579489630889&source=hp&ei=XhklXoKBNNuJoASx_4e4Dg&q=rust+toml+package+include&oq=rust+toml+package+include&gs_l=psy-ab.3..33i160.832.12189..12405...8.0..3.513.5555.3j20j2j4j0j1......0....1..gws-wiz.....10..35i39j0i131j0j35i362i39j0i3j0i12j0i203j0i10i203j0i10j0i10i30j0i8i30j0i30j33i10i160.2dREQYUzV_Q&ved=0ahUKEwiCqP6ymZHnAhXbBIgKHbH_AecQ4dUDCAY&uact=5 | rust toml package include - Google 搜索
+https://doc.rust-lang.org/beta/cargo/reference/manifest.html | The Manifest Format - The Cargo Book
+https://doc.rust-lang.org/beta/cargo/reference/build-scripts.html | Build Scripts - The Cargo Book
+https://doc.rust-lang.org/beta/cargo/reference/build-scripts.html#the-links-manifest-key | Build Scripts - The Cargo Book
+
+https://www.google.com/search?newwindow=1&sxsrf=ACYBGNSrpNQtc2H5YHKaaVnca2Sh19dTUw%3A1579750672018&source=hp&ei=DxUpXoz6O9vbhwP0z7vYBA&q=%E5%BE%AE%E4%BF%A1+%E7%AD%BE%E5%90%8D%E8%A7%84%E8%8C%83&oq=%E5%BE%AE%E4%BF%A1+%E7%AD%BE%E5%90%8D%E8%A7%84%E8%8C%83&gs_l=psy-ab.3..35i362i39l10.343.5247..5567...2.0..0.0.0.......0....2j1..gws-wiz.....10.-z49uWQuNv8&ved=0ahUKEwjMvYzt5ZjnAhXb7WEKHfTnDksQ4dUDCAY&uact=5 | 微信 签名规范 - Google 搜索
+https://pay.weixin.qq.com/wiki/doc/api/jsapi.php?chapter=4_3 | 【微信支付】JSAPI支付开发者文档
+
+https://www.confluent.io/blog/getting-started-with-rust-and-kafka/ | Get Started with Rust and Apache Kafka
+https://blog.csdn.net/f641385712/article/details/89766065 | 【小家Spring】Spring MVC容器的web九大组件之---HandlerMapping源码详解(一)---BeanNameUrlHandlerMapping系列_BAT的乌托邦-CSDN博客
+https://blog.csdn.net/f641385712/article/details/87934909 | 【小家Spring】Spring MVC容器启动时，web九大组件初始化详解（Spring MVC的运行机制）_Java_BAT的乌托邦-CSDN博客
+https://blog.csdn.net/f641385712/article/details/87883205 | 【小家Spring】Spring容器（含父子容器）的启动过程源码级别分析（含web.xml启动以及全注解驱动，和ContextLoader源码分析）_Java_BAT的乌托邦-CSDN博客
+https://blog.csdn.net/f641385712/article/details/89766065 | 【小家Spring】Spring MVC容器的web九大组件之---HandlerMapping源码详解(一)---BeanNameUrlHandlerMapping系列_Java_BAT的乌托邦-CSDN博客
+https://blog.csdn.net/f641385712/article/details/89810020 | 【小家Spring】Spring MVC容器的web九大组件之---HandlerMapping源码详解(二)---RequestMappingHandlerMapping系列_BAT的乌托邦-CSDN博客
+https://blog.csdn.net/f641385712/article/details/90370542 | 【小家Spring】Spring MVC容器的web九大组件之---HandlerAdapter源码详解---一篇文章带你读懂返回值处理器HandlerMethodReturnValueHandler - BAT的男人 - CSDN博客
+https://www.cnblogs.com/leftthen/p/5229204.html | SpringMVC源码解析 - HandlerMethod - 出门向左 - 博客园
+https://blog.csdn.net/u012420654/article/details/59480498 | 08.SpringMVC 处理器 - HandlerMethod - 一把空心菜 - CSDN博客
+https://blog.51cto.com/winters1224/2049425 | 自定义SpringMVC拦截器中HandlerMethod类型转换问题调研-编程的摩羯男-51CTO博客
+https://aijishu.com/a/1060000000002750 | 从原理层面掌握HandlerMethod的使用【一起学Spring MVC】 - 极术社区 - AIoT 开发者之家
+http://apollo.test.shuiditech.com/config.html?#/appid=sdb-message | Apollo配置中心
+
+https://projectreactor.io/docs/core/release/reference/index.html | Reactor 3 Reference Guide
+https://blog.csdn.net/f641385712/article/details/90370542 | 【小家Spring】Spring MVC容器的web九大组件之---HandlerAdapter源码详解---一篇文章带你读懂返回值处理器HandlerMethodReturnValueHandler - BAT的男人 - CSDN博客
+https://blog.csdn.net/f641385712/article/details/88692534 | 【小家Spring】高性能关键技术之---体验Spring MVC的异步模式（Callable、WebAsyncTask、DeferredResult） 基础使用篇 - BAT的男人 - CSDN博客
+https://blog.csdn.net/f641385712/article/details/88710676 | 【小家Spring】高性能关键技术之---体验Spring MVC的异步模式（ResponseBodyEmitter、SseEmitter、StreamingResponseBody） 高级使用篇 - BAT的男人 - CSDN博客
+https://blog.csdn.net/f641385712/article/details/90370542 | 【小家Spring】Spring MVC容器的web九大组件之---HandlerAdapter源码详解---一篇文章带你读懂返回值处理器HandlerMethodReturnValueHandler - BAT的男人 - CSDN博客
+https://blog.csdn.net/f641385712/article/details/89810020 | 【小家Spring】Spring MVC容器的web九大组件之---HandlerMapping源码详解(二)---RequestMappingHandlerMapping系列 - BAT的男人 - CSDN博客
+https://blog.csdn.net/f641385712/article/details/89766065 | 【小家Spring】Spring MVC容器的web九大组件之---HandlerMapping源码详解(一)---BeanNameUrlHandlerMapping系列_Java_BAT的乌托邦-CSDN博客
+
+https://www.zhihu.com/question/23995189 | 什么是动态规划（Dynamic Programming）？动态规划的意义是什么？ - 知乎
+https://www.zhihu.com/people/yizhi-fei-pang-de-ju-ruo-hzy | 知乎 - 知乎
+https://link.zhihu.com/?target=http%3A//gaotong1991.iteye.com/blog/2028748 | 知乎 - 安全中心
+https://link.zhihu.com/?target=http%3A//www.hawstein.com/posts/dp-novice-to-advanced.html | 知乎 - 安全中心
+https://blog.csdn.net/baidu_28312631/article/details/47418773 | 教你彻底学会动态规划——入门篇_C/C++_常敲代码手不抖-CSDN博客
+https://www.sohu.com/ | 搜狐
+https://blog.csdn.net/sunhuaqiang1/article/details/52103965 | 剑指Offer——动态规划算法_IT全栈 华强工作室-CSDN博客
+https://blog.csdn.net/u010002184/article/details/77046277 | 分治法，动态规划区别_网络_坚持，让梦想闪耀！-CSDN博客
+https://edwiv.com/archives/40 | 浅谈动态规划和贪心的区别与联系 – Edwiv
+https://www.jianshu.com/p/660bc387500c | 分治法，动态规划及贪心算法区别 - 简书
+https://zhidao.baidu.com/question/1945805938926194788.html | 分治算法和动态规划有什么不同和联系？_百度知道
+https://www.zhihu.com/question/32096465 | 动态规划和贪心的本质区别是什么？ - 知乎
+https://juejin.im/post/5c2308abf265da615304ce41 | (15) 看动画轻松理解「递归」与「动态规划」 - 掘金
+https://zhangluncong.com/2018/07/25/dgDdDtgh/ | 递归，迭代，动态规划的区别 - 张伦聪的技术博客
+http://m.newsmth.net/article/MachineLearning/1227?au=ezgz | 请教动态规划和线性规划的区别
+https://www.jiuzhang.com/qa/9278/ | 九章算法 - 帮助更多中国人找到好工作，硅谷顶尖IT企业工程师实时在线授课为你传授面试技巧
+https://dynamicer.com/distinction-between-recurrence-search-and-greedy-and-dynamic-programming/ | 递推、搜索、贪心和动态规划的区别 | Dynamicer's Paranoid
+http://blog.sina.com.cn/s/blog_928574110101i657.html | 动态规划、分治法与贪心算法的区别_elva_1_新浪博客
+https://bbs.pinggu.org/thread-136337-1-1.html | [求助]动态规划和动态优化有什么区别 - 宏观经济学 - 经管之家(原人大经济论坛)
+https://blog.csdn.net/afei__/article/details/83214042 | 动态规划：最长回文子串 & 最长回文子序列_C/C++_阿飞的博客-CSDN博客
+https://www.jianshu.com/p/a7741619dd58 | LeetCode[5] - 最长回文子串&&动态规划 - 简书
+https://leetcode-cn.com/problems/longest-palindromic-substring/solution/zhong-xin-kuo-san-dong-tai-gui-hua-by-liweiwei1419/ | 力扣
+https://www.cnblogs.com/mini-coconut/p/9074315.html | Leetcode（5）-最长回文子串（包含动态规划以及Manacher算法） - Mini_Coconut - 博客园
+
+https://juejin.im/post/5e64571bf265da57104393a1?utm_source=gold_browser_extension | (15) 超详细的网络抓包神器 tcpdump 使用指南 - 掘金
+https://juejin.im/post/5e6588fc6fb9a07cbe347747?utm_source=gold_browser_extension | (15) 编程老司机带你玩转 CompletableFuture 异步编程 - 掘金
+https://juejin.im/post/5e6509fd518825490d1267eb?utm_source=gold_browser_extension | (15) 我以为自己对索引很了解，直到我遇到了阿里面试官 - 掘金
+https://juejin.im/post/5e68417ee51d4526d326cbb7?utm_source=gold_browser_extension | (15) 如何运用领域驱动设计 - 领域事件 - 掘金
+https://juejin.im/post/5e67a95a6fb9a07c7e3da6ff?utm_source=gold_browser_extension | (15) Rust入坑指南：智能指针 - 掘金
+
+https://juejin.im/entry/5df43371e51d45582657e0de?utm_source=gold_browser_extension | netty原理解析 - 后端 - 掘金
+https://juejin.im/post/5df0b6bf6fb9a016164356a4 | 下一代音视频实时传输 SDK 的架构设计 - 掘金
+https://juejin.im/post/5df247d8e51d455824270d7b?utm_source=gold_browser_extension | (15) 聊聊短地址及其原理 - 掘金
+
+https://juejin.im/post/5e26bbca5188252c30002c26?utm_source=gold_browser_extension | (15) 同样是后端程序员，你掌握如何用Grafna做出漂亮的可视化界面了吗？ - 掘金
+https://juejin.im/post/5e1e96ef6fb9a02fbd378588?utm_source=gold_browser_extension | 干货！Kubernates集群搭建及初始化spring cloud环境中遇到的坑 - 掘金
+https://juejin.im/post/5e215a9ee51d453c951daa64?utm_source=gold_browser_extension | 头条一面竟然问我Maven？ - 掘金
+
+http://www.52im.net/thread-1616-1-1.html | IM群聊消息究竟是存1份(即扩散读)还是存多份(即扩散写)？-IM开发/专项技术区 - 即时通讯开发者社区!
+http://www.52im.net/thread-1611-1-1.html | IM群聊消息的已读回执功能该怎么实现？-IM开发/专项技术区 - 即时通讯开发者社区!
+http://www.52im.net/thread-802-1-1.html | 通俗易懂：基于集群的移动端IM接入层负载均衡方案分享-IM开发/专项技术区 - 即时通讯开发者社区!
+http://www.52im.net/thread-2892-1-1.html | IM的扫码登录功能如何实现？一文搞懂主流的扫码登录技术原理-IM开发/专项技术区 - 即时通讯开发者社区!
+http://www.52im.net/thread-1611-1-1.html | IM群聊消息的已读回执功能该怎么实现？-IM开发/专项技术区 - 即时通讯开发者社区!
+http://www.52im.net/thread-1436-1-1.html | 关于IM即时通讯群聊消息的乱序问题讨论-IM开发/专项技术区 - 即时通讯开发者社区!
+http://www.52im.net/thread-1230-1-1.html | 现代IM系统中聊天消息的同步和存储方案探讨-IM开发/专项技术区 - 即时通讯开发者社区!
+http://www.52im.net/thread-2213-1-1.html | IM群聊机制，除了循环去发消息还有什么方式？如何优化？-IM开发/专项技术区 - 即时通讯开发者社区!
+http://www.52im.net/thread-801-1-1.html | 微信后台团队：微信后台异步消息队列的优化升级实践分享-IM开发/专项技术区 - 即时通讯开发者社区!
+http://www.52im.net/thread-1131-1-1.html | 企业微信客户端中组织架构数据的同步更新方案优化实战-IM开发/专项技术区 - 即时通讯开发者社区!
+http://www.52im.net/thread-1230-1-1.html | 现代IM系统中聊天消息的同步和存储方案探讨-IM开发/专项技术区 - 即时通讯开发者社区!
+http://www.52im.net/thread-866-1-1.html | 一个低成本确保IM消息时序的方法探讨-IM开发/专项技术区 - 即时通讯开发者社区!
+http://www.52im.net/thread-594-1-1.html | IM消息送达保证机制实现(二)：保证离线消息的可靠投递-IM开发/专项技术区 - 即时通讯开发者社区!
+http://www.52im.net/thread-714-1-1.html | 如何保证IM实时消息的“时序性”与“一致性”？-IM开发/专项技术区 - 即时通讯开发者社区!
+http://www.52im.net/thread-715-1-1.html | IM单聊和群聊中的在线状态同步应该用“推”还是“拉”？-IM开发/专项技术区 - 即时通讯开发者社区!
+http://www.52im.net/thread-753-1-1.html | IM群聊消息如此复杂，如何保证不丢不重？-IM开发/专项技术区 - 即时通讯开发者社区!
+http://www.52im.net/thread-1351-1-1.html | IM开发基础知识补课(一)：正确理解前置HTTP SSO单点登陆接口的原理-IM开发/专项技术区 - 即时通讯开发者社区!
+http://www.52im.net/thread-1611-1-1.html | IM群聊消息的已读回执功能该怎么实现？-IM开发/专项技术区 - 即时通讯开发者社区!
+http://www.52im.net/thread-1616-1-1.html | IM群聊消息究竟是存1份(即扩散读)还是存多份(即扩散写)？-IM开发/专项技术区 - 即时通讯开发者社区!
+http://www.52im.net/thread-1998-1-1.html | 微信技术分享：微信的海量IM聊天消息序列号生成实践（算法原理篇）-IM开发/专项技术区 - 即时通讯开发者社区!
+https://juejin.im/post/5e3f6a7bf265da57584d952e?utm_source=gold_browser_extension | 面试热点|理解TCP/IP传输层拥塞控制算法 - 掘金
+https://juejin.im/post/5e3ea6c16fb9a07cb427c5b4?utm_source=gold_browser_extension | (15) Spring IOC中的灵魂伴侣：BeanFactory & ApplicationContext - 掘金
+
+https://juejin.im/post/5e229da7f265da3e2e4f5655?utm_source=gold_browser_extension | 图解kubernetes服务打散算法的实现源码 - 掘金
+https://juejin.im/post/5e184276e51d4557e86e8afd?utm_source=gold_browser_extension | 《提升能力，涨薪可待》-ThreadLocal的内存泄露的原因分析以及如何避免 - 掘金
+https://juejin.im/post/5e25214fe51d451cec4d8269?utm_source=gold_browser_extension | 对标Eureka的AP一致性，Nacos如何实现Raft算法 - 掘金
+https://juejin.im/post/5e18492c51882536762959cc?utm_source=gold_browser_extension | 良心推荐，我珍藏的一些Chrome插件 - 掘金
+https://juejin.im/post/5e1ed846e51d4557ea36321b?utm_source=gold_browser_extension | Nginx为什么快到停不下来？ - 掘金
+https://juejin.im/post/5e23c94c5188254db85f01c2?utm_source=gold_browser_extension | 学习使用 Go 的反射 - 掘金
+https://juejin.im/post/5e1ac4d95188254c457786ee?utm_source=gold_browser_extension | Redis系列(七)底层数据结构之跳跃表 - 掘金
+https://juejin.im/post/5e23feade51d455801624cd7?utm_source=gold_browser_extension | 记一次线上Giao(go)服务内存占用率过高问题排查 - 掘金
+https://juejin.im/post/5e2007ae6fb9a02fe34bc066?utm_source=gold_browser_extension | Spring 注解之@Import 注入的各种花活 - 掘金
+https://juejin.im/post/5e22cfb35188252ca21bb781?utm_source=gold_browser_extension | Go 每日一库之 cobra - 掘金
+https://juejin.im/post/5e24f57de51d4531037176db?utm_source=gold_browser_extension | Redis系列(二)：Redis的5种数据结构及其常用命令 - 掘金
+https://juejin.im/post/5e25d1c46fb9a02fd84981c8?utm_source=gold_browser_extension | 算法：计算十进制数字在二进制表示1的个数 - 掘金
+https://juejin.im/post/5e26762b6fb9a0301a06c33a?utm_source=gold_browser_extension | 程序员必须练就的「性能调优」组合拳【4】 - 掘金
+https://juejin.im/post/5e1735475188254c195e88b7?utm_source=gold_browser_extension | Docker是如何实现隔离的 - 掘金
+https://juejin.im/post/5e1ae93d6fb9a030073b43bc?utm_source=gold_browser_extension | (15) Redis系列(九)底层数据结构之五种基础数据类型的实现 - 掘金
+
+https://juejin.im/post/5e0aaa11e51d4575e942f14f?utm_source=gold_browser_extension | 手摸手制作一份 2019 年 GitHub 年度报告 - 掘金
+https://juejin.im/post/5e0b02436fb9a0483040c522?utm_source=gold_browser_extension | Java并发-锁的应用与原理，看这一篇就够了 - 掘金
+https://juejin.im/post/5e54d38a6fb9a07cbf46b3ca | (15) Lombok经常用，但是你知道它的原理是什么吗？ - 掘金
+https://blog.csdn.net/u010454030/article/details/49102565 | 海量数据去重之SimHash算法简介和应用_数据库_三劫散仙-CSDN博客
+https://juejin.im/post/5e204abe6fb9a02ff67d3f6d?utm_source=gold_browser_extension | (15) backlog与TCP三次握手之间不得不说的事 - 掘金
+https://juejin.im/post/5e1f14dee51d451ca9676c13 | SpringCloud（一）入门-SpringCloud基本组件配置 - 掘金
+https://juejin.im/post/5db6eed6518825644076d0b6 | Spring Cloud Gateway：新一代API网关服务 - 掘金
+https://juejin.im/post/5dc013bae51d456e817cec30 | Spring Cloud Security：Oauth2使用入门 - 掘金
+https://juejin.im/post/5dd53a9d5188255d35425a08 | 使用Seata彻底解决Spring Cloud中的分布式事务问题！ - 掘金
+https://juejin.im/post/5dcbf7bc5188250d1f5a78ea | Spring Cloud Alibaba：Nacos 作为注册中心和配置中心使用 - 掘金
+https://juejin.im/post/5de47e8cf265da05ca2e14f0 | Spring Cloud Hoxton正式发布，Spring Boot 2.2 不再孤单 - 掘金
+https://juejin.im/post/5dfc21ebe51d4558096d60e6 | (15) Spring Cloud第九篇 | 分布式服务跟踪Sleuth - 掘金
+
+https://juejin.im/post/5e6480a06fb9a07ce152d39a?utm_source=gold_browser_extension | (15) 4/24 设计模式之命令设计模式 Command Pattern - 掘金
+
+https://juejin.im/post/5e215815f265da3e3d5113a3?utm_source=gold_browser_extension | Java9到Java13各版本新特性代码全部详解(全网独家原创) - 掘金
+https://juejin.im/post/5e240847f265da3e1824c579?utm_source=gold_browser_extension | (15) LRU算法及其优化策略——Mysql篇 - 掘金
+https://kubernetes.io/docs/home/ | Kubernetes Documentation - Kubernetes
+
+https://juejin.im/post/5e0aaa11e51d4575e942f14f?utm_source=gold_browser_extension | 手摸手制作一份 2019 年 GitHub 年度报告 - 掘金
+https://juejin.im/post/5e0b02436fb9a0483040c522?utm_source=gold_browser_extension | Java并发-锁的应用与原理，看这一篇就够了 - 掘金
+https://juejin.im/post/5e09f8d351882549391edd88?utm_source=gold_browser_extension | select * from user 这条 SQL 语句，背后藏着哪些不可告人的秘密？ - 掘金
+https://juejin.im/post/5e0dbc67f265da5d153f3f35?utm_source=gold_browser_extension | Netty堆外内存泄漏排查，这一篇全讲清楚了 - 掘金
+https://blog.csdn.net/u010454030/article/details/49102565 | 海量数据去重之SimHash算法简介和应用_数据库_三劫散仙-CSDN博客
+https://juejin.im/post/5e204abe6fb9a02ff67d3f6d?utm_source=gold_browser_extension | backlog与TCP三次握手之间不得不说的事 - 掘金
+https://juejin.im/post/5e1f14dee51d451ca9676c13 | SpringCloud（一）入门-SpringCloud基本组件配置 - 掘金
+https://juejin.im/post/5db6eed6518825644076d0b6 | Spring Cloud Gateway：新一代API网关服务 - 掘金
+https://juejin.im/post/5dc013bae51d456e817cec30 | Spring Cloud Security：Oauth2使用入门 - 掘金
+https://juejin.im/post/5dd53a9d5188255d35425a08 | 使用Seata彻底解决Spring Cloud中的分布式事务问题！ - 掘金
+https://juejin.im/post/5dcbf7bc5188250d1f5a78ea | Spring Cloud Alibaba：Nacos 作为注册中心和配置中心使用 - 掘金
+https://juejin.im/post/5de47e8cf265da05ca2e14f0 | Spring Cloud Hoxton正式发布，Spring Boot 2.2 不再孤单 - 掘金
+https://juejin.im/post/5dfc21ebe51d4558096d60e6 | (15) Spring Cloud第九篇 | 分布式服务跟踪Sleuth - 掘金
+
+https://segmentfault.com/a/1190000017533031 | 看动画轻松理解「递归」与「动态规划」 - 个人文章 - SegmentFault 思否
+https://segmentfault.com/a/1190000017533031 | 看动画轻松理解「递归」与「动态规划」 - 个人文章 - SegmentFault 思否
+https://cloud.tencent.com/developer/article/1086657 | 浅谈我对动态规划的一点理解---大家准备好小板凳，我要开始吹牛皮了~~~ - 云+社区 - 腾讯云
+
+https://zhuanlan.zhihu.com/p/26144054 | 动态规划 5 —— 二维状态 街道、LCS、回文问题 - 知乎
+https://zhuanlan.zhihu.com/p/92325700 | 利用动态规划解LeetCode第63题：不用路径|| - 知乎
+https://zhuanlan.zhihu.com/p/33707487 | 最长上升子序列 - 知乎
+https://www.google.com/search?q=%E8%83%8C%E5%8C%85%E4%B9%9D%E8%AE%B2&oq=%E8%83%8C%E5%8C%85%E4%B9%9D%E8%AE%B2&aqs=chrome..69i57&sourceid=chrome&ie=UTF-8 | 背包九讲 - Google 搜索
+https://zhuanlan.zhihu.com/c_144466663 | 程序员小灰 - 知乎
+https://zhuanlan.zhihu.com/p/109215377 | 漫画：什么是KMP算法？ - 知乎
+https://zhuanlan.zhihu.com/p/99273811 | 漫画：“排序算法” 大总结 - 知乎
+https://zhuanlan.zhihu.com/p/90749527 | “12306”的架构到底有多牛逼？ - 知乎
+https://zhuanlan.zhihu.com/p/90307599 | 漫画：去掉一个数，如何让剩余的数乘积最大？ - 知乎
+https://zhuanlan.zhihu.com/p/88909342 | 漫画：什么是区块链？ - 知乎
+https://zhuanlan.zhihu.com/p/88239133 | 程序员如何谈薪水？ - 知乎
+https://zhuanlan.zhihu.com/p/88172253 | 漫画：什么是归并排序？ - 知乎
+https://zhuanlan.zhihu.com/p/87781731 | 漫画：什么是希尔排序？ - 知乎
+https://zhuanlan.zhihu.com/p/87190762 | 漫画：什么是选择排序？ - 知乎
+https://zhuanlan.zhihu.com/p/84675066 | 年薪170W的阿里P8，配得上他的征婚诉求吗？ - 知乎
+https://zhuanlan.zhihu.com/p/82887359 | 漫画：什么是中台？ - 知乎
+https://zhuanlan.zhihu.com/p/80371343 | 什么是安迪-比尔定律？ - 知乎
+https://zhuanlan.zhihu.com/p/78856514 | 漫画：什么是囚徒困境？ - 知乎
+https://zhuanlan.zhihu.com/p/76590474 | 有限游戏和无限游戏 - 知乎
+https://zhuanlan.zhihu.com/p/74651669 | 漫画：有趣的“帽子问题” - 知乎
+https://zhuanlan.zhihu.com/p/71856627 | 漫画：什么是最小生成树？ - 知乎
+https://zhuanlan.zhihu.com/p/70420538 | 人越老，脸皮越厚 - 知乎
+https://zhuanlan.zhihu.com/p/32795108 | 面试经典问题——每次可以走 1 级或 2 级，上 100 级台阶有多少走法 - 知乎
+https://www.jianshu.com/p/ef1abd49c007 | 算法：动态规划解决<国王和金矿> - 简书
+https://blog.csdn.net/hhhzua/article/details/50927096 | 动态规划入门之国王的金矿_C/C++_hhhzua的专栏-CSDN博客
+https://segmentfault.com/a/1190000017533031 | 看动画轻松理解「递归」与「动态规划」 - 个人文章 - SegmentFault 思否
+https://cloud.tencent.com/developer/article/1086657 | 浅谈我对动态规划的一点理解---大家准备好小板凳，我要开始吹牛皮了~~~ - 云+社区 - 腾讯云

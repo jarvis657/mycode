@@ -2,7 +2,6 @@ package origin.spring.webflux;
 
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.boot.SpringApplication;
-import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.context.annotation.Bean;
 import org.springframework.http.MediaType;
 import org.springframework.integration.dsl.IntegrationFlow;
@@ -22,7 +21,6 @@ import java.io.File;
  * @author muqi.lmq
  * @date 2018/6/29.
  */
-@SpringBootApplication
 @RestController
 public class WebFluxFileMain {
     public static void main(String[] args) {

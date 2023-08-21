@@ -1,6 +1,6 @@
 pub trait Draw {
-    fn draw(&self) ;
-//    fn draw(&self) -> Self;
+    fn draw(&self);
+    //    fn draw(&self) -> Self;
 }
 
 #[derive(Default)]

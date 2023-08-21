@@ -1,5 +1,10 @@
 package main
 
+import (
+	"fmt"
+	"strings"
+)
+
 func foo() *int {
 	var x int
 	return &x
@@ -16,4 +21,9 @@ func main() {
 	foo()
 	bar()
 	println("over")
+
+	path := "vvv"
+	var args []string
+	sprintf := fmt.Sprintf(`cmd path=%s,args=%s`, path, strings.Join(args, ","))
+	fmt.Println(sprintf)
 }

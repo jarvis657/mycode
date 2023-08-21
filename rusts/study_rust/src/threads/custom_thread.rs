@@ -1,7 +1,7 @@
 use core::borrow::{Borrow, BorrowMut};
 use std::char;
 use std::rc::Rc;
-use std::sync::{Arc, mpsc, Mutex};
+use std::sync::{mpsc, Arc, Mutex};
 use std::thread;
 use std::time::Duration;
 
@@ -21,8 +21,8 @@ pub fn test_ship() {
         println!("here's a vector: {:?}", vc2);
     });
     handle.join().unwrap();
-//    println!("here's a vector: {:?}", vc);
-//    println!("here's a vector: {:?}", vc2);
+    //    println!("here's a vector: {:?}", vc);
+    //    println!("here's a vector: {:?}", vc2);
 }
 
 #[test]
@@ -47,20 +47,19 @@ fn test_thread_ship() {
                 let string = char::from_digit(*t_o, 10).unwrap().to_string();
                 let s = String::from("thread ");
                 let f = char::from_digit(i, 10).unwrap().to_string();
-//                let g = char::from_digit(*guard, 10).unwrap().to_string();
-                r = s + &f + ":";// + &g;
+                //                let g = char::from_digit(*guard, 10).unwrap().to_string();
+                r = s + &f + ":"; // + &g;
                 sender_tmp.send(r);
-            };
+            }
         });
         thread_pool.push(handle);
-    };
+    }
     println!("=============sss===========");
     for data in reciver {
         println!("data reciving:{}", data);
-    };
+    }
     println!("=============eeeeee============");
     for handle in thread_pool {
         handle.join().unwrap();
     }
 }
-

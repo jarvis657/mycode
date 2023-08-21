@@ -1,0 +1,9 @@
+
+Y
+java:S18741"7Remove this use of "visitMethodInsn"; it is deprecated.(Å¬Üûÿÿÿÿ8›Îÿ†Ì.
+N
+java:S1144B"1Remove this unused private "targetMethod" method.(Ş¿¢Ü8¤áÄ‡Ì.
+Z	java:S106C"9Replace this use of System.out or System.err by a logger.(÷«Íúüÿÿÿÿ8¤áÄ‡Ì.
+C
+java:S1172F"&Remove these unused method parameters.(¿«î¬8¤áÄ‡Ì.
+c	java:S899""BDo something with the "boolean" value returned by "createNewFile".(Ğ’Íùÿÿÿÿ8ÖÉ‡Ì.

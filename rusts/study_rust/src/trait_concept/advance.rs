@@ -72,19 +72,19 @@ fn test_ad() {
 
     impl Pilot for Human {
         fn fly(&self) {
-            println!("This is your captain speaking.");
+            println!("pilot This is your captain speaking.");
         }
     }
 
     impl Wizard for Human {
         fn fly(&self) {
-            println!("Up!");
+            println!("wizard Up!");
         }
     }
 
     impl Human {
         fn fly(&self) {
-            println!("*waving arms furiously*");
+            println!("*human waving arms furiously*");
         }
     }
 
