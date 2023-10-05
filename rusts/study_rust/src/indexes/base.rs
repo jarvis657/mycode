@@ -15,6 +15,16 @@ enum Message {
     ChangeColor(i32, i32, i32),
 }
 
+impl Message {
+    fn as_str(&self) -> &'static str {
+        match *self {
+            Message::Quit => "退出",
+            Message::Move { x, y } => "移动",
+            _ => {}
+        }
+    }
+}
+
 //递归数据大小无法确定.使用Box
 pub enum ListEnum {
     Consm(i32, Box<ListEnum>),

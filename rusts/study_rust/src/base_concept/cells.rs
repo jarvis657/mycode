@@ -19,6 +19,7 @@ impl ThingWithCell {
     }
 }
 
+// #[cfg(feature = "haha")]
 struct ThingWithRefCell {
     counter: RefCell<u8>,
 }
