@@ -309,7 +309,10 @@ func main() {
 
 	var processor DataProcessor[string] = CSVProcessor{}
 	processor.Process("name,age\nbob,12\njack,30")
-	processor.Save("name,age\nbob,13\njack,31")
+	err := processor.Save("name,age\nbob,13\njack,31")
+	if err != nil {
+		return
+	}
 
 	var jsonProcessor DataProcessor[string] = JsonProcessor{Data: "haha"}
 	jsonProcessor.Process("aa")

@@ -29,7 +29,7 @@
     <description>Demo project</description>
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-        <java.version>19</java.version>
+        <java.version>21</java.version>
         <!--        <spring.version>4.3.9.RELEASE</spring.version>-->
         <spring-boot.version>2.6.6</spring-boot.version>
         <ignite.version>2.3.0</ignite.version>
@@ -119,6 +119,13 @@
 
     </properties>
     <dependencies>
+        <!-- https://mvnrepository.com/artifact/mysql/mysql-connector-java -->
+        <dependency>
+            <groupId>mysql</groupId>
+            <artifactId>mysql-connector-java</artifactId>
+            <version>8.0.33</version>
+        </dependency>
+
         <!-- https://mvnrepository.com/artifact/org.springframework.data/spring-data-elasticsearch -->
         <dependency>
             <groupId>org.springframework.data</groupId>
@@ -785,9 +792,9 @@
             </activation>
             <properties>
                 <conf-dir>daily</conf-dir>
-                <maven.compiler.source>11</maven.compiler.source>
-                <maven.compiler.target>11</maven.compiler.target>
-                <maven.compiler.compilerVersion>19</maven.compiler.compilerVersion>
+                <maven.compiler.source>21</maven.compiler.source>
+                <maven.compiler.target>21</maven.compiler.target>
+                <maven.compiler.compilerVersion>21</maven.compiler.compilerVersion>
             </properties>
             <repositories>
                 <repository>
@@ -818,27 +825,27 @@
             <id>prepub</id>
             <properties>
                 <conf-dir>prepub</conf-dir>
-                <maven.compiler.source>11</maven.compiler.source>
-                <maven.compiler.target>11</maven.compiler.target>
-                <maven.compiler.compilerVersion>11</maven.compiler.compilerVersion>
+                <maven.compiler.source>21</maven.compiler.source>
+                <maven.compiler.target>21</maven.compiler.target>
+                <maven.compiler.compilerVersion>21</maven.compiler.compilerVersion>
             </properties>
         </profile>
         <profile>
             <id>gray</id>
             <properties>
                 <conf-dir>gray</conf-dir>
-                <maven.compiler.source>11</maven.compiler.source>
-                <maven.compiler.target>11</maven.compiler.target>
-                <maven.compiler.compilerVersion>11</maven.compiler.compilerVersion>
+                <maven.compiler.source>21</maven.compiler.source>
+                <maven.compiler.target>21</maven.compiler.target>
+                <maven.compiler.compilerVersion>21</maven.compiler.compilerVersion>
             </properties>
         </profile>
         <profile>
             <id>publish</id>
             <properties>
                 <conf-dir>publish</conf-dir>
-                <maven.compiler.source>11</maven.compiler.source>
-                <maven.compiler.target>11</maven.compiler.target>
-                <maven.compiler.compilerVersion>11</maven.compiler.compilerVersion>
+                <maven.compiler.source>21</maven.compiler.source>
+                <maven.compiler.target>21</maven.compiler.target>
+                <maven.compiler.compilerVersion>21</maven.compiler.compilerVersion>
             </properties>
         </profile>
     </profiles>
@@ -1032,6 +1039,8 @@
                         <arg>--add-exports</arg>
                         <arg>java.desktop/com.sun.beans.editors=ALL-UNNAMED</arg>
                     </compilerArgs>
+                    <source>21</source>
+                    <target>21</target>
                 </configuration>
                 <!--                <configuration>-->
                 <!--                    <source>8</source>-->

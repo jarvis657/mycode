@@ -31,5 +31,9 @@ func defT() {
 	}
 }
 func SendChatRequestSteam() (*Config, error) {
-	return nil, errors.New("aaa")
+	err := errors.New("aaa")
+	fmt.Printf("old SendChatRequest error: %v\n", err)
+	err = errors.Unwrap(err)
+	fmt.Printf("unwrap SendChatRequest error: %v\n", err)
+	return nil, err
 }

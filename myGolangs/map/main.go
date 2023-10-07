@@ -2,15 +2,13 @@ package main
 
 import (
 	"fmt"
+	"math/rand"
 	"reflect"
 	"runtime"
 	"sync"
 	"time"
 
 	"github.com/go-co-op/gocron"
-	"math/rand"
-	"sync"
-	"time"
 )
 
 type Bar struct {
@@ -73,6 +71,7 @@ type SupplierChatGPTConfig struct {
 		IsDisable bool   `json:"is_disable"`
 	} `json:"tokenConfig"`
 }
+
 func main() {
 	s := gocron.NewScheduler(time.UTC)
 	s.Every(10).Seconds().Do(func() {

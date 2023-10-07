@@ -6,6 +6,7 @@ import static org.junit.Assert.fail;
 
 import java.io.File;
 import java.io.FileInputStream;
+import java.time.LocalDate;
 import org.junit.Test;
 
 /**
@@ -14,6 +15,12 @@ import org.junit.Test;
  * @Desc:
  **/
 public class TryWithResourcesTest {
+
+    @Test
+    public void testD(){
+        LocalDate d = LocalDate.now();
+        System.out.println(d.toString());
+    }
 
     @Test
     public void simpleRead() {

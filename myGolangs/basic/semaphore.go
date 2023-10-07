@@ -1,4 +1,4 @@
-package basic
+package main
 
 import (
 	"context"
@@ -11,7 +11,7 @@ import (
 
 const (
 	Limit  = 3 // 同时运行的goroutine上限
-	Weight = 1 // 信号量的权重
+	Weight = 2 // 信号量的权重
 )
 
 func main() {

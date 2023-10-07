@@ -1,4 +1,4 @@
-package gorm
+package main
 
 // GptStarConfig  星座预测
 type GptStarConfig struct {

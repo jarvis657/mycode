@@ -5,7 +5,546 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ca216fa3-a02d-4234-9724-157d939842b4" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../javabase/.idea/gradle.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../javabase/.idea/modules/java.main.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../javabase/.idea/modules/java.test.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../javabase/.idea/sqldialects.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../javabase/src/main/java/java21/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../javabase/src/main/java/java21/NewFuncs.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../javabase/src/main/java/java21/ScopedValueExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../javabase/src/main/java/java21/SimpleThread.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../javabase/src/main/java/module-info.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../javabase/src/main/java/origin/base/DateTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../javabase/src/main/java/origin/jdk8/ForkJoinR.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../javabase/src/main/java/origin/mysql/JdbcTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../javabase/src/main/java/origin/utils/IpUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/basic/align.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/basic/fortest.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/basic/singleflight.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/basic/sorter.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/context/withErr.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/framework/gorm/gen.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/generic/Tree.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/libs/decorators/deco.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/map/test.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../go.sum" beforeDir="false" afterPath="$PROJECT_DIR$/../go.sum" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javabase/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../javabase/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javabase/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../javabase/.idea/dataSources.local.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javabase/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../javabase/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javabase/.idea/jarRepositories.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../javabase/.idea/jarRepositories.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javabase/.idea/libraries/Maven__com_fasterxml_classmate_1_5_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javabase/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_annotations_2_9_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javabase/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_core_2_9_9.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javabase/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_databind_2_9_9.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javabase/.idea/libraries/Maven__com_fasterxml_jackson_dataformat_jackson_dataformat_cbor_2_9_9.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javabase/.idea/libraries/Maven__com_fasterxml_jackson_datatype_jackson_datatype_jdk8_2_9_9.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javabase/.idea/libraries/Maven__com_fasterxml_jackson_datatype_jackson_datatype_jsr310_2_9_9.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javabase/.idea/libraries/Maven__com_fasterxml_jackson_module_jackson_module_parameter_names_2_9_9.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javabase/.idea/libraries/Maven__com_github_ben_manes_caffeine_caffeine_2_7_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javabase/.idea/libraries/Maven__com_google_code_gson_gson_2_8_5.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javabase/.idea/libraries/Maven__com_jayway_jsonpath_json_path_2_4_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javabase/.idea/libraries/Maven__com_zaxxer_HikariCP_3_3_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javabase/.idea/libraries/Maven__info_picocli_picocli_3_9_5.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javabase/.idea/libraries/Maven__io_netty_netty_all_4_1_36_Final.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javabase/.idea/libraries/Maven__io_netty_netty_buffer_4_1_36_Final.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javabase/.idea/libraries/Maven__io_netty_netty_codec_4_1_36_Final.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javabase/.idea/libraries/Maven__io_netty_netty_codec_dns_4_1_36_Final.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javabase/.idea/libraries/Maven__io_netty_netty_codec_http2_4_1_36_Final.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javabase/.idea/libraries/Maven__io_netty_netty_codec_http_4_1_36_Final.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javabase/.idea/libraries/Maven__io_netty_netty_codec_socks_4_1_36_Final.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javabase/.idea/libraries/Maven__io_netty_netty_common_4_1_36_Final.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javabase/.idea/libraries/Maven__io_netty_netty_handler_4_1_36_Final.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javabase/.idea/libraries/Maven__io_netty_netty_handler_proxy_4_1_36_Final.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javabase/.idea/libraries/Maven__io_netty_netty_resolver_4_1_36_Final.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javabase/.idea/libraries/Maven__io_netty_netty_resolver_dns_4_1_36_Final.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javabase/.idea/libraries/Maven__io_netty_netty_tcnative_boringssl_static_2_0_25_Final.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javabase/.idea/libraries/Maven__io_netty_netty_transport_4_1_36_Final.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javabase/.idea/libraries/Maven__io_netty_netty_transport_native_epoll_linux_x86_64_4_1_36_Final.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javabase/.idea/libraries/Maven__io_netty_netty_transport_native_unix_common_4_1_36_Final.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javabase/.idea/libraries/Maven__io_projectreactor_netty_reactor_netty_0_9_0_M2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javabase/.idea/libraries/Maven__io_projectreactor_reactor_core_3_3_0_M2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javabase/.idea/libraries/Maven__io_projectreactor_reactor_test_3_3_0_M2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javabase/.idea/libraries/Maven__jakarta_activation_jakarta_activation_api_1_2_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javabase/.idea/libraries/Maven__jakarta_annotation_jakarta_annotation_api_1_3_4.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javabase/.idea/libraries/Maven__jakarta_validation_jakarta_validation_api_2_0_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javabase/.idea/libraries/Maven__jakarta_xml_bind_jakarta_xml_bind_api_2_3_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javabase/.idea/libraries/Maven__junit_junit_4_12.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javabase/.idea/libraries/Maven__net_bytebuddy_byte_buddy_1_9_13.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javabase/.idea/libraries/Maven__net_bytebuddy_byte_buddy_agent_1_9_13.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javabase/.idea/libraries/Maven__net_java_dev_jna_jna_4_5_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javabase/.idea/libraries/Maven__net_java_dev_jna_jna_platform_4_5_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javabase/.idea/libraries/Maven__net_minidev_accessors_smart_1_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javabase/.idea/libraries/Maven__net_minidev_json_smart_2_3.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javabase/.idea/libraries/Maven__org_apache_ant_ant_1_9_13.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javabase/.idea/libraries/Maven__org_apache_ant_ant_antlr_1_9_13.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javabase/.idea/libraries/Maven__org_apache_ant_ant_junit_1_9_13.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javabase/.idea/libraries/Maven__org_apache_ant_ant_launcher_1_9_13.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javabase/.idea/libraries/Maven__org_apache_commons_commons_pool2_2_6_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javabase/.idea/libraries/Maven__org_apache_httpcomponents_httpclient_4_5_9.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javabase/.idea/libraries/Maven__org_apache_httpcomponents_httpcore_4_4_11.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javabase/.idea/libraries/Maven__org_apache_logging_log4j_log4j_api_2_11_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javabase/.idea/libraries/Maven__org_apache_logging_log4j_log4j_to_slf4j_2_11_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javabase/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_core_9_0_21.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javabase/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_el_9_0_21.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javabase/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_websocket_9_0_21.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javabase/.idea/libraries/Maven__org_apiguardian_apiguardian_api_1_0_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javabase/.idea/libraries/Maven__org_assertj_assertj_core_3_12_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javabase/.idea/libraries/Maven__org_codehaus_groovy_groovy_ant_2_5_7.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javabase/.idea/libraries/Maven__org_codehaus_groovy_groovy_astbuilder_3_0_11.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javabase/.idea/libraries/Maven__org_codehaus_groovy_groovy_cli_picocli_2_5_7.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javabase/.idea/libraries/Maven__org_codehaus_groovy_groovy_console_2_5_7.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javabase/.idea/libraries/Maven__org_codehaus_groovy_groovy_datetime_2_5_7.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javabase/.idea/libraries/Maven__org_codehaus_groovy_groovy_docgenerator_2_5_7.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javabase/.idea/libraries/Maven__org_codehaus_groovy_groovy_groovydoc_2_5_7.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javabase/.idea/libraries/Maven__org_codehaus_groovy_groovy_groovysh_2_5_7.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javabase/.idea/libraries/Maven__org_codehaus_groovy_groovy_jmx_2_5_7.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javabase/.idea/libraries/Maven__org_codehaus_groovy_groovy_json_2_5_7.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javabase/.idea/libraries/Maven__org_codehaus_groovy_groovy_jsr223_2_5_7.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javabase/.idea/libraries/Maven__org_codehaus_groovy_groovy_macro_2_5_7.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javabase/.idea/libraries/Maven__org_codehaus_groovy_groovy_nio_2_5_7.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javabase/.idea/libraries/Maven__org_codehaus_groovy_groovy_servlet_2_5_7.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javabase/.idea/libraries/Maven__org_codehaus_groovy_groovy_sql_2_5_7.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javabase/.idea/libraries/Maven__org_codehaus_groovy_groovy_swing_2_5_7.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javabase/.idea/libraries/Maven__org_codehaus_groovy_groovy_templates_2_5_7.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javabase/.idea/libraries/Maven__org_codehaus_groovy_groovy_test_2_5_7.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javabase/.idea/libraries/Maven__org_codehaus_groovy_groovy_test_junit5_2_5_7.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javabase/.idea/libraries/Maven__org_codehaus_groovy_groovy_testng_2_5_7.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javabase/.idea/libraries/Maven__org_codehaus_groovy_groovy_xml_2_5_7.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javabase/.idea/libraries/Maven__org_freemarker_freemarker_2_3_28.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javabase/.idea/libraries/Maven__org_glassfish_jakarta_el_3_0_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javabase/.idea/libraries/Maven__org_hamcrest_hamcrest_2_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javabase/.idea/libraries/Maven__org_hibernate_validator_hibernate_validator_6_0_17_Final.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javabase/.idea/libraries/Maven__org_jboss_logging_jboss_logging_3_4_0_Final.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javabase/.idea/libraries/Maven__org_jetbrains_kotlin_kotlin_stdlib_1_3_31.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javabase/.idea/libraries/Maven__org_jetbrains_kotlin_kotlin_stdlib_common_1_3_31.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javabase/.idea/libraries/Maven__org_jetbrains_kotlin_kotlin_stdlib_jdk7_1_3_31.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javabase/.idea/libraries/Maven__org_jetbrains_kotlin_kotlin_stdlib_jdk8_1_3_31.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javabase/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_api_5_4_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javabase/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_engine_5_4_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javabase/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_params_5_4_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javabase/.idea/libraries/Maven__org_junit_platform_junit_platform_commons_1_4_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javabase/.idea/libraries/Maven__org_junit_platform_junit_platform_engine_1_4_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javabase/.idea/libraries/Maven__org_junit_platform_junit_platform_launcher_1_4_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javabase/.idea/libraries/Maven__org_junit_vintage_junit_vintage_engine_5_4_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javabase/.idea/libraries/Maven__org_mockito_mockito_core_2_28_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javabase/.idea/libraries/Maven__org_mockito_mockito_junit_jupiter_2_28_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javabase/.idea/libraries/Maven__org_opentest4j_opentest4j_1_1_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javabase/.idea/libraries/Maven__org_reactivestreams_reactive_streams_1_0_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javabase/.idea/libraries/Maven__org_slf4j_jul_to_slf4j_1_7_26.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javabase/.idea/libraries/Maven__org_springframework_boot_spring_boot_2_2_0_M4.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javabase/.idea/libraries/Maven__org_springframework_boot_spring_boot_autoconfigure_2_2_0_M4.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javabase/.idea/libraries/Maven__org_springframework_boot_spring_boot_configuration_processor_2_2_0_M4.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javabase/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_2_2_0_M4.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javabase/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_aop_2_2_0_M4.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javabase/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_jdbc_2_2_0_M4.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javabase/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_json_2_2_0_M4.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javabase/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_logging_2_2_0_M4.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javabase/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_reactor_netty_2_2_0_M4.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javabase/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_test_2_2_0_M4.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javabase/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_tomcat_2_2_0_M4.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javabase/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_validation_2_2_0_M4.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javabase/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_web_2_2_0_M4.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javabase/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_webflux_2_2_0_M4.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javabase/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_websocket_2_2_0_M4.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javabase/.idea/libraries/Maven__org_springframework_boot_spring_boot_test_2_2_0_M4.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javabase/.idea/libraries/Maven__org_springframework_boot_spring_boot_test_autoconfigure_2_2_0_M4.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javabase/.idea/libraries/Maven__org_springframework_integration_spring_integration_core_5_2_0_M3.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javabase/.idea/libraries/Maven__org_springframework_integration_spring_integration_file_5_2_0_M3.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javabase/.idea/libraries/Maven__org_springframework_integration_spring_integration_jmx_5_2_0_M3.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javabase/.idea/libraries/Maven__org_springframework_retry_spring_retry_1_2_4_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javabase/.idea/libraries/Maven__org_springframework_security_spring_security_crypto_5_2_0_M3.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javabase/.idea/libraries/Maven__org_springframework_spring_aop_5_2_0_M3.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javabase/.idea/libraries/Maven__org_springframework_spring_beans_5_2_0_M3.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javabase/.idea/libraries/Maven__org_springframework_spring_context_5_2_0_M3.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javabase/.idea/libraries/Maven__org_springframework_spring_core_5_2_0_M3.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javabase/.idea/libraries/Maven__org_springframework_spring_expression_5_2_0_M3.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javabase/.idea/libraries/Maven__org_springframework_spring_jcl_5_2_0_M3.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javabase/.idea/libraries/Maven__org_springframework_spring_jdbc_5_2_0_M3.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javabase/.idea/libraries/Maven__org_springframework_spring_messaging_5_2_0_M3.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javabase/.idea/libraries/Maven__org_springframework_spring_test_5_2_0_M3.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javabase/.idea/libraries/Maven__org_springframework_spring_tx_5_2_0_M3.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javabase/.idea/libraries/Maven__org_springframework_spring_web_5_2_0_M3.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javabase/.idea/libraries/Maven__org_springframework_spring_webflux_5_2_0_M3.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javabase/.idea/libraries/Maven__org_springframework_spring_webmvc_5_2_0_M3.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javabase/.idea/libraries/Maven__org_springframework_spring_websocket_5_2_0_M3.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javabase/.idea/libraries/Maven__org_xmlunit_xmlunit_core_2_6_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javabase/.idea/libraries/Maven__org_yaml_snakeyaml_1_24.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javabase/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../javabase/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javabase/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../javabase/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javabase/LOG_PATH_IS_UNDEFINED/origin.spring.application.name_IS_UNDEFINED.biz.err.log" beforeDir="false" afterPath="$PROJECT_DIR$/../javabase/gradle.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javabase/LOG_PATH_IS_UNDEFINED/origin.spring.application.name_IS_UNDEFINED.biz.info.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javabase/LOG_PATH_IS_UNDEFINED/origin.spring.application.name_IS_UNDEFINED.redis.err.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javabase/LOG_PATH_IS_UNDEFINED/origin.spring.application.name_IS_UNDEFINED.sal.err.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javabase/LOG_PATH_IS_UNDEFINED/origin.spring.application.name_IS_UNDEFINED.sal.info.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javabase/LOG_PATH_IS_UNDEFINED/origin.spring.application.name_IS_UNDEFINED.web.err.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javabase/LOG_PATH_IS_UNDEFINED/origin.spring.application.name_IS_UNDEFINED.web.info.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javabase/LOG_PATH_IS_UNDEFINED/spring.application.name_IS_UNDEFINED.biz.err.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javabase/LOG_PATH_IS_UNDEFINED/spring.application.name_IS_UNDEFINED.biz.info.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javabase/LOG_PATH_IS_UNDEFINED/spring.application.name_IS_UNDEFINED.redis.err.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javabase/LOG_PATH_IS_UNDEFINED/spring.application.name_IS_UNDEFINED.sal.err.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javabase/LOG_PATH_IS_UNDEFINED/spring.application.name_IS_UNDEFINED.sal.info.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javabase/LOG_PATH_IS_UNDEFINED/spring.application.name_IS_UNDEFINED.web.err.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javabase/LOG_PATH_IS_UNDEFINED/spring.application.name_IS_UNDEFINED.web.info.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javabase/gui/src/main/java/module-info.java" beforeDir="false" afterPath="$PROJECT_DIR$/../javabase/gui/src/main/java/module-info.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javabase/java.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../javabase/java.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javabase/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../javabase/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javabase/src/main/java/origin/jdk8/TryWithResourcesTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../javabase/src/main/java/origin/jdk8/TryWithResourcesTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javabase/target/classes/akkas/Client.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javabase/target/classes/akkas/Server.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javabase/target/classes/argrith/BitOps.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javabase/target/classes/argrith/DpTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javabase/target/classes/argrith/FindKthMax.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javabase/target/classes/argrith/ListNode.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javabase/target/classes/argrith/PalindromInteger.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javabase/target/classes/argrith/PalindromicString.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javabase/target/classes/argrith/PatternExtract$KV.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javabase/target/classes/argrith/PatternExtract.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javabase/target/classes/argrith/PatternMatch.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javabase/target/classes/argrith/ReverseInteger.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javabase/target/classes/argrith/SortsArglos.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javabase/target/classes/argrith/StringTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javabase/target/classes/argrith/Test.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javabase/target/classes/argrith/ZigzagPrint.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javabase/target/classes/argrith/arrays/DpArrays.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javabase/target/classes/argrith/arrays/SearchTarget$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javabase/target/classes/argrith/arrays/SearchTarget.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javabase/target/classes/argrith/dp/BaseDp.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javabase/target/classes/argrith/lists/CycleLink.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javabase/target/classes/argrith/trees/TravelTreeNode.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javabase/target/classes/argrith/trees/TreeNode.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javabase/target/classes/argrith/trees/TreeSerde.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javabase/target/classes/guice/tutorial/ComplexHelloPrinter.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javabase/target/classes/guice/tutorial/HelloPrinter.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javabase/target/classes/guice/tutorial/IHelloPrinter.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javabase/target/classes/guice/tutorial/Sample$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javabase/target/classes/guice/tutorial/Sample$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javabase/target/classes/guice/tutorial/Sample.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javabase/target/classes/guice/tutorial/SampleModule.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javabase/target/classes/guice/tutorial/Service.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javabase/target/classes/guice/tutorial/ServiceContainer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javabase/target/classes/guice/tutorial/ServiceProvider_One.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javabase/target/classes/guice/tutorial/SimpleHelloPrinter.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javabase/target/classes/guice/tutorial/ThreadServiceScope$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javabase/target/classes/guice/tutorial/ThreadServiceScope.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javabase/target/classes/guice/tutorial/WwwServiceProvider.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javabase/target/classes/netty/FastThreadLocalTest$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javabase/target/classes/netty/FastThreadLocalTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javabase/target/classes/netty/HelloServer$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javabase/target/classes/netty/HelloServer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javabase/target/classes/netty/InboundHandler1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javabase/target/classes/netty/InboundHandler2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javabase/target/classes/netty/OutboundHandler1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javabase/target/classes/netty/OutboundHandler2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javabase/target/classes/netty/TaskTest$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javabase/target/classes/netty/TaskTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javabase/target/classes/netty/base/AppClientHello$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javabase/target/classes/netty/base/AppClientHello.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javabase/target/classes/netty/base/AppServerHello$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javabase/target/classes/netty/base/AppServerHello.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javabase/target/classes/netty/base/HandlerClientHello.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javabase/target/classes/netty/base/HandlerServerHello.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javabase/target/classes/netty/keepalive/KpClient$ClientChannelInitializer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javabase/target/classes/netty/keepalive/KpClient$KpClientHandler.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javabase/target/classes/netty/keepalive/KpClient.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javabase/target/classes/netty/keepalive/KpServer$ServerChannelInitializer$KpServerHandler.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javabase/target/classes/netty/keepalive/KpServer$ServerChannelInitializer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javabase/target/classes/netty/keepalive/KpServer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javabase/target/classes/origin/aspect/Point.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javabase/target/classes/origin/aspect/TestPointAspect.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javabase/target/classes/origin/base/BitwiseOperator/FindOnceInThreeTimesArray.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javabase/target/classes/origin/base/CheckExceptions$E1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javabase/target/classes/origin/base/CheckExceptions$EE1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javabase/target/classes/origin/base/CheckExceptions.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javabase/target/classes/origin/base/DirectAssignMemory.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javabase/target/classes/origin/base/ExceptionDeep.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javabase/target/classes/origin/base/GenericTest$BaseMapper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javabase/target/classes/origin/base/GenericTest$BogusMyBatisSqlAnnotation.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javabase/target/classes/origin/base/GenericTest$MyModel.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javabase/target/classes/origin/base/GenericTest$MyModelMapper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javabase/target/classes/origin/base/GenericTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javabase/target/classes/origin/base/Host.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javabase/target/classes/origin/base/M2N.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javabase/target/classes/origin/base/MurmurHash.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javabase/target/classes/origin/base/RegexTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javabase/target/classes/origin/base/Singleton$LazyHolder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javabase/target/classes/origin/base/Singleton$SingletonEnum.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javabase/target/classes/origin/base/Singleton.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javabase/target/classes/origin/base/Task.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javabase/target/classes/origin/base/TestHeadLess.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javabase/target/classes/origin/base/TypeCheck$MyClass.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javabase/target/classes/origin/base/TypeCheck$MyExtend.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javabase/target/classes/origin/base/TypeCheck$MyGenericClass.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javabase/target/classes/origin/base/TypeCheck$MyStringSubClass.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javabase/target/classes/origin/base/TypeCheck.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javabase/target/classes/origin/base/VolatileTest$ObjectA.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javabase/target/classes/origin/base/VolatileTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javabase/target/classes/origin/base/VolatileTestAgain$ObjectA.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javabase/target/classes/origin/base/VolatileTestAgain$ObjectASub.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javabase/target/classes/origin/base/VolatileTestAgain.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javabase/target/classes/origin/base/inherits/InheritGenrics$Apple.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javabase/target/classes/origin/base/inherits/InheritGenrics$Fruit.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javabase/target/classes/origin/base/inherits/InheritGenrics$RedApple.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javabase/target/classes/origin/base/inherits/InheritGenrics.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javabase/target/classes/origin/base/inherits/M.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javabase/target/classes/origin/base/inherits/T.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javabase/target/classes/origin/base/inherits/Test.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javabase/target/classes/origin/base/inherits/TestA.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javabase/target/classes/origin/base/inherits/TestB.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javabase/target/classes/origin/base/inherits/TestBridgeMethod$A.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javabase/target/classes/origin/base/inherits/TestBridgeMethod$B.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javabase/target/classes/origin/base/inherits/TestBridgeMethod.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javabase/target/classes/origin/base/inherits/XT.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javabase/target/classes/origin/base/inherits/annotations/IInheritedInterface.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javabase/target/classes/origin/base/inherits/annotations/IInheritedInterfaceChild.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javabase/target/classes/origin/base/inherits/annotations/InheritedBase.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javabase/target/classes/origin/base/inherits/annotations/IsInheritedAnnotation.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javabase/target/classes/origin/base/inherits/annotations/MyInheritedClass.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javabase/target/classes/origin/base/inherits/annotations/MyInheritedClassTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javabase/target/classes/origin/base/inherits/annotations/MyInheritedClassUseInterface.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javabase/target/classes/origin/base/inherits/annotations/NoInherritedAnnotation.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javabase/target/classes/origin/base/jobs/RunJob.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javabase/target/classes/origin/base/jobs/ThreadPoolTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javabase/target/classes/origin/base/reflections/CallDefaultMethodThroughReflection$PrivateAccessible.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javabase/target/classes/origin/base/reflections/CallDefaultMethodThroughReflection.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javabase/target/classes/origin/base/reflections/ExampleMixin.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javabase/target/classes/origin/base/reflections/GetGenerics$Bar.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javabase/target/classes/origin/base/reflections/GetGenerics$Foo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javabase/target/classes/origin/base/reflections/GetGenerics.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javabase/target/classes/origin/base/reflections/InvokeDefault$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javabase/target/classes/origin/base/reflections/InvokeDefault.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javabase/target/classes/origin/base/reflections/InvokeDynamicCreator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javabase/target/classes/origin/base/reflections/MHSub.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javabase/target/classes/origin/base/reflections/MHSuper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javabase/target/classes/origin/base/reflections/MethodHandleTest$Father.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javabase/target/classes/origin/base/reflections/MethodHandleTest$GrandFather.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javabase/target/classes/origin/base/reflections/MethodHandleTest$Son.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javabase/target/classes/origin/base/reflections/MethodHandleTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javabase/target/classes/origin/base/reflections/NewRelectionMain.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javabase/target/classes/origin/base/reflections/OldReflectionMain.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javabase/target/classes/origin/base/reflections/PrivateInaccessible.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javabase/target/classes/origin/base/reflections/Sub.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javabase/target/classes/origin/base/reflections/Super.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javabase/target/classes/origin/base/reflections/TypeDemo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javabase/target/classes/origin/bloom/BloomFilters.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javabase/target/classes/origin/concurrency/CasTest$Account.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javabase/target/classes/origin/concurrency/CasTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javabase/target/classes/origin/concurrency/FIFOMutex.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javabase/target/classes/origin/concurrency/FalseSharing.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javabase/target/classes/origin/concurrency/InteruptExample$ThreadDemo04.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javabase/target/classes/origin/concurrency/InteruptExample.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javabase/target/classes/origin/concurrency/ParkTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javabase/target/classes/origin/concurrency/PhaserExample$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javabase/target/classes/origin/concurrency/PhaserExample.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javabase/target/classes/origin/concurrency/ProducerConsumer$Consumer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javabase/target/classes/origin/concurrency/ProducerConsumer$Producer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javabase/target/classes/origin/concurrency/ProducerConsumer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javabase/target/classes/origin/concurrency/RLock$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javabase/target/classes/origin/concurrency/RLock$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javabase/target/classes/origin/concurrency/RLock$3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javabase/target/classes/origin/concurrency/RLock.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javabase/target/classes/origin/concurrency/ReadWriteLock.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javabase/target/classes/origin/concurrency/StampedLockSample$Point.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javabase/target/classes/origin/concurrency/StampedLockSample.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javabase/target/classes/origin/concurrency/TestWaitSleep.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javabase/target/classes/origin/concurrency/Thread1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javabase/target/classes/origin/concurrency/Thread2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javabase/target/classes/origin/concurrency/TurnPrintByThread$IdContain.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javabase/target/classes/origin/concurrency/TurnPrintByThread.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javabase/target/classes/origin/concurrency/UUIDTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javabase/target/classes/origin/concurrency/VolatileLong.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javabase/target/classes/origin/concurrency/bugs/FixedRateSampler.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javabase/target/classes/origin/concurrency/bugs/TopNode.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javabase/target/classes/origin/concurrency/threads/InheritThreadLoalTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javabase/target/classes/origin/concurrency/threads/ThreadPoolExtend$EventThreadFactory.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javabase/target/classes/origin/concurrency/threads/ThreadPoolExtend.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javabase/target/classes/origin/concurrency/threads/ThreadTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javabase/target/classes/origin/concurrency/threads/ThreadUncaughtExceptionHandlerExample$CaughtExceptionsThreadFactory.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javabase/target/classes/origin/concurrency/threads/ThreadUncaughtExceptionHandlerExample$ExceptionalTask.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javabase/target/classes/origin/concurrency/threads/ThreadUncaughtExceptionHandlerExample$ExceptionalThread.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javabase/target/classes/origin/concurrency/threads/ThreadUncaughtExceptionHandlerExample$MyUncaughtExceptionHandler.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javabase/target/classes/origin/concurrency/threads/ThreadUncaughtExceptionHandlerExample.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javabase/target/classes/origin/datasource/DataSourceConfiguration.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javabase/target/classes/origin/disruptors/DisruptorMain$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javabase/target/classes/origin/disruptors/DisruptorMain$1Element.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javabase/target/classes/origin/disruptors/DisruptorMain$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javabase/target/classes/origin/disruptors/DisruptorMain$3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javabase/target/classes/origin/disruptors/DisruptorMain.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javabase/target/classes/origin/eventbus/EventSubProcessor.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javabase/target/classes/origin/excel/ExcelHeader.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javabase/target/classes/origin/excel/ExcelProcessor.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javabase/target/classes/origin/excel/ExcelResourceTitle.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javabase/target/classes/origin/graphql/HelloWorld.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javabase/target/classes/origin/hbase/HbaseClient.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javabase/target/classes/origin/httpclient/Http9Client.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javabase/target/classes/origin/httpclient/UsageExample$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javabase/target/classes/origin/httpclient/UsageExample$IdleConnectionMonitorThread.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javabase/target/classes/origin/httpclient/UsageExample.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javabase/target/classes/origin/jdk8/ForkJoinCaculate$ForkJoinCaculate0.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javabase/target/classes/origin/jdk8/ForkJoinCaculate$ForkJoinCaculate0_sub.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javabase/target/classes/origin/jdk8/ForkJoinCaculate.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javabase/target/classes/origin/jdk8/lambda/Compares.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javabase/target/classes/origin/jdk8/lambda/CompleteFutureTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javabase/target/classes/origin/jdk8/lambda/ConsumerTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javabase/target/classes/origin/jdk8/lambda/DataMatcher.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javabase/target/classes/origin/jdk8/lambda/Examples.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javabase/target/classes/origin/jdk8/lambda/FastMap.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javabase/target/classes/origin/jdk8/lambda/MyFunc.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javabase/target/classes/origin/jdk8/lambda/StreamPartitions$Domain.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javabase/target/classes/origin/jdk8/lambda/StreamPartitions$DomainSpliterator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javabase/target/classes/origin/jdk8/lambda/StreamPartitions.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javabase/target/classes/origin/jenkins/JenkinsMain.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javabase/target/classes/origin/jenkins/JenkinsTree.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javabase/target/classes/origin/jenkins/Kv.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javabase/target/classes/origin/jenkins/Type.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javabase/target/classes/origin/json/JacksonSerializers$AdcodeSerializer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javabase/target/classes/origin/json/JacksonSerializers$SecondToFORMATyyyyMMddHHmmss.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javabase/target/classes/origin/json/JacksonSerializers$StateJsonSerializer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javabase/target/classes/origin/json/JacksonSerializers.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javabase/target/classes/origin/json/TreeNode.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javabase/target/classes/origin/jvm/ClassReloading$MyClassLoader.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javabase/target/classes/origin/jvm/ClassReloading$User.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javabase/target/classes/origin/jvm/ClassReloading.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javabase/target/classes/origin/jvm/ContextReloading$Context.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javabase/target/classes/origin/jvm/ContextReloading$MyClassLoader.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javabase/target/classes/origin/jvm/ContextReloading$User.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javabase/target/classes/origin/jvm/ContextReloading$UserDao.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javabase/target/classes/origin/jvm/ContextReloading$UserService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javabase/target/classes/origin/jvm/ContextReloading.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javabase/target/classes/origin/jvm/ContextStaticReloading$Cache.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javabase/target/classes/origin/jvm/ContextStaticReloading$Context.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javabase/target/classes/origin/jvm/ContextStaticReloading$MyClassLoader.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javabase/target/classes/origin/jvm/ContextStaticReloading$User.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javabase/target/classes/origin/jvm/ContextStaticReloading$UserDao.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javabase/target/classes/origin/jvm/ContextStaticReloading$UserService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javabase/target/classes/origin/jvm/ContextStaticReloading.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javabase/target/classes/origin/mbeans/JmxConnectorInstance.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javabase/target/classes/origin/mysql/multiDataSource/DataSourceConfiguration.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javabase/target/classes/origin/mysql/multiDataSource/DataSourceScan.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javabase/target/classes/origin/mysql/multiDataSource/TestBatchService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javabase/target/classes/origin/mysql/multiDataSource/TestDao.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javabase/target/classes/origin/mysql/typeHandlers/LongToStringTypeHandler.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javabase/target/classes/origin/nio/AIO$ITDragonAIOClient.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javabase/target/classes/origin/nio/AIO$ITDragonAIOServer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javabase/target/classes/origin/nio/AIO$ITDragonAIOServerHandler$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javabase/target/classes/origin/nio/AIO$ITDragonAIOServerHandler.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javabase/target/classes/origin/nio/AIO.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javabase/target/classes/origin/nio/BIO$ITDragonBIOClient.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javabase/target/classes/origin/nio/BIO$ITDragonBIOServerHandler.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javabase/target/classes/origin/nio/BIO.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javabase/target/classes/origin/nio/BaseNio$ITDragonNIOServer$ITDragonNIOClient.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javabase/target/classes/origin/nio/BaseNio$ITDragonNIOServer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javabase/target/classes/origin/nio/BaseNio.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javabase/target/classes/origin/nio/BufferTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javabase/target/classes/origin/perf/DirectMemoryUseMx.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javabase/target/classes/origin/perf/Per.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javabase/target/classes/origin/perf/Test.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javabase/target/classes/origin/perf/bttracetest/BtraceTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javabase/target/classes/origin/perf/bttracetest/HelloWorld.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javabase/target/classes/origin/practise/rateLimit/RateLimit_Window.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javabase/target/classes/origin/resilience4js/bulkheads/TestBulkhead.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javabase/target/classes/origin/resilience4js/circuits/TestCircuits.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javabase/target/classes/origin/resilience4js/commonTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javabase/target/classes/origin/resilience4js/rateLimiters/TestRateLimit.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javabase/target/classes/origin/resilience4js/retrys/TestRetry.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javabase/target/classes/origin/resilience4js/timeLimiters/TestTimeLimiter.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javabase/target/classes/origin/rocketmq/Mq$RocketMQConstants.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javabase/target/classes/origin/rocketmq/Mq.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javabase/target/classes/origin/rocketmq/OrderTransactionListener.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javabase/target/classes/origin/rocketmq/ProductListener.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javabase/target/classes/origin/rocketmq/Service.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javabase/target/classes/origin/spring/BaseConfiguration.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javabase/target/classes/origin/spring/JerseyController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javabase/target/classes/origin/spring/JerseyResourceConfig.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javabase/target/classes/origin/spring/JerseyServletBeanConfig.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javabase/target/classes/origin/spring/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javabase/target/classes/origin/spring/aop/AspectTest$ExecutionAspect$AnnotationAspect.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javabase/target/classes/origin/spring/aop/AspectTest$ExecutionAspect.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javabase/target/classes/origin/spring/aop/AspectTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javabase/target/classes/origin/spring/aop/ShouldCheck.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javabase/target/classes/origin/spring/aop/ShouldCheckAspect.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javabase/target/classes/origin/spring/asm/ClassPrinter.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javabase/target/classes/origin/spring/controller/BasicErrorResolver.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javabase/target/classes/origin/spring/controller/CommonMapping.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javabase/target/classes/origin/spring/controller/ExceptionResolver.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javabase/target/classes/origin/spring/controller/JsonPControllerAdvice.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javabase/target/classes/origin/spring/controller/RespJson.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javabase/target/classes/origin/spring/controller/UserDefinesController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javabase/target/classes/origin/spring/converter/CustomStringToCollectionConverter.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javabase/target/classes/origin/spring/db/Person.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javabase/target/classes/origin/spring/db/PersonDao.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javabase/target/classes/origin/spring/event/NotifyEvent.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javabase/target/classes/origin/spring/event/NotifyPublisher.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javabase/target/classes/origin/spring/event/NotifyQueueListener.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javabase/target/classes/origin/spring/ioc/factorys/Car$CarBuilder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javabase/target/classes/origin/spring/ioc/factorys/Car.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javabase/target/classes/origin/spring/ioc/factorys/CarBean.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javabase/target/classes/origin/spring/ioc/test/beans/BaseProvider.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javabase/target/classes/origin/spring/ioc/test/beans/Person.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javabase/target/classes/origin/spring/ioc/test/beans/TestService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javabase/target/classes/origin/spring/ioc/test/beans/User.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javabase/target/classes/origin/spring/jpas/DataSourceConfigJpa$BangkokDetails.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javabase/target/classes/origin/spring/jpas/DataSourceConfigJpa$DataSourceRouting.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javabase/target/classes/origin/spring/jpas/DataSourceConfigJpa$Employee.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javabase/target/classes/origin/spring/jpas/DataSourceConfigJpa$HongkongDetails.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javabase/target/classes/origin/spring/jpas/DataSourceConfigJpa$MainController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javabase/target/classes/origin/spring/jpas/DataSourceConfigJpa$SchoolRepository.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javabase/target/classes/origin/spring/jpas/DataSourceConfigJpa.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javabase/target/classes/origin/spring/messageSend/DownloadController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javabase/target/classes/origin/spring/messageSend/MockDownloadComponent.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javabase/target/classes/origin/spring/messageSend/SseNotificationController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javabase/target/classes/origin/spring/messageSend/WebSocketConfig.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javabase/target/classes/origin/spring/messageSend/WebSocketNotificationHandler.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javabase/target/classes/origin/spring/webflux/Client.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javabase/target/classes/origin/spring/webflux/Controller.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javabase/target/classes/origin/spring/webflux/Person.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javabase/target/classes/origin/spring/webflux/PersonHandler.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javabase/target/classes/origin/spring/webflux/PersonManager.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javabase/target/classes/origin/spring/webflux/PersonMapper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javabase/target/classes/origin/spring/webflux/PersonRouter.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javabase/target/classes/origin/spring/webflux/WebFilesMain.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javabase/target/classes/origin/spring/webflux/WebFluxFileMain.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javabase/target/classes/origin/spring/webflux/repository/PersonByCountryRepository.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javabase/target/classes/origin/spring/webflux/repository/PersonRepository.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javabase/target/classes/origin/spring/webflux/repository/entity/PersonByCountryEntity.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javabase/target/classes/origin/spring/webflux/repository/entity/PersonByCountryKey.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javabase/target/classes/origin/spring/webflux/repository/entity/PersonEntity.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javabase/target/classes/origin/spring/websocket/SocketProcessor.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javabase/target/classes/origin/stream/StreamPartitionMain$FixedSizeSpliterator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javabase/target/classes/origin/stream/StreamPartitionMain$PartitioningSpliterator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javabase/target/classes/origin/stream/StreamPartitionMain.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javabase/target/classes/origin/stream/reduce/NumCounter.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javabase/target/classes/origin/stream/reduce/NumCounterSpliterator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javabase/target/classes/origin/stream/reduce/NumberCounterTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javabase/target/classes/origin/stream/reduce/StreamExample.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javabase/target/classes/origin/utils/DateUtils.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javabase/target/classes/origin/utils/FileEncodingDetect.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javabase/target/classes/origin/utils/Geo$LonLat.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javabase/target/classes/origin/utils/Geo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javabase/target/classes/origin/utils/Jacksons.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javabase/target/classes/origin/utils/Kv.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javabase/target/classes/origin/utils/RateLimiterTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javabase/target/classes/origin/utils/nets.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javabase/target/classes/origin/valid/VinNo$List.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javabase/target/classes/origin/valid/VinNo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javabase/target/classes/origin/valid/VinNoValidator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javabase/target/classes/origin/web/WrapperRequestFilter$ResettableStreamHttpServletRequest$ResettableServletInputStream.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javabase/target/classes/origin/web/WrapperRequestFilter$ResettableStreamHttpServletRequest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javabase/target/classes/origin/web/WrapperRequestFilter.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javabase/target/classes/rsockets/ReqResClient.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javabase/target/classes/rsockets/Server.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javabase/target/classes/rsockets/spring/Account.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javabase/target/classes/rsockets/spring/AccountRSocketController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javabase/target/classes/rsockets/spring/AccountService.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/arigth/regextest.go" beforeDir="false" afterPath="$PROJECT_DIR$/stringsCode/regextest.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/basic/semaphore.go" beforeDir="false" afterPath="$PROJECT_DIR$/basic/semaphore.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/basic/testDef.go" beforeDir="false" afterPath="$PROJECT_DIR$/basic/testDef.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/framework/gorm/AutoStruct.go" beforeDir="false" afterPath="$PROJECT_DIR$/framework/gorm/AutoStruct.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/framework/gorm/TimeColumn.go" beforeDir="false" afterPath="$PROJECT_DIR$/framework/gorm/TimeColumn.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/generic/explain.go" beforeDir="false" afterPath="$PROJECT_DIR$/generic/explain.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/go.mod" beforeDir="false" afterPath="$PROJECT_DIR$/go.mod" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/go.sum" beforeDir="false" afterPath="$PROJECT_DIR$/go.sum" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/map/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/map/main.go" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -22,6 +561,32 @@
   <component name="GOROOT" url="file:///usr/local/opt/go/libexec" />
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$USER_HOME$/go/pkg/mod/github.com/!gian!ortiz/apple-auth-go@v0.1.0/auth.go" root0="SKIP_INSPECTION" />
+    <setting file="file://$USER_HOME$/go/pkg/mod/github.com/golang-jwt/jwt/v5@v5.0.0/ecdsa.go" root0="SKIP_INSPECTION" />
+    <setting file="file://$USER_HOME$/go/pkg/mod/github.com/golang-jwt/jwt/v5@v5.0.0/ecdsa_utils.go" root0="SKIP_INSPECTION" />
+    <setting file="file://$USER_HOME$/go/pkg/mod/github.com/golang-jwt/jwt/v5@v5.0.0/map_claims.go" root0="SKIP_INSPECTION" />
+    <setting file="file://$USER_HOME$/go/pkg/mod/golang.org/x/sync@v0.3.0/singleflight/singleflight.go" root0="SKIP_INSPECTION" />
+    <setting file="file://$USER_HOME$/go/pkg/mod/golang.org/x/tools@v0.6.0/godoc/index.go" root0="SKIP_INSPECTION" />
+    <setting file="file:///usr/local/opt/go/libexec/src/builtin/builtin.go" root0="SKIP_INSPECTION" />
+    <setting file="file:///usr/local/opt/go/libexec/src/cmd/go/internal/vcs/vcs.go" root0="SKIP_INSPECTION" />
+    <setting file="file:///usr/local/opt/go/libexec/src/context/context.go" root0="SKIP_INSPECTION" />
+    <setting file="file:///usr/local/opt/go/libexec/src/errors/wrap.go" root0="SKIP_INSPECTION" />
+    <setting file="file:///usr/local/opt/go/libexec/src/go/types/predicates.go" root0="SKIP_INSPECTION" />
+    <setting file="file:///usr/local/opt/go/libexec/src/internal/abi/type.go" root0="SKIP_INSPECTION" />
+    <setting file="file:///usr/local/opt/go/libexec/src/internal/reflectlite/type.go" root0="SKIP_INSPECTION" />
+    <setting file="file:///usr/local/opt/go/libexec/src/internal/reflectlite/value.go" root0="SKIP_INSPECTION" />
+    <setting file="file:///usr/local/opt/go/libexec/src/internal/singleflight/singleflight.go" root0="SKIP_INSPECTION" />
+    <setting file="file:///usr/local/opt/go/libexec/src/internal/singleflight/singleflight_test.go" root0="SKIP_INSPECTION" />
+    <setting file="file:///usr/local/opt/go/libexec/src/reflect/type.go" root0="SKIP_INSPECTION" />
+    <setting file="file:///usr/local/opt/go/libexec/src/runtime/pprof/label.go" root0="SKIP_INSPECTION" />
+    <setting file="file:///usr/local/opt/go/libexec/src/runtime/pprof/label_test.go" root0="SKIP_INSPECTION" />
+    <setting file="file:///usr/local/opt/go/libexec/src/sort/search_test.go" root0="SKIP_INSPECTION" />
+    <setting file="file:///usr/local/opt/go/libexec/src/sort/sort.go" root0="SKIP_INSPECTION" />
+    <setting file="file:///usr/local/opt/go/libexec/src/sync/atomic/type.go" root0="SKIP_INSPECTION" />
+    <setting file="file:///usr/local/opt/go/libexec/src/sync/pool.go" root0="SKIP_INSPECTION" />
+    <setting file="file:///usr/local/opt/go/libexec/src/sync/poolqueue.go" root0="SKIP_INSPECTION" />
   </component>
   <component name="MacroExpansionManager">
     <option name="directoryName" value="fysghzmc" />
@@ -41,6 +606,7 @@
   <component name="PropertiesComponent">{
   &quot;keyToString&quot;: {
     &quot;DefaultGoTemplateProperty&quot;: &quot;Go File&quot;,
+    &quot;RunOnceActivity.CodyProjectSettingsMigration&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.go.formatter.settings.were.checked&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.go.migrated.go.modules.settings&quot;: &quot;true&quot;,
@@ -52,26 +618,31 @@
     &quot;last_opened_file_path&quot;: &quot;/Users/jarvis&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;reference.settings.ide.settings.new.ui&quot;
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.lookFeel&quot;
   }
 }</component>
-  <component name="RunManager" selected="Go Build.go build apple.go">
-    <configuration name="go build apple.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/stringsCode" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Go Build.go build myGolangs/context">
+    <configuration name="go build myGolangs/basic (1)" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="myGolangs" />
       <working_directory value="$PROJECT_DIR$" />
       <kind value="FILE" />
-      <package value="myGolangs" />
+      <package value="myGolangs/basic" />
       <directory value="$PROJECT_DIR$" />
-      <filePath value="$PROJECT_DIR$/libs/apple-auth/apple.go" />
+      <filePath value="$PROJECT_DIR$/basic/fortest.go" />
       <method v="2" />
     </configuration>
-    <configuration name="go build inters.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+    <configuration name="go build myGolangs/basic" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="myGolangs" />
       <working_directory value="$PROJECT_DIR$" />
       <kind value="FILE" />
-      <package value="myGolangs" />
+      <package value="myGolangs/basic" />
       <directory value="$PROJECT_DIR$" />
-      <filePath value="$PROJECT_DIR$/baseinterface/inters.go" />
+      <filePath value="$PROJECT_DIR$/basic/semaphore.go" />
       <method v="2" />
     </configuration>
     <configuration name="go build myGolangs/basic" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
@@ -83,31 +654,56 @@
       <filePath value="$PROJECT_DIR$/basic/testDef.go" />
       <method v="2" />
     </configuration>
-    <configuration name="go build myGolangs/libs/apple-auth" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+    <configuration name="go build myGolangs/basic" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true">
+      <module name="myGolangs" />
+      <working_directory value="$PROJECT_DIR$" />
+      <kind value="FILE" />
+      <package value="myGolangs/basic" />
+      <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$/basic/align.go" />
+      <method v="2" />
+    </configuration>
+    <configuration name="go build myGolangs/context" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="myGolangs" />
+      <working_directory value="$PROJECT_DIR$" />
+      <kind value="FILE" />
+      <package value="myGolangs/context" />
+      <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$/context/withErr.go" />
+      <method v="2" />
+    </configuration>
+    <configuration name="go build myGolangs/framework/gorm" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="myGolangs" />
       <working_directory value="$PROJECT_DIR$" />
       <kind value="PACKAGE" />
-      <package value="myGolangs/libs/apple-auth" />
+      <package value="myGolangs/framework/gorm" />
       <directory value="$PROJECT_DIR$" />
-      <filePath value="$PROJECT_DIR$/libs/apple-auth/apple.go" />
+      <filePath value="$PROJECT_DIR$/framework/gorm/gen.go" />
       <method v="2" />
     </configuration>
-    <configuration name="go build myGolangs/libs/google-auth" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+    <configuration name="go build myGolangs/stringsCode" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="myGolangs" />
       <working_directory value="$PROJECT_DIR$" />
-      <kind value="PACKAGE" />
-      <package value="myGolangs/libs/google-auth" />
+      <kind value="FILE" />
+      <package value="myGolangs/stringsCode" />
       <directory value="$PROJECT_DIR$" />
-      <filePath value="$PROJECT_DIR$/libs/google-auth/auth.go" />
+      <filePath value="$PROJECT_DIR$/stringsCode/regextest.go" />
       <method v="2" />
     </configuration>
+    <list>
+      <item itemvalue="Go Build.go build myGolangs/basic (1)" />
+      <item itemvalue="Go Build.go build myGolangs/context" />
+      <item itemvalue="Go Build.go build myGolangs/framework/gorm" />
+      <item itemvalue="Go Build.go build myGolangs/stringsCode" />
+      <item itemvalue="Go Build.go build myGolangs/basic" />
+    </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Go Build.go build apple.go" />
-        <item itemvalue="Go Build.go build myGolangs/libs/apple-auth" />
+        <item itemvalue="Go Build.go build myGolangs/context" />
+        <item itemvalue="Go Build.go build myGolangs/basic (1)" />
+        <item itemvalue="Go Build.go build myGolangs/framework/gorm" />
         <item itemvalue="Go Build.go build myGolangs/basic" />
-        <item itemvalue="Go Build.go build myGolangs/libs/google-auth" />
-        <item itemvalue="Go Build.go build inters.go" />
+        <item itemvalue="Go Build.go build myGolangs/stringsCode" />
       </list>
     </recent_temporary>
   </component>

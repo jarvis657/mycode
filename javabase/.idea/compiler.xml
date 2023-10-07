@@ -3,17 +3,20 @@
   <component name="CompilerConfiguration">
     <annotationProcessing>
       <profile default="true" name="Default" enabled="true" />
-      <profile name="Maven default annotation processors profile" enabled="true">
-        <sourceOutputDir name="target/generated-sources/annotations" />
-        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+      <profile name="Gradle Imported" enabled="true">
         <outputRelativeToContentRoot value="true" />
-        <module name="java" />
+        <processorPath useClasspath="false">
+          <entry name="$MAVEN_REPOSITORY$/org/projectlombok/lombok/1.18.10/lombok-1.18.10.jar" />
+        </processorPath>
+        <module name="java.main" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel target="21" />
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
-      <module name="java" options="-parameters --add-exports java.base/jdk.internal.vm.annotation=ALL-UNNAMED --add-exports java.desktop/com.sun.beans.editors=ALL-UNNAMED" />
+      <module name="java" options="--enable-preview -parameters --add-exports java.base/jdk.internal.vm.annotation=ALL-UNNAMED --add-exports java.desktop/com.sun.beans.editors=ALL-UNNAMED" />
+      <module name="java.main" options="--add-exports java.base/jdk.internal.vm.annotation=ALL-UNNAMED" />
     </option>
   </component>
 </project>
