@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="ALL" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="1245f36e-aba7-49f4-82c4-11314a6579bb" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../javabase/src/main/java/groovy/GroovyComponent.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javabase/src/main/java/reactives/base/FluxTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../javabase/src/main/java/reactives/base/FluxTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../javabase/src/main/java/regression/other/Maths.java" beforeDir="false" afterPath="$PROJECT_DIR$/../javabase/src/main/java/regression/other/Maths.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build.yml" beforeDir="false" afterPath="$PROJECT_DIR$/build.yml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Go File" />
+      </list>
+    </option>
+  </component>
+  <component name="GOROOT" url="file:///usr/local/opt/go/libexec" />
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
+  </component>
+  <component name="GitToolBoxStore">
+    <option name="recentBranches">
+      <RecentBranches>
+        <option name="branchesForRepo">
+          <list>
+            <RecentBranchesForRepo>
+              <option name="branches">
+                <list>
+                  <RecentBranch>
+                    <option name="branchName" value="master" />
+                    <option name="lastUsedInstant" value="1641991537" />
+                  </RecentBranch>
+                </list>
+              </option>
+              <option name="repositoryRootUrl" value="file://$PROJECT_DIR$/.." />
+            </RecentBranchesForRepo>
+          </list>
+        </option>
+      </RecentBranches>
+    </option>
+  </component>
+  <component name="GoLibraries">
+    <option name="indexEntireGoPath" value="false" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file:///usr/local/opt/go/libexec/src/bufio/bufio.go" root0="SKIP_INSPECTION" />
+    <setting file="file:///usr/local/opt/go/libexec/src/compress/gzip/gunzip.go" root0="SKIP_INSPECTION" />
+    <setting file="file:///usr/local/opt/go/libexec/src/io/io.go" root0="SKIP_INSPECTION" />
+    <setting file="file:///usr/local/opt/go/libexec/src/io/ioutil/ioutil.go" root0="SKIP_INSPECTION" />
+    <setting file="file:///usr/local/opt/go/libexec/src/net/http/response.go" root0="SKIP_INSPECTION" />
+    <setting file="file:///usr/local/opt/go/libexec/src/net/http/roundtrip.go" root0="SKIP_INSPECTION" />
+    <setting file="file:///usr/local/opt/go/libexec/src/net/http/transfer.go" root0="SKIP_INSPECTION" />
+    <setting file="file:///usr/local/opt/go/libexec/src/net/http/transport.go" root0="SKIP_INSPECTION" />
+    <setting file="file:///usr/local/opt/go/libexec/src/runtime/sizeclasses.go" root0="SKIP_INSPECTION" />
+  </component>
+  <component name="KubernetesApiPersistence">
+    <option name="context" value="docker-desktop" />
+    <option name="namespace" value="default" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="1yTinaj13Sb0v5kO3aZqGWvL2lo" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.go.formatter.settings.were.checked": "true",
+    "RunOnceActivity.go.migrated.go.modules.settings": "true",
+    "RunOnceActivity.go.modules.go.list.on.any.changes.was.set": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "go.import.settings.migrated": "true",
+    "last_opened_file_path": "/Users/jarvis/Documents/code/mycodes/tommyjarvis/mytest",
+    "node.js.detected.package.eslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src" />
+      <recent name="$PROJECT_DIR$/src/others" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/others/newengine" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Go Build.go build mytest.com/src/others (3)">
+    <configuration name="go build mytest.com/src/designs" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="mytest" />
+      <working_directory value="$PROJECT_DIR$" />
+      <kind value="PACKAGE" />
+      <package value="mytest.com/src/designs" />
+      <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$/src/designs/template_design.go" />
+      <method v="2" />
+    </configuration>
+    <configuration name="go build mytest.com/src/others (1)" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="mytest" />
+      <working_directory value="$PROJECT_DIR$" />
+      <kind value="FILE" />
+      <package value="mytest.com/src/others" />
+      <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$/src/others/reviews.go" />
+      <method v="2" />
+    </configuration>
+    <configuration name="go build mytest.com/src/others (2)" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="mytest" />
+      <working_directory value="$PROJECT_DIR$" />
+      <kind value="FILE" />
+      <package value="mytest.com/src/others" />
+      <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$/src/others/deferTest.go" />
+      <method v="2" />
+    </configuration>
+    <configuration name="go build mytest.com/src/others (3)" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="mytest" />
+      <working_directory value="$PROJECT_DIR$" />
+      <kind value="FILE" />
+      <package value="mytest.com/src/others" />
+      <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$/src/others/httpTest.go" />
+      <method v="2" />
+    </configuration>
+    <configuration name="go build mytest.com/src/others" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="mytest" />
+      <working_directory value="$PROJECT_DIR$" />
+      <kind value="FILE" />
+      <package value="mytest.com/src/others" />
+      <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$/src/others/base.go" />
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="Go Build.go build mytest.com/src/designs" />
+      <item itemvalue="Go Build.go build mytest.com/src/others (1)" />
+      <item itemvalue="Go Build.go build mytest.com/src/others (2)" />
+      <item itemvalue="Go Build.go build mytest.com/src/others (3)" />
+      <item itemvalue="Go Build.go build mytest.com/src/others" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Go Build.go build mytest.com/src/others (3)" />
+        <item itemvalue="Go Build.go build mytest.com/src/others" />
+        <item itemvalue="Go Build.go build mytest.com/src/others (2)" />
+        <item itemvalue="Go Build.go build mytest.com/src/others (1)" />
+        <item itemvalue="Go Build.go build mytest.com/src/designs" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VgoProject">
+    <settings-migrated>true</settings-migrated>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="DlvLineBreakpoint">
+          <url>file://$PROJECT_DIR$/src/others/httpTest.go</url>
+          <line>28</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>
