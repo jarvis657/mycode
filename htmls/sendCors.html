@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<script>
+    // 需要拷贝的数据
+    const data = "~~~~~~~~~~~~~~~~~~";
+
+    // 将文本拷贝到剪切板的函数
+    function copyToClipboard(text) {
+        navigator.clipboard.writeText(text).then(function () {
+            console.log('!!!文本成功拷贝到剪切板!!!');
+        }).catch(function (error) {
+            console.error('文本拷贝到剪切板失败:', error);
+        });
+    }
+
+    // 调用函数进行拷贝
+    function downloadFile() {
+        const xhr = new XMLHttpRequest();
+        xhr.open('POST', 'http://127.0.0.1:8081/v1/chat/completions', true); // 指定文件下载的 URL
+        xhr.setRequestHeader("Content-Type", "application/json;charset=UTF-8");
+        xhr.setRequestHeader('KEY', 'sk-xxxx');
+        xhr.setRequestHeader('SID', 'WEB');
+        xhr.responseType = 'text'; // 指定响应类型为二进制数据流
+        // xhr.send("{'model': 'gpt-3.5-turbo', 'input': '给我讲一个1000字笑话', 'conversation_id': '0a58190c-d36a-4917-bcd6-72594f53ff21', 'stream': true }");
+        let body = JSON.stringify({
+            "model": "gpt-3.5-turbo",
+            "messages": [
+                {
+                    "role": "user",
+                    "content": "1+1=?"
+                }
+            ],
+            "stream": true
+        });
+        console.log(body)
+        xhr.send(body)
+        xhr.onprogress = (ev) => {
+            console.log(xhr.responseText)
+        };
+        // xhr.onload = () => {
+        //     if (xhr.status === 200) {
+        //         const blob = xhr.response; // 获取二进制数据流
+        //         console.log(blob)
+        //     }
+        // };
+    }
+</script>
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<!--<input type="button" onclick="downloadFile()">-->
+<input type="button" style="border-color: blue" onclick="copyToClipboard(data)">
+</body>
+</html>

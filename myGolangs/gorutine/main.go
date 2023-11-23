@@ -1,6 +1,15 @@
 package main
 
+import (
+	"fmt"
+	"runtime"
+)
+
 func main() {
+	gomaxprocs := runtime.GOMAXPROCS(runtime.NumCPU() + 16)
+	fmt.Println(runtime.NumCPU(), "-gomax-", gomaxprocs)
+	gomaxprocs2 := runtime.GOMAXPROCS(runtime.NumCPU() + 16)
+	fmt.Println(runtime.NumCPU(), "-gomax-", gomaxprocs2)
 	ch := make(chan int)
 	go routineA(ch)
 	go routineB(ch)
